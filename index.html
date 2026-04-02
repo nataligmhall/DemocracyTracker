@@ -300,6 +300,41 @@
       padding: 8px 0;
     }
 
+    /* Loading skeleton */
+    .articles-loading {
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+      padding: 4px 0;
+    }
+
+    .skeleton-line {
+      background: linear-gradient(90deg, #1c1f2e 25%, #252840 50%, #1c1f2e 75%);
+      background-size: 200% 100%;
+      animation: shimmer 1.4s infinite;
+      border-radius: 3px;
+    }
+
+    @keyframes shimmer {
+      0%   { background-position: 200% 0; }
+      100% { background-position: -200% 0; }
+    }
+
+    .article-tag {
+      display: inline-block;
+      font-size: 10px;
+      font-weight: 600;
+      border-radius: 3px;
+      padding: 1px 5px;
+      margin-left: 5px;
+      vertical-align: middle;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+
+    .tag-pos { background: #1c2a1c; color: #5dba6a; }
+    .tag-neg { background: #2a1c1c; color: #e05757; }
+
     /* ── Legend ── */
     #legend {
       position: absolute;
@@ -455,7 +490,7 @@
 
         <div class="divider"></div>
 
-        <div class="section-label">Recent News</div>
+        <div class="section-label" id="news-label">Why this score? — Recent News</div>
         <div class="articles-list" id="articles-list"></div>
       </div>
     </div>
@@ -567,33 +602,104 @@
       posEl.style.color = m.pos_tone > 0 ? "#5dba6a" : "#e05757";
       negEl.style.color = m.neg_tone > 0 ? "#5dba6a" : "#e05757";
 
-      // Articles
+      // Show panel immediately with loading state for articles
       const list = document.getElementById("articles-list");
-      list.innerHTML = "";
-      const reasons = countryData.reasons || [];
-      if (reasons.length === 0) {
-        list.innerHTML = '<div class="no-articles">No recent articles found.</div>';
-      } else {
-        reasons.forEach(r => {
-          const item = document.createElement("div");
-          item.className = "article-item";
-          const titleEl = document.createElement("div");
-          titleEl.className = "article-title";
-          if (r.url) {
-            titleEl.innerHTML = `<a href="${r.url}" target="_blank" rel="noopener noreferrer">${r.title}</a>`;
-          } else {
-            titleEl.textContent = r.title;
-          }
-          const metaEl = document.createElement("div");
-          metaEl.className = "article-meta";
-          metaEl.textContent = [r.date, r.source].filter(Boolean).join(" · ");
-          item.appendChild(titleEl);
-          item.appendChild(metaEl);
-          list.appendChild(item);
-        });
-      }
-
+      list.innerHTML = `
+        <div class="articles-loading">
+          ${[80,60,70,55,65].map(w => `
+            <div>
+              <div class="skeleton-line" style="height:12px;width:${w}%;margin-bottom:5px"></div>
+              <div class="skeleton-line" style="height:10px;width:40%"></div>
+            </div>`).join("")}
+        </div>`;
       panel.classList.add("open");
+
+      // Fetch live articles from GDELT
+      fetchLiveArticles(countryData.name, key, list);
+    }
+
+    // ── Live article fetch from GDELT ──
+    const GDELT_API = "https://api.gdeltproject.org/api/v2/doc/doc";
+
+    // Terms that flag democracy-positive signals
+    const POS_RE = /\b(democracy|democratic|election|civil liberties|press freedom|human rights|free speech|rule of law|acquittal|protest allowed|freed|released)\b/i;
+    // Terms that flag repression signals
+    const NEG_RE = /\b(crackdown|censorship|political prisoner|authoritarian|repression|rigged|arrested|detained|ban|exile|sentenced|imprisoned|jailed)\b/i;
+
+    function articleTag(title) {
+      const pos = POS_RE.test(title);
+      const neg = NEG_RE.test(title);
+      if (pos && !neg) return '<span class="article-tag tag-pos">pro-democracy</span>';
+      if (neg && !pos) return '<span class="article-tag tag-neg">repression</span>';
+      return "";
+    }
+
+    function renderArticles(articles, container) {
+      container.innerHTML = "";
+      if (!articles.length) {
+        container.innerHTML = '<div class="no-articles">No recent articles found.</div>';
+        return;
+      }
+      articles.forEach(a => {
+        const item = document.createElement("div");
+        item.className = "article-item";
+
+        const titleEl = document.createElement("div");
+        titleEl.className = "article-title";
+        const tag = articleTag(a.title || "");
+        const safeTitle = (a.title || "").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+        titleEl.innerHTML = a.url
+          ? `<a href="${a.url}" target="_blank" rel="noopener noreferrer">${safeTitle}</a>${tag}`
+          : `${safeTitle}${tag}`;
+
+        const metaEl = document.createElement("div");
+        metaEl.className = "article-meta";
+        metaEl.textContent = [a.date, a.source].filter(Boolean).join(" · ");
+
+        item.appendChild(titleEl);
+        item.appendChild(metaEl);
+        container.appendChild(item);
+      });
+    }
+
+    async function fetchLiveArticles(countryName, key, container) {
+      const query = `"${countryName}" (democracy OR election OR "human rights" OR "press freedom" OR crackdown OR censorship OR authoritarian OR repression OR opposition)`;
+      const url = `${GDELT_API}?` + new URLSearchParams({
+        query:      query,
+        mode:       "artlist",
+        maxrecords: "8",
+        timespan:   "2w",
+        sort:       "DateDesc",
+        format:     "json",
+      });
+
+      try {
+        const resp = await fetch(url);
+        if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+        const data = await resp.json();
+
+        // Guard: panel may have been closed or switched while fetching
+        if (selectedKey !== key) return;
+
+        const articles = (data.articles || []).map(a => {
+          let date = "";
+          if (a.seendate && a.seendate.length >= 8) {
+            try {
+              const d = new Date(
+                a.seendate.slice(0,4) + "-" + a.seendate.slice(4,6) + "-" + a.seendate.slice(6,8)
+              );
+              date = d.toLocaleDateString("en-US", { year:"numeric", month:"short", day:"numeric" });
+            } catch (_) {}
+          }
+          return { title: a.title || "", url: a.url || "", date, source: a.domain || "" };
+        }).filter(a => a.title && a.url);
+
+        renderArticles(articles, container);
+      } catch (err) {
+        if (selectedKey !== key) return;
+        container.innerHTML = '<div class="no-articles">Could not load live articles — GDELT may be temporarily unavailable.</div>';
+        console.warn("GDELT fetch failed:", err);
+      }
     }
 
     // ── Load data + draw map ──
