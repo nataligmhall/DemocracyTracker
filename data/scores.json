@@ -1,0 +1,186 @@
+{
+  "updated": "2026-04-02",
+  "note": "Initial placeholder scores. Will be updated weekly by GitHub Actions using GDELT.",
+  "countries": {
+    "USA": {
+      "name": "United States",
+      "score": 62,
+      "metrics": {
+        "pos_tone": 1.8,
+        "neg_tone": -3.2,
+        "pos_count": 142,
+        "neg_count": 97
+      },
+      "reasons": [
+        {
+          "title": "Scores update every Monday via GitHub Actions — check back soon for live GDELT data",
+          "url": "",
+          "date": "2026-04-02",
+          "source": "Initial data"
+        }
+      ]
+    },
+    "RUS": {
+      "name": "Russia",
+      "score": 12,
+      "metrics": {
+        "pos_tone": -5.1,
+        "neg_tone": -8.4,
+        "pos_count": 18,
+        "neg_count": 210
+      },
+      "reasons": [
+        {
+          "title": "Scores update every Monday via GitHub Actions — check back soon for live GDELT data",
+          "url": "",
+          "date": "2026-04-02",
+          "source": "Initial data"
+        }
+      ]
+    },
+    "VEN": {
+      "name": "Venezuela",
+      "score": 10,
+      "metrics": {
+        "pos_tone": -4.7,
+        "neg_tone": -7.9,
+        "pos_count": 14,
+        "neg_count": 180
+      },
+      "reasons": [
+        {
+          "title": "Scores update every Monday via GitHub Actions — check back soon for live GDELT data",
+          "url": "",
+          "date": "2026-04-02",
+          "source": "Initial data"
+        }
+      ]
+    },
+    "IRN": {
+      "name": "Iran",
+      "score": 8,
+      "metrics": {
+        "pos_tone": -5.5,
+        "neg_tone": -9.1,
+        "pos_count": 11,
+        "neg_count": 195
+      },
+      "reasons": [
+        {
+          "title": "Scores update every Monday via GitHub Actions — check back soon for live GDELT data",
+          "url": "",
+          "date": "2026-04-02",
+          "source": "Initial data"
+        }
+      ]
+    },
+    "HUN": {
+      "name": "Hungary",
+      "score": 40,
+      "metrics": {
+        "pos_tone": -0.8,
+        "neg_tone": -5.2,
+        "pos_count": 45,
+        "neg_count": 88
+      },
+      "reasons": [
+        {
+          "title": "Scores update every Monday via GitHub Actions — check back soon for live GDELT data",
+          "url": "",
+          "date": "2026-04-02",
+          "source": "Initial data"
+        }
+      ]
+    },
+    "TUR": {
+      "name": "Turkey",
+      "score": 28,
+      "metrics": {
+        "pos_tone": -2.1,
+        "neg_tone": -6.8,
+        "pos_count": 29,
+        "neg_count": 143
+      },
+      "reasons": [
+        {
+          "title": "Scores update every Monday via GitHub Actions — check back soon for live GDELT data",
+          "url": "",
+          "date": "2026-04-02",
+          "source": "Initial data"
+        }
+      ]
+    },
+    "BRA": {
+      "name": "Brazil",
+      "score": 58,
+      "metrics": {
+        "pos_tone": 1.2,
+        "neg_tone": -3.7,
+        "pos_count": 98,
+        "neg_count": 74
+      },
+      "reasons": [
+        {
+          "title": "Scores update every Monday via GitHub Actions — check back soon for live GDELT data",
+          "url": "",
+          "date": "2026-04-02",
+          "source": "Initial data"
+        }
+      ]
+    },
+    "IND": {
+      "name": "India",
+      "score": 50,
+      "metrics": {
+        "pos_tone": 0.4,
+        "neg_tone": -4.1,
+        "pos_count": 87,
+        "neg_count": 92
+      },
+      "reasons": [
+        {
+          "title": "Scores update every Monday via GitHub Actions — check back soon for live GDELT data",
+          "url": "",
+          "date": "2026-04-02",
+          "source": "Initial data"
+        }
+      ]
+    },
+    "POL": {
+      "name": "Poland",
+      "score": 63,
+      "metrics": {
+        "pos_tone": 2.1,
+        "neg_tone": -2.9,
+        "pos_count": 72,
+        "neg_count": 41
+      },
+      "reasons": [
+        {
+          "title": "Scores update every Monday via GitHub Actions — check back soon for live GDELT data",
+          "url": "",
+          "date": "2026-04-02",
+          "source": "Initial data"
+        }
+      ]
+    },
+    "CHN": {
+      "name": "China",
+      "score": 6,
+      "metrics": {
+        "pos_tone": -5.8,
+        "neg_tone": -9.3,
+        "pos_count": 9,
+        "neg_count": 218
+      },
+      "reasons": [
+        {
+          "title": "Scores update every Monday via GitHub Actions — check back soon for live GDELT data",
+          "url": "",
+          "date": "2026-04-02",
+          "source": "Initial data"
+        }
+      ]
+    }
+  }
+}
