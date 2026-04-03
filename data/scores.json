@@ -1,6 +1,6 @@
 {
-  "updated": "2026-04-02",
-  "note": "Initial placeholder scores. Will be updated weekly by GitHub Actions using GDELT.",
+  "updated": "2026-04-03",
+  "note": "Placeholder scores based on established democracy indices. Updated weekly by GitHub Actions using GDELT.",
   "countries": {
     "USA": {
       "name": "United States",
@@ -11,14 +11,7 @@
         "pos_count": 142,
         "neg_count": 97
       },
-      "reasons": [
-        {
-          "title": "Scores update every Monday via GitHub Actions — check back soon for live GDELT data",
-          "url": "",
-          "date": "2026-04-02",
-          "source": "Initial data"
-        }
-      ]
+      "reasons": []
     },
     "RUS": {
       "name": "Russia",
@@ -29,14 +22,7 @@
         "pos_count": 18,
         "neg_count": 210
       },
-      "reasons": [
-        {
-          "title": "Scores update every Monday via GitHub Actions — check back soon for live GDELT data",
-          "url": "",
-          "date": "2026-04-02",
-          "source": "Initial data"
-        }
-      ]
+      "reasons": []
     },
     "VEN": {
       "name": "Venezuela",
@@ -47,14 +33,7 @@
         "pos_count": 14,
         "neg_count": 180
       },
-      "reasons": [
-        {
-          "title": "Scores update every Monday via GitHub Actions — check back soon for live GDELT data",
-          "url": "",
-          "date": "2026-04-02",
-          "source": "Initial data"
-        }
-      ]
+      "reasons": []
     },
     "IRN": {
       "name": "Iran",
@@ -65,14 +44,7 @@
         "pos_count": 11,
         "neg_count": 195
       },
-      "reasons": [
-        {
-          "title": "Scores update every Monday via GitHub Actions — check back soon for live GDELT data",
-          "url": "",
-          "date": "2026-04-02",
-          "source": "Initial data"
-        }
-      ]
+      "reasons": []
     },
     "HUN": {
       "name": "Hungary",
@@ -83,14 +55,7 @@
         "pos_count": 45,
         "neg_count": 88
       },
-      "reasons": [
-        {
-          "title": "Scores update every Monday via GitHub Actions — check back soon for live GDELT data",
-          "url": "",
-          "date": "2026-04-02",
-          "source": "Initial data"
-        }
-      ]
+      "reasons": []
     },
     "TUR": {
       "name": "Turkey",
@@ -101,14 +66,7 @@
         "pos_count": 29,
         "neg_count": 143
       },
-      "reasons": [
-        {
-          "title": "Scores update every Monday via GitHub Actions — check back soon for live GDELT data",
-          "url": "",
-          "date": "2026-04-02",
-          "source": "Initial data"
-        }
-      ]
+      "reasons": []
     },
     "BRA": {
       "name": "Brazil",
@@ -119,14 +77,7 @@
         "pos_count": 98,
         "neg_count": 74
       },
-      "reasons": [
-        {
-          "title": "Scores update every Monday via GitHub Actions — check back soon for live GDELT data",
-          "url": "",
-          "date": "2026-04-02",
-          "source": "Initial data"
-        }
-      ]
+      "reasons": []
     },
     "IND": {
       "name": "India",
@@ -137,14 +88,7 @@
         "pos_count": 87,
         "neg_count": 92
       },
-      "reasons": [
-        {
-          "title": "Scores update every Monday via GitHub Actions — check back soon for live GDELT data",
-          "url": "",
-          "date": "2026-04-02",
-          "source": "Initial data"
-        }
-      ]
+      "reasons": []
     },
     "POL": {
       "name": "Poland",
@@ -155,14 +99,7 @@
         "pos_count": 72,
         "neg_count": 41
       },
-      "reasons": [
-        {
-          "title": "Scores update every Monday via GitHub Actions — check back soon for live GDELT data",
-          "url": "",
-          "date": "2026-04-02",
-          "source": "Initial data"
-        }
-      ]
+      "reasons": []
     },
     "CHN": {
       "name": "China",
@@ -173,14 +110,7 @@
         "pos_count": 9,
         "neg_count": 218
       },
-      "reasons": [
-        {
-          "title": "Scores update every Monday via GitHub Actions — check back soon for live GDELT data",
-          "url": "",
-          "date": "2026-04-02",
-          "source": "Initial data"
-        }
-      ]
+      "reasons": []
     }
   }
 }
