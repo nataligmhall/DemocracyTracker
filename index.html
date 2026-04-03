@@ -618,13 +618,13 @@
       fetchLiveArticles(countryData.name, key, list);
     }
 
-    // ── Live article fetch from GDELT ──
-    const GDELT_API = "https://api.gdeltproject.org/api/v2/doc/doc";
+    // ── Live article fetch from The Guardian (CORS-friendly, free, no signup needed) ──
+    const GUARDIAN_API = "https://content.guardianapis.com/search";
 
     // Terms that flag democracy-positive signals
-    const POS_RE = /\b(democracy|democratic|election|civil liberties|press freedom|human rights|free speech|rule of law|acquittal|protest allowed|freed|released)\b/i;
+    const POS_RE = /\b(democracy|democratic|election|civil liberties|press freedom|human rights|free speech|rule of law|acquittal|freed|released|pardoned)\b/i;
     // Terms that flag repression signals
-    const NEG_RE = /\b(crackdown|censorship|political prisoner|authoritarian|repression|rigged|arrested|detained|ban|exile|sentenced|imprisoned|jailed)\b/i;
+    const NEG_RE = /\b(crackdown|censorship|political prisoner|authoritarian|repression|rigged|arrested|detained|banned|exile|sentenced|imprisoned|jailed|tortured)\b/i;
 
     function articleTag(title) {
       const pos = POS_RE.test(title);
@@ -663,14 +663,15 @@
     }
 
     async function fetchLiveArticles(countryName, key, container) {
-      const query = `"${countryName}" (democracy OR election OR "human rights" OR "press freedom" OR crackdown OR censorship OR authoritarian OR repression OR opposition)`;
-      const url = `${GDELT_API}?` + new URLSearchParams({
-        query:      query,
-        mode:       "artlist",
-        maxrecords: "8",
-        timespan:   "2w",
-        sort:       "DateDesc",
-        format:     "json",
+      // Query The Guardian for recent political/democracy news about this country.
+      // Uses the public "test" API key which works without registration.
+      const q = `${countryName} democracy OR election OR "human rights" OR "press freedom" OR crackdown OR censorship OR authoritarian OR opposition`;
+      const url = `${GUARDIAN_API}?` + new URLSearchParams({
+        q,
+        "order-by":   "newest",
+        "page-size":  "8",
+        "show-tags":  "keyword",
+        "api-key":    "test",
       });
 
       try {
@@ -678,27 +679,32 @@
         if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
         const data = await resp.json();
 
-        // Guard: panel may have been closed or switched while fetching
+        // Guard: panel may have been closed or switched to another country while loading
         if (selectedKey !== key) return;
 
-        const articles = (data.articles || []).map(a => {
+        const results = (data?.response?.results || []);
+        const articles = results.map(r => {
           let date = "";
-          if (a.seendate && a.seendate.length >= 8) {
+          if (r.webPublicationDate) {
             try {
-              const d = new Date(
-                a.seendate.slice(0,4) + "-" + a.seendate.slice(4,6) + "-" + a.seendate.slice(6,8)
-              );
-              date = d.toLocaleDateString("en-US", { year:"numeric", month:"short", day:"numeric" });
+              date = new Date(r.webPublicationDate).toLocaleDateString("en-US", {
+                year: "numeric", month: "short", day: "numeric"
+              });
             } catch (_) {}
           }
-          return { title: a.title || "", url: a.url || "", date, source: a.domain || "" };
+          return {
+            title:  r.webTitle  || "",
+            url:    r.webUrl    || "",
+            date,
+            source: "The Guardian",
+          };
         }).filter(a => a.title && a.url);
 
         renderArticles(articles, container);
       } catch (err) {
         if (selectedKey !== key) return;
-        container.innerHTML = '<div class="no-articles">Could not load live articles — GDELT may be temporarily unavailable.</div>';
-        console.warn("GDELT fetch failed:", err);
+        container.innerHTML = '<div class="no-articles">Could not load live articles. Try again later.</div>';
+        console.warn("Guardian fetch failed:", err);
       }
     }
 
