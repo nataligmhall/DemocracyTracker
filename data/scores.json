@@ -1,110 +1,110 @@
 {
-  "updated": "2026-04-06",
+  "updated": "2026-04-13",
   "countries": {
     "USA": {
       "name": "United States",
-      "score": 52,
+      "score": 58,
       "metrics": {
-        "pos_tone": -2.36,
-        "neg_tone": -3.17,
+        "pos_tone": -2.2,
+        "neg_tone": 0.0,
         "pos_count": 28,
-        "neg_count": 28
+        "neg_count": 0
       },
       "reasons": []
     },
     "RUS": {
       "name": "Russia",
-      "score": 52,
+      "score": 50,
       "metrics": {
-        "pos_tone": -2.6,
-        "neg_tone": -3.41,
-        "pos_count": 28,
-        "neg_count": 28
+        "pos_tone": 0.0,
+        "neg_tone": 0.0,
+        "pos_count": 0,
+        "neg_count": 0
       },
       "reasons": [
         {
-          "title": "Уголовное дело о незаконном обороте вейпов рассмотрят в Приморье",
-          "url": "https://deita.ru/article/583525",
-          "date": "2026-04-06",
-          "source": "deita.ru"
+          "title": "Today in Germany : A roundup of the latest news on Monday",
+          "url": "https://www.thelocal.de/20260413/today-in-germany-a-roundup-of-the-latest-news-on-monday-118",
+          "date": "2026-04-13",
+          "source": "thelocal.de"
         },
         {
-          "title": "Slučaj eksploziva kod Kanjiže : Da li je Orban umešao prste ?",
-          "url": "https://www.vesti-online.com/slucaj-eksploziva-kod-kanjize-da-li-je-orban-umesao-prste/",
-          "date": "2026-04-06",
-          "source": "vesti-online.com"
+          "title": "Υποχωρούν τα ευρωπαϊκά και ασιατικά χρηματιστήρια στον απόηχο των κινήσεων Τραμπ στο Ορμούζ",
+          "url": "https://www.reporter.gr/diethnh/chrhmatisthria/671815-ypoxoroyn-ta-evropaika-kai-asiatika-xrimatistiria-ston-apoixo-ton-kiniseon-tramp-sto-ormoyz",
+          "date": "2026-04-13",
+          "source": "reporter.gr"
         },
         {
-          "title": "В Тюменской области 6 апреля стартовал пожароопасный сезон",
-          "url": "https://tumentoday.ru/2026/04/06/v_tyumenskoy_oblasti_6_aprelya_startuyet_pozharoopasnyy_sezon/",
-          "date": "2026-04-06",
-          "source": "tumentoday.ru"
+          "title": "Hungarians Sweep Away Orban After 16 Years in Seismic Vote",
+          "url": "https://www.bloomberg.com:443/news/articles/2026-04-12/hungarians-sweep-away-orban-after-16-years-in-seismic-election",
+          "date": "2026-04-13",
+          "source": "bloomberg.com"
         },
         {
-          "title": "Un baño de realismo | El Diario Montas",
-          "url": "https://www.eldiariomontanes.es/opinion/javier-vega-viota-bano-realismo-20260406192822-nt.html",
-          "date": "2026-04-06",
-          "source": "eldiariomontanes.es"
+          "title": "Szef BBN o klęsce Orbana : Węgierska lekcja dla polskiej prawicy",
+          "url": "https://www.bankier.pl/wiadomosc/Szef-BBN-o-klesce-Orbana-Wegierska-lekcja-dla-polskiej-prawicy-9112666.html",
+          "date": "2026-04-13",
+          "source": "bankier.pl"
         },
         {
-          "title": "ФСБ задержала россиянина , готовившего теракт против чиновника в Курской области",
-          "url": "https://www.vesti.ru/ns/fsb-zaderzhala-rossiyanina-gotovivshego-terakt-protiv-chinovnika-v-kurskoj-oblasti",
-          "date": "2026-04-06",
-          "source": "vesti.ru"
+          "title": "ÍNDICE POLÍTICO",
+          "url": "https://almomento.mx/indice-politico-660/",
+          "date": "2026-04-13",
+          "source": "almomento.mx"
         },
         {
-          "title": "Россиян предложили освободить от уплаты транспортного налога в межсезонье",
-          "url": "https://news.mail.ru/society/70430933/",
-          "date": "2026-04-06",
-          "source": "news.mail.ru"
+          "title": "Orbán , 16 años ; Morena , 12",
+          "url": "https://www.excelsior.com.mx/opinion/cecilia-soto/orban-16-anos-morena-12",
+          "date": "2026-04-13",
+          "source": "excelsior.com.mx"
         }
       ]
     },
     "VEN": {
       "name": "Venezuela",
-      "score": 51,
+      "score": 50,
       "metrics": {
-        "pos_tone": -2.63,
-        "neg_tone": -3.36,
-        "pos_count": 28,
-        "neg_count": 28
+        "pos_tone": 0.0,
+        "neg_tone": 0.0,
+        "pos_count": 0,
+        "neg_count": 0
       },
       "reasons": [
         {
-          "title": "Un baño de realismo | El Diario Montas",
-          "url": "https://www.eldiariomontanes.es/opinion/javier-vega-viota-bano-realismo-20260406192822-nt.html",
-          "date": "2026-04-06",
-          "source": "eldiariomontanes.es"
+          "title": "Επίθεση Τραμπ στον Πάπα Λέοντα : Είναι αδύναμος και απαράδεκτος",
+          "url": "https://www.capital.gr/diethni/3985090/epithesi-tramp-ston-papa-leonta-einai-adunamos-kai-aparadektos-den-eimai-megas-thaumastis-tou/",
+          "date": "2026-04-13",
+          "source": "capital.gr"
         },
         {
-          "title": "Cómo los sionistas judíos trabajaron entre bastidores para socavar el lema  EEUU primero",
-          "url": "https://www.lahaine.org/mundo.php/como-los-sionistas-judios-trabajaron-entre-bastidores",
-          "date": "2026-04-06",
-          "source": "lahaine.org"
+          "title": "EUA lançam ataques contra embarcaes no Pacífico ; 5 pessoas morreram",
+          "url": "https://noticiabrasil.net.br/20260412/49638394.html",
+          "date": "2026-04-13",
+          "source": "noticiabrasil.net.br"
         },
         {
-          "title": "鄭習會將登場 國安局報告 ： 中共加強對我 「 壓拉 」 兩手策略 | 鄭麗文將訪大陸 | 要聞",
-          "url": "https://udn.com/news/story/124802/9424745",
-          "date": "2026-04-06",
-          "source": "udn.com"
+          "title": "ESTADOS UNIDOS | Trump carga contra el Papa León XIII por ser  débil en materia de delincuencia y pésimo en política exterior",
+          "url": "https://www.elperiodicoextremadura.com/internacional/2026/04/13/trump-carga-papa-129029769.html",
+          "date": "2026-04-13",
+          "source": "elperiodicoextremadura.com"
         },
         {
-          "title": "Delcy Rodríguez : ¿ cambio real o reciclaje del poder ?",
-          "url": "https://www.elheraldo.co/editoriales/2026/04/06/delcy-rodriguez-cambio-real-o-reciclaje-del-poder/",
-          "date": "2026-04-06",
-          "source": "elheraldo.co"
+          "title": "ÍNDICE POLÍTICO",
+          "url": "https://almomento.mx/indice-politico-660/",
+          "date": "2026-04-13",
+          "source": "almomento.mx"
         },
         {
-          "title": "Francisco Muro de Iscar .- ¿ A quién le importa las víctimas ?",
-          "url": "https://www.europapress.es/otr-press/firmas/franciscomuro/noticia-francisco-muro-iscar-quien-le-importa-victimas-20260406080054.html",
-          "date": "2026-04-06",
-          "source": "europapress.es"
+          "title": "Orbán , 16 años ; Morena , 12",
+          "url": "https://www.excelsior.com.mx/opinion/cecilia-soto/orban-16-anos-morena-12",
+          "date": "2026-04-13",
+          "source": "excelsior.com.mx"
         },
         {
-          "title": "【 林良实逝世 】 魏家祥 ： 所有党部降半旗致敬 献党旗盖棺彰最高荣誉光华日报 | 1910年创刊 创新每一天生活",
-          "url": "https://www.kwongwah.com.my/20260406/%E3%80%90%E6%9E%97%E8%89%AF%E5%AE%9E%E9%80%9D%E4%B8%96%E3%80%91%E9%AD%8F%E5%AE%B6%E7%A5%A5%EF%BC%9A%E6%89%80%E6%9C%89%E5%85%9A%E9%83%A8%E9%99%8D%E5%8D%8A%E6%97%97%E8%87%B4%E6%95%AC-%E7%8C%AE/",
-          "date": "2026-04-06",
-          "source": "kwongwah.com.my"
+          "title": "Trump reprocha al Papa León XIV falta de firmeza en delincuencia y mala gestión de política exterior",
+          "url": "https://www.andaluciainformacion.es/articulo/mundo/trump-reprocha-papa-leon-xiv-falta-firmeza-delincuencia-mala-gestion-politica-exterior/202604131011543243374.html",
+          "date": "2026-04-13",
+          "source": "andaluciainformacion.es"
         }
       ]
     },
@@ -121,252 +121,252 @@
     },
     "HUN": {
       "name": "Hungary",
-      "score": 51,
+      "score": 50,
       "metrics": {
-        "pos_tone": -1.47,
-        "neg_tone": -2.14,
-        "pos_count": 28,
-        "neg_count": 28
+        "pos_tone": 0.0,
+        "neg_tone": 0.0,
+        "pos_count": 0,
+        "neg_count": 0
       },
-      "reasons": [
-        {
-          "title": "Slučaj eksploziva kod Kanjiže : Da li je Orban umešao prste ?",
-          "url": "https://www.vesti-online.com/slucaj-eksploziva-kod-kanjize-da-li-je-orban-umesao-prste/",
-          "date": "2026-04-06",
-          "source": "vesti-online.com"
-        },
-        {
-          "title": "На данашњи дан 1941 . Немачка без објаве рата напала Краљевину Југославију ; Џорџ Вашингтон 1789 . изабран за првог председника САД ; НАТО 1999 . бомбардовао Приштину касетним бомбама",
-          "url": "http://www.nspm.rs/hronika/na-danasnji-dan-1941.-nemacka-bez-objave-rata-napala-kraljevinu-jugoslaviju-dzordz-vasington-1789.-izabran-za-prvog-predsednika-sad-nato-1999.-bombardovao-pristinu-kasetnim-bombama.html",
-          "date": "2026-04-06",
-          "source": "nspm.rs"
-        },
-        {
-          "title": "Hungary illiberal democracy",
-          "url": "https://theweek.com/politics/hungary-viktor-orban-illiberal-democracy",
-          "date": "2026-04-06",
-          "source": "theweek.com"
-        },
-        {
-          "title": "Om Magyar vinner i Ungern –  inte lätt  för EU",
-          "url": "https://www.gp.se/nyheter/varlden/om-magyar-vinner-i-ungern-inte-latt-for-eu.8aace95d-a86a-5275-8ea8-a1e3ee3aa5da",
-          "date": "2026-04-06",
-          "source": "gp.se"
-        },
-        {
-          "title": "Bulgaria se teme că va avea soarta României și cere ajutor de urgență de la Bruxelles",
-          "url": "https://www.stiripesurse.ro/bulgaria-se-teme-ca-va-avea-soarta-romaniei-si-cere-ajutor-de-urgenta-de-la-bruxelles_3875301",
-          "date": "2026-04-06",
-          "source": "stiripesurse.ro"
-        },
-        {
-          "title": "Orban wirft Ukraine Sabotage vor : Wahlkampftrick oder ernsthafte Bedrohung ?",
-          "url": "https://www.20min.ch/story/false-flag-sprengstoff-an-pipeline-ungarn-lenkt-verdacht-auf-ukraine-103541210",
-          "date": "2026-04-06",
-          "source": "20min.ch"
-        }
-      ]
+      "reasons": []
     },
     "TUR": {
       "name": "Turkey",
-      "score": 53,
+      "score": 44,
       "metrics": {
-        "pos_tone": -2.12,
-        "neg_tone": -3.5,
-        "pos_count": 28,
+        "pos_tone": 0.0,
+        "neg_tone": -3.43,
+        "pos_count": 0,
         "neg_count": 28
       },
       "reasons": [
         {
-          "title": "Travel : Here what Ive learned after visiting 100 countries – Akron News - Reporter",
-          "url": "https://www.akronnewsreporter.com/2026/04/04/travel-heres-what-ive-learned-after-visiting-100-countries/",
-          "date": "2026-04-06",
-          "source": "akronnewsreporter.com"
+          "title": "Νετανιάχου : Αίμα",
+          "url": "https://www.inewsgr.com/438/netaniachou-aima.htm",
+          "date": "2026-04-13",
+          "source": "inewsgr.com"
         },
         {
-          "title": "На данашњи дан 1941 . Немачка без објаве рата напала Краљевину Југославију ; Џорџ Вашингтон 1789 . изабран за првог председника САД ; НАТО 1999 . бомбардовао Приштину касетним бомбама",
-          "url": "http://www.nspm.rs/hronika/na-danasnji-dan-1941.-nemacka-bez-objave-rata-napala-kraljevinu-jugoslaviju-dzordz-vasington-1789.-izabran-za-prvog-predsednika-sad-nato-1999.-bombardovao-pristinu-kasetnim-bombama.html",
-          "date": "2026-04-06",
-          "source": "nspm.rs"
+          "title": "Adanada turfanda soğanda hasat başladı : Fiyatı talep belirleyecek",
+          "url": "https://www.ensonhaber.com/gundem/adanada-turfanda-soganda-hasat-basladi-fiyati-talep-belirleyecek",
+          "date": "2026-04-13",
+          "source": "ensonhaber.com"
         },
         {
-          "title": "Hungary illiberal democracy",
-          "url": "https://theweek.com/politics/hungary-viktor-orban-illiberal-democracy",
-          "date": "2026-04-06",
-          "source": "theweek.com"
+          "title": "TOKİ İstanbul Kura Sonuçları Açıklandı mı , Nasıl Öğrenilir ? e - Devlet , toki . gov . tr 2026 İstanbul 100 Bin Konut İsim Listesi Sorgulama Ekranı",
+          "url": "https://www.yenisafak.com/foto-galeri/ozgun/toki-istanbul-kura-sonuclari-aciklandi-mi-nasil-ogrenilir-e-devlet-tokigovtr-2026-istanbul-100-bin-konut-isim-listesi-sorgulama-ekrani-4814751",
+          "date": "2026-04-13",
+          "source": "yenisafak.com"
         },
         {
-          "title": "Orban wirft Ukraine Sabotage vor : Wahlkampftrick oder ernsthafte Bedrohung ?",
-          "url": "https://www.20min.ch/story/false-flag-sprengstoff-an-pipeline-ungarn-lenkt-verdacht-auf-ukraine-103541210",
-          "date": "2026-04-06",
-          "source": "20min.ch"
+          "title": "Cumhurbaşkanı Erdoğan  ın politikalarına övgü",
+          "url": "https://www.hurhaber.com/dunya-haberleri/cumhurbaskani-erdogan-in-politikalarina-ovgu-500064",
+          "date": "2026-04-13",
+          "source": "hurhaber.com"
         },
         {
-          "title": "Kabine  Orta Doðu  Gündemiyle Toplanacak",
-          "url": "https://www.memurlar.net/haber/1163892/kabine-orta-dogu-gundemiyle-toplanacak.html",
-          "date": "2026-04-06",
-          "source": "memurlar.net"
+          "title": "Ισίν Καρατζά : Τουρκοκύπρια τραγουδίστρια καταγγέλλει ότι της απαγορεύτηκε η είσοδος στην Ελλάδα γιατί τραγούδησε εμβατήριο για την καταστροφή της Σμύρνης – « Θα το ξανάκανα »",
+          "url": "https://www.inewsgr.com/93/isin-karatza-tourkokypria-tragoudistria-katangellei-oti-tis-apagoreftike-i-eisodos-stin-ellada-giati-tragoudise-emvatirio-gia-tin-katastrofi-tis-smyrnis--tha-to-xanakana.htm",
+          "date": "2026-04-13",
+          "source": "inewsgr.com"
         },
         {
-          "title": "Им здесь не место : какие уникальные сокровища хранятся не в тех музеях , где следовало бы ( фото )",
-          "url": "https://focus.ua/technologies/749692-im-zdes-ne-mesto-kakie-unikalnye-sokrovishcha-hranyatsya-ne-v-teh-muzeyah-gde-sledovalo-by-foto",
-          "date": "2026-04-06",
-          "source": "focus.ua"
+          "title": "AİHM , İmamoğlu için harekete geçti : Türkiyeye kritik 6 soru",
+          "url": "https://www.sozcu.com.tr/aihm-imamoglu-icin-adalet-bakanligi-ndan-savunma-istedi-p309753",
+          "date": "2026-04-13",
+          "source": "sozcu.com.tr"
         }
       ]
     },
     "BRA": {
       "name": "Brazil",
-      "score": 52,
+      "score": 53,
       "metrics": {
-        "pos_tone": -1.25,
-        "neg_tone": -2.47,
+        "pos_tone": -1.09,
+        "neg_tone": -2.56,
         "pos_count": 28,
         "neg_count": 28
       },
-      "reasons": []
+      "reasons": [
+        {
+          "title": "트럼프의  콜로세움 정치 … 하필 이란과  노딜  발표때 UFC 보러간 이유 [ 1일1트 ]",
+          "url": "https://biz.heraldcorp.com/article/10716172",
+          "date": "2026-04-13",
+          "source": "biz.heraldcorp.com"
+        },
+        {
+          "title": "Migración , género y liderazgo global : ¿ desafío u oportunidad para Brasil ?",
+          "url": "https://talcualdigital.com/migracion-genero-y-liderazgo-global-desafio-u-oportunidad-para-brasil/",
+          "date": "2026-04-13",
+          "source": "talcualdigital.com"
+        },
+        {
+          "title": "VIAJE INSTITUCIONAL | Sánchez pide a China que se implique  más  y exija el cese de la guerra de Irán",
+          "url": "https://www.diariodeibiza.es/nacional/2026/04/13/sanchez-china-guerra-iran-viaje-institucional-129027875.html",
+          "date": "2026-04-13",
+          "source": "diariodeibiza.es"
+        },
+        {
+          "title": "South Africa blocked from G20 by US , finance minister confirms Washington snub",
+          "url": "https://www.ghanamma.com/2026/04/13/south-africa-blocked-from-g20-by-us-finance-minister-confirms-washington-snub/",
+          "date": "2026-04-13",
+          "source": "ghanamma.com"
+        },
+        {
+          "title": "TRAS LA PUERTA DEL PODER : ¿ Va Sheinbaum junto a Petro , Lula y Sánchez contra Trump ?",
+          "url": "https://almomento.mx/tras-la-puerta-del-poder-va-sheinbaum-junto-a-petro-lula-y-sanchez-contra-trump/",
+          "date": "2026-04-13",
+          "source": "almomento.mx"
+        },
+        {
+          "title": "巴西駐台代表竟稱台灣是中國的一部分 ！ 陳冠廷譴責 ： 言論扭曲台海現狀 | 政治 | 三立新聞網 SETN . COM",
+          "url": "https://www.setn.com/News.aspx?NewsID=1821859",
+          "date": "2026-04-13",
+          "source": "setn.com"
+        }
+      ]
     },
     "IND": {
       "name": "India",
       "score": 54,
       "metrics": {
-        "pos_tone": -1.38,
-        "neg_tone": -3.18,
+        "pos_tone": -1.39,
+        "neg_tone": -3.29,
         "pos_count": 28,
         "neg_count": 28
       },
       "reasons": [
         {
-          "title": "Will sit in my chair : Aminul expresses determination to stay as BCB President",
-          "url": "http://www.srilankasource.com/news/278965383/will-sit-in-my-chair-aminul-expresses-determination-to-stay-as-bcb-president",
-          "date": "2026-04-06",
-          "source": "srilankasource.com"
+          "title": "Αποκάλυψη – Τα 3 σενάρια που εξετάζει ο Trump για Ιράν – Φθηνός ελιγμός οι απειλές για Hormuz , ο άγνωστος ρόλος Ghalibaf",
+          "url": "https://www.bankingnews.gr/diethni/articles/868204/apokalypsi-ta-3-senaria-pou-eksetazei-o-trump-gia-iran-fthinos-eligmos-oi-apeiles-gia-hormuz-o-agnostos-rolos-ghalibaf",
+          "date": "2026-04-13",
+          "source": "bankingnews.gr"
         },
         {
-          "title": "Travel : Here what Ive learned after visiting 100 countries – Akron News - Reporter",
-          "url": "https://www.akronnewsreporter.com/2026/04/04/travel-heres-what-ive-learned-after-visiting-100-countries/",
-          "date": "2026-04-06",
-          "source": "akronnewsreporter.com"
+          "title": "王鴻薇喊 「 性侵島 」 反印度移工 吳思瑤嗆 ： 只要中國人 ？ - 臺北市",
+          "url": "https://news.ltn.com.tw/news/Taipei/breakingnews/5402373",
+          "date": "2026-04-13",
+          "source": "news.ltn.com.tw"
         },
         {
-          "title": "প্রধানমন্ত্রীর নেতৃত্বে নতুন সরকারের প্রথম একনেক বৈঠক , অগ্রাধিকারে ১৭টি প্রকল্প",
-          "url": "https://dailyinqilab.com/national/news/880858",
-          "date": "2026-04-06",
-          "source": "dailyinqilab.com"
+          "title": "Impact of Women Reservation Bill will be seen in upcoming Lok Sabha elections : BJP MLA Maithili Thakur",
+          "url": "http://www.calcuttanews.net/news/278980710/impact-of-women-reservation-bill-will-be-seen-in-upcoming-lok-sabha-elections-bjp-mla-maithili-thakur",
+          "date": "2026-04-13",
+          "source": "calcuttanews.net"
         },
         {
-          "title": "Congress Demands Answers On Alleged Foreign Assets ; Assam CM Sarma Rejects Claims",
-          "url": "https://northeasttoday.in/northeast/assam/congress-demands-answers-on-alleged-foreign-assets-assam-cm-sarma-rejects-claims/",
-          "date": "2026-04-06",
-          "source": "northeasttoday.in"
+          "title": "Suvendu Adhikari refutes CM Mamata Banerjee",
+          "url": "http://www.calcuttanews.net/news/278980610/suvendu-adhikari-refutes-cm-mamata-banerjee-delimitation-will-divide-bengal-claim",
+          "date": "2026-04-13",
+          "source": "calcuttanews.net"
         },
         {
-          "title": "Chetak Screen Awards 2026 : श्रेया घोषाल ने सैयारा के टाइटल ट्रैक के लिए जीता बेस्ट प्लेबैक सिंगर ( फीमेल ) अवॉर्ड",
-          "url": "https://www.jansatta.com/entertainment/shreya-ghoshal-wins-best-playback-singer-female-saiyaara-chetak-screen-awards-2026/4475802/",
-          "date": "2026-04-06",
-          "source": "jansatta.com"
+          "title": "दवा नियामक योजना के लिए फंडिंग में रुकावट पर संसदीय समिति की चिंता - parliamentary committee concerned over blockage in funding for drug regulatory scheme",
+          "url": "https://hindi.business-standard.com/todays-paper/parliamentary-committee-concerned-over-blockage-in-funding-for-drug-regulatory-scheme-id-518116",
+          "date": "2026-04-13",
+          "source": "hindi.business-standard.com"
         },
         {
-          "title": "Indian envoy meets Bangladesh PM , stresses forward - looking approach based on mutual interest",
-          "url": "https://ianslive.in/indian-envoy-meets-bangladesh-pm-stresses-forward-looking-approach-based-on-mutual-interest--20260406123233",
-          "date": "2026-04-06",
-          "source": "ianslive.in"
+          "title": "The increasing participation of women will realize the resolve of  Developed India , Developed Rajasthan : Bhajanlal| city News in Hindi | महिलाओं की बढ़ती भागीदारी  विकसित भारत , विकसित राजस्थान  के संकल्प को सिद्ध करेगी : Bhajanlal",
+          "url": "https://www.samacharjagat.com/news/city/the-increasing-participation-of-women-will-realize-the-resolve-of-developed-india-developed-rajasthan-bhajanlal-329209",
+          "date": "2026-04-13",
+          "source": "samacharjagat.com"
         }
       ]
     },
     "POL": {
       "name": "Poland",
-      "score": 52,
+      "score": 42,
       "metrics": {
-        "pos_tone": -1.62,
-        "neg_tone": -2.43,
-        "pos_count": 28,
+        "pos_tone": 0.0,
+        "neg_tone": -2.28,
+        "pos_count": 0,
         "neg_count": 28
       },
       "reasons": [
         {
-          "title": "Nie ukrywał tego . Miller ujawnił treść rozmowy z Putinem",
-          "url": "https://wiadomosci.wp.pl/nie-ukrywal-tego-miller-ujawnil-tresc-rozmowy-z-putinem-7271348666970689v",
-          "date": "2026-04-06",
-          "source": "wiadomosci.wp.pl"
+          "title": "Trybunał Stanu dla Zbigniewa Ziobry . Włodzimierz Czarzasty zdradza plan po wyborach na Węgrzech",
+          "url": "https://www.eska.pl/news/polityka/trybunal-stanu-dla-zbigniewa-ziobry-wlodzimierz-czarzasty-zdradza-plan-po-wyborach-na-wegrzech-aa-a4Z5-hUmo-m4BD.html",
+          "date": "2026-04-13",
+          "source": "eska.pl"
         },
         {
-          "title": "2025年小众旅行趋势前瞻 ： 超越大众体验 ， 探索深度价值 从被动观赏转向主动传承 - 奉若神明网",
-          "url": "http://www.nashfm923krst.com/html/038a599956.html",
-          "date": "2026-04-06",
-          "source": "nashfm923krst.com"
+          "title": "South Africa blocked from G20 by US , finance minister confirms Washington snub",
+          "url": "https://www.ghanamma.com/2026/04/13/south-africa-blocked-from-g20-by-us-finance-minister-confirms-washington-snub/",
+          "date": "2026-04-13",
+          "source": "ghanamma.com"
         },
         {
-          "title": "Newsmax Polska nadchodzi . TV Republika zagrożona . Konfederacja i PiS reagują – Wprost",
-          "url": "https://www.wprost.pl/kraj/12295584/newsmax-polska-nadchodzi-tv-republika-zagrozona-konfederacja-i-pis-reaguja.html",
-          "date": "2026-04-06",
-          "source": "wprost.pl"
+          "title": "Радіо Свобода Weekly : Путіна у війні з Україною захищатиме на Валдаї вже 27 веж із « Панцирами »",
+          "url": "https://www.radiosvoboda.org/a/ukrayina-viyna-putin/33730625.html",
+          "date": "2026-04-13",
+          "source": "radiosvoboda.org"
         },
         {
-          "title": "У Польщі прокоментували інцидент зі  спробою диверсії  на газогоні у Сербії",
-          "url": "https://www.eurointegration.com.ua/news/2026/04/6/7234811/",
-          "date": "2026-04-06",
-          "source": "eurointegration.com.ua"
+          "title": "ELECCIONES HUNGRÍA 2026 | Magyar destrona al ultranacionalista Orbán en Hungría : las 5 claves de una victoria crucial para Europa",
+          "url": "https://www.elperiodicoextremadura.com/internacional/2026/04/13/magyar-destrona-orban-hungria-claves-victoria-crucial-europa-129029675.html",
+          "date": "2026-04-13",
+          "source": "elperiodicoextremadura.com"
         },
         {
-          "title": "Believe it or not , few EU countries are offering more relief on energy costs than Ireland – The Irish Times",
-          "url": "https://www.irishtimes.com/opinion/2026/04/06/harry-mcgee-believe-it-or-not-few-eu-countries-are-offering-more-relief-on-energy-costs-than-ireland/",
-          "date": "2026-04-06",
-          "source": "irishtimes.com"
+          "title": "Juhokórejský prezident I Če - mjong prijal Tuska . Spoločné partnerstvo a obranná spolupráca",
+          "url": "https://www.aktuality.sk/clanok/dUK7ApM/soul-a-varsava-povysia-vztahy-na-strategicke-partnerstvo-klucom-je-obranny-priemysel-za-442-miliardy-dolarov/",
+          "date": "2026-04-13",
+          "source": "aktuality.sk"
         },
         {
-          "title": "Cuba y Venezuela : ¿ sobrevivir , adaptarse o transformarse ?",
-          "url": "https://www.tercerainformacion.es/opinion/06/04/2026/cuba-y-venezuela-sobrevivir-adaptarse-o-transformarse/",
-          "date": "2026-04-06",
-          "source": "tercerainformacion.es"
+          "title": "Η ήττα του Ορμπαν μια ευκαιρία για την Ευρώπη",
+          "url": "https://www.protagon.gr/apopseis/i-itta-tou-orban-mia-efkairia-gia-tin-evrwpi-44343347853",
+          "date": "2026-04-13",
+          "source": "protagon.gr"
         }
       ]
     },
     "CHN": {
       "name": "China",
-      "score": 61,
+      "score": 60,
       "metrics": {
-        "pos_tone": -0.92,
+        "pos_tone": -1.05,
         "neg_tone": 0.0,
         "pos_count": 28,
         "neg_count": 0
       },
       "reasons": [
         {
-          "title": "回收率仅一成 塑胶泛滥仍难解 | 财经",
-          "url": "https://www.orientaldaily.com.my/news/business/2026/04/06/809333",
-          "date": "2026-04-06",
-          "source": "orientaldaily.com.my"
+          "title": "Le FTSE en baisse alors que les États - Unis entament le blocus du détroit dOrmuz",
+          "url": "https://www.zonebourse.com/actualite-bourse/le-ftse-en-baisse-alors-que-les-etats-unis-entament-le-blocus-du-detroit-d-ormuz-ce7e50d9d08ff126",
+          "date": "2026-04-13",
+          "source": "zonebourse.com"
         },
         {
-          "title": "Travel : Here what Ive learned after visiting 100 countries – Akron News - Reporter",
-          "url": "https://www.akronnewsreporter.com/2026/04/04/travel-heres-what-ive-learned-after-visiting-100-countries/",
-          "date": "2026-04-06",
-          "source": "akronnewsreporter.com"
+          "title": "Υποχωρούν τα ευρωπαϊκά και ασιατικά χρηματιστήρια στον απόηχο των κινήσεων Τραμπ στο Ορμούζ",
+          "url": "https://www.reporter.gr/diethnh/chrhmatisthria/671815-ypoxoroyn-ta-evropaika-kai-asiatika-xrimatistiria-ston-apoixo-ton-kiniseon-tramp-sto-ormoyz",
+          "date": "2026-04-13",
+          "source": "reporter.gr"
         },
         {
-          "title": "Too expensive to have a respectful funeral ? What is China burial crisis that is forcing people to store ashes in  new  apartments",
-          "url": "https://timesofindia.indiatimes.com/etimes/trending/too-expensive-to-have-a-respectful-funeral-what-is-chinas-burial-crisis-that-is-forcing-people-to-store-ashes-in-new-apartments/articleshow/130053917.cms",
-          "date": "2026-04-06",
-          "source": "timesofindia.indiatimes.com"
+          "title": "China PV retail sales fall 15 % in March",
+          "url": "https://www.just-auto.com/news/chinas-pv-retail-sales-fall-15-in-march/",
+          "date": "2026-04-13",
+          "source": "just-auto.com"
         },
         {
-          "title": "طرح صلح مشترک چین و پاکستان در بحبوحه جنگ علیه ایران نمادی از تغییر موازنه قدرت جهانی",
-          "url": "https://mdeast.news/2026/04/06/%D8%B7%D8%B1%D8%AD-%D8%B5%D9%84%D8%AD-%D9%85%D8%B4%D8%AA%D8%B1%DA%A9-%DA%86%DB%8C%D9%86-%D9%88-%D9%BE%D8%A7%DA%A9%D8%B3%D8%AA%D8%A7%D9%86-%D8%AF%D8%B1-%D8%A8%D8%AD%D8%A8%D9%88%D8%AD%D9%87-%D8%AC%D9%86/",
-          "date": "2026-04-06",
-          "source": "mdeast.news"
+          "title": "South Africa blocked from G20 by US , finance minister confirms Washington snub",
+          "url": "https://www.ghanamma.com/2026/04/13/south-africa-blocked-from-g20-by-us-finance-minister-confirms-washington-snub/",
+          "date": "2026-04-13",
+          "source": "ghanamma.com"
         },
         {
-          "title": "Chiny . Kara śmierci na obywatelu Francji za handel narkotykami . Jest oświadczenie chińskiej ambasady",
-          "url": "https://tvn24.pl/swiat/chiny-kara-smierci-na-obywatelu-francji-za-handel-narkotykami-jest-oswiadczenie-chinskiej-ambasady-st8984582",
-          "date": "2026-04-06",
-          "source": "tvn24.pl"
+          "title": "Αποκάλυψη – Τα 3 σενάρια που εξετάζει ο Trump για Ιράν – Φθηνός ελιγμός οι απειλές για Hormuz , ο άγνωστος ρόλος Ghalibaf",
+          "url": "https://www.bankingnews.gr/diethni/articles/868204/apokalypsi-ta-3-senaria-pou-eksetazei-o-trump-gia-iran-fthinos-eligmos-oi-apeiles-gia-hormuz-o-agnostos-rolos-ghalibaf",
+          "date": "2026-04-13",
+          "source": "bankingnews.gr"
         },
         {
-          "title": "Hungary illiberal democracy",
-          "url": "https://theweek.com/politics/hungary-viktor-orban-illiberal-democracy",
-          "date": "2026-04-06",
-          "source": "theweek.com"
+          "title": "王鴻薇喊 「 性侵島 」 反印度移工 吳思瑤嗆 ： 只要中國人 ？ - 臺北市",
+          "url": "https://news.ltn.com.tw/news/Taipei/breakingnews/5402373",
+          "date": "2026-04-13",
+          "source": "news.ltn.com.tw"
         }
       ]
     }
