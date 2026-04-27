@@ -1,51 +1,51 @@
 {
-  "updated": "2026-04-20",
+  "updated": "2026-04-27",
   "countries": {
     "USA": {
       "name": "United States",
-      "score": 50,
+      "score": 52,
       "metrics": {
-        "pos_tone": 0.0,
-        "neg_tone": 0.0,
-        "pos_count": 0,
-        "neg_count": 0
+        "pos_tone": -2.14,
+        "neg_tone": -3.18,
+        "pos_count": 28,
+        "neg_count": 28
       },
       "reasons": [
         {
-          "title": "Kabine  Orta Doğu  gündemiyle toplanacak",
-          "url": "https://www.trthaber.com/haber/gundem/kabine-orta-dogu-gundemiyle-toplanacak-942264.html",
-          "date": "2026-04-20",
-          "source": "trthaber.com"
+          "title": "Källor : Iran har gett united states nytt förslag",
+          "url": "https://www.gp.se/nyheter/varlden/kallor-iran-har-gett-usa-nytt-forslag.1630541f-906e-5e9b-8bbe-dd9a17d89672",
+          "date": "2026-04-27",
+          "source": "gp.se"
         },
         {
-          "title": "รมว . พลังงานสหรัฐฯ คาดราคาเบนซินยืนเหนือ 3",
-          "url": "https://www.ryt9.com/s/iq29/12807478",
-          "date": "2026-04-20",
-          "source": "ryt9.com"
-        },
-        {
-          "title": "७ वर्षअघि निर्माण सकिनुपर्ने सडक अहिलेसम्म अलपत्र | Nepal first 24 - hour updated news portal",
-          "url": "https://www.ratopati.com/story/558098/road-construction-that-should-have-been-completed-7-years-ago-is-still-stalled",
-          "date": "2026-04-20",
-          "source": "ratopati.com"
-        },
-        {
-          "title": "FBI局长威胁告美媒 炮制虚假报道引发风波 _ 军事频道 _ 中华网",
-          "url": "https://military.china.com/news/13004177/20260420/49433018.html",
-          "date": "2026-04-20",
+          "title": "区桂芝 ： 合  的趋势已不可挡 民心所向和平统一 _ 军事频道 _ 中华网",
+          "url": "https://military.china.com/news/13004177/20260427/49454182.html",
+          "date": "2026-04-27",
           "source": "military.china.com"
         },
         {
-          "title": "美伊关系 ： 从盟友到死敌 - 求是网",
-          "url": "http://qstheory.cn/20260420/2a079c90424f40b79d27e11472fe5d44/c.html",
-          "date": "2026-04-20",
-          "source": "qstheory.cn"
+          "title": "Magyar Péter sajátosan reagált a vagyonmenekítési hírekre",
+          "url": "https://www.economx.hu/belfold/2026/04/27/magyar-peter-kosztolanyi-dezso-edes-anna-idezet-vagyon-menekules/",
+          "date": "2026-04-27",
+          "source": "economx.hu"
         },
         {
-          "title": "UK Starmer to face grilling from MPs over Mandelson scandal",
-          "url": "https://www.suncommercial.com/brazil_times/news/national/article_02ae85c1-abe8-5949-83d3-f8cacab389cc.html",
-          "date": "2026-04-20",
-          "source": "suncommercial.com"
+          "title": "PHOTO ESSAY : Elderly Cubans cope with a deepening economic crisis",
+          "url": "https://www.union-bulletin.com/news/world/photo-essay-elderly-cubans-cope-with-a-deepening-economic-crisis/article_af158189-d795-5a6f-af45-15ddf1d01d6f.html",
+          "date": "2026-04-27",
+          "source": "union-bulletin.com"
+        },
+        {
+          "title": "外界对白宫枪击事件有三大疑问 枪手背景曝光 _ 军事频道 _ 中华网",
+          "url": "https://military.china.com/news/13004177/20260427/49454131.html",
+          "date": "2026-04-27",
+          "source": "military.china.com"
+        },
+        {
+          "title": "義大利捕獲中國 「 國家級 」 間諜駭客 引渡至美國受審 | 國際",
+          "url": "https://www.cna.com.tw/news/aopl/202604270185.aspx",
+          "date": "2026-04-27",
+          "source": "cna.com.tw"
         }
       ]
     },
@@ -53,95 +53,95 @@
       "name": "Russia",
       "score": 52,
       "metrics": {
-        "pos_tone": -2.29,
-        "neg_tone": -3.23,
+        "pos_tone": -2.26,
+        "neg_tone": -3.47,
         "pos_count": 28,
         "neg_count": 28
       },
       "reasons": [
         {
-          "title": "El prorruso y euroescéptico Rumen Radev gana con mayoría absoluta las legislativas de Bulgaria",
-          "url": "https://elpais.com/internacional/2026-04-20/el-prorruso-y-euroesceptico-rumen-radev-gana-con-mayoria-absoluta-las-legislativas-de-bulgaria.html",
-          "date": "2026-04-20",
-          "source": "elpais.com"
+          "title": "Κούρσα εξοπλισμών χωρίς φρένο : Στα 2 , 9 τρισ . δολάρια οι παγκόσμιες στρατιωτικές δαπάνες",
+          "url": "https://www.emakedonia.gr/koyrsa-exoplismon-choris-freno-sta-2-9-tris-dolaria-oi-pagkosmies-stratiotikes-dapanes-806765",
+          "date": "2026-04-27",
+          "source": "emakedonia.gr"
         },
         {
-          "title": "สุริยะ  เร่งสรุปความต้องการใช้ปุ๋ยยูเรีย คาดนำเข้าภายใน 3",
-          "url": "https://www.ryt9.com/s/iq01/12807485",
-          "date": "2026-04-20",
-          "source": "ryt9.com"
+          "title": "Западная пропаганда : создатели иранских Lego - мультиков указали на притеснение Западом",
+          "url": "https://iz.ru/2086492/2026-04-27/sozdateli-lego-multikov-iz-irana-ukazali-na-razrushitelnuiu-propagandu-zapada",
+          "date": "2026-04-27",
+          "source": "iz.ru"
         },
         {
-          "title": "Лукашенко и война против Украины : прогноз экспертов",
-          "url": "https://world.comments.ua/news/belarus/reshitsya-li-lukashenko-nachat-nastuplenie-na-ukrainu-ozvuchen-krayne-pokazatelnyy-nyuans-804408.html",
-          "date": "2026-04-20",
-          "source": "world.comments.ua"
+          "title": "ФНС и Минфин признаны лидерами среди ведомств России по оказанию услуг",
+          "url": "https://ura.news/news/1053088772",
+          "date": "2026-04-27",
+          "source": "ura.news"
         },
         {
-          "title": "Выборы в Болгарии и позиция Румена Радева : отношения с Россией , санкции , будущее сотрудничества",
-          "url": "https://news.mail.ru/politics/70600851/",
-          "date": "2026-04-20",
-          "source": "news.mail.ru"
+          "title": "بعد مقتل وزير الدفاع وإعلان الحداد .. ما مصير قيادات مالي ؟",
+          "url": "https://www.aljazeera.net/news/2026/4/27/%D8%A8%D8%B9%D8%AF-%D9%85%D9%82%D8%AA%D9%84-%D9%88%D8%B2%D9%8A%D8%B1-%D8%A7%D9%84%D8%AF%D9%81%D8%A7%D8%B9-%D9%88%D8%A5%D8%B9%D9%84%D8%A7%D9%86-%D8%A7%D9%84%D8%AD%D8%AF%D8%A7%D8%AF-%D9%85%D8%A7",
+          "date": "2026-04-27",
+          "source": "aljazeera.net"
         },
         {
-          "title": "В Ирландии устали содержать украинцев и обещают им €10 тыс . за возвращение домой",
-          "url": "https://life.ru/p/1865524",
-          "date": "2026-04-20",
-          "source": "life.ru"
+          "title": "North Korea Kim reaffirms support for Russia  sacred  Ukraine war",
+          "url": "https://www.sanfordherald.com/news/national/north-koreas-kim-reaffirms-support-for-russias-sacred-ukraine-war/article_3f5c137a-4dff-5fe4-8053-6554d5af4d6f.html",
+          "date": "2026-04-27",
+          "source": "sanfordherald.com"
         },
         {
-          "title": "美伊关系 ： 从盟友到死敌 - 求是网",
-          "url": "http://qstheory.cn/20260420/2a079c90424f40b79d27e11472fe5d44/c.html",
-          "date": "2026-04-20",
-          "source": "qstheory.cn"
+          "title": "В России началась четырехдневная рабочая неделя в преддверии празднования 1 мая",
+          "url": "https://www.garant.ru/news/2069531/",
+          "date": "2026-04-27",
+          "source": "garant.ru"
         }
       ]
     },
     "VEN": {
       "name": "Venezuela",
-      "score": 44,
+      "score": 52,
       "metrics": {
-        "pos_tone": 0.0,
-        "neg_tone": -3.38,
-        "pos_count": 0,
+        "pos_tone": -2.45,
+        "neg_tone": -3.4,
+        "pos_count": 28,
         "neg_count": 28
       },
       "reasons": [
         {
-          "title": "¿ Qué fue de Carlos Castel ? El ídolo forracarpetas de  Nada es para siempre  que hoy huye de los focos en el mundo corporativo",
-          "url": "https://www.que.es/2026/04/20/carlos-castel-adrian-nada/",
-          "date": "2026-04-20",
-          "source": "que.es"
+          "title": "El Pacto",
+          "url": "https://www.elcolombiano.com/opinion/editoriales/el-pacto-JG35885369",
+          "date": "2026-04-27",
+          "source": "elcolombiano.com"
         },
         {
-          "title": "美伊关系 ： 从盟友到死敌 - 求是网",
-          "url": "http://qstheory.cn/20260420/2a079c90424f40b79d27e11472fe5d44/c.html",
-          "date": "2026-04-20",
-          "source": "qstheory.cn"
+          "title": "Froilán Barrios : A 1 . 500 días de la última revisión del salario mínimo en Venezuela",
+          "url": "https://confirmado.com.ve/froilan-barrios-a-1-500-dias-de-la-ultima-revision-del-salario-minimo-en-venezuela/",
+          "date": "2026-04-27",
+          "source": "confirmado.com.ve"
         },
         {
-          "title": "Feijóo , sobre los gritos racistas de ¡ fuera la mona ! de Carlos Baute contra Delcy Rodríguez :  No estoy de acuerdo con los que insultan ni con los insultados",
-          "url": "https://www.laprovincia.es/espana/2026/04/20/feijoo-entiende-maria-corina-machado-129294540.html",
-          "date": "2026-04-20",
-          "source": "laprovincia.es"
+          "title": "Noel Álvarez : Enfermedad Holandesa : La trampa de la riqueza fácil",
+          "url": "https://confirmado.com.ve/noel-alvarez-enfermedad-holandesa-la-trampa-de-la-riqueza-facil/",
+          "date": "2026-04-27",
+          "source": "confirmado.com.ve"
         },
         {
-          "title": "Delusi Pergantian Rezim Iran : Trump dan Kekacauan Geopolitik Timur Tengah",
-          "url": "https://www.kompas.com/global/read/2026/04/20/150940370/delusi-pergantian-rezim-iran-trump-dan-kekacauan-geopolitik-timur-tengah",
-          "date": "2026-04-20",
-          "source": "kompas.com"
+          "title": "EVROPA SE SPREMA ZA RAT Drastičan skok vojnih izdataka , SAD troše manje , Nemačka ponovo postaje sila !",
+          "url": "https://www.alo.rs/vesti/svet/16720665/evropa-se-sprema-za-rat-drastican-skok-vojnih-izdataka-sad-trose-manje-nemacka-ponovo-postaje-sila.html",
+          "date": "2026-04-27",
+          "source": "alo.rs"
         },
         {
-          "title": "Díaz - Canel Grandstanding in Girón : Signature Campaign Launched Against  Imperialism",
-          "url": "https://www.cubaheadlines.com/articles/326402",
-          "date": "2026-04-20",
-          "source": "cubaheadlines.com"
+          "title": "Read the complete transcript of Trump 2026 State of the Union",
+          "url": "https://www.advocate-news.com/2026/02/25/state-of-the-union-transcript/",
+          "date": "2026-04-27",
+          "source": "advocate-news.com"
         },
         {
-          "title": "World Insights : How the",
-          "url": "http://www.caribbeanherald.com/news/278998709/world-insights-how-the-second-cia-undermines-global-stability-in-democratic-disguise",
-          "date": "2026-04-20",
-          "source": "caribbeanherald.com"
+          "title": "Presidenta ( E ) Delcy Rodríguez fue recibida con honores en Barbados para cumplir agenda estratégica",
+          "url": "https://ultimasnoticias.com.ve/politica/presidenta-e-delcy-rodriguez-fue-recibida-con-honores-en-barbados-para-cumplir-agenda-estrategica/",
+          "date": "2026-04-27",
+          "source": "ultimasnoticias.com.ve"
         }
       ]
     },
@@ -158,215 +158,252 @@
     },
     "HUN": {
       "name": "Hungary",
-      "score": 60,
+      "score": 52,
       "metrics": {
-        "pos_tone": -1.13,
-        "neg_tone": 0.0,
-        "pos_count": 28,
-        "neg_count": 0
-      },
-      "reasons": [
-        {
-          "title": "Зеленский : Орбан фактически украл средства Сбербанка",
-          "url": "https://vector.comments.ua/news/2026/skandal-so-sberbankom-zelenskiy-vydvinul-orbanu-novoe-sereznoe-obvinenie-804406.html",
-          "date": "2026-04-20",
-          "source": "vector.comments.ua"
-        },
-        {
-          "title": "Деньги забрали . Зеленский сделал внезапное заявление о Мадьяре",
-          "url": "https://ria.ru/20260420/zelenskiy-2087910259.html",
-          "date": "2026-04-20",
-          "source": "ria.ru"
-        },
-        {
-          "title": "El exgeneral prorruso Rumen Radev será el nuevo presidente de Bulgaria",
-          "url": "https://www.diariovasco.com/internacional/europa/exgeneral-prorruso-rumen-radev-gana-elecciones-bulgaria-20260419213213-ntrc.html",
-          "date": "2026-04-20",
-          "source": "diariovasco.com"
-        },
-        {
-          "title": "Eurosceptic Radev poised for majority in Bulgarian election – Europe live",
-          "url": "https://www.theguardian.com/world/live/2026/apr/20/bulgaria-election-ukraine-russia-hungary-macron-poland-latest-news-updates",
-          "date": "2026-04-20",
-          "source": "theguardian.com"
-        },
-        {
-          "title": "Световните агенции за Радев : Край на нестабилността или завой към Русия ?",
-          "url": "https://www.vesti.bg/bulgaria/svetovnite-agencii-za-radev-kraj-na-nestabilnostta-ili-zavoj-kym-rusiia-6257465",
-          "date": "2026-04-20",
-          "source": "vesti.bg"
-        },
-        {
-          "title": "Izrael gubi ključne saveznike u Evropi : Prete mu sankcije EU - a",
-          "url": "https://www.danas.rs/svet/izrael-evropa-saveznici-eu-sankcije/",
-          "date": "2026-04-20",
-          "source": "danas.rs"
-        }
-      ]
-    },
-    "TUR": {
-      "name": "Turkey",
-      "score": 59,
-      "metrics": {
-        "pos_tone": -1.9,
-        "neg_tone": 0.0,
-        "pos_count": 28,
-        "neg_count": 0
-      },
-      "reasons": []
-    },
-    "BRA": {
-      "name": "Brazil",
-      "score": 53,
-      "metrics": {
-        "pos_tone": -1.11,
-        "neg_tone": -2.56,
+        "pos_tone": -1.25,
+        "neg_tone": -2.23,
         "pos_count": 28,
         "neg_count": 28
       },
       "reasons": [
         {
-          "title": "Eurosceptic Radev poised for majority in Bulgarian election – Europe live",
-          "url": "https://www.theguardian.com/world/live/2026/apr/20/bulgaria-election-ukraine-russia-hungary-macron-poland-latest-news-updates",
-          "date": "2026-04-20",
-          "source": "theguardian.com"
+          "title": "Словачки европосланик : Бриселу је Украјина важнија од држава чланица ЕУ",
+          "url": "https://www.politika.rs/scc/clanak/750556/slovacki-evroposlanik-briselu-je-ukrajina-vaznija-od-drzava-clanica-eu",
+          "date": "2026-04-27",
+          "source": "politika.rs"
         },
         {
-          "title": "İspaniya Baş naziri ABŞ Prezidenti əleyhinə koalisiya qurur",
-          "url": "https://ayna.az/ispaniya-bas-naziri-abs-prezidenti-eleyhine-koalisiya-qurur",
-          "date": "2026-04-20",
-          "source": "ayna.az"
+          "title": "Rýchlo a nenápadne : Ľudia blízki Orbánovi už údajne presúvajú svoj majetok do zahraničia",
+          "url": "https://www.noviny.sk/zahranicie/1200159-rychlo-a-nenapadne-ludia-blizki-orbanovi-udajne-vo-velkom-presuvaju-svoj-majetok-do-zahranicia",
+          "date": "2026-04-27",
+          "source": "noviny.sk"
         },
         {
-          "title": "PPQ",
-          "url": "https://www.politplatschquatsch.com/search?updated-max=2026-04-20T07:00:00+02:00",
-          "date": "2026-04-20",
-          "source": "politplatschquatsch.com"
+          "title": "Коментари - Китай заплаши с ответни мерки срещу плана  Произведено в Европа",
+          "url": "https://dnes.dir.bg/comments/kitay-zaplashi-s-otvetni-merki-sreshtu-plana-proizvedeno-v-evropa",
+          "date": "2026-04-27",
+          "source": "dnes.dir.bg"
         },
         {
-          "title": "Por que um financiamento pode sair muito mais caro do que parece ?",
-          "url": "https://g1.globo.com/economia/noticia/2026/04/20/por-que-um-financiamento-pode-sair-muito-mais-caro-do-que-parece.ghtml",
-          "date": "2026-04-20",
-          "source": "g1.globo.com"
+          "title": "„ Kein Kompromat  – der Mann , der Orbán gestürzt hat , verrät sein Geheimnis",
+          "url": "https://euractiv.de/news/kein-kompromat-der-mann-der-orban-gestuerzt-hat-verraet-sein-geheimnis/",
+          "date": "2026-04-27",
+          "source": "euractiv.de"
         },
         {
-          "title": "PPQ : Der Privat - Staat : Die Aneignung",
-          "url": "https://www.politplatschquatsch.com/2026/04/der-privat-staat-die-aneignung.html",
-          "date": "2026-04-20",
-          "source": "politplatschquatsch.com"
+          "title": "Peter Mađar imenovao LGBT ministarku",
+          "url": "https://informer.rs/planeta/vesti/1110396/peter-madjar-lgbt-ministarka",
+          "date": "2026-04-27",
+          "source": "informer.rs"
         },
         {
-          "title": "Francisco Muro de Iscar .- La izquierda recupera el orgullo",
-          "url": "https://www.europapress.es/otr-press/firmas/franciscomuro/noticia-francisco-muro-iscar-izquierda-recupera-orgullo-20260420080036.html",
-          "date": "2026-04-20",
-          "source": "europapress.es"
+          "title": "Reprieve for Budapest Financial Health - Can Bankruptcy be Avoided ?",
+          "url": "https://xpatloop.com/channels/2026/04/budapest-wins-vital-relief-in-national-central-budget-dispute.html",
+          "date": "2026-04-27",
+          "source": "xpatloop.com"
+        }
+      ]
+    },
+    "TUR": {
+      "name": "Turkey",
+      "score": 53,
+      "metrics": {
+        "pos_tone": -1.51,
+        "neg_tone": -3.25,
+        "pos_count": 28,
+        "neg_count": 28
+      },
+      "reasons": [
+        {
+          "title": "İBB davasında 27 . celse : Reddi hakim talebi üzerine duruşmaya ara verildi",
+          "url": "https://www.birgun.net/haber/ibb-davasinda-27-celse-reddi-hakim-talebi-uzerine-durusmaya-ara-verildi-708525%20class=slide-legend-link%20target=_blank",
+          "date": "2026-04-27",
+          "source": "birgun.net"
+        },
+        {
+          "title": "Сожженный флаг и тлеющие иллюзии о нормализации : уроки шествия в Ереване",
+          "url": "https://vesti.az/novosti-avtorov/sozzennyi-flag-i-tleyushhie-illyuzii-o-normalizacii-uroki-sestviya-v-erevane-poziciya-590946",
+          "date": "2026-04-27",
+          "source": "vesti.az"
+        },
+        {
+          "title": "EVROPA SE SPREMA ZA RAT Drastičan skok vojnih izdataka , SAD troše manje , Nemačka ponovo postaje sila !",
+          "url": "https://www.alo.rs/vesti/svet/16720665/evropa-se-sprema-za-rat-drastican-skok-vojnih-izdataka-sad-trose-manje-nemacka-ponovo-postaje-sila.html",
+          "date": "2026-04-27",
+          "source": "alo.rs"
+        },
+        {
+          "title": "迈瑞医疗2025年业绩双降 ， 海外增速显露疲态 ， 如何找寻出路 ？_ 财富号 _ 东方财富网",
+          "url": "https://caifuhao.eastmoney.com/news/20260427135334096127490",
+          "date": "2026-04-27",
+          "source": "caifuhao.eastmoney.com"
+        },
+        {
+          "title": "All the alternative routes for Middle East oil and gas to bypass the Strait of Hormuz",
+          "url": "https://www.independent.co.uk/news/world/middle-east/strait-of-hormuz-oil-gas-alternatives-map-trump-iran-b2965363.html",
+          "date": "2026-04-27",
+          "source": "independent.co.uk"
+        },
+        {
+          "title": "Коментари - Китай заплаши с ответни мерки срещу плана  Произведено в Европа",
+          "url": "https://dnes.dir.bg/comments/kitay-zaplashi-s-otvetni-merki-sreshtu-plana-proizvedeno-v-evropa",
+          "date": "2026-04-27",
+          "source": "dnes.dir.bg"
+        }
+      ]
+    },
+    "BRA": {
+      "name": "Brazil",
+      "score": 53,
+      "metrics": {
+        "pos_tone": -1.07,
+        "neg_tone": -2.52,
+        "pos_count": 28,
+        "neg_count": 28
+      },
+      "reasons": [
+        {
+          "title": "Embodied AI makes quantum leap in China",
+          "url": "https://www.sxdaily.com.cn/2026-04/27/content_20015567.html",
+          "date": "2026-04-27",
+          "source": "sxdaily.com.cn"
+        },
+        {
+          "title": "El histórico acuerdo sobre transporte marítimo climático se enfrenta a una  verdadera batalla",
+          "url": "https://www.expansion.com/economia-sostenible/2026/04/27/69ef1f54e5fdea48338b456e.html",
+          "date": "2026-04-27",
+          "source": "expansion.com"
+        },
+        {
+          "title": "迈瑞医疗2025年业绩双降 ， 海外增速显露疲态 ， 如何找寻出路 ？_ 财富号 _ 东方财富网",
+          "url": "https://caifuhao.eastmoney.com/news/20260427135334096127490",
+          "date": "2026-04-27",
+          "source": "caifuhao.eastmoney.com"
+        },
+        {
+          "title": "Research Roundup : Single - dose malaria cure rollout , Bird flu vaccine trial , HIV treatment approval",
+          "url": "https://www.ghtcoalition.org/blog/research-roundup-4-27-26",
+          "date": "2026-04-27",
+          "source": "ghtcoalition.org"
+        },
+        {
+          "title": "London coming for Labour , again",
+          "url": "https://www.newstatesman.com/politics/uk-politics/2026/04/londons-coming-for-labour-again",
+          "date": "2026-04-27",
+          "source": "newstatesman.com"
+        },
+        {
+          "title": "brics play india and china jointly make a major announcement - Prabhasakshi latest news in hindi",
+          "url": "https://www.prabhasakshi.com/international/brics-play-india-and-china-jointly-make-a-major-announcement",
+          "date": "2026-04-27",
+          "source": "prabhasakshi.com"
         }
       ]
     },
     "IND": {
       "name": "India",
-      "score": 50,
+      "score": 44,
       "metrics": {
         "pos_tone": 0.0,
-        "neg_tone": 0.0,
+        "neg_tone": -3.21,
         "pos_count": 0,
-        "neg_count": 0
+        "neg_count": 28
       },
       "reasons": [
         {
-          "title": "They set fire to it : Rahul Gandhi slams BJP after fresh tensions in Manipur",
-          "url": "https://news.webindia123.com/news/Articles/India/20260420/4441380.html",
-          "date": "2026-04-20",
-          "source": "news.webindia123.com"
+          "title": "Will return for swearing - in : Modi ends Bengal campaign , signals BJP win | Indiablooms - First Portal on Digital News Management",
+          "url": "https://www.indiablooms.com/news/will-return-for-swearing-in-modi-ends-bengal-campaign-signals-bjp-win/details",
+          "date": "2026-04-27",
+          "source": "indiablooms.com"
         },
         {
-          "title": "Asit Tripathy Elected President of Odisha Steel Producer Association ( OSPA )",
-          "url": "http://www.nepalnational.com/news/278999127/asit-tripathy-elected-president-of-odisha-steel-producers-association-ospa",
-          "date": "2026-04-20",
-          "source": "nepalnational.com"
+          "title": "Maasai Mara tourist dispute raises investor confidence concerns",
+          "url": "https://www.capitalfm.co.ke/business/2026/04/maasai-mara-tourist-dispute-raises-investor-confidence-concerns/",
+          "date": "2026-04-27",
+          "source": "capitalfm.co.ke"
         },
         {
-          "title": "SC dismisses plea seeking to declare Netaji as  national son , warns against refiling",
-          "url": "https://news.webindia123.com/news/Articles/India/20260420/4441367.html",
-          "date": "2026-04-20",
-          "source": "news.webindia123.com"
+          "title": "cm himanta is adopting a new strategy to drive out bangladeshi infiltrators - Prabhasakshi latest news in hindi",
+          "url": "https://www.prabhasakshi.com/national/cm-himanta-is-adopting-a-new-strategy-to-drive-out-bangladeshi-infiltrators",
+          "date": "2026-04-27",
+          "source": "prabhasakshi.com"
         },
         {
-          "title": "CMs Press Meet : 4 Women Leaders Present , None Spoke ; Congress Criticizes BJP",
-          "url": "https://divyamarathi.bhaskar.com/local/maharashtra/news/cm-press-meet-4-women-leaders-no-chance-congress-criticizes-bjp-137742509.html",
-          "date": "2026-04-20",
-          "source": "divyamarathi.bhaskar.com"
+          "title": "MoSPI to build consensus on interoperable data for policy use ; summit on April 29 - 30",
+          "url": "http://www.asiabulletin.com/news/279014151/mospi-to-build-consensus-on-interoperable-data-for-policy-use-summit-on-april-29-30",
+          "date": "2026-04-27",
+          "source": "asiabulletin.com"
         },
         {
-          "title": "上海漂视 - CIMPro孪大师｜生态合作伙伴 · 星火计划 · 第四期 【 杭州站 】 圆满收官 _ 中华网",
-          "url": "https://hea.china.com/articles/20260420/202604201850859.html",
-          "date": "2026-04-20",
-          "source": "hea.china.com"
+          "title": "NHRC , India takes suo motu cognizance of the reported death of two sanitation workers and injuries to another after inhaling poisonous gases while cleaning a sewer line at Ambedkar Chowk of the Firozpur Jhirka area in the Nuh district , Haryana",
+          "url": "https://orissadiary.com/nhrc-india-takes-suo-motu-cognizance-of-the-reported-death-of-two-sanitation-workers-and-injuries-to-another-after-inhaling-poisonous-gases-while-cleaning-a-sewer-line-at-ambedkar-chowk-of-the-firozp/",
+          "date": "2026-04-27",
+          "source": "orissadiary.com"
         },
         {
-          "title": "PM Modi , South Korean President Lee Jae Myung hold talks in Delhi",
-          "url": "https://www.prokerala.com/news/articles/a1752997.html",
-          "date": "2026-04-20",
-          "source": "prokerala.com"
+          "title": "No dry - outs reported at LPG distributorships ; more than 51 . 8 Lakh domestic LPG cylinders delivered yesterday",
+          "url": "https://orissadiary.com/no-dry-outs-reported-at-lpg-distributorships-more-than-51-8-lakh-domestic-lpg-cylinders-delivered-yesterday/",
+          "date": "2026-04-27",
+          "source": "orissadiary.com"
         }
       ]
     },
     "POL": {
       "name": "Poland",
-      "score": 59,
+      "score": 52,
       "metrics": {
-        "pos_tone": -1.54,
-        "neg_tone": 0.0,
+        "pos_tone": -1.75,
+        "neg_tone": -2.6,
         "pos_count": 28,
-        "neg_count": 0
+        "neg_count": 28
       },
       "reasons": []
     },
     "CHN": {
       "name": "China",
-      "score": 60,
+      "score": 42,
       "metrics": {
-        "pos_tone": -1.01,
-        "neg_tone": 0.0,
-        "pos_count": 28,
-        "neg_count": 0
+        "pos_tone": 0.0,
+        "neg_tone": -2.19,
+        "pos_count": 0,
+        "neg_count": 28
       },
       "reasons": [
         {
-          "title": "Hong Kong : les sinistrés de lincendie retournent chez eux",
-          "url": "https://www.tdg.ch/hong-kong-les-sinistres-de-lincendie-retournent-chez-eux-686182162598",
-          "date": "2026-04-20",
-          "source": "tdg.ch"
+          "title": "Maasai Mara tourist dispute raises investor confidence concerns",
+          "url": "https://www.capitalfm.co.ke/business/2026/04/maasai-mara-tourist-dispute-raises-investor-confidence-concerns/",
+          "date": "2026-04-27",
+          "source": "capitalfm.co.ke"
         },
         {
-          "title": "博科测试 ( 301598 ): 2025年度独立董事述职报告 （ 陈玉田 ）- CFi . CN 中财网",
-          "url": "http://www.cfi.net.cn/p20260420000632.html",
-          "date": "2026-04-20",
-          "source": "cfi.net.cn"
+          "title": "Κούρσα εξοπλισμών χωρίς φρένο : Στα 2 , 9 τρισ . δολάρια οι παγκόσμιες στρατιωτικές δαπάνες",
+          "url": "https://www.emakedonia.gr/koyrsa-exoplismon-choris-freno-sta-2-9-tris-dolaria-oi-pagkosmies-stratiotikes-dapanes-806765",
+          "date": "2026-04-27",
+          "source": "emakedonia.gr"
         },
         {
-          "title": "Iran , Crosetto  A Hormuz con lOnu , ma il Parlamento dica sì anche senza suo ok",
-          "url": "https://www.modena2000.it/2026/04/20/iran-crosetto-a-hormuz-con-lonu-ma-il-parlamento-dica-si-anche-senza-suo-ok/",
-          "date": "2026-04-20",
-          "source": "modena2000.it"
+          "title": "The lawless floating gas station where Iranian oil changes hands",
+          "url": "https://www.news8000.com/news/national-world/the-lawless-floating-gas-station-where-iranian-oil-changes-hands/article_a8cdfa08-74cd-5c35-8e6d-2ca3b604e5bb.html",
+          "date": "2026-04-27",
+          "source": "news8000.com"
         },
         {
-          "title": "5000명 이재민 낸 홍콩 화재 아파트 , 5개월만에 방문 허용 … 반려견 유해라도",
-          "url": "https://heraldk.com/2026/04/19/5000%eb%aa%85-%ec%9d%b4%ec%9e%ac%eb%af%bc-%eb%82%b8-%ed%99%8d%ec%bd%a9-%ed%99%94%ec%9e%ac-%ec%95%84%ed%8c%8c%ed%8a%b8-5%ea%b0%9c%ec%9b%94%eb%a7%8c%ec%97%90-%eb%b0%a9%eb%ac%b8-%ed%97%88%ec%9a%a9/",
-          "date": "2026-04-20",
-          "source": "heraldk.com"
+          "title": "山东科技大学第七届教职工代表大会暨工会会员代表大会第一次会议召开 - 山东科技大学新闻网",
+          "url": "https://news.sdust.edu.cn/info/1006/109097.htm",
+          "date": "2026-04-27",
+          "source": "news.sdust.edu.cn"
         },
         {
-          "title": "FBI局长威胁告美媒 炮制虚假报道引发风波 _ 军事频道 _ 中华网",
-          "url": "https://military.china.com/news/13004177/20260420/49433018.html",
-          "date": "2026-04-20",
-          "source": "military.china.com"
+          "title": "股民居高思危 ！ 4月CCI止跌回升 投資時機指標仍陷低檔 | 產經",
+          "url": "https://news.ustv.com.tw/newsdetail/20260427A001019",
+          "date": "2026-04-27",
+          "source": "news.ustv.com.tw"
         },
         {
-          "title": "天津港 ( 600717 ): 天津港股份有限公司2025年年度股东会会议材料 - CFi . CN 中财网",
-          "url": "http://www.cfi.net.cn/p20260420000668.html",
-          "date": "2026-04-20",
-          "source": "cfi.net.cn"
+          "title": "الصين تهدد بالرد على خطة  صُنع في أوروبا",
+          "url": "https://www.aljazeera.net/ebusiness/2026/4/27/%D8%A7%D9%84%D8%B5%D9%8A%D9%86-%D8%AA%D9%87%D8%AF%D9%8A%D8%AF-%D8%AE%D8%B7%D8%A9-%D8%B5%D9%86%D8%B9-%D9%81%D9%8A-%D8%A3%D9%88%D8%B1%D9%88%D8%A8%D8%A7",
+          "date": "2026-04-27",
+          "source": "aljazeera.net"
         }
       ]
     }
