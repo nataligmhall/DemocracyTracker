@@ -1,51 +1,51 @@
 {
-  "updated": "2026-05-11",
+  "updated": "2026-05-18",
   "countries": {
     "USA": {
       "name": "United States",
       "score": 52,
       "metrics": {
-        "pos_tone": -2.11,
-        "neg_tone": -3.08,
+        "pos_tone": -2.12,
+        "neg_tone": -3.09,
         "pos_count": 28,
         "neg_count": 28
       },
       "reasons": [
         {
-          "title": "Irán felé fordul a befektetők figyelme - Mit csinálnak a tőzsdék ?",
-          "url": "https://www.portfolio.hu/uzlet/20260511/iran-fele-fordul-a-befektetok-figyelme-mit-csinalnak-a-tozsdek-835808",
-          "date": "2026-05-11",
-          "source": "portfolio.hu"
+          "title": "特朗普密集出 AI 圖 玩完太空戰再玩外星人 惡搞拜登奧巴馬污水游水",
+          "url": "https://unwire.hk/2026/05/18/trump-ai-alien-space-truth-social-viral/fun-tech/",
+          "date": "2026-05-18",
+          "source": "unwire.hk"
         },
         {
-          "title": "Βρετανία : Αντιδράσεις για τον Στάρμερ μετά την ήττα στις εκλογές »",
-          "url": "https://pelop.gr/vretania-antidraseis-gia-ton-starmer-meta-tin-itta-stis-ekloges/",
-          "date": "2026-05-11",
-          "source": "pelop.gr"
+          "title": "陸委會副主委沈有忠 ： 對中華民國來講 「 台獨 」 議題並不存在 | 政治",
+          "url": "https://newtalk.tw/news/view/2026-05-18/1035880",
+          "date": "2026-05-18",
+          "source": "newtalk.tw"
         },
         {
-          "title": "Blind side : Why World Cup economic impact on Vancouver and Toronto may never be known",
-          "url": "https://www.chroniclejournal.com/news/national/blind-side-why-world-cup-economic-impact-on-vancouver-and-toronto-may-never-be-known/article_4681da91-d7d5-58c3-a9da-90c7ee667387.html",
-          "date": "2026-05-11",
-          "source": "chroniclejournal.com"
+          "title": "Bezuhant Orbán Viktor népszerűsége , Magyart kétszer annyian kedvelik",
+          "url": "https://ujszo.com/kozelet/a-melyben-orban-viktor-nepszerusege-magyart-ketszer-annyian-kedvelik",
+          "date": "2026-05-18",
+          "source": "ujszo.com"
         },
         {
-          "title": "AP News Summary at 5 : 15 a . m . EDT",
-          "url": "https://www.messenger-inquirer.com/ap/elections/ap-news-summary-at-5-15-a-m-edt/article_1615ca6a-3441-5b8b-8596-7b3ac639f250.html",
-          "date": "2026-05-11",
-          "source": "messenger-inquirer.com"
+          "title": "Patient Deliberation , Not Imperialism : On Syria , President Obama Is More Like Woodrow Wilson Than George W . Bush « mykeystrokes . com",
+          "url": "https://mykeystrokes.com/2013/08/31/patient-deliberation-not-imperialism-on-syria-president-obama-is-more-like-woodrow-wilson-than-george-w-bush/",
+          "date": "2026-05-18",
+          "source": "mykeystrokes.com"
         },
         {
-          "title": "Марутян выступил за баланс во внешней политике",
-          "url": "https://www.panarmenian.net/rus/news/333139/",
-          "date": "2026-05-11",
-          "source": "panarmenian.net"
+          "title": "Protiraketová Zlatá kopule by united states přišla na 1 , 2 bilionu dolarů . Výrazně víc než tvrdí Bílý dům",
+          "url": "https://www.novinky.cz/clanek/zahranicni-amerika-protiraketova-zlata-kopule-by-usa-prisla-na-12-bilionu-dolaru-vyrazne-vic-nez-tvrdi-bily-dum-40578337",
+          "date": "2026-05-18",
+          "source": "novinky.cz"
         },
         {
-          "title": "貝桑傳曾當面 「 訓斥 」 日本財相 訪日之行或考驗高市",
-          "url": "https://finance.now.com/news/post.php?id=970414",
-          "date": "2026-05-11",
-          "source": "finance.now.com"
+          "title": "Αγορές ομολόγων : Παγκόσμιο sell off υπό το φόβο του πληθωρισμού και νέων αυξήσεων επιτοκίων – Σε επιφυλακή η G7",
+          "url": "https://www.protothema.gr/economy/article/1820407/agores-omologon-pagosmio-sell-off-upo-to-fovo-tou-plithorismou-kai-neon-auxiseon-epitokion-se-epifulaki-i-g7/",
+          "date": "2026-05-18",
+          "source": "protothema.gr"
         }
       ]
     },
@@ -53,58 +53,95 @@
       "name": "Russia",
       "score": 52,
       "metrics": {
-        "pos_tone": -2.31,
-        "neg_tone": -3.39,
+        "pos_tone": -2.36,
+        "neg_tone": -3.42,
         "pos_count": 28,
         "neg_count": 28
       },
-      "reasons": []
+      "reasons": [
+        {
+          "title": "« Единая Россия » выступила за расширение статуса ветеранов боевых действий :: Новости дня / ВЗГЛЯД",
+          "url": "https://vz.ru/news/2026/5/18/1420018.html",
+          "date": "2026-05-18",
+          "source": "vz.ru"
+        },
+        {
+          "title": "В Башкирии победители олимпиад получают до 300 тысяч рублей",
+          "url": "https://www.bashinform.ru/news/obrazovanie/2026-05-18/v-bashkirii-pobediteli-olimpiad-poluchayut-do-300-tysyach-rubley-4654846",
+          "date": "2026-05-18",
+          "source": "bashinform.ru"
+        },
+        {
+          "title": "Мишустин назвал Россию одним из лидеров в области двигателестроения",
+          "url": "https://ria.ru/20260518/lider-2093114164.html",
+          "date": "2026-05-18",
+          "source": "ria.ru"
+        },
+        {
+          "title": "Украинцы больше всего не доверяют ТЦК – результаты опроса",
+          "url": "https://www.obozrevatel.com/novosti-obschestvo/ukraintsyi-bolshe-vsego-ne-doveryayut-ttsk-chto-pokazali-rezultatyi-oprosa.htm",
+          "date": "2026-05-18",
+          "source": "obozrevatel.com"
+        },
+        {
+          "title": "Rosja ukrywa bankowy kryzys . Problem jest już większy , niż przyznaje Kreml",
+          "url": "https://wiadomosci.onet.pl/swiat/rosja-ukrywa-bankowy-kryzys-problem-jest-juz-wiekszy-niz-przyznaje-kreml/dp5y928",
+          "date": "2026-05-18",
+          "source": "wiadomosci.onet.pl"
+        },
+        {
+          "title": "Dvije europske države mogle bi se spojiti",
+          "url": "https://www.index.hr/vijesti/clanak/dvije-europske-drzave-mogle-bi-se-spojiti/2793344.aspx",
+          "date": "2026-05-18",
+          "source": "index.hr"
+        }
+      ]
     },
     "VEN": {
       "name": "Venezuela",
-      "score": 57,
+      "score": 52,
       "metrics": {
-        "pos_tone": -2.62,
-        "neg_tone": 0.0,
+        "pos_tone": -2.75,
+        "neg_tone": -3.66,
         "pos_count": 28,
-        "neg_count": 0
+        "neg_count": 28
       },
       "reasons": [
         {
-          "title": "News Briefing : Church in the World",
-          "url": "https://www.thetablet.co.uk/news/news-briefing-church-in-the-world-74/",
-          "date": "2026-05-11",
-          "source": "thetablet.co.uk"
+          "title": "Falta de mecenazgos e Inteligencia Artificial amenazan los sectores de la cultura a nivel global",
+          "url": "https://www.excelsior.com.mx/cultura/alertan-falta-mecenazgos-y-regulacion-inteligencia-artificial-sector-cultural",
+          "date": "2026-05-18",
+          "source": "excelsior.com.mx"
         },
         {
-          "title": "Venezuela : nouveau décès dun prisonnier politique en détention",
-          "url": "https://www.journaldemontreal.com/2026/05/11/venezuela-nouveau-deces-dun-prisonnier-politique-en-detention",
-          "date": "2026-05-11",
-          "source": "journaldemontreal.com"
+          "title": "Trwa bezpośredni atak na prawa człowieka . Nowy raport Amnesty International",
+          "url": "https://forsal.pl/swiat/aktualnosci/artykuly/11248497,eksperci-mowia-jasno-na-swiecie-trwa-bezposredni-atak-na-prawa-czlowieka.html",
+          "date": "2026-05-18",
+          "source": "forsal.pl"
         },
         {
-          "title": "Trump a trimis avioane spion în apropierea Cubei . A făcut același lucru înainte de capturarea lui Maduro sau invadarea Iranului",
-          "url": "https://www.digi24.ro/stiri/externe/sua/trump-a-trimis-avioane-spion-in-apropierea-cubei-a-facut-acelasi-lucru-inainte-de-capturarea-lui-maduro-sau-invadarea-iranului-3764427",
-          "date": "2026-05-11",
-          "source": "digi24.ro"
+          "title": "As notícias das 10h",
+          "url": "https://observador.pt/programas/noticiario/as-noticias-das-10h-2351/",
+          "date": "2026-05-18",
+          "source": "observador.pt"
         },
         {
-          "title": "Ανάλυση : Δεν υπάρχει ξεκάθαρος νικητής στον πόλεμο στο Ιράν",
-          "url": "https://www.newsbomb.gr/kosmos/story/1734897/analysi-den-yparxei-ksekatharos-nikitis-ston-polemo-sto-iran",
-          "date": "2026-05-11",
-          "source": "newsbomb.gr"
+          "title": "El primer misil sólo fue un aviso",
+          "url": "https://www.excelsior.com.mx/opinion/victor-beltri/primer-misil-solo-fue-aviso",
+          "date": "2026-05-18",
+          "source": "excelsior.com.mx"
         },
         {
-          "title": "Sumar extravía su « brújula » tras el fracaso del decreto de alquileres | Diario de noticias de Gran Canaria y Tenerife . Toda la actualidad de Las Palmas de Gran Canaria , de toda la isla y del resto del archipielago .",
-          "url": "https://www.canarias7.es/nacional/politica/sumar-resiste-decreto-alquileres-deje-brujula-20260511002708-ntrc.html",
-          "date": "2026-05-11",
-          "source": "canarias7.es"
+          "title": "Assis ataca  termos excitados  e  retórica extremista  do PS – Observador",
+          "url": "https://observador.pt/2026/05/18/assis-ataca-termos-excitados-e-retorica-extremista-do-ps-sobre-os-eua-e-o-uso-das-lajes/",
+          "date": "2026-05-18",
+          "source": "observador.pt"
         },
         {
-          "title": "Francisco Muro de Iscar .- Incoherencias , engaños y mentiras baratas",
-          "url": "https://www.europapress.es/otr-press/firmas/franciscomuro/noticia-francisco-muro-iscar-incoherencias-enganos-mentiras-baratas-20260511080050.html",
-          "date": "2026-05-11",
-          "source": "europapress.es"
+          "title": "Plane crash survivor is alleged cocaine kingpin",
+          "url": "https://www.tribune242.com/news/2026/may/18/plane-crash-survivor-is-alleged-cocaine-kingpin/",
+          "date": "2026-05-18",
+          "source": "tribune242.com"
         }
       ]
     },
@@ -121,17 +158,6 @@
     },
     "HUN": {
       "name": "Hungary",
-      "score": 60,
-      "metrics": {
-        "pos_tone": -1.08,
-        "neg_tone": 0.0,
-        "pos_count": 28,
-        "neg_count": 0
-      },
-      "reasons": []
-    },
-    "TUR": {
-      "name": "Turkey",
       "score": 50,
       "metrics": {
         "pos_tone": 0.0,
@@ -141,195 +167,243 @@
       },
       "reasons": [
         {
-          "title": "Sosyal Medyanın Sesi",
-          "url": "https://www.halkinsesikibris.com/sosyal-medyanin-sesi-667",
-          "date": "2026-05-11",
-          "source": "halkinsesikibris.com"
+          "title": "Президент Угорщини відкинув заклик Петера Мадяра піти у відставку",
+          "url": "https://glavcom.ua/world/world-politics/prezident-uhorshchini-vidkinuv-zaklik-petera-madjara-piti-u-vidstavku-1120306.html",
+          "date": "2026-05-18",
+          "source": "glavcom.ua"
         },
         {
-          "title": "Direniş ve üretim sembolü Yeşilırmak , askeri Batı  ya yürütmüştü - Kıbrıs Gazetesi - Kıbrıs Haber , KKTC Son Dakika ve Gündem Haberleri",
-          "url": "https://kibrisgazetesi.com/yazar/akaycemal/konu/direnis-ve-uretim-sembolu-yesilirmak-askeri-batiya-yurutmustu/",
-          "date": "2026-05-11",
-          "source": "kibrisgazetesi.com"
+          "title": "Time . ai",
+          "url": "https://time.mk/ai/0be43ba5b8/mk/",
+          "date": "2026-05-18",
+          "source": "time.mk"
         },
         {
-          "title": "Fenerbahçede transfer çılgınlığı ! İşte Aziz Yıldırım ve Hakan Safinin listesindeki dünya yıldızları",
-          "url": "https://www.milliyet.com.tr/skorer/fenerbahcede-transfer-cilginligi-iste-aziz-yildirim-ve-hakan-safinin-listesindeki-dunya-yildizlari-7585775",
-          "date": "2026-05-11",
-          "source": "milliyet.com.tr"
+          "title": "Україна та Угорщина домовилися провести новий раунд переговорів щодо питань меншини на Закарпатті",
+          "url": "https://nikvesti.com/news/politics/318584-ukrayini-ta-ugorshchina-provedut-noviy-raund-peregovoriv-shhodo-pitann-menshin",
+          "date": "2026-05-18",
+          "source": "nikvesti.com"
         },
         {
-          "title": "টার্কিশ এয়াররের উড়োজাহাজের চাকায় আগুন | Suprobhat Bangladesh",
-          "url": "https://suprobhat.com/%E0%A6%9F%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%95%E0%A6%BF%E0%A6%B6-%E0%A6%8F%E0%A7%9F%E0%A6%BE%E0%A6%B0%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%89%E0%A7%9C%E0%A7%8B%E0%A6%9C%E0%A6%BE%E0%A6%B9%E0%A6%BE%E0%A6%9C/",
-          "date": "2026-05-11",
-          "source": "suprobhat.com"
+          "title": "Veľtrh IDEB 2026 lámal rekordy : Do Incheby prilákal tisíce ľudí a špičkovú bezpečnostnú technológiu",
+          "url": "https://www.topky.sk/cl/1000991/9398893/Veltrh-IDEB-2026-lamal-rekordy--Do-Incheby-prilakal-tisice-ludi-a-spickovu-bezpecnostnu-technologiu",
+          "date": "2026-05-18",
+          "source": "topky.sk"
         },
         {
-          "title": "Messina nella visione di Basile tra  Smart City , risparmio energetico e buon governo",
-          "url": "https://www.tempostretto.it/news/messina-nella-visione-di-basile-tra-smart-city-risparmio-energetico-e-buon-governo.html",
-          "date": "2026-05-11",
-          "source": "tempostretto.it"
+          "title": "В Будапеште в правительственном здании обнаружили мешки с секретными документами",
+          "url": "https://gazeta.ua/ru/articles/politics/_v-budapeshte-v-pravitelstvennom-zdanii-obnaruzhili-meshki-s-sekretnymi-dokumentami/1250695",
+          "date": "2026-05-18",
+          "source": "gazeta.ua"
         },
         {
-          "title": "Schmidt najavio odlazak : OHR potvrdio kraj mandata visokog predstavnika u BiH",
-          "url": "https://sodalive.ba/drustvo/aktuelnosti-drustvo/schmidt-najavio-odlazak-ohr-potvrdio-kraj-mandata-visokog-predstavnika-u-bih/",
-          "date": "2026-05-11",
-          "source": "sodalive.ba"
+          "title": "EUの反逆児 「 オルガン 」／「 ハンガリー極右政権 」 瓦解の必然",
+          "url": "https://facta.co.jp/article/202606012.html",
+          "date": "2026-05-18",
+          "source": "facta.co.jp"
         }
       ]
     },
+    "TUR": {
+      "name": "Turkey",
+      "score": 54,
+      "metrics": {
+        "pos_tone": -1.15,
+        "neg_tone": -3.13,
+        "pos_count": 28,
+        "neg_count": 28
+      },
+      "reasons": []
+    },
     "BRA": {
       "name": "Brazil",
-      "score": 43,
+      "score": 53,
       "metrics": {
-        "pos_tone": 0.0,
-        "neg_tone": -2.56,
-        "pos_count": 0,
+        "pos_tone": -1.32,
+        "neg_tone": -2.58,
+        "pos_count": 28,
         "neg_count": 28
       },
       "reasons": [
         {
-          "title": "Los discursos de la nueva ultraderecha",
-          "url": "https://kaosenlared.net/los-discursos-de-la-nueva-ultraderecha/",
-          "date": "2026-05-11",
-          "source": "kaosenlared.net"
+          "title": "Lula präsentiert sein Verhältnis zu Trump als pragmatischen Neustart . Nach Zöllen und Sanktionen wurden die Maßnahmen wieder gelockert . Eine Analyse .",
+          "url": "http://www.op-online.de/politik/lula-praesentiert-sein-verhaeltnis-zu-trump-als-pragmatischen-neustart-nach-zoellen-und-sanktionen-wurden-die-massnahmen-wieder-gelockert-eine-analyse-zr-94311089.html",
+          "date": "2026-05-18",
+          "source": "op-online.de"
         },
         {
-          "title": "Lula Hit by 3 Congress Defeats in 10 Days Rio Times",
-          "url": "https://www.riotimesonline.com/brazil-lula-three-congress-defeats-messias-dosimetria-alcolumbre-may-2026/",
-          "date": "2026-05-11",
-          "source": "riotimesonline.com"
+          "title": "Ini Kata Purbaya Usai Prabowo Bilang Rakyat Desa Tak Pakai Dolar",
+          "url": "https://www.liputan6.com/bisnis/read/6760988/ini-kata-purbaya-usai-prabowo-bilang-rakyat-desa-tak-pakai-dolar",
+          "date": "2026-05-18",
+          "source": "liputan6.com"
         },
         {
-          "title": "Bitcoin Holds $80K : CPI and CLARITY Act Decide Direction",
-          "url": "https://www.riotimesonline.com/bitcoin-holds-80k-cpi-and-clarity-act-decide-direction/",
-          "date": "2026-05-11",
-          "source": "riotimesonline.com"
+          "title": "Voltalia accused of human rights breaches at Brazil wind farm",
+          "url": "https://www.windpowermonthly.com/article/1958406/voltalia-accused-human-rights-breaches-brazil-wind-farm",
+          "date": "2026-05-18",
+          "source": "windpowermonthly.com"
         },
         {
-          "title": "美國稀土公司力圖擺脫中國主導 ， 欲成稀土巨頭 ， 但百倍報酬挑戰大",
-          "url": "https://n.yam.com/Article/20260511325071",
-          "date": "2026-05-11",
-          "source": "n.yam.com"
+          "title": "Potres na tržištu strateških sirovina , Trump u Pekingu kontrolira štetu",
+          "url": "https://www.glas-slavonije.hr/magazin/2026/05/18/potres-na-trzistu-strateskih-sirovina-trump-u-pekingu-kontrolira-stetu-762829/",
+          "date": "2026-05-18",
+          "source": "glas-slavonije.hr"
         },
         {
-          "title": "O Brasil e as novas relaes de trabalho",
-          "url": "https://www.correiobraziliense.com.br/opiniao/2026/05/7416490-o-brasil-e-as-novas-relacoes-de-trabalho.html",
-          "date": "2026-05-11",
-          "source": "correiobraziliense.com.br"
+          "title": "Näppis | Mikä ihana combo",
+          "url": "https://www.ess.fi/paakirjoitus-mielipide/9458867",
+          "date": "2026-05-18",
+          "source": "ess.fi"
         },
         {
-          "title": "Stubb : « LEuropa parli con Putin . Noi e gli united states ? Un rapporto difficile , ma possiamo collaborare »",
-          "url": "https://www.corriere.it/esteri/26_maggio_11/alexander-stubb-finlandia-putin-intervista-ae9e981c-8a2b-4cf2-9377-33493d5daxlk.shtml",
-          "date": "2026-05-11",
-          "source": "corriere.it"
+          "title": "中东王子  崩富婆 ： 租飞机和劳斯莱斯 ， 三年骗了1 . 2亿 _ 凤凰网",
+          "url": "https://finance.ifeng.com/c/8tEA0hYPIP6",
+          "date": "2026-05-18",
+          "source": "finance.ifeng.com"
         }
       ]
     },
     "IND": {
       "name": "India",
-      "score": 50,
+      "score": 55,
       "metrics": {
-        "pos_tone": 0.0,
-        "neg_tone": 0.0,
-        "pos_count": 0,
-        "neg_count": 0
+        "pos_tone": -0.73,
+        "neg_tone": -3.19,
+        "pos_count": 28,
+        "neg_count": 28
       },
       "reasons": [
         {
-          "title": "Hindistan alarmda ! Modiden  radikal çağrı : Vatandaşlarına seslendi",
-          "url": "https://www.haber7.com/dunya/haber/3626970-hindistan-alarmda-modiden-radikal-cagri-vatandaslarina-seslendi",
-          "date": "2026-05-11",
-          "source": "haber7.com"
+          "title": "Veteran IPS officer K Vijay Kumar to receive Padma Shri from President Murmu",
+          "url": "https://www.tribuneindia.com/news/india/veteran-ips-officer-k-vijay-kumar-to-receive-padma-shri-from-president-murmu/",
+          "date": "2026-05-18",
+          "source": "tribuneindia.com"
         },
         {
-          "title": "НЕ СЕ МАЖЕТЕ ВО СТРАНСТВО , РАБОТЕТЕ ОД ДОМА Моди со необична порака откако поскапе нафтата",
-          "url": "https://plusinfo.mk/ne-se-mazhete-vo-stranstvo-rabotete-od-doma-modi-so-neobichna-poraka-otkako-poskape-naftata/",
-          "date": "2026-05-11",
-          "source": "plusinfo.mk"
+          "title": "Instant Noodle Additive Market ( インスタントラーメン添加物市場 ) 調査レポート - 世界市場規模 、 シェア 、 傾向の見通し 、 2026 - 2035年",
+          "url": "https://japan.cnet.com/release/31168947/",
+          "date": "2026-05-18",
+          "source": "japan.cnet.com"
         },
         {
-          "title": "Chhattisgarh goes all out to woo investors in food processing sector",
-          "url": "https://www.thehindubusinessline.com/economy/agri-business/chhattisgarh-goes-all-out-to-woo-investors-in-food-processing-sector/article70964775.ece",
-          "date": "2026-05-11",
-          "source": "thehindubusinessline.com"
+          "title": "Ateism mot andlighet : Kampen om nästa Dalai lama",
+          "url": "https://www.aftonbladet.se/nyheter/a/Rj6Mw2/ateism-mot-andlighet-kampen-om-nasta-dalai-lama",
+          "date": "2026-05-18",
+          "source": "aftonbladet.se"
         },
         {
-          "title": "Prakash raj says pm Narendra modi faild to run country after his appeal to use less diesel petrol adopt work from home पीएम मोदी की बचत की अपील पर भड़के प्रकाश राज - अब नागरिकों से त्याग के लिए कह रहे हैं क्योंकि …, Bollywood Hindi News",
-          "url": "https://www.livehindustan.com/entertainment/bollywood/prakash-raj-says-pm-narendra-modi-faild-to-run-country-after-his-appeal-to-use-less-diesel-petrol-adopt-work-from-home-201778488423243.html",
-          "date": "2026-05-11",
-          "source": "livehindustan.com"
+          "title": "More than a rockstar : Indian diaspora in Oslo eagerly awaits PM Modi arrival",
+          "url": "https://news.webindia123.com/news/Articles/World/20260518/4451569.html",
+          "date": "2026-05-18",
+          "source": "news.webindia123.com"
         },
         {
-          "title": "Nepal : Construction of school building begins with Indian assistance",
-          "url": "https://www.prokerala.com/news/articles/a1761378.html",
-          "date": "2026-05-11",
-          "source": "prokerala.com"
+          "title": "Jairam Ramesh gives privilege notice against Pradhan over  derogatory  remarks against Par panel",
+          "url": "https://www.dailyexcelsior.com/jairam-ramesh-gives-privilege-notice-against-pradhan-over-derogatory-remarks-against-par-panel/",
+          "date": "2026-05-18",
+          "source": "dailyexcelsior.com"
         },
         {
-          "title": "Amit Shah calls it  great day  as BJP assumes office in West Bengal",
-          "url": "https://www.thehitavada.com/Encyc/2026/5/11/amit-shah-calls-it-great-day-as-bjp-assumes-office-in-west-bengal.html",
-          "date": "2026-05-11",
-          "source": "thehitavada.com"
+          "title": "Ini Kata Purbaya Usai Prabowo Bilang Rakyat Desa Tak Pakai Dolar",
+          "url": "https://www.liputan6.com/bisnis/read/6760988/ini-kata-purbaya-usai-prabowo-bilang-rakyat-desa-tak-pakai-dolar",
+          "date": "2026-05-18",
+          "source": "liputan6.com"
         }
       ]
     },
     "POL": {
       "name": "Poland",
-      "score": 43,
+      "score": 53,
       "metrics": {
-        "pos_tone": 0.0,
-        "neg_tone": -2.62,
-        "pos_count": 0,
-        "neg_count": 28
-      },
-      "reasons": []
-    },
-    "CHN": {
-      "name": "China",
-      "score": 61,
-      "metrics": {
-        "pos_tone": -0.79,
-        "neg_tone": 0.0,
+        "pos_tone": -1.47,
+        "neg_tone": -2.76,
         "pos_count": 28,
-        "neg_count": 0
+        "neg_count": 28
       },
       "reasons": [
         {
-          "title": "怕三班護病比跳票 「 再投賴總統 」… 立委陳菁徽批衛福部 「 傲慢與不要臉 」 | 三班護病比入法 | 要聞",
-          "url": "https://udn.com/news/story/124869/9495536",
-          "date": "2026-05-11",
-          "source": "udn.com"
+          "title": "Policja w mieszkaniu Tomasza Sakiewicza . Wszystko , co wiemy do tej pory",
+          "url": "https://wiadomosci.onet.pl/kraj/policja-w-mieszkaniu-tomasza-sakiewicza-wszystko-co-wiemy-do-tej-pory/2lngyk8",
+          "date": "2026-05-18",
+          "source": "wiadomosci.onet.pl"
         },
         {
-          "title": "Cnpr Forum : scontro sulla transizione energetica tra rinnovabili e nucleare",
-          "url": "https://finanza.lastampa.it/News/2026/05/11/cnpr-forum-scontro-sulla-transizione-energetica-tra-rinnovabili-e-nucleare/NzVfMjAyNi0wNS0xMV9UTEI",
-          "date": "2026-05-11",
-          "source": "finanza.lastampa.it"
+          "title": "Mariusz Błaszczak : Polityka Donalda Tuska jest antyamerykańska , a tym samym antypolska",
+          "url": "https://wiadomosci.gazeta.pl/polityka/7,198012,32796218,blaszczak-o-fatalnych-stosunkach-z-usa-rozwiazaniem-ma-byc.html",
+          "date": "2026-05-18",
+          "source": "wiadomosci.gazeta.pl"
         },
         {
-          "title": "国台办回应台湾地区无法参加世卫大会 ： 是民进党当局  以卫谋独  的失败",
-          "url": "http://news.cyol.com/gb/articles/2026-05/11/content_YOLOm4tmpZ.html",
-          "date": "2026-05-11",
-          "source": "news.cyol.com"
+          "title": "Błaszczak ostro atakuje Tuska . Szybka riposta Sikorskiego . Pisze o miłości",
+          "url": "https://wiadomosci.onet.pl/kraj/blaszczak-ostro-atakuje-tuska-szybka-riposta-sikorskiego-pisze-o-milosci/fqv8kdf",
+          "date": "2026-05-18",
+          "source": "wiadomosci.onet.pl"
         },
         {
-          "title": "부산서 잠자던 중국여성 관광객 발에  소변  ⋯일본男 기소",
-          "url": "https://inews24.com/view/1967520",
-          "date": "2026-05-11",
-          "source": "inews24.com"
+          "title": "Spór o żołnierzy united states . Aleksander Kwaśniewski ma radę dla Karola Nawrockiego i rządu",
+          "url": "https://wiadomosci.onet.pl/kraj/spor-o-zolnierzy-usa-aleksander-kwasniewski-ma-rade-dla-karola-nawrockiego-i-rzadu/wphr8l2",
+          "date": "2026-05-18",
+          "source": "wiadomosci.onet.pl"
         },
         {
-          "title": "Netanyahu : Savaş bitmedi !  Orta Doğuyu yeniden şekillendireceğiz !",
-          "url": "https://www.haber7.com/dunya/haber/3626942-netanyahu-savas-bitmedi-orta-doguyu-yeniden-sekillendirecegiz",
-          "date": "2026-05-11",
-          "source": "haber7.com"
+          "title": "„ Uczciwy rachunek za prąd . Ile płacimy na ETS ?",
+          "url": "https://wgospodarce.pl/informacje/156372-uczciwy-rachunek-za-prad-ile-placimy-na-ets",
+          "date": "2026-05-18",
+          "source": "wgospodarce.pl"
         },
         {
-          "title": "中锐股份 ( 002374 ): 上海市锦天城律师事务所关于山东中锐产业发展股份有限公司2025年年度股东会的法律意见书 - CFi . CN 中财网",
-          "url": "http://www.cfi.net.cn/p20260511001619.html",
-          "date": "2026-05-11",
-          "source": "cfi.net.cn"
+          "title": "МЗС у День пам  яті жертв геноциду кримськотатарського народу закликав міжнародну спільноту посилити тиск на РФ",
+          "url": "https://interfax.com.ua/news/general/1168611.html",
+          "date": "2026-05-18",
+          "source": "interfax.com.ua"
+        }
+      ]
+    },
+    "CHN": {
+      "name": "China",
+      "score": 42,
+      "metrics": {
+        "pos_tone": 0.0,
+        "neg_tone": -2.45,
+        "pos_count": 0,
+        "neg_count": 28
+      },
+      "reasons": [
+        {
+          "title": "Playing Nice : China Claims They Arent Helping Iran | NewsRadio 740 KTRH | KTRH Local Houston and Texas News",
+          "url": "https://ktrh.iheart.com/featured/houston-texas-news/content/2026-05-15-playing-nice-china-claims-they-arent-helping-iran/",
+          "date": "2026-05-18",
+          "source": "ktrh.iheart.com"
+        },
+        {
+          "title": "外交部 ： 50餘國支持台灣參與WHA 11國提案要求將台灣列入議程 - 政治",
+          "url": "https://news.ltn.com.tw/news/politics/breakingnews/5441215",
+          "date": "2026-05-18",
+          "source": "news.ltn.com.tw"
+        },
+        {
+          "title": "Stocks fall and oil prices gain after Trump warns the Iran  clock is ticking",
+          "url": "https://kdhnews.com/news/world/stocks-fall-and-oil-prices-gain-after-trump-warns-the-iran-clock-is-ticking/article_fa072545-55a8-5056-8c54-4bb01e5d3005.html",
+          "date": "2026-05-18",
+          "source": "kdhnews.com"
+        },
+        {
+          "title": "澳洲政府出手保護稀土 勒令6中國投資者2週內出售北方礦業公司股份 | 國際",
+          "url": "https://newtalk.tw/news/view/2026-05-18/1035882",
+          "date": "2026-05-18",
+          "source": "newtalk.tw"
+        },
+        {
+          "title": "El Ayuntamiento de Sevilla amplía a 30 las calles del Centro que tendrán toldo este verano",
+          "url": "https://www.abc.es/sevilla/ciudad/ayuntamiento-sevilla-amplia-calles-centro-toldo-verano-20260518121714-nts.html",
+          "date": "2026-05-18",
+          "source": "abc.es"
+        },
+        {
+          "title": "魏长仁 ： 出境游不再是大众旅游 - DoNews专栏",
+          "url": "https://www.donews.com/article/detail/8173/101214.html",
+          "date": "2026-05-18",
+          "source": "donews.com"
         }
       ]
     }
