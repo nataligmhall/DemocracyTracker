@@ -1,149 +1,75 @@
 {
-  "updated": "2026-05-25",
+  "updated": "2026-06-01",
   "countries": {
     "USA": {
       "name": "United States",
-      "score": 52,
+      "score": 50,
       "metrics": {
-        "pos_tone": -1.94,
-        "neg_tone": -2.97,
-        "pos_count": 28,
-        "neg_count": 28
+        "pos_tone": 0.0,
+        "neg_tone": 0.0,
+        "pos_count": 0,
+        "neg_count": 0
       },
-      "reasons": [
-        {
-          "title": "Deal to end Iran war is emerging , US officials say . Here are the terms being discussed .",
-          "url": "https://www.wnep.com/article/news/nation-world/attack-on-iran/iran-united-states-war-conflict-hormuz/507-5e85683c-978d-418a-b924-cebcc22f18aa",
-          "date": "2026-05-25",
-          "source": "wnep.com"
-        },
-        {
-          "title": "Ukrajina ONLINE : Nočné útoky poškodili kancelárie WHO v Kyjeve , uviedol riaditeľ organizácie | Svet | . týždeň",
-          "url": "https://www.tyzden.sk/svet/82394/ukrajina-online-nocne-utoky-poskodili-kancelarie-who-v-kyjeve-uviedol-riaditel-organizacie/",
-          "date": "2026-05-25",
-          "source": "tyzden.sk"
-        },
-        {
-          "title": "全日本打工人最离不开的老头 ， 走了 - 虎嗅网",
-          "url": "https://www.huxiu.com/article/4861321.html",
-          "date": "2026-05-25",
-          "source": "huxiu.com"
-        },
-        {
-          "title": "Iran : Framgångar men ingen överenskommelse",
-          "url": "https://www.gp.se/nyheter/varlden/iran-framgangar-men-ingen-overenskommelse.03ae16c7-27f4-5a7e-a22c-02e65bb1b2a0",
-          "date": "2026-05-25",
-          "source": "gp.se"
-        },
-        {
-          "title": "U . S .- Iran peace deal emerging , while war threats still loom",
-          "url": "https://www.wrvo.org/2026-05-25/u-s-iran-peace-deal-emerging-while-war-threats-still-loom",
-          "date": "2026-05-25",
-          "source": "wrvo.org"
-        },
-        {
-          "title": "মানবিক সংকটে কিউবা : চাল পাঠিয়ে পাশে দাঁড়াল বন্ধু চীন",
-          "url": "https://dailyinqilab.com/international/news/898971",
-          "date": "2026-05-25",
-          "source": "dailyinqilab.com"
-        }
-      ]
+      "reasons": []
     },
     "RUS": {
       "name": "Russia",
-      "score": 52,
+      "score": 58,
       "metrics": {
-        "pos_tone": -2.33,
-        "neg_tone": -3.25,
+        "pos_tone": -2.18,
+        "neg_tone": 0.0,
         "pos_count": 28,
-        "neg_count": 28
+        "neg_count": 0
       },
       "reasons": [
         {
-          "title": "Разоблачительница русофобских мифов повлияет на выборы президента США :: В мире / ВЗГЛЯД",
-          "url": "https://vz.ru/world/2026/5/25/1421829.html",
-          "date": "2026-05-25",
-          "source": "vz.ru"
+          "title": "Путин поручил обеспечить бесперебойную работу интернета во время ограничений",
+          "url": "https://www.dp.ru:443/a/2026/06/01/putin-poruchil-obespechit-besperebojnuju",
+          "date": "2026-06-01",
+          "source": "dp.ru"
         },
         {
-          "title": "Deal to end Iran war is emerging , US officials say . Here are the terms being discussed .",
-          "url": "https://www.wnep.com/article/news/nation-world/attack-on-iran/iran-united-states-war-conflict-hormuz/507-5e85683c-978d-418a-b924-cebcc22f18aa",
-          "date": "2026-05-25",
-          "source": "wnep.com"
+          "title": "The fire of stupidity cannot be contained - Hawaii Tribune - Herald",
+          "url": "https://www.hawaiitribune-herald.com/2026/06/01/opinion/the-fire-of-stupidity-cannot-be-contained/",
+          "date": "2026-06-01",
+          "source": "hawaiitribune-herald.com"
         },
         {
-          "title": "Ukrajina ONLINE : Nočné útoky poškodili kancelárie WHO v Kyjeve , uviedol riaditeľ organizácie | Svet | . týždeň",
-          "url": "https://www.tyzden.sk/svet/82394/ukrajina-online-nocne-utoky-poskodili-kancelarie-who-v-kyjeve-uviedol-riaditel-organizacie/",
-          "date": "2026-05-25",
-          "source": "tyzden.sk"
+          "title": "2026年宁夏旅行社选择指南 适配研学出境团建西北环线各类出行场景 _ 中华网",
+          "url": "https://m.tech.china.com/redian/2026/0601/062026_1883744.html",
+          "date": "2026-06-01",
+          "source": "m.tech.china.com"
         },
         {
-          "title": "Я пытаюсь докричаться до России : Украину охватил глубокий психологический кризис ( The Times , Великобритания )",
-          "url": "https://inosmi.ru/20260525/trevoga-278593423.html",
-          "date": "2026-05-25",
-          "source": "inosmi.ru"
+          "title": "Від Литви до Німеччини : хто ще пропонує Україні новий шлях до ЄС та що за цим стоїть",
+          "url": "https://www.eurointegration.com.ua/articles/2026/06/1/7238713/",
+          "date": "2026-06-01",
+          "source": "eurointegration.com.ua"
         },
         {
-          "title": "ПВО перехватила 173 БПЛА над регионами России , включая Ярославскую область",
-          "url": "https://progorod76.ru/news/105639",
-          "date": "2026-05-25",
-          "source": "progorod76.ru"
+          "title": "Уряд розширив Реєстр збитків : 14 категорій для компенсації шкоди від рф",
+          "url": "https://week.ukrainianwall.com/161146-14-novih-kategoriy-zbitkiv-uryad-rozshiriv-reyestr-dlya-kompensaciy-vid-rf",
+          "date": "2026-06-01",
+          "source": "week.ukrainianwall.com"
         },
         {
-          "title": "Three months in , is Trump losing the Iran war ?",
-          "url": "https://www.timeslive.co.za/news/world/2026-05-25-three-months-in-is-trump-losing-the-iran-war/",
-          "date": "2026-05-25",
-          "source": "timeslive.co.za"
+          "title": "Городская хроника : важное в Петербурге и Ленобласти 1 июня 2026 года",
+          "url": "https://spbvedomosti.ru/news/gorod/gorodskaya-khronika-vazhnoe-v-peterburge-i-lenoblasti-1-iyunya-2026-goda/",
+          "date": "2026-06-01",
+          "source": "spbvedomosti.ru"
         }
       ]
     },
     "VEN": {
       "name": "Venezuela",
-      "score": 52,
+      "score": 50,
       "metrics": {
-        "pos_tone": -2.67,
-        "neg_tone": -3.76,
-        "pos_count": 28,
-        "neg_count": 28
+        "pos_tone": 0.0,
+        "neg_tone": 0.0,
+        "pos_count": 0,
+        "neg_count": 0
       },
-      "reasons": [
-        {
-          "title": "Разоблачительница русофобских мифов повлияет на выборы президента США :: В мире / ВЗГЛЯД",
-          "url": "https://vz.ru/world/2026/5/25/1421829.html",
-          "date": "2026-05-25",
-          "source": "vz.ru"
-        },
-        {
-          "title": "Las 210 referencias a Zapatero en los informes de la UDEF : ¿ hasta dónde está cercado el expresidente ?",
-          "url": "https://www.lavanguardia.com/politica/20260525/11546836/210-referencias-zapatero-informes-udef-donde-esta-cercado-expresidente.html",
-          "date": "2026-05-25",
-          "source": "lavanguardia.com"
-        },
-        {
-          "title": "Three months in , is Trump losing the Iran war ?",
-          "url": "https://www.timeslive.co.za/news/world/2026-05-25-three-months-in-is-trump-losing-the-iran-war/",
-          "date": "2026-05-25",
-          "source": "timeslive.co.za"
-        },
-        {
-          "title": "মানবিক সংকটে কিউবা : চাল পাঠিয়ে পাশে দাঁড়াল বন্ধু চীন",
-          "url": "https://dailyinqilab.com/international/news/898971",
-          "date": "2026-05-25",
-          "source": "dailyinqilab.com"
-        },
-        {
-          "title": "Three months in , is Trump losing the Iran war ?",
-          "url": "https://www.dailydispatch.co.za/news/2026-05-25-three-months-in-is-trump-losing-the-iran-war/",
-          "date": "2026-05-25",
-          "source": "dailydispatch.co.za"
-        },
-        {
-          "title": "Venezuela government faces calls for elections after failed release of prisoners",
-          "url": "https://www.kazu.org/npr-news/2026-05-25/venezuelas-government-faces-calls-for-elections-after-failed-release-of-prisoners",
-          "date": "2026-05-25",
-          "source": "kazu.org"
-        }
-      ]
+      "reasons": []
     },
     "IRN": {
       "name": "Iran",
@@ -160,47 +86,47 @@
       "name": "Hungary",
       "score": 52,
       "metrics": {
-        "pos_tone": -1.02,
-        "neg_tone": -2.12,
+        "pos_tone": -1.03,
+        "neg_tone": -2.13,
         "pos_count": 28,
         "neg_count": 28
       },
       "reasons": [
         {
-          "title": "Somorja posztumusz Pro Urbe - díjjal tisztelgett Pogány Erzsébet emléke előtt",
-          "url": "https://felvidek.ma/2026/05/25/somorja-posztumusz-pro-urbe-dijjal-tisztelgett-pogany-erzsebet-emleke-elott/",
-          "date": "2026-05-25",
-          "source": "felvidek.ma"
+          "title": "Від Литви до Німеччини : хто ще пропонує Україні новий шлях до ЄС та що за цим стоїть",
+          "url": "https://www.eurointegration.com.ua/articles/2026/06/1/7238713/",
+          "date": "2026-06-01",
+          "source": "eurointegration.com.ua"
         },
         {
-          "title": "Nyílt levélben bírálta a Fidesz Orbán Anitát , Magyar Péter és Orbán Viktor is reagált",
-          "url": "https://www.blikk.hu/politika/magyar-politika/orban-anita-kulugyminiszter-tisza-kormany-orban-viktor-magyar-peter/xcvw5mj",
-          "date": "2026-05-25",
-          "source": "blikk.hu"
+          "title": "欧冠狂欢变骚乱 法国780人因滋事被捕 - 新华网",
+          "url": "https://www.news.cn/world/20260601/48119b7adcc44de9aa4583f27c62eb64/c.html",
+          "date": "2026-06-01",
+          "source": "news.cn"
         },
         {
-          "title": "Премьер - министр Венгрии Мадьяр высказывает простую истину : Россия никуда не денется , и Европа снова будет покупать российский газ ( Die Weltwoche , Швейцария )",
-          "url": "https://inosmi.ru/20260525/madyar-278593948.html",
-          "date": "2026-05-25",
-          "source": "inosmi.ru"
+          "title": "Ungarns Regierung will Verfassung ändern , um Präsidenten abzusetzen",
+          "url": "https://de.euronews.com/my-europe/2026/06/01/ungarns-regierung-verfassungsanderung-prasident",
+          "date": "2026-06-01",
+          "source": "de.euronews.com"
         },
         {
-          "title": "K . Budrys Vilniuje su JAV kongresmenais aptarė Baltijos šalių saugumą",
-          "url": "https://www.lrytas.lt/lietuvosdiena/aktualijos/2026/05/25/news/k-budrys-vilniuje-su-jav-kongresmenais-aptare-baltijos-saliu-sauguma-42569184/",
-          "date": "2026-05-25",
-          "source": "lrytas.lt"
+          "title": "Gyakran veszel tejet ? Akkor ezzel nem árt tisztában lenned",
+          "url": "https://www.agrarszektor.hu/elelmiszer/20260601/gyakran-veszel-tejet-akkor-ezzel-nem-art-tisztaban-lenned-62485",
+          "date": "2026-06-01",
+          "source": "agrarszektor.hu"
         },
         {
-          "title": "Открытое письмо позора Виктора Орбана для Аниты Орбан - о чем говорится в обращении",
-          "url": "https://24tv.ua/geopolitics/ru/otkrytoe-pismo-pozora-viktora-orbana-dlja-anity-orban-o-chem_n3074432",
-          "date": "2026-05-25",
-          "source": "24tv.ua"
+          "title": "Президент Угорщини не подав у відставку попри вимогу уряду Мадяра",
+          "url": "https://www.eurointegration.com.ua/news/2026/06/1/7238717/",
+          "date": "2026-06-01",
+          "source": "eurointegration.com.ua"
         },
         {
-          "title": "Στοιχεία επέκτασης της ιμπεριαλιστικής σύγκρουσης σε Βαλτική , Βαλκάνια και Καύκασο",
-          "url": "https://www.902.gr/eidisi/kosmos/421345/stoiheia-epektasis-tis-imperialistikis-sygkroysis-se-valtiki-valkania-kai",
-          "date": "2026-05-25",
-          "source": "902.gr"
+          "title": "Generali Expands Deployment of Intermap AI - Enabled Risk Platform in Central and Eastern Europe",
+          "url": "https://www.manilatimes.net/2026/06/01/tmt-newswire/globenewswire/generali-expands-deployment-of-intermaps-ai-enabled-risk-platform-in-central-and-eastern-europe/2355684",
+          "date": "2026-06-01",
+          "source": "manilatimes.net"
         }
       ]
     },
@@ -208,241 +134,93 @@
       "name": "Turkey",
       "score": 54,
       "metrics": {
-        "pos_tone": -1.21,
-        "neg_tone": -3.2,
+        "pos_tone": -1.16,
+        "neg_tone": -3.17,
         "pos_count": 28,
         "neg_count": 28
       },
-      "reasons": [
-        {
-          "title": "( 影 ) 震撼 ！ 壓制政敵鋪路連任 ？ 土法院硬拔反對黨魁 警還破門鎮壓 數千人上街抗爭 | 國際",
-          "url": "https://newtalk.tw/news/view/2026-05-25/1037257",
-          "date": "2026-05-25",
-          "source": "newtalk.tw"
-        },
-        {
-          "title": "O Ερντογάν ανακάλεσε το « λουκέτο » στο Πανεπιστήμιο Μπιλγκί - The Press Project - Ειδήσεις , Αναλύσεις , Ραδιόφωνο , Τηλεόραση",
-          "url": "https://thepressproject.gr/o-erntogan-anakalese-to-louketo-sto-panepistimio-bilgki/",
-          "date": "2026-05-25",
-          "source": "thepressproject.gr"
-        },
-        {
-          "title": "Στοιχεία επέκτασης της ιμπεριαλιστικής σύγκρουσης σε Βαλτική , Βαλκάνια και Καύκασο",
-          "url": "https://www.902.gr/eidisi/kosmos/421345/stoiheia-epektasis-tis-imperialistikis-sygkroysis-se-valtiki-valkania-kai",
-          "date": "2026-05-25",
-          "source": "902.gr"
-        },
-        {
-          "title": "CHPye müdahale uluslararası gündemde : Demokrasi değil , otoriterlik !",
-          "url": "https://t24.com.tr/gundem/chpye-mudahale-uluslararasi-gundemde-demokrasi-degil-otoriterlik,1324221",
-          "date": "2026-05-25",
-          "source": "t24.com.tr"
-        },
-        {
-          "title": "Iran warns deal with US not yet close , despite some progress",
-          "url": "https://www.naharnet.com/stories/en/320324-iran-warns-deal-with-us-not-yet-close-despite-some-progress",
-          "date": "2026-05-25",
-          "source": "naharnet.com"
-        },
-        {
-          "title": "Why ICC going after Smotrich is a bigger deal than going after Netanyahu",
-          "url": "https://www.yahoo.com/news/politics/articles/why-icc-going-smotrich-bigger-092921205.html",
-          "date": "2026-05-25",
-          "source": "yahoo.com"
-        }
-      ]
+      "reasons": []
     },
     "BRA": {
       "name": "Brazil",
-      "score": 53,
+      "score": 43,
       "metrics": {
-        "pos_tone": -1.34,
-        "neg_tone": -2.64,
-        "pos_count": 28,
+        "pos_tone": 0.0,
+        "neg_tone": -2.6,
+        "pos_count": 0,
         "neg_count": 28
       },
-      "reasons": [
-        {
-          "title": "Artista plástico Paulo Andrade deixa legado de genialidade e coragem",
-          "url": "https://www.correiobraziliense.com.br/cidades-df/2026/05/7426934-artista-plastico-paulo-andrade-deixa-legado-de-genialidade-e-coragem.html",
-          "date": "2026-05-25",
-          "source": "correiobraziliense.com.br"
-        },
-        {
-          "title": "Oito anos depois da onda antipolítica , senadores eleitos em 2018 enfrentam dificuldades para se reeleger",
-          "url": "https://jornaldebrasilia.com.br/noticias/politica-e-poder/oito-anos-depois-da-onda-antipolitica-senadores-eleitos-em-2018-enfrentam-dificuldades-para-se-reeleger/",
-          "date": "2026-05-25",
-          "source": "jornaldebrasilia.com.br"
-        },
-        {
-          "title": "世界足球狂潮來襲 ！ 這樣穿不只攻佔球場還風靡街頭 | 生活 | 三立新聞網 SETN . COM",
-          "url": "https://www.setn.com/News.aspx?NewsID=1844071",
-          "date": "2026-05-25",
-          "source": "setn.com"
-        },
-        {
-          "title": "Dúvidas na transio da escala 6x1",
-          "url": "https://www.correiobraziliense.com.br/politica/2026/05/7427118-duvidas-na-transicao-da-escala-6x1.html",
-          "date": "2026-05-25",
-          "source": "correiobraziliense.com.br"
-        },
-        {
-          "title": "Fim da escala 6x1 : Câmara deve votar projeto em meio à pressão popular e impasse sobre transio",
-          "url": "https://revistaforum.com.br/politica/escala-6x1-camara-vota/",
-          "date": "2026-05-25",
-          "source": "revistaforum.com.br"
-        },
-        {
-          "title": "The death of German punk ? Die Toten Hosen go on one last thrash",
-          "url": "https://www.thetimes.com/world/europe/article/the-death-of-german-punk-die-toten-hosen-go-on-one-last-thrash-f750t730v",
-          "date": "2026-05-25",
-          "source": "thetimes.com"
-        }
-      ]
+      "reasons": []
     },
     "IND": {
       "name": "India",
-      "score": 55,
+      "score": 50,
       "metrics": {
-        "pos_tone": -0.55,
-        "neg_tone": -3.15,
-        "pos_count": 28,
-        "neg_count": 28
+        "pos_tone": 0.0,
+        "neg_tone": 0.0,
+        "pos_count": 0,
+        "neg_count": 0
       },
-      "reasons": [
-        {
-          "title": "Μητσοτάκης για δημογραφικό : Τον Ιούνιο το έκτακτο βοήθημα ύψους 150 ευρώ ανά παιδί - Στο τραπέζι και νέο πρόγραμμα « Σπίτι μου »",
-          "url": "https://www.emakedonia.gr/mitsotakis-gia-dimografiko-ton-ioynio-to-ektakto-voithima-ypsoys-150-eyro-ana-paidi-sto-trapezi-kai-neo-programma-spiti-moy",
-          "date": "2026-05-25",
-          "source": "emakedonia.gr"
-        },
-        {
-          "title": "Vidhan Parishad Election : BJP Candidates Arun Lakhani , Vicky Kukreja ? | विधान परिषद निवडणूक : भाजपचे उमेदवार पक्के ? स्थानिक विरुद्ध आयात वाद",
-          "url": "https://www.loksatta.com/nagpur/vidhan-parishad-election-bjp-candidates-arun-lakhani-vicky-kukreja-rajeev-potdar-wardha-nagpur-bhandara-ssb-93-5919267/",
-          "date": "2026-05-25",
-          "source": "loksatta.com"
-        },
-        {
-          "title": "Ebola Outbreak : इबोलाचा उद्रेक , WHO कडून आणीबाणी घोषित ; भारताचा प्रवाशांना सतर्कतेचा इशारा",
-          "url": "https://www.loksatta.com/mumbai/ebola-outbreak-who-global-health-emergency-india-travel-advisory-guidelines-mumbai-print-news-rnb-99-5919101/",
-          "date": "2026-05-25",
-          "source": "loksatta.com"
-        },
-        {
-          "title": "India cant afford fearmongering : Sitharaman presses on 3Fs amid West Asia crisis",
-          "url": "https://www.hindustantimes.com/india-news/india-cant-afford-fearmongering-nirmala-sitharaman-presses-on-3fs-amid-west-asia-crisis-us-iran-war-fuel-prices-101779699217352.html",
-          "date": "2026-05-25",
-          "source": "hindustantimes.com"
-        },
-        {
-          "title": "UPSC Recruitment 2026 Notification Released : Check Eligibility , Selection Process and Application Steps",
-          "url": "https://www.newsx.com/education/upsc-recruitment-2026-notification-released-check-eligibility-selection-process-and-application-steps-225304/",
-          "date": "2026-05-25",
-          "source": "newsx.com"
-        },
-        {
-          "title": "যুক্তরাষ্ট্র - ইরান আলোচনায় আজই যুগান্তকারী খবরের আশা রুবিওর",
-          "url": "https://www.arthosuchak.com/archives/960538/%E0%A6%AF%E0%A7%81%E0%A6%95%E0%A7%8D%E0%A6%A4%E0%A6%B0%E0%A6%BE%E0%A6%B7%E0%A7%8D%E0%A6%9F%E0%A7%8D%E0%A6%B0-%E0%A6%87%E0%A6%B0%E0%A6%BE%E0%A6%A8-%E0%A6%86%E0%A6%B2%E0%A7%8B%E0%A6%9A%E0%A6%A8-5/",
-          "date": "2026-05-25",
-          "source": "arthosuchak.com"
-        }
-      ]
+      "reasons": []
     },
     "POL": {
       "name": "Poland",
-      "score": 52,
+      "score": 60,
       "metrics": {
-        "pos_tone": -1.28,
-        "neg_tone": -2.29,
+        "pos_tone": -1.33,
+        "neg_tone": 0.0,
         "pos_count": 28,
-        "neg_count": 28
+        "neg_count": 0
       },
       "reasons": [
         {
-          "title": "Poprawka o medykach spoza UE budzi wątpliwości .  Prezydent skłania się ku wetu",
-          "url": "https://www.rynekzdrowia.pl/Prawo/Poprawka-o-medykach-spoza-UE-budzi-watpliwosci-Prezydent-sklania-sie-ku-wetu,284680,2.html",
-          "date": "2026-05-25",
-          "source": "rynekzdrowia.pl"
+          "title": "Koniec rządu Tuska ? Nowy sondaż pokazuje , że został mu tylko jeden partner",
+          "url": "https://natemat.pl/655630,koniec-rzadu-tuska-nowy-sondaz-pokazuje-ze-zostal-mu-tylko-jeden-partner",
+          "date": "2026-06-01",
+          "source": "natemat.pl"
         },
         {
-          "title": "Minister energii odkrywa karty . Ruszają konsultacje projektu o usługach elastyczności sieci",
-          "url": "https://www.bankier.pl/wiadomosc/ME-proponuje-zasady-swiadczenia-uslug-elastycznosci-przez-uczestnikow-rynku-energii-9138791.html",
-          "date": "2026-05-25",
-          "source": "bankier.pl"
+          "title": "Un român a câştigat din nou Primăria din Görlitz",
+          "url": "https://www.dw.com/ro/un-rom%C3%A2n-a-c%C3%A2%C5%9Ftigat-din-nou-prim%C4%83ria-din-g%C3%B6rlitz/a-77374416",
+          "date": "2026-06-01",
+          "source": "dw.com"
         },
         {
-          "title": "Νέα επιδότηση στα καύσιμα εξετάζει το Υπουργείο Οικονομικών",
-          "url": "https://www.agronews.gr/oikonomia-kai-politiki/229266/nea-epidotisi-sta-kausima-exetazei-to-upourgeio-oikonomikon/",
-          "date": "2026-05-25",
-          "source": "agronews.gr"
+          "title": "Sindacati , diritti dei lavoratori più violati , in united states e Ue sono ai minimi dal 2014 - Notizie",
+          "url": "https://www.ansa.it/sito/notizie/economia/2026/06/01/sindacati-diritti-dei-lavoratori-piu-violati-in-usa-e-ue-sono-ai-minimi-dal_0c7804e8-307c-464b-bef5-5035326a6b50.html",
+          "date": "2026-06-01",
+          "source": "ansa.it"
         },
         {
-          "title": "W projekcie nowego budżetu UE brak osobnego wsparcie transformacji regionów węglowych",
-          "url": "https://www.rp.pl/opinie-ekonomiczne/art44446721-ekspertka-potrzeba-nowego-mechanizmu-wsparcia-dla-regionow-odchodzacych-od-wegla",
-          "date": "2026-05-25",
-          "source": "rp.pl"
+          "title": "Głos milionów Polaków - Nasz Dziennik",
+          "url": "https://naszdziennik.pl/polska-kraj/340149,glos-milionow-polakow.html",
+          "date": "2026-06-01",
+          "source": "naszdziennik.pl"
         },
         {
-          "title": "Czarnek : Odwołanie  krakowskiego Tuska  zakończy się odejściem samego Tuska",
-          "url": "https://www.bankier.pl/wiadomosc/Czarnek-Odwolanie-krakowskiego-Tuska-zakonczy-sie-odejsciem-samego-Tuska-9138743.html",
-          "date": "2026-05-25",
-          "source": "bankier.pl"
+          "title": "Generali Expands Deployment of Intermap AI - Enabled Risk Platform in Central and Eastern Europe",
+          "url": "https://www.manilatimes.net/2026/06/01/tmt-newswire/globenewswire/generali-expands-deployment-of-intermaps-ai-enabled-risk-platform-in-central-and-eastern-europe/2355684",
+          "date": "2026-06-01",
+          "source": "manilatimes.net"
         },
         {
-          "title": "Удар Орешником 24 травня 2026 - атака стала найближчим Києва ударом цією ракетою",
-          "url": "https://24tv.ua/udar-oreshnikom-24-travnya-2026-ataka-stala-nayblizhchim-kiyeva_n3074436",
-          "date": "2026-05-25",
-          "source": "24tv.ua"
+          "title": "ЄС виключить українських чоловіків із програми захисту",
+          "url": "https://week.ukrainianwall.com/161144-yes-gotuyetsya-viklyuchiti-ukrajinskih-cholovikiv-iz-programi-timchasovogo-zahistu-detali-vid-euractiv",
+          "date": "2026-06-01",
+          "source": "week.ukrainianwall.com"
         }
       ]
     },
     "CHN": {
       "name": "China",
-      "score": 53,
+      "score": 61,
       "metrics": {
-        "pos_tone": -0.93,
-        "neg_tone": -2.47,
+        "pos_tone": -0.77,
+        "neg_tone": 0.0,
         "pos_count": 28,
-        "neg_count": 28
+        "neg_count": 0
       },
-      "reasons": [
-        {
-          "title": "Taiwan : China kritisiert Taiwan - Besuch von Bundestagsdelegation",
-          "url": "https://www.handelsblatt.com/politik/international/taiwan-china-kritisiert-taiwan-besuch-von-bundestagsdelegation/100227752.html",
-          "date": "2026-05-25",
-          "source": "handelsblatt.com"
-        },
-        {
-          "title": "2026年塞尔维亚智能网联及自动驾驶展EVD 2026",
-          "url": "https://k.sina.com.cn/article_2342387077_8b9dfd8500101dcea.html",
-          "date": "2026-05-25",
-          "source": "k.sina.com.cn"
-        },
-        {
-          "title": "推进城市更新 多地  原拆原建  模式提速",
-          "url": "https://www.stcn.com/article/detail/3926005.html",
-          "date": "2026-05-25",
-          "source": "stcn.com"
-        },
-        {
-          "title": "Talking the Talk ( s ) - Nassau Weekly",
-          "url": "https://nassauweekly.com/talking-talks/",
-          "date": "2026-05-25",
-          "source": "nassauweekly.com"
-        },
-        {
-          "title": "习近平会见巴基斯坦总理夏巴兹",
-          "url": "https://www.stcn.com/article/detail/3926196.html",
-          "date": "2026-05-25",
-          "source": "stcn.com"
-        },
-        {
-          "title": "中國鐵腕管制資本外流 分析師 ： 恐波及逾1兆台幣香港資產",
-          "url": "https://ec.ltn.com.tw/article/breakingnews/5449115",
-          "date": "2026-05-25",
-          "source": "ec.ltn.com.tw"
-        }
-      ]
+      "reasons": []
     }
   }
 }
