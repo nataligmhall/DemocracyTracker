@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-01",
+  "updated": "2026-06-08",
   "countries": {
     "USA": {
       "name": "United States",
@@ -10,63 +10,63 @@
         "pos_count": 0,
         "neg_count": 0
       },
-      "reasons": []
-    },
-    "RUS": {
-      "name": "Russia",
-      "score": 58,
-      "metrics": {
-        "pos_tone": -2.18,
-        "neg_tone": 0.0,
-        "pos_count": 28,
-        "neg_count": 0
-      },
       "reasons": [
         {
-          "title": "Путин поручил обеспечить бесперебойную работу интернета во время ограничений",
-          "url": "https://www.dp.ru:443/a/2026/06/01/putin-poruchil-obespechit-besperebojnuju",
-          "date": "2026-06-01",
-          "source": "dp.ru"
+          "title": "Χωρίς ηλεκτρικό , αέριο και ύπνο - Στα όριά τους οι Κουβανοί λόγω του αμερικανικού εμπάργκο",
+          "url": "https://www.news247.gr/kosmos/xoris-ilektriko-aerio-kai-ipno-sta-oria-tous-oi-kouvanoi-logo-tou-amerikanikou-empargko/",
+          "date": "2026-06-08",
+          "source": "news247.gr"
         },
         {
-          "title": "The fire of stupidity cannot be contained - Hawaii Tribune - Herald",
-          "url": "https://www.hawaiitribune-herald.com/2026/06/01/opinion/the-fire-of-stupidity-cannot-be-contained/",
-          "date": "2026-06-01",
-          "source": "hawaiitribune-herald.com"
+          "title": "Zmieni się sytuacja prawna Ziobry i Romanowskiego ? Nowy ruch Budapesztu",
+          "url": "https://dorzeczy.pl/kraj/897853/zmieni-sie-sytuacja-prawna-ziobry-i-romanowskiego-nowy-ruch-budapesztu.html",
+          "date": "2026-06-08",
+          "source": "dorzeczy.pl"
         },
         {
-          "title": "2026年宁夏旅行社选择指南 适配研学出境团建西北环线各类出行场景 _ 中华网",
-          "url": "https://m.tech.china.com/redian/2026/0601/062026_1883744.html",
-          "date": "2026-06-01",
-          "source": "m.tech.china.com"
+          "title": "צה  ל : נערכים למספר ימי לחימה לפחות ; כ ־ 30 טילים שוגרו מאיראן לעבר ישראל",
+          "url": "https://www.haaretz.co.il/news/politics/war-2023/2026-06-08/ty-article-live/0000019e-a4e6-d3e2-a3df-aef6f2e10000?liveBlogItemId=432114675",
+          "date": "2026-06-08",
+          "source": "haaretz.co.il"
         },
         {
-          "title": "Від Литви до Німеччини : хто ще пропонує Україні новий шлях до ЄС та що за цим стоїть",
-          "url": "https://www.eurointegration.com.ua/articles/2026/06/1/7238713/",
-          "date": "2026-06-01",
-          "source": "eurointegration.com.ua"
+          "title": "Threats against police are a growing issue | News , Sports , Jobs",
+          "url": "https://www.post-journal.com/opinion/in-our-opinion/2026/06/threats-against-police-are-a-growing-issue/",
+          "date": "2026-06-08",
+          "source": "post-journal.com"
         },
         {
-          "title": "Уряд розширив Реєстр збитків : 14 категорій для компенсації шкоди від рф",
-          "url": "https://week.ukrainianwall.com/161146-14-novih-kategoriy-zbitkiv-uryad-rozshiriv-reyestr-dlya-kompensaciy-vid-rf",
-          "date": "2026-06-01",
-          "source": "week.ukrainianwall.com"
+          "title": "FIFA and Infantino draw bipartisan skepticism ahead of the World Cup",
+          "url": "https://www.wsls.com/news/politics/2026/06/08/fifa-and-infantino-draw-bipartisan-skepticism-ahead-of-the-world-cup/",
+          "date": "2026-06-08",
+          "source": "wsls.com"
         },
         {
-          "title": "Городская хроника : важное в Петербурге и Ленобласти 1 июня 2026 года",
-          "url": "https://spbvedomosti.ru/news/gorod/gorodskaya-khronika-vazhnoe-v-peterburge-i-lenoblasti-1-iyunya-2026-goda/",
-          "date": "2026-06-01",
-          "source": "spbvedomosti.ru"
+          "title": "Suomi hakee kovan arvostelun kohteena olleen YK : n turvallisuusneuvoston vaihtuvaksi jäseneksi",
+          "url": "https://www.kymensanomat.fi/uutissuomalainen/9517834",
+          "date": "2026-06-08",
+          "source": "kymensanomat.fi"
         }
       ]
     },
-    "VEN": {
-      "name": "Venezuela",
+    "RUS": {
+      "name": "Russia",
       "score": 50,
       "metrics": {
         "pos_tone": 0.0,
         "neg_tone": 0.0,
         "pos_count": 0,
+        "neg_count": 0
+      },
+      "reasons": []
+    },
+    "VEN": {
+      "name": "Venezuela",
+      "score": 58,
+      "metrics": {
+        "pos_tone": -2.38,
+        "neg_tone": 0.0,
+        "pos_count": 28,
         "neg_count": 0
       },
       "reasons": []
@@ -86,67 +86,67 @@
       "name": "Hungary",
       "score": 52,
       "metrics": {
-        "pos_tone": -1.03,
-        "neg_tone": -2.13,
-        "pos_count": 28,
-        "neg_count": 28
-      },
-      "reasons": [
-        {
-          "title": "Від Литви до Німеччини : хто ще пропонує Україні новий шлях до ЄС та що за цим стоїть",
-          "url": "https://www.eurointegration.com.ua/articles/2026/06/1/7238713/",
-          "date": "2026-06-01",
-          "source": "eurointegration.com.ua"
-        },
-        {
-          "title": "欧冠狂欢变骚乱 法国780人因滋事被捕 - 新华网",
-          "url": "https://www.news.cn/world/20260601/48119b7adcc44de9aa4583f27c62eb64/c.html",
-          "date": "2026-06-01",
-          "source": "news.cn"
-        },
-        {
-          "title": "Ungarns Regierung will Verfassung ändern , um Präsidenten abzusetzen",
-          "url": "https://de.euronews.com/my-europe/2026/06/01/ungarns-regierung-verfassungsanderung-prasident",
-          "date": "2026-06-01",
-          "source": "de.euronews.com"
-        },
-        {
-          "title": "Gyakran veszel tejet ? Akkor ezzel nem árt tisztában lenned",
-          "url": "https://www.agrarszektor.hu/elelmiszer/20260601/gyakran-veszel-tejet-akkor-ezzel-nem-art-tisztaban-lenned-62485",
-          "date": "2026-06-01",
-          "source": "agrarszektor.hu"
-        },
-        {
-          "title": "Президент Угорщини не подав у відставку попри вимогу уряду Мадяра",
-          "url": "https://www.eurointegration.com.ua/news/2026/06/1/7238717/",
-          "date": "2026-06-01",
-          "source": "eurointegration.com.ua"
-        },
-        {
-          "title": "Generali Expands Deployment of Intermap AI - Enabled Risk Platform in Central and Eastern Europe",
-          "url": "https://www.manilatimes.net/2026/06/01/tmt-newswire/globenewswire/generali-expands-deployment-of-intermaps-ai-enabled-risk-platform-in-central-and-eastern-europe/2355684",
-          "date": "2026-06-01",
-          "source": "manilatimes.net"
-        }
-      ]
-    },
-    "TUR": {
-      "name": "Turkey",
-      "score": 54,
-      "metrics": {
-        "pos_tone": -1.16,
-        "neg_tone": -3.17,
+        "pos_tone": -1.04,
+        "neg_tone": -2.14,
         "pos_count": 28,
         "neg_count": 28
       },
       "reasons": []
+    },
+    "TUR": {
+      "name": "Turkey",
+      "score": 44,
+      "metrics": {
+        "pos_tone": 0.0,
+        "neg_tone": -3.27,
+        "pos_count": 0,
+        "neg_count": 28
+      },
+      "reasons": [
+        {
+          "title": "UN - Klimachef sieht Welt im  Würgegriff  fossiler Brennstoffe",
+          "url": "https://www.abendzeitung-muenchen.de/politik/un-klimachef-sieht-welt-im-wuergegriff-fossiler-brennstoffe-art-1136337",
+          "date": "2026-06-08",
+          "source": "abendzeitung-muenchen.de"
+        },
+        {
+          "title": "Facka do tváře Putinovi . Rusové prohráli na dalším geopolitickém bojišti",
+          "url": "https://zpravy.aktualne.cz/zahranici/facka-do-tvare-putinovi-rusove-prohrali-na-dalsim-geopolitickem-bojisti/r~aaa29561a7feb09eaa91dd16df0aa781/",
+          "date": "2026-06-08",
+          "source": "zpravy.aktualne.cz"
+        },
+        {
+          "title": "Hakerzy powiązani z tymi dwoma krajami wyprowadzają najwięcej ataków . Polska na celowniku",
+          "url": "https://www.wnp.pl/tech/chinskie-i-rosyjskie-grupy-cyberprzestepcze-na-uslugach-panstw-polska-na-celowniku,1069539.html",
+          "date": "2026-06-08",
+          "source": "wnp.pl"
+        },
+        {
+          "title": "Αντίδραση Λευκωσίας για παρεμβολές στο αεροσκάφος Δένδια : « Η τουρκική παρενόχληση θα καταγγελθεί αρμοδίως »",
+          "url": "https://newpost.gr/eidiseis/antidrasi-leykosias-gia-tis-paremvoles-sto-aeroskafos-dendia-i-toyrkiki-parenochlisi-tha-kataggelthei-armodios/",
+          "date": "2026-06-08",
+          "source": "newpost.gr"
+        },
+        {
+          "title": "Partiyi bize verin  polemiği : CHP - DSP hattında ne konuşuldu",
+          "url": "https://www.odatv.com/siyaset/partiyi-bize-verin-polemigi-chp-dsp-hattinda-ne-konusuldu-onder-aksakal-acikladi-120150029",
+          "date": "2026-06-08",
+          "source": "odatv.com"
+        },
+        {
+          "title": "Sun Peak Metals Corp .: Sun Peak Metals Commences Maiden Drill Program at High - Priority Halahila Gold - copper VMS Project",
+          "url": "https://www.finanznachrichten.de/nachrichten-2026-06/68706229-sun-peak-metals-corp-sun-peak-metals-commences-maiden-drill-program-at-high-priority-halahila-gold-copper-vms-project-200.htm",
+          "date": "2026-06-08",
+          "source": "finanznachrichten.de"
+        }
+      ]
     },
     "BRA": {
       "name": "Brazil",
       "score": 43,
       "metrics": {
         "pos_tone": 0.0,
-        "neg_tone": -2.6,
+        "neg_tone": -2.51,
         "pos_count": 0,
         "neg_count": 28
       },
@@ -154,68 +154,31 @@
     },
     "IND": {
       "name": "India",
-      "score": 50,
+      "score": 55,
       "metrics": {
-        "pos_tone": 0.0,
-        "neg_tone": 0.0,
-        "pos_count": 0,
-        "neg_count": 0
+        "pos_tone": -0.86,
+        "neg_tone": -3.21,
+        "pos_count": 28,
+        "neg_count": 28
       },
       "reasons": []
     },
     "POL": {
       "name": "Poland",
-      "score": 60,
+      "score": 52,
       "metrics": {
-        "pos_tone": -1.33,
-        "neg_tone": 0.0,
+        "pos_tone": -1.29,
+        "neg_tone": -2.36,
         "pos_count": 28,
-        "neg_count": 0
+        "neg_count": 28
       },
-      "reasons": [
-        {
-          "title": "Koniec rządu Tuska ? Nowy sondaż pokazuje , że został mu tylko jeden partner",
-          "url": "https://natemat.pl/655630,koniec-rzadu-tuska-nowy-sondaz-pokazuje-ze-zostal-mu-tylko-jeden-partner",
-          "date": "2026-06-01",
-          "source": "natemat.pl"
-        },
-        {
-          "title": "Un român a câştigat din nou Primăria din Görlitz",
-          "url": "https://www.dw.com/ro/un-rom%C3%A2n-a-c%C3%A2%C5%9Ftigat-din-nou-prim%C4%83ria-din-g%C3%B6rlitz/a-77374416",
-          "date": "2026-06-01",
-          "source": "dw.com"
-        },
-        {
-          "title": "Sindacati , diritti dei lavoratori più violati , in united states e Ue sono ai minimi dal 2014 - Notizie",
-          "url": "https://www.ansa.it/sito/notizie/economia/2026/06/01/sindacati-diritti-dei-lavoratori-piu-violati-in-usa-e-ue-sono-ai-minimi-dal_0c7804e8-307c-464b-bef5-5035326a6b50.html",
-          "date": "2026-06-01",
-          "source": "ansa.it"
-        },
-        {
-          "title": "Głos milionów Polaków - Nasz Dziennik",
-          "url": "https://naszdziennik.pl/polska-kraj/340149,glos-milionow-polakow.html",
-          "date": "2026-06-01",
-          "source": "naszdziennik.pl"
-        },
-        {
-          "title": "Generali Expands Deployment of Intermap AI - Enabled Risk Platform in Central and Eastern Europe",
-          "url": "https://www.manilatimes.net/2026/06/01/tmt-newswire/globenewswire/generali-expands-deployment-of-intermaps-ai-enabled-risk-platform-in-central-and-eastern-europe/2355684",
-          "date": "2026-06-01",
-          "source": "manilatimes.net"
-        },
-        {
-          "title": "ЄС виключить українських чоловіків із програми захисту",
-          "url": "https://week.ukrainianwall.com/161144-yes-gotuyetsya-viklyuchiti-ukrajinskih-cholovikiv-iz-programi-timchasovogo-zahistu-detali-vid-euractiv",
-          "date": "2026-06-01",
-          "source": "week.ukrainianwall.com"
-        }
-      ]
+      "reasons": []
     },
     "CHN": {
       "name": "China",
       "score": 61,
       "metrics": {
-        "pos_tone": -0.77,
+        "pos_tone": -0.68,
         "neg_tone": 0.0,
         "pos_count": 28,
         "neg_count": 0
