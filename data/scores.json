@@ -1,73 +1,110 @@
 {
-  "updated": "2026-06-15",
+  "updated": "2026-06-22",
   "countries": {
     "USA": {
       "name": "United States",
-      "score": 43,
+      "score": 52,
       "metrics": {
-        "pos_tone": 0.0,
-        "neg_tone": -2.73,
-        "pos_count": 0,
+        "pos_tone": -1.68,
+        "neg_tone": -2.63,
+        "pos_count": 28,
         "neg_count": 28
       },
-      "reasons": []
+      "reasons": [
+        {
+          "title": "Encouraging Progres At US - Iran Talks But Few Details Released",
+          "url": "http://www.calcuttanews.net/news/279139413/encouraging-progress-at-us-iran-talks-but-few-details-released",
+          "date": "2026-06-22",
+          "source": "calcuttanews.net"
+        },
+        {
+          "title": "Đại tướng Phan Văn Giang tiếp quyền Bộ trưởng Bộ Hải quân Hoa Kỳ Hùng Cao",
+          "url": "https://baovanhoa.vn/chinh-tri/dai-tuong-phan-van-giang-tiep-quyen-bo-truong-bo-hai-quan-hoa-ky-hung-cao-239298.html",
+          "date": "2026-06-22",
+          "source": "baovanhoa.vn"
+        },
+        {
+          "title": "Állandó munkaügyi fórum létrehozását javasolják a szakszervezetek",
+          "url": "https://hirado.hu/belfold/cikk/2026/06/22/allando-munkaugyi-forum-letrehozasat-javasoljak-a-szakszervezetek",
+          "date": "2026-06-22",
+          "source": "hirado.hu"
+        },
+        {
+          "title": "Vidám színeivel és megfizethető árával az ASUS Jelly75 egy igazi kis mechanikus gyöngyszem , ami nem csak játékhoz szuper",
+          "url": "https://hu.ign.com/asus-jelly75/112289/vidam-szineivel-es-megfizetheto-araval-az-asus-jelly75-egy-igazi-kis-mechanikus-gyongyszem-ami-nem-c",
+          "date": "2026-06-22",
+          "source": "hu.ign.com"
+        },
+        {
+          "title": "Magyar Péter bejelentette : itt a Tisztítótűz Művelet , így távolítják el Sulyok Tamást",
+          "url": "https://privatbankar.hu/cikkek/makro/magyar-peter-bejelentette-itt-a-tisztitotuz-muvelet-igy-tavolitjak-el-sulyok-tamast.html",
+          "date": "2026-06-22",
+          "source": "privatbankar.hu"
+        },
+        {
+          "title": "KTP2JB Minta Perjanjian Dagang AS - RI Tak Ganggu Industri Pers",
+          "url": "https://money.kompas.com/read/2026/06/22/184425626/ktp2jb-minta-perjanjian-dagang-as-ri-tak-ganggu-industri-pers",
+          "date": "2026-06-22",
+          "source": "money.kompas.com"
+        }
+      ]
     },
     "RUS": {
       "name": "Russia",
       "score": 44,
       "metrics": {
         "pos_tone": 0.0,
-        "neg_tone": -3.13,
+        "neg_tone": -3.11,
         "pos_count": 0,
         "neg_count": 28
       },
       "reasons": [
         {
-          "title": "Strait of Hormuz Reopens : India Oil Supply Risks , Inflationary Pressures to Ease",
-          "url": "https://www.rediff.com/business/report/strait-of-hormuz-reopens-indias-oil-supply-risks-inflationary-pressures-to-ease/20260615.htm",
-          "date": "2026-06-15",
-          "source": "rediff.com"
+          "title": "Starmer announces hell resign as united kingdom prime minister with Burnham to succeed him",
+          "url": "https://www.kshb.com/world/europe/starmer-announces-hell-resign-as-uk-prime-minister-with-burnham-confirming-bid-to-succeed-him",
+          "date": "2026-06-22",
+          "source": "kshb.com"
         },
         {
-          "title": "Matīss Gricmanis : Es nezinu , ko nozīmē būt neitrālam",
-          "url": "https://ir.lv/rubrika/intervija/matiss-gricmanis-es-nezinu-ko-nozime-but-neitralam.221626",
-          "date": "2026-06-15",
-          "source": "ir.lv"
+          "title": "Poland rejects Zelenskys insults as Nazi row escalates",
+          "url": "http://www.austinglobe.com/news/279139578/poland-rejects-zelenskys-insults-as-nazi-row-escalates",
+          "date": "2026-06-22",
+          "source": "austinglobe.com"
         },
         {
-          "title": "PM Anwar to meet Putin , Asean leaders for oil talks",
-          "url": "https://www.thestar.com.my/news/nation/2026/06/15/pm-anwar-to-meet-putin-asean-leaders-for-oil-talks",
-          "date": "2026-06-15",
-          "source": "thestar.com.my"
+          "title": "The Afghanistan trap - ISKP turns the Taliban into an essential but ruthless security",
+          "url": "https://www.bankingnews.gr/diethni/articles/883458/the-afghanistan-trap-iskp-turns-the-taliban-into-an-essential-but-ruthless-security-partner",
+          "date": "2026-06-22",
+          "source": "bankingnews.gr"
         },
         {
-          "title": "Spitzentreffen am Genfersee : G7 - Gipfel startet mit Signal der Hoffnung",
-          "url": "https://www.mz.de/deutschland-und-welt/politik/g7-gipfel-startet-mit-signal-der-hoffnung-4267491",
-          "date": "2026-06-15",
-          "source": "mz.de"
+          "title": "« Кто за это заплатит »: почему бензин не прячут от внешних угроз",
+          "url": "https://sevastopol.su/news/kto-za-eto-zaplatit-pochemu-benzin-ne-pryachut-ot-vneshnikh-ugroz",
+          "date": "2026-06-22",
+          "source": "sevastopol.su"
         },
         {
-          "title": "Trump heads to G7 summit after announcing Iran War agreement",
-          "url": "https://www.wgal.com/article/trump-g7-summit-france-2026/71586758",
-          "date": "2026-06-15",
-          "source": "wgal.com"
+          "title": "Oroszországgal kiegyezni akaró új párt erősödött meg Olaszországban",
+          "url": "https://hirado.hu/kulfold/cikk/2026/06/22/oroszorszaggal-kiegyezni-akaro-uj-part-erosodott-meg-olaszorszagban",
+          "date": "2026-06-22",
+          "source": "hirado.hu"
         },
         {
-          "title": "Протистояння за вплив : що відомо про конфлікт Єрмака та Портнова",
-          "url": "https://regionews.ua/ukr/news/politics/1781522518-protistoyannya-za-vpliv-shcho-vidomo-pro-konflikt-ermaka-ta-portnova",
-          "date": "2026-06-15",
-          "source": "regionews.ua"
+          "title": "Keir Starmer announces hell resign as united kingdom prime minister with Andy Burnham confirming bid to succeed him – Chicago Tribune",
+          "url": "https://www.chicagotribune.com/2026/06/22/keir-starmer-uk-prime-minister-andy-burnham/",
+          "date": "2026-06-22",
+          "source": "chicagotribune.com"
         }
       ]
     },
     "VEN": {
       "name": "Venezuela",
-      "score": 50,
+      "score": 53,
       "metrics": {
-        "pos_tone": 0.0,
-        "neg_tone": 0.0,
-        "pos_count": 0,
-        "neg_count": 0
+        "pos_tone": -2.05,
+        "neg_tone": -3.46,
+        "pos_count": 28,
+        "neg_count": 28
       },
       "reasons": []
     },
@@ -86,58 +123,95 @@
       "name": "Hungary",
       "score": 52,
       "metrics": {
-        "pos_tone": -0.95,
-        "neg_tone": -2.09,
+        "pos_tone": -0.91,
+        "neg_tone": -2.16,
         "pos_count": 28,
-        "neg_count": 28
-      },
-      "reasons": []
-    },
-    "TUR": {
-      "name": "Turkey",
-      "score": 43,
-      "metrics": {
-        "pos_tone": 0.0,
-        "neg_tone": -2.72,
-        "pos_count": 0,
         "neg_count": 28
       },
       "reasons": [
         {
-          "title": "El núcleo duro europeo , listo para levantar las sanciones a Teherán",
-          "url": "https://www.ideal.es/internacional/oriente-proximo/nucleo-duro-europeo-listo-levantar-sanciones-teheran-20260615133547-ntrc.html",
-          "date": "2026-06-15",
-          "source": "ideal.es"
+          "title": "Češki javni tv i radio servis u štrajku , novinari u crnom , živi lanac oko zgrade Češkog radija",
+          "url": "https://naslovi.net/2026-06-22/beta/ceski-javni-tv-i-radio-servis-u-strajku-novinari-u-crnom-zivi-lanac-oko-zgrade-ceskog-radija/41989545",
+          "date": "2026-06-22",
+          "source": "naslovi.net"
         },
         {
-          "title": "It been a thrilling start to the World Cup . Here are the highlights and what next",
-          "url": "https://www.kedm.org/npr-news/2026-06-15/its-been-a-thrilling-start-to-the-world-cup-here-are-the-highlights-and-whats-next",
-          "date": "2026-06-15",
-          "source": "kedm.org"
+          "title": "Társadalmi egyeztetés indult bizonyos vadállatok cirkuszi szerepeltetésének megtiltásáról",
+          "url": "https://hirado.hu/belfold/cikk/2026/06/22/tarsadalmi-egyeztetes-indult-bizonyos-vadallatok-cirkuszi-szerepeltetesenek-megtiltasarol",
+          "date": "2026-06-22",
+          "source": "hirado.hu"
         },
         {
-          "title": "Жолы шоқалақ , бағасы қымбат . Туризм қашан түзеледі ?",
-          "url": "https://zhasalash.kz/news/zholi-shokalak-bagasi-kimbat-turizm-kashan-tuzeled-6a0d12/",
-          "date": "2026-06-15",
-          "source": "zhasalash.kz"
+          "title": "Állandó munkaügyi fórum létrehozását javasolják a szakszervezetek",
+          "url": "https://hirado.hu/belfold/cikk/2026/06/22/allando-munkaugyi-forum-letrehozasat-javasoljak-a-szakszervezetek",
+          "date": "2026-06-22",
+          "source": "hirado.hu"
         },
         {
-          "title": "Gasgoo Weekly | NIO responds to being added to US  Chinese Military Company List ; Dana acquires Eaton mobility business",
-          "url": "https://autonews.gasgoo.com/articles/market-industry/gasgoo-weekly-nio-responds-to-being-added-to-us-chinese-military-company-list-dana-acquires-eatons-mobility-business-2066461669130354689",
-          "date": "2026-06-15",
-          "source": "autonews.gasgoo.com"
+          "title": "Vidám színeivel és megfizethető árával az ASUS Jelly75 egy igazi kis mechanikus gyöngyszem , ami nem csak játékhoz szuper",
+          "url": "https://hu.ign.com/asus-jelly75/112289/vidam-szineivel-es-megfizetheto-araval-az-asus-jelly75-egy-igazi-kis-mechanikus-gyongyszem-ami-nem-c",
+          "date": "2026-06-22",
+          "source": "hu.ign.com"
         },
         {
-          "title": "Seçim 16 Nisan 2028  de olabilir :  Cumhurbaşkanı Erdoğan  ın aday olması için bu yeterli",
-          "url": "https://haber.mynet.com/secim-16-nisan-2028-de-olabilir-cumhurbaskani-erdogan-in-aday-olmasi-icin-bu-yeterli-110107297923",
-          "date": "2026-06-15",
-          "source": "haber.mynet.com"
+          "title": "Poland rejects Zelenskys insults as Nazi row escalates",
+          "url": "http://www.austinglobe.com/news/279139578/poland-rejects-zelenskys-insults-as-nazi-row-escalates",
+          "date": "2026-06-22",
+          "source": "austinglobe.com"
         },
         {
-          "title": "Tacan Reynar : Mahkemelerde biriken davalar rümenin göstergesi",
-          "url": "https://www.kibrispostasi.com/c35-KIBRIS_HABERLERI/n605058-tacan-reynar-mahkemelerde-biriken-davalar-curumenin-gostergesi",
-          "date": "2026-06-15",
-          "source": "kibrispostasi.com"
+          "title": "Pride - zászlót dobott valaki a Dunába az Erzsébet - hídról – a rendőrség rongálás miatt nyomoz az ügyben",
+          "url": "https://hirado.hu/belfold/cikk/2026/06/22/pride-zaszlot-dobott-valaki-a-dunaba-az-erzsebet-hidrol-a-rendorseg-rongalas-miatt-nyomoz-az-ugyben",
+          "date": "2026-06-22",
+          "source": "hirado.hu"
+        }
+      ]
+    },
+    "TUR": {
+      "name": "Turkey",
+      "score": 61,
+      "metrics": {
+        "pos_tone": -0.83,
+        "neg_tone": 0.0,
+        "pos_count": 28,
+        "neg_count": 0
+      },
+      "reasons": [
+        {
+          "title": "İbrahim Hacıosmanoğlu istifa mı etti ?",
+          "url": "https://www.haberler.com/haber/ibrahim-haciosmanoglu-istifa-mi-etti-19976504-haberi/",
+          "date": "2026-06-22",
+          "source": "haberler.com"
+        },
+        {
+          "title": "Sir Keir Starmer resigns as Prime Minister with Andy Burnham poised to take over",
+          "url": "https://www.irishnews.com/news/uk/sir-keir-starmer-resigns-as-prime-minister-with-andy-burnham-poised-to-take-over-P6QWXQJVZJIX7EGDHTRA7GDG5U/",
+          "date": "2026-06-22",
+          "source": "irishnews.com"
+        },
+        {
+          "title": "Ümit Özdağ  dan alınan tazminat parasıyla Suriyede yetim sofrası kuruldu",
+          "url": "https://www.ensonhaber.com/umit-ozdagdan-alinan-tazminat-parasiyla-suriyede-yetim-sofrasi-kuruldu-h1544230",
+          "date": "2026-06-22",
+          "source": "ensonhaber.com"
+        },
+        {
+          "title": "Yerel basının sorunlarını Meclis gündemine taşındı | Yeneroğlu : Köklü gazetelerin kapanması yerel demokrasi için kayıp",
+          "url": "https://www.evrensel.net/haber/5989315/yerel-basinin-sorunlarini-meclis-gundemine-tasindi-yeneroglu-koklu-gazetelerin-kapanmasi-yerel-demokrasi-icin-kayip",
+          "date": "2026-06-22",
+          "source": "evrensel.net"
+        },
+        {
+          "title": "Ukraine - Krieg im Liveticker : +++ 14 : 01 Munz : Dieselmangel macht sich auch in Moskau bemerkbar +++",
+          "url": "https://www.n-tv.de/politik/14-01-Munz-Dieselmangel-macht-sich-auch-in-Moskau-bemerkbar-id30859357.html",
+          "date": "2026-06-22",
+          "source": "n-tv.de"
+        },
+        {
+          "title": "3 , 000 Nigerians repatriated from Chad , Niger , Cameroon in 6 months",
+          "url": "https://thesun.ng/3000-nigerians-repatriated-from-chad-niger-cameroon-in-6-months-fg/",
+          "date": "2026-06-22",
+          "source": "thesun.ng"
         }
       ]
     },
@@ -145,108 +219,71 @@
       "name": "Brazil",
       "score": 52,
       "metrics": {
-        "pos_tone": -1.26,
-        "neg_tone": -2.37,
+        "pos_tone": -1.23,
+        "neg_tone": -2.24,
         "pos_count": 28,
         "neg_count": 28
       },
-      "reasons": []
+      "reasons": [
+        {
+          "title": "Morocco Will Go Far … Scotland Coach Leaves the World Cup With a Warning for Everyone",
+          "url": "https://lnt.ma/morocco-will-go-far-scotlands-coach-leaves-the-world-cup-with-a-warning-for-everyone/",
+          "date": "2026-06-22",
+          "source": "lnt.ma"
+        },
+        {
+          "title": "1ª participao de Gusttavo Lima no Arraiá do Povo teve  voo  sobre público – FaxAju",
+          "url": "https://www.faxaju.com.br/1a-participacao-de-gusttavo-lima-no-arraia-do-povo-teve-voo-sobre-publico/",
+          "date": "2026-06-22",
+          "source": "faxaju.com.br"
+        },
+        {
+          "title": "Meru coffee farmer secures US market , urges growers to boost production",
+          "url": "https://www.standardmedia.co.ke/smart-harvest/article/2001550983/meru-coffee-farmer-secures-us-market-urges-growers-to-boost-production",
+          "date": "2026-06-22",
+          "source": "standardmedia.co.ke"
+        },
+        {
+          "title": "Birthright auf dem Prüfstand : Wer wird US - Bürger ?",
+          "url": "https://www.dw.com/de/usa-trump-staatsb%C3%BCrgerschaft-birthright-geburtsrecht-migration-pass-supreme-court-gericht-urteil/a-77407444",
+          "date": "2026-06-22",
+          "source": "dw.com"
+        },
+        {
+          "title": "Trump official Andrew Giuliani touts World Cup drone program",
+          "url": "https://www.lmtonline.com/news/article/world-cup-security-houston-trump-22314035.php",
+          "date": "2026-06-22",
+          "source": "lmtonline.com"
+        },
+        {
+          "title": "Sistem Peringatan Darurat Brasil Diretas , Alarm Darurat Palsu Muncul di Jutaan HP",
+          "url": "https://tekno.kompas.com/read/2026/06/22/19030077/sistem-peringatan-darurat-brasil-diretas-alarm-darurat-palsu-muncul-di-jutaan",
+          "date": "2026-06-22",
+          "source": "tekno.kompas.com"
+        }
+      ]
     },
     "IND": {
       "name": "India",
       "score": 55,
       "metrics": {
-        "pos_tone": -0.93,
-        "neg_tone": -3.36,
+        "pos_tone": -1.06,
+        "neg_tone": -3.37,
         "pos_count": 28,
         "neg_count": 28
       },
-      "reasons": [
-        {
-          "title": "Strait of Hormuz Reopens : India Oil Supply Risks , Inflationary Pressures to Ease",
-          "url": "https://www.rediff.com/business/report/strait-of-hormuz-reopens-indias-oil-supply-risks-inflationary-pressures-to-ease/20260615.htm",
-          "date": "2026-06-15",
-          "source": "rediff.com"
-        },
-        {
-          "title": "Carney heading to France for G7 summit as Trump says agreement reached with Iran",
-          "url": "https://www.stcatharinesstandard.ca/news/canada/carney-heading-to-france-for-g7-summit-as-trump-says-agreement-reached-with-iran/article_6e35ea01-a6dd-5a27-8d44-bcf9bf69478a.html",
-          "date": "2026-06-15",
-          "source": "stcatharinesstandard.ca"
-        },
-        {
-          "title": "Doublespeak character : Congres Surjewala hits back at HD Kumaraswamy Bidadi project allegations",
-          "url": "https://aninews.in/news/national/politics/doublespeak-character-congress-surjewala-hits-back-at-hd-kumaraswamys-bidadi-project-allegations20260615175524/",
-          "date": "2026-06-15",
-          "source": "aninews.in"
-        },
-        {
-          "title": "Indira Gandhi would have banned party like BJP : Congres Ashok Gehlot accuses BJP of weakening country",
-          "url": "http://www.indiagazette.com/news/279123828/indira-gandhi-would-have-banned-party-like-bjp-congress-ashok-gehlot-accuses-bjp-of-weakening-country",
-          "date": "2026-06-15",
-          "source": "indiagazette.com"
-        },
-        {
-          "title": "Kailash Mansarovar Yatra 2026 Begins , Amid  Horse Year  Devotion and the Sacred Saga Dawa Festival",
-          "url": "http://www.nepalnational.com/news/279123951/kailash-mansarovar-yatra-2026-begins-amid-horse-year-devotion-and-the-sacred-saga-dawa-festival",
-          "date": "2026-06-15",
-          "source": "nepalnational.com"
-        },
-        {
-          "title": "Wedding , festive demand will keep India jewellery sector shining despite soaring gold prices : Nuvama",
-          "url": "http://www.indiagazette.com/news/279123837/wedding-festive-demand-will-keep-india-jewellery-sector-shining-despite-soaring-gold-prices-nuvama",
-          "date": "2026-06-15",
-          "source": "indiagazette.com"
-        }
-      ]
+      "reasons": []
     },
     "POL": {
       "name": "Poland",
-      "score": 52,
+      "score": 43,
       "metrics": {
-        "pos_tone": -1.32,
-        "neg_tone": -2.26,
-        "pos_count": 28,
+        "pos_tone": 0.0,
+        "neg_tone": -2.56,
+        "pos_count": 0,
         "neg_count": 28
       },
-      "reasons": [
-        {
-          "title": "Matīss Gricmanis : Es nezinu , ko nozīmē būt neitrālam",
-          "url": "https://ir.lv/rubrika/intervija/matiss-gricmanis-es-nezinu-ko-nozime-but-neitralam.221626",
-          "date": "2026-06-15",
-          "source": "ir.lv"
-        },
-        {
-          "title": "Spitzentreffen am Genfersee : G7 - Gipfel startet mit Signal der Hoffnung",
-          "url": "https://www.mz.de/deutschland-und-welt/politik/g7-gipfel-startet-mit-signal-der-hoffnung-4267491",
-          "date": "2026-06-15",
-          "source": "mz.de"
-        },
-        {
-          "title": "Как ще намалим разликите в заплатите между мъжете и жените у нас ?",
-          "url": "https://manager.bg/%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F/kak-ste-namalim-razlikite-v-zaplatite-mezdu-mazete-i-zenite-u-nas-",
-          "date": "2026-06-15",
-          "source": "manager.bg"
-        },
-        {
-          "title": "UK becomes the latest country to ban social media apps for kids",
-          "url": "https://9to5mac.com/2026/06/15/uk-becomes-the-latest-country-to-ban-social-media-apps-for-kids/",
-          "date": "2026-06-15",
-          "source": "9to5mac.com"
-        },
-        {
-          "title": "GreenX Metals chce wypłacić akcjonariuszom większość środków z odszkodowania – Inwestycje . pl",
-          "url": "https://inwestycje.pl/gielda/greenx-metals-chce-wyplacic-akcjonariuszom-wiekszosc-srodkow-z-odszkodowania/",
-          "date": "2026-06-15",
-          "source": "inwestycje.pl"
-        },
-        {
-          "title": "Хто така Маріанна Шрайбер : кандидатка в мери Кракова влаштувала скандал через прапор України",
-          "url": "https://mignews.com.ua/svit/hto-taka-marianna-shrajber-kandydatka-v-mery-krakova-potrapyla-u-skandal-cherez-prapor-ukrayiny.html",
-          "date": "2026-06-15",
-          "source": "mignews.com.ua"
-        }
-      ]
+      "reasons": []
     },
     "CHN": {
       "name": "China",
