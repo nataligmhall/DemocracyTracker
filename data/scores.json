@@ -1,109 +1,72 @@
 {
-  "updated": "2026-06-22",
+  "updated": "2026-06-29",
   "countries": {
     "USA": {
       "name": "United States",
       "score": 52,
       "metrics": {
-        "pos_tone": -1.68,
-        "neg_tone": -2.63,
+        "pos_tone": -1.59,
+        "neg_tone": -2.56,
         "pos_count": 28,
         "neg_count": 28
       },
       "reasons": [
         {
-          "title": "Encouraging Progres At US - Iran Talks But Few Details Released",
-          "url": "http://www.calcuttanews.net/news/279139413/encouraging-progress-at-us-iran-talks-but-few-details-released",
-          "date": "2026-06-22",
-          "source": "calcuttanews.net"
+          "title": "SK ,  2100조 투자  승부수메모리 벨트에 데이터센터 조성 ( 종합 )",
+          "url": "https://newsway.co.kr/news/view?ud=2026062917194774959",
+          "date": "2026-06-29",
+          "source": "newsway.co.kr"
         },
         {
-          "title": "Đại tướng Phan Văn Giang tiếp quyền Bộ trưởng Bộ Hải quân Hoa Kỳ Hùng Cao",
-          "url": "https://baovanhoa.vn/chinh-tri/dai-tuong-phan-van-giang-tiep-quyen-bo-truong-bo-hai-quan-hoa-ky-hung-cao-239298.html",
-          "date": "2026-06-22",
-          "source": "baovanhoa.vn"
+          "title": "JP Morgan : Ανεβάζει τον πήχη για τις ευρωπαϊκές μετοχές – Νέοι στόχοι έως 680 μονάδες για τον Stoxx 600",
+          "url": "https://www.mikrometoxos.gr/jp-morgan-anevazei-ton-pichi-gia-tis-evropaikes-metoches-neoi-stochoi-eos-680-monades-gia-ton-stoxx-600/",
+          "date": "2026-06-29",
+          "source": "mikrometoxos.gr"
         },
         {
-          "title": "Állandó munkaügyi fórum létrehozását javasolják a szakszervezetek",
-          "url": "https://hirado.hu/belfold/cikk/2026/06/22/allando-munkaugyi-forum-letrehozasat-javasoljak-a-szakszervezetek",
-          "date": "2026-06-22",
-          "source": "hirado.hu"
+          "title": "Hamarosan jön Magyar Péter parlamenti felszólalása",
+          "url": "https://www.portfolio.hu/gazdasag/20260629/hamarosan-jon-magyar-peter-parlamenti-felszolalasa-846332",
+          "date": "2026-06-29",
+          "source": "portfolio.hu"
         },
         {
-          "title": "Vidám színeivel és megfizethető árával az ASUS Jelly75 egy igazi kis mechanikus gyöngyszem , ami nem csak játékhoz szuper",
-          "url": "https://hu.ign.com/asus-jelly75/112289/vidam-szineivel-es-megfizetheto-araval-az-asus-jelly75-egy-igazi-kis-mechanikus-gyongyszem-ami-nem-c",
-          "date": "2026-06-22",
-          "source": "hu.ign.com"
+          "title": "Vitézy Dávid : önálló vonatlízingcég segítségével újul meg a HÉV - és InterCity - flotta",
+          "url": "https://www.portfolio.hu/ingatlan/20260629/vitezy-david-onallo-vonatlizingceg-segitsegevel-ujul-meg-a-hev-es-intercity-flotta-846318",
+          "date": "2026-06-29",
+          "source": "portfolio.hu"
         },
         {
-          "title": "Magyar Péter bejelentette : itt a Tisztítótűz Művelet , így távolítják el Sulyok Tamást",
-          "url": "https://privatbankar.hu/cikkek/makro/magyar-peter-bejelentette-itt-a-tisztitotuz-muvelet-igy-tavolitjak-el-sulyok-tamast.html",
-          "date": "2026-06-22",
-          "source": "privatbankar.hu"
+          "title": "La inflación se mantiene estable en el 3 , 2 % y los carburantes comienzan a abaratarse",
+          "url": "https://www.elplural.com/economia/inflacion-mantiene-estable-32-carburantes-comienza-abaratarse_394220102",
+          "date": "2026-06-29",
+          "source": "elplural.com"
         },
         {
-          "title": "KTP2JB Minta Perjanjian Dagang AS - RI Tak Ganggu Industri Pers",
-          "url": "https://money.kompas.com/read/2026/06/22/184425626/ktp2jb-minta-perjanjian-dagang-as-ri-tak-ganggu-industri-pers",
-          "date": "2026-06-22",
-          "source": "money.kompas.com"
+          "title": "여  국회 차원 전폭 지원  야  관치 경제 부활",
+          "url": "https://www.hani.co.kr/arti/politics/politics_general/1265914.html",
+          "date": "2026-06-29",
+          "source": "hani.co.kr"
         }
       ]
     },
     "RUS": {
       "name": "Russia",
-      "score": 44,
+      "score": 52,
       "metrics": {
-        "pos_tone": 0.0,
-        "neg_tone": -3.11,
-        "pos_count": 0,
+        "pos_tone": -1.97,
+        "neg_tone": -3.06,
+        "pos_count": 28,
         "neg_count": 28
       },
-      "reasons": [
-        {
-          "title": "Starmer announces hell resign as united kingdom prime minister with Burnham to succeed him",
-          "url": "https://www.kshb.com/world/europe/starmer-announces-hell-resign-as-uk-prime-minister-with-burnham-confirming-bid-to-succeed-him",
-          "date": "2026-06-22",
-          "source": "kshb.com"
-        },
-        {
-          "title": "Poland rejects Zelenskys insults as Nazi row escalates",
-          "url": "http://www.austinglobe.com/news/279139578/poland-rejects-zelenskys-insults-as-nazi-row-escalates",
-          "date": "2026-06-22",
-          "source": "austinglobe.com"
-        },
-        {
-          "title": "The Afghanistan trap - ISKP turns the Taliban into an essential but ruthless security",
-          "url": "https://www.bankingnews.gr/diethni/articles/883458/the-afghanistan-trap-iskp-turns-the-taliban-into-an-essential-but-ruthless-security-partner",
-          "date": "2026-06-22",
-          "source": "bankingnews.gr"
-        },
-        {
-          "title": "« Кто за это заплатит »: почему бензин не прячут от внешних угроз",
-          "url": "https://sevastopol.su/news/kto-za-eto-zaplatit-pochemu-benzin-ne-pryachut-ot-vneshnikh-ugroz",
-          "date": "2026-06-22",
-          "source": "sevastopol.su"
-        },
-        {
-          "title": "Oroszországgal kiegyezni akaró új párt erősödött meg Olaszországban",
-          "url": "https://hirado.hu/kulfold/cikk/2026/06/22/oroszorszaggal-kiegyezni-akaro-uj-part-erosodott-meg-olaszorszagban",
-          "date": "2026-06-22",
-          "source": "hirado.hu"
-        },
-        {
-          "title": "Keir Starmer announces hell resign as united kingdom prime minister with Andy Burnham confirming bid to succeed him – Chicago Tribune",
-          "url": "https://www.chicagotribune.com/2026/06/22/keir-starmer-uk-prime-minister-andy-burnham/",
-          "date": "2026-06-22",
-          "source": "chicagotribune.com"
-        }
-      ]
+      "reasons": []
     },
     "VEN": {
       "name": "Venezuela",
-      "score": 53,
+      "score": 44,
       "metrics": {
-        "pos_tone": -2.05,
-        "neg_tone": -3.46,
-        "pos_count": 28,
+        "pos_tone": 0.0,
+        "neg_tone": -3.42,
+        "pos_count": 0,
         "neg_count": 28
       },
       "reasons": []
@@ -121,177 +84,140 @@
     },
     "HUN": {
       "name": "Hungary",
-      "score": 52,
-      "metrics": {
-        "pos_tone": -0.91,
-        "neg_tone": -2.16,
-        "pos_count": 28,
-        "neg_count": 28
-      },
-      "reasons": [
-        {
-          "title": "Češki javni tv i radio servis u štrajku , novinari u crnom , živi lanac oko zgrade Češkog radija",
-          "url": "https://naslovi.net/2026-06-22/beta/ceski-javni-tv-i-radio-servis-u-strajku-novinari-u-crnom-zivi-lanac-oko-zgrade-ceskog-radija/41989545",
-          "date": "2026-06-22",
-          "source": "naslovi.net"
-        },
-        {
-          "title": "Társadalmi egyeztetés indult bizonyos vadállatok cirkuszi szerepeltetésének megtiltásáról",
-          "url": "https://hirado.hu/belfold/cikk/2026/06/22/tarsadalmi-egyeztetes-indult-bizonyos-vadallatok-cirkuszi-szerepeltetesenek-megtiltasarol",
-          "date": "2026-06-22",
-          "source": "hirado.hu"
-        },
-        {
-          "title": "Állandó munkaügyi fórum létrehozását javasolják a szakszervezetek",
-          "url": "https://hirado.hu/belfold/cikk/2026/06/22/allando-munkaugyi-forum-letrehozasat-javasoljak-a-szakszervezetek",
-          "date": "2026-06-22",
-          "source": "hirado.hu"
-        },
-        {
-          "title": "Vidám színeivel és megfizethető árával az ASUS Jelly75 egy igazi kis mechanikus gyöngyszem , ami nem csak játékhoz szuper",
-          "url": "https://hu.ign.com/asus-jelly75/112289/vidam-szineivel-es-megfizetheto-araval-az-asus-jelly75-egy-igazi-kis-mechanikus-gyongyszem-ami-nem-c",
-          "date": "2026-06-22",
-          "source": "hu.ign.com"
-        },
-        {
-          "title": "Poland rejects Zelenskys insults as Nazi row escalates",
-          "url": "http://www.austinglobe.com/news/279139578/poland-rejects-zelenskys-insults-as-nazi-row-escalates",
-          "date": "2026-06-22",
-          "source": "austinglobe.com"
-        },
-        {
-          "title": "Pride - zászlót dobott valaki a Dunába az Erzsébet - hídról – a rendőrség rongálás miatt nyomoz az ügyben",
-          "url": "https://hirado.hu/belfold/cikk/2026/06/22/pride-zaszlot-dobott-valaki-a-dunaba-az-erzsebet-hidrol-a-rendorseg-rongalas-miatt-nyomoz-az-ugyben",
-          "date": "2026-06-22",
-          "source": "hirado.hu"
-        }
-      ]
-    },
-    "TUR": {
-      "name": "Turkey",
       "score": 61,
       "metrics": {
-        "pos_tone": -0.83,
+        "pos_tone": -0.81,
         "neg_tone": 0.0,
         "pos_count": 28,
         "neg_count": 0
       },
       "reasons": [
         {
-          "title": "İbrahim Hacıosmanoğlu istifa mı etti ?",
-          "url": "https://www.haberler.com/haber/ibrahim-haciosmanoglu-istifa-mi-etti-19976504-haberi/",
-          "date": "2026-06-22",
-          "source": "haberler.com"
+          "title": "Mađarski ministar : Cilj je da putnički vozovi na relaciji Budimpešta - Beograd krenu što pre",
+          "url": "https://naslovi.net/2026-06-29/n1-info/madjarski-ministar-cilj-je-da-putnicki-vozovi-na-relaciji-budimpesta-beograd-krenu-sto-pre/42018873",
+          "date": "2026-06-29",
+          "source": "naslovi.net"
         },
         {
-          "title": "Sir Keir Starmer resigns as Prime Minister with Andy Burnham poised to take over",
-          "url": "https://www.irishnews.com/news/uk/sir-keir-starmer-resigns-as-prime-minister-with-andy-burnham-poised-to-take-over-P6QWXQJVZJIX7EGDHTRA7GDG5U/",
-          "date": "2026-06-22",
-          "source": "irishnews.com"
+          "title": "Η ακραία ζέστη σκορπίζει τον θάνατο στην Ευρώπη - Ιστορικά ρεκόρ άνω των 40°C - Προς τα πού μετακινείται το κύμα καύσωνα",
+          "url": "https://www.thebest.gr/article/836208-i-akraia-zesti-skorpizei-ton-thanato-stin-europi-istorika-rekor-ano-ton-40-c-pros-ta-pou-metakineitai-to-kuma-kausona",
+          "date": "2026-06-29",
+          "source": "thebest.gr"
         },
         {
-          "title": "Ümit Özdağ  dan alınan tazminat parasıyla Suriyede yetim sofrası kuruldu",
-          "url": "https://www.ensonhaber.com/umit-ozdagdan-alinan-tazminat-parasiyla-suriyede-yetim-sofrasi-kuruldu-h1544230",
-          "date": "2026-06-22",
-          "source": "ensonhaber.com"
+          "title": "Il Vaticano bacchetta lUE :  Sanzioni alla Russia ma armi a Israele",
+          "url": "https://www.eunews.it/2026/06/29/il-vaticano-bacchetta-lue-sanzioni-alla-russia-ma-armi-a-israele/",
+          "date": "2026-06-29",
+          "source": "eunews.it"
         },
         {
-          "title": "Yerel basının sorunlarını Meclis gündemine taşındı | Yeneroğlu : Köklü gazetelerin kapanması yerel demokrasi için kayıp",
-          "url": "https://www.evrensel.net/haber/5989315/yerel-basinin-sorunlarini-meclis-gundemine-tasindi-yeneroglu-koklu-gazetelerin-kapanmasi-yerel-demokrasi-icin-kayip",
-          "date": "2026-06-22",
-          "source": "evrensel.net"
+          "title": "Magyar Péter : „ Orbán Viktor ugyanúgy hazudott és trükközött a számokkal , ahogy azt Gyurcsány Ferenc tette",
+          "url": "https://444.hu/2026/06/29/magyar-peter-orban-viktor-ugyanugy-hazudott-es-trukkozott-a-szamokkal-ahogy-azt-gyurcsany-ferenc-tette",
+          "date": "2026-06-29",
+          "source": "444.hu"
         },
         {
-          "title": "Ukraine - Krieg im Liveticker : +++ 14 : 01 Munz : Dieselmangel macht sich auch in Moskau bemerkbar +++",
-          "url": "https://www.n-tv.de/politik/14-01-Munz-Dieselmangel-macht-sich-auch-in-Moskau-bemerkbar-id30859357.html",
-          "date": "2026-06-22",
-          "source": "n-tv.de"
+          "title": "Magyar Péter : a költségvetést drámaian rossz állapotban találtuk az átadás - átvétel után",
+          "url": "https://webradio.hu/hirek/belfold/magyar-peter-a-koltsegvetest-dramaian-rossz-allapotban-talaltuk-az-atadas-atvetel-utan",
+          "date": "2026-06-29",
+          "source": "webradio.hu"
         },
         {
-          "title": "3 , 000 Nigerians repatriated from Chad , Niger , Cameroon in 6 months",
-          "url": "https://thesun.ng/3000-nigerians-repatriated-from-chad-niger-cameroon-in-6-months-fg/",
-          "date": "2026-06-22",
-          "source": "thesun.ng"
+          "title": "Heatwave : Which European countries are running out of water ?",
+          "url": "https://www.euronews.com/my-europe/2026/06/29/heatwave-which-european-countries-are-running-out-of-water",
+          "date": "2026-06-29",
+          "source": "euronews.com"
         }
       ]
+    },
+    "TUR": {
+      "name": "Turkey",
+      "score": 54,
+      "metrics": {
+        "pos_tone": -0.87,
+        "neg_tone": -2.73,
+        "pos_count": 28,
+        "neg_count": 28
+      },
+      "reasons": []
     },
     "BRA": {
       "name": "Brazil",
       "score": 52,
       "metrics": {
-        "pos_tone": -1.23,
-        "neg_tone": -2.24,
+        "pos_tone": -1.15,
+        "neg_tone": -2.11,
         "pos_count": 28,
         "neg_count": 28
       },
-      "reasons": [
-        {
-          "title": "Morocco Will Go Far … Scotland Coach Leaves the World Cup With a Warning for Everyone",
-          "url": "https://lnt.ma/morocco-will-go-far-scotlands-coach-leaves-the-world-cup-with-a-warning-for-everyone/",
-          "date": "2026-06-22",
-          "source": "lnt.ma"
-        },
-        {
-          "title": "1ª participao de Gusttavo Lima no Arraiá do Povo teve  voo  sobre público – FaxAju",
-          "url": "https://www.faxaju.com.br/1a-participacao-de-gusttavo-lima-no-arraia-do-povo-teve-voo-sobre-publico/",
-          "date": "2026-06-22",
-          "source": "faxaju.com.br"
-        },
-        {
-          "title": "Meru coffee farmer secures US market , urges growers to boost production",
-          "url": "https://www.standardmedia.co.ke/smart-harvest/article/2001550983/meru-coffee-farmer-secures-us-market-urges-growers-to-boost-production",
-          "date": "2026-06-22",
-          "source": "standardmedia.co.ke"
-        },
-        {
-          "title": "Birthright auf dem Prüfstand : Wer wird US - Bürger ?",
-          "url": "https://www.dw.com/de/usa-trump-staatsb%C3%BCrgerschaft-birthright-geburtsrecht-migration-pass-supreme-court-gericht-urteil/a-77407444",
-          "date": "2026-06-22",
-          "source": "dw.com"
-        },
-        {
-          "title": "Trump official Andrew Giuliani touts World Cup drone program",
-          "url": "https://www.lmtonline.com/news/article/world-cup-security-houston-trump-22314035.php",
-          "date": "2026-06-22",
-          "source": "lmtonline.com"
-        },
-        {
-          "title": "Sistem Peringatan Darurat Brasil Diretas , Alarm Darurat Palsu Muncul di Jutaan HP",
-          "url": "https://tekno.kompas.com/read/2026/06/22/19030077/sistem-peringatan-darurat-brasil-diretas-alarm-darurat-palsu-muncul-di-jutaan",
-          "date": "2026-06-22",
-          "source": "tekno.kompas.com"
-        }
-      ]
+      "reasons": []
     },
     "IND": {
       "name": "India",
-      "score": 55,
+      "score": 60,
       "metrics": {
-        "pos_tone": -1.06,
-        "neg_tone": -3.37,
+        "pos_tone": -1.15,
+        "neg_tone": 0.0,
         "pos_count": 28,
-        "neg_count": 28
+        "neg_count": 0
       },
       "reasons": []
     },
     "POL": {
       "name": "Poland",
-      "score": 43,
+      "score": 52,
       "metrics": {
-        "pos_tone": 0.0,
-        "neg_tone": -2.56,
-        "pos_count": 0,
+        "pos_tone": -1.42,
+        "neg_tone": -2.54,
+        "pos_count": 28,
         "neg_count": 28
       },
-      "reasons": []
+      "reasons": [
+        {
+          "title": "První zprávy - Domácí - Parlamentní demokracie kulhá na obě nohy , říká Vidlák",
+          "url": "https://www.prvnizpravy.cz/zpravy/politika/parlamentni-demokracie-kulha-na-obe-nohy-rika-vidlak/",
+          "date": "2026-06-29",
+          "source": "prvnizpravy.cz"
+        },
+        {
+          "title": "Wpis lub 50 000 zł kary . Nowe obowiązki dla właścicieli mieszkań",
+          "url": "https://www.portalsamorzadowy.pl/gospodarka-komunalna/wpis-lub-50-000-zl-kary-nowe-obowiazki-dla-wlascicieli-mieszkan,666686.html",
+          "date": "2026-06-29",
+          "source": "portalsamorzadowy.pl"
+        },
+        {
+          "title": "Koniec fikcyjnych deklaracji . Turyści wreszcie zapłacą za śmieci",
+          "url": "https://www.portalsamorzadowy.pl/gospodarka-komunalna/koniec-fikcyjnych-deklaracji-turysci-wreszcie-zaplaca-za-smieci,666687.html",
+          "date": "2026-06-29",
+          "source": "portalsamorzadowy.pl"
+        },
+        {
+          "title": "600 zł nowej dopłaty do wczasów . Tylko 7 dni na skorzystanie z pieniędzy",
+          "url": "https://www.portalsamorzadowy.pl/zmiany-w-prawie/600-zl-nowej-doplaty-do-wczasow-tylko-7-dni-na-skorzystanie-z-pieniedzy,666661.html",
+          "date": "2026-06-29",
+          "source": "portalsamorzadowy.pl"
+        },
+        {
+          "title": "Höchster Anstieg der Bruttoinvestitionen des Staates seit 2000",
+          "url": "https://www.epochtimes.de/politik/deutschland/bruttoinvestitionen-des-staates-steigen-deutlich-a5535356.html",
+          "date": "2026-06-29",
+          "source": "epochtimes.de"
+        },
+        {
+          "title": "Rafał Trzaskowski w tarapatach . Referendum może być  prezentem  na mikołajki",
+          "url": "https://natemat.pl/659011,rafal-trzaskowski-w-tarapatach-referendum-moze-byc-prezentem-na-mikolajki",
+          "date": "2026-06-29",
+          "source": "natemat.pl"
+        }
+      ]
     },
     "CHN": {
       "name": "China",
-      "score": 50,
+      "score": 62,
       "metrics": {
-        "pos_tone": 0.0,
+        "pos_tone": -0.43,
         "neg_tone": 0.0,
-        "pos_count": 0,
+        "pos_count": 28,
         "neg_count": 0
       },
       "reasons": []
