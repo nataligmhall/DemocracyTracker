@@ -1,73 +1,73 @@
 {
-  "updated": "2026-06-29",
+  "updated": "2026-07-06",
   "countries": {
     "USA": {
       "name": "United States",
-      "score": 52,
+      "score": 50,
       "metrics": {
-        "pos_tone": -1.59,
-        "neg_tone": -2.56,
-        "pos_count": 28,
-        "neg_count": 28
-      },
-      "reasons": [
-        {
-          "title": "SK ,  2100조 투자  승부수메모리 벨트에 데이터센터 조성 ( 종합 )",
-          "url": "https://newsway.co.kr/news/view?ud=2026062917194774959",
-          "date": "2026-06-29",
-          "source": "newsway.co.kr"
-        },
-        {
-          "title": "JP Morgan : Ανεβάζει τον πήχη για τις ευρωπαϊκές μετοχές – Νέοι στόχοι έως 680 μονάδες για τον Stoxx 600",
-          "url": "https://www.mikrometoxos.gr/jp-morgan-anevazei-ton-pichi-gia-tis-evropaikes-metoches-neoi-stochoi-eos-680-monades-gia-ton-stoxx-600/",
-          "date": "2026-06-29",
-          "source": "mikrometoxos.gr"
-        },
-        {
-          "title": "Hamarosan jön Magyar Péter parlamenti felszólalása",
-          "url": "https://www.portfolio.hu/gazdasag/20260629/hamarosan-jon-magyar-peter-parlamenti-felszolalasa-846332",
-          "date": "2026-06-29",
-          "source": "portfolio.hu"
-        },
-        {
-          "title": "Vitézy Dávid : önálló vonatlízingcég segítségével újul meg a HÉV - és InterCity - flotta",
-          "url": "https://www.portfolio.hu/ingatlan/20260629/vitezy-david-onallo-vonatlizingceg-segitsegevel-ujul-meg-a-hev-es-intercity-flotta-846318",
-          "date": "2026-06-29",
-          "source": "portfolio.hu"
-        },
-        {
-          "title": "La inflación se mantiene estable en el 3 , 2 % y los carburantes comienzan a abaratarse",
-          "url": "https://www.elplural.com/economia/inflacion-mantiene-estable-32-carburantes-comienza-abaratarse_394220102",
-          "date": "2026-06-29",
-          "source": "elplural.com"
-        },
-        {
-          "title": "여  국회 차원 전폭 지원  야  관치 경제 부활",
-          "url": "https://www.hani.co.kr/arti/politics/politics_general/1265914.html",
-          "date": "2026-06-29",
-          "source": "hani.co.kr"
-        }
-      ]
-    },
-    "RUS": {
-      "name": "Russia",
-      "score": 52,
-      "metrics": {
-        "pos_tone": -1.97,
-        "neg_tone": -3.06,
-        "pos_count": 28,
-        "neg_count": 28
+        "pos_tone": 0.0,
+        "neg_tone": 0.0,
+        "pos_count": 0,
+        "neg_count": 0
       },
       "reasons": []
     },
-    "VEN": {
-      "name": "Venezuela",
-      "score": 44,
+    "RUS": {
+      "name": "Russia",
+      "score": 50,
       "metrics": {
         "pos_tone": 0.0,
-        "neg_tone": -3.42,
+        "neg_tone": 0.0,
         "pos_count": 0,
-        "neg_count": 28
+        "neg_count": 0
+      },
+      "reasons": [
+        {
+          "title": "Polska oddała pociski Ukrainie ? Błaszczak : Nie ma dementi ze strony rządu",
+          "url": "https://dorzeczy.pl/opinie/911152/polska-oddala-pociski-ukrainie-blaszczak-nie-ma-dementi-ze-strony-rzadu.html",
+          "date": "2026-07-06",
+          "source": "dorzeczy.pl"
+        },
+        {
+          "title": "Новости - Правительство России",
+          "url": "http://government.ru/news/59233/",
+          "date": "2026-07-06",
+          "source": "government.ru"
+        },
+        {
+          "title": "Мишустин отметил положительную динамику в обрабатывающем секторе России",
+          "url": "https://ria.ru/20260706/mishustin-2103032624.html",
+          "date": "2026-07-06",
+          "source": "ria.ru"
+        },
+        {
+          "title": "Шведского посла вызвали в МИД из - за атак дронов на дипмиссию",
+          "url": "https://wek.ru/shvedskogo-posla-vyzvali-v-mid-iz-za-atak-dronov-na-dipmissiyu",
+          "date": "2026-07-06",
+          "source": "wek.ru"
+        },
+        {
+          "title": "Poleciały ukraińskie drony . Atak na rosyjskie porty nad Bałtykiem",
+          "url": "https://wiadomosci.wp.pl/polecialy-ukrainskie-drony-atak-na-rosyjskie-porty-nad-baltykiem-7304529490143584a",
+          "date": "2026-07-06",
+          "source": "wiadomosci.wp.pl"
+        },
+        {
+          "title": "Россия заинтересована в разработке судов с Индонезией , заявил Мишустин",
+          "url": "https://ria.ru/20260706/rossija-2103032082.html",
+          "date": "2026-07-06",
+          "source": "ria.ru"
+        }
+      ]
+    },
+    "VEN": {
+      "name": "Venezuela",
+      "score": 53,
+      "metrics": {
+        "pos_tone": -1.98,
+        "neg_tone": -3.34,
+        "pos_count": 24,
+        "neg_count": 24
       },
       "reasons": []
     },
@@ -84,140 +84,177 @@
     },
     "HUN": {
       "name": "Hungary",
-      "score": 61,
+      "score": 50,
       "metrics": {
-        "pos_tone": -0.81,
+        "pos_tone": 0.0,
         "neg_tone": 0.0,
-        "pos_count": 28,
+        "pos_count": 0,
         "neg_count": 0
       },
-      "reasons": [
-        {
-          "title": "Mađarski ministar : Cilj je da putnički vozovi na relaciji Budimpešta - Beograd krenu što pre",
-          "url": "https://naslovi.net/2026-06-29/n1-info/madjarski-ministar-cilj-je-da-putnicki-vozovi-na-relaciji-budimpesta-beograd-krenu-sto-pre/42018873",
-          "date": "2026-06-29",
-          "source": "naslovi.net"
-        },
-        {
-          "title": "Η ακραία ζέστη σκορπίζει τον θάνατο στην Ευρώπη - Ιστορικά ρεκόρ άνω των 40°C - Προς τα πού μετακινείται το κύμα καύσωνα",
-          "url": "https://www.thebest.gr/article/836208-i-akraia-zesti-skorpizei-ton-thanato-stin-europi-istorika-rekor-ano-ton-40-c-pros-ta-pou-metakineitai-to-kuma-kausona",
-          "date": "2026-06-29",
-          "source": "thebest.gr"
-        },
-        {
-          "title": "Il Vaticano bacchetta lUE :  Sanzioni alla Russia ma armi a Israele",
-          "url": "https://www.eunews.it/2026/06/29/il-vaticano-bacchetta-lue-sanzioni-alla-russia-ma-armi-a-israele/",
-          "date": "2026-06-29",
-          "source": "eunews.it"
-        },
-        {
-          "title": "Magyar Péter : „ Orbán Viktor ugyanúgy hazudott és trükközött a számokkal , ahogy azt Gyurcsány Ferenc tette",
-          "url": "https://444.hu/2026/06/29/magyar-peter-orban-viktor-ugyanugy-hazudott-es-trukkozott-a-szamokkal-ahogy-azt-gyurcsany-ferenc-tette",
-          "date": "2026-06-29",
-          "source": "444.hu"
-        },
-        {
-          "title": "Magyar Péter : a költségvetést drámaian rossz állapotban találtuk az átadás - átvétel után",
-          "url": "https://webradio.hu/hirek/belfold/magyar-peter-a-koltsegvetest-dramaian-rossz-allapotban-talaltuk-az-atadas-atvetel-utan",
-          "date": "2026-06-29",
-          "source": "webradio.hu"
-        },
-        {
-          "title": "Heatwave : Which European countries are running out of water ?",
-          "url": "https://www.euronews.com/my-europe/2026/06/29/heatwave-which-european-countries-are-running-out-of-water",
-          "date": "2026-06-29",
-          "source": "euronews.com"
-        }
-      ]
+      "reasons": []
     },
     "TUR": {
       "name": "Turkey",
       "score": 54,
       "metrics": {
-        "pos_tone": -0.87,
-        "neg_tone": -2.73,
-        "pos_count": 28,
-        "neg_count": 28
+        "pos_tone": -0.93,
+        "neg_tone": -2.7,
+        "pos_count": 24,
+        "neg_count": 24
       },
-      "reasons": []
+      "reasons": [
+        {
+          "title": "ИННОПРОМ 2026 : даты , место и адрес проведения в Екатеринбурге , участники и партнеры , официальный сайт и программа международной промышленной выставки",
+          "url": "https://news.mail.ru/society/66735027/",
+          "date": "2026-07-06",
+          "source": "news.mail.ru"
+        },
+        {
+          "title": "Vor dem Nato - Gipfel in Ankara : Europa sucht Wege aus der Abhängigkeit von den united states – und will offenen Bruch vermeiden",
+          "url": "https://www.tagesspiegel.de/internationales/vor-dem-nato-gipfel-in-ankara-europa-sucht-wege-aus-der-abhangigkeit-von-den-usa--und-will-offenen-bruch-vermeiden-15804315.html",
+          "date": "2026-07-06",
+          "source": "tagesspiegel.de"
+        },
+        {
+          "title": "Ibrahimović na NATO samitu u Ankari :: Politika :: RTCG - Radio Televizija Crne Gore",
+          "url": "https://rtcg.me/vijesti/politika/861521/ibrahimovic-na-nato-samitu-u-ankari.html",
+          "date": "2026-07-06",
+          "source": "rtcg.me"
+        },
+        {
+          "title": "LILLEY : Will Carney announce mixed submarine fleet on his way to NATO ?",
+          "url": "https://calgarysun.com/opinion/columnists/will-carney-announce-a-mixed-submarine-fleet-on-his-way-to-nato/wcm/48682492-c97b-48a7-8e26-f91e0c0714da",
+          "date": "2026-07-06",
+          "source": "calgarysun.com"
+        },
+        {
+          "title": "Հայոց ցեղասպանության իրականացման գործընթացում իսլամի գործոնի հարցի շուրջ",
+          "url": "https://www.aravot.am/2026/07/06/1567359/",
+          "date": "2026-07-06",
+          "source": "aravot.am"
+        },
+        {
+          "title": "Ubice , napustite zemlju  Veliki protest u Turskoj protiv NATO - a",
+          "url": "https://www.alo.rs/vesti/svet/16835819/ubice-napustite-zemlju-veliki-protest-u-turskoj-protiv-nato-a.html",
+          "date": "2026-07-06",
+          "source": "alo.rs"
+        }
+      ]
     },
     "BRA": {
       "name": "Brazil",
-      "score": 52,
+      "score": 42,
       "metrics": {
-        "pos_tone": -1.15,
-        "neg_tone": -2.11,
-        "pos_count": 28,
-        "neg_count": 28
+        "pos_tone": 0.0,
+        "neg_tone": -2.05,
+        "pos_count": 0,
+        "neg_count": 24
       },
-      "reasons": []
+      "reasons": [
+        {
+          "title": "Desmatamento no Amazonas é impulsionado por falta de emprego e renda",
+          "url": "https://g1.globo.com/am/amazonas/noticia/2026/07/06/falta-de-emprego-e-renda-impulsiona-desmatamento-no-amazonas-diz-estudo.ghtml",
+          "date": "2026-07-06",
+          "source": "g1.globo.com"
+        },
+        {
+          "title": "Governo Lula aposta em nova reunião para barrar tarifaço dos Estados Unidos",
+          "url": "https://extra.globo.com/economia/noticia/2026/07/governo-lula-aposta-em-nova-reuniao-para-barrar-tarifaco-dos-estados-unidos.ghtml",
+          "date": "2026-07-06",
+          "source": "extra.globo.com"
+        },
+        {
+          "title": "FIFA World Cup 2026 :",
+          "url": "http://www.europesun.com/news/279169278/fifa-world-cup-2026-when-the-lion-is-hungry-he-eats-says-zlatan-on-norway-dream-run-after-brazil-shocker",
+          "date": "2026-07-06",
+          "source": "europesun.com"
+        },
+        {
+          "title": "Fortress North America  is a bad idea in service of a bad deal",
+          "url": "https://www.theglobeandmail.com/opinion/article-usmca-fortress-north-america-canada-sovereignty/",
+          "date": "2026-07-06",
+          "source": "theglobeandmail.com"
+        },
+        {
+          "title": "Denúncia contra  mensageiros do crime  expõe dimensão da influência de advogados nas faces - Segurança",
+          "url": "https://diariodonordeste.verdesmares.com.br/seguranca/denuncia-contra-mensageiros-do-crime-expoe-dimensao-da-influencia-de-advogados-nas-faccoes-1.3774814",
+          "date": "2026-07-06",
+          "source": "diariodonordeste.verdesmares.com.br"
+        },
+        {
+          "title": "Le ragioni della crisi dellauto tedesca ( e perché il modello cinese è quello vincente ) - OP - ED",
+          "url": "https://www.lantidiplomatico.it/dettnews-le_ragioni_della_crisi_dellauto_tedesca_e_perch_il_modello_cinese__quello_vincente/39602_67893/",
+          "date": "2026-07-06",
+          "source": "lantidiplomatico.it"
+        }
+      ]
     },
     "IND": {
       "name": "India",
-      "score": 60,
+      "score": 45,
       "metrics": {
-        "pos_tone": -1.15,
-        "neg_tone": 0.0,
-        "pos_count": 28,
-        "neg_count": 0
+        "pos_tone": 0.0,
+        "neg_tone": -3.53,
+        "pos_count": 0,
+        "neg_count": 24
       },
       "reasons": []
     },
     "POL": {
       "name": "Poland",
-      "score": 52,
+      "score": 50,
       "metrics": {
-        "pos_tone": -1.42,
-        "neg_tone": -2.54,
-        "pos_count": 28,
-        "neg_count": 28
+        "pos_tone": 0.0,
+        "neg_tone": 0.0,
+        "pos_count": 0,
+        "neg_count": 0
       },
       "reasons": [
         {
-          "title": "První zprávy - Domácí - Parlamentní demokracie kulhá na obě nohy , říká Vidlák",
-          "url": "https://www.prvnizpravy.cz/zpravy/politika/parlamentni-demokracie-kulha-na-obe-nohy-rika-vidlak/",
-          "date": "2026-06-29",
-          "source": "prvnizpravy.cz"
+          "title": "Εκατομμύρια έφεδροι στα σύνορα Ρωσίας – Η Ευρώπη ετοιμάζει … σύγκρουση μεγατόνων – Σοκ , οι ΗΠΑ πετούν τα ουκρανικά drones",
+          "url": "https://www.bankingnews.gr/diethni/articles/886397/oxyra-katafygia-ekatommyria-efedroi-sta-synora-tis-rosias-i-evropi-etoimazetai-gia-polemo",
+          "date": "2026-07-06",
+          "source": "bankingnews.gr"
         },
         {
-          "title": "Wpis lub 50 000 zł kary . Nowe obowiązki dla właścicieli mieszkań",
-          "url": "https://www.portalsamorzadowy.pl/gospodarka-komunalna/wpis-lub-50-000-zl-kary-nowe-obowiazki-dla-wlascicieli-mieszkan,666686.html",
-          "date": "2026-06-29",
+          "title": "Zwrot kosztów leczenia za granicą na nowych zasadach . Resort szykuje ważne zmiany",
+          "url": "https://wiadomosci.radiozet.pl/zdrowie/zwrot-kosztow-leczenia-za-granica-na-nowych-zasadach-resort-szykuje-wazne-zmiany",
+          "date": "2026-07-06",
+          "source": "wiadomosci.radiozet.pl"
+        },
+        {
+          "title": "Pożyczki bez odsetek i spłata przez 20 lat . Popłyną miliardy na bezpieczeństwo",
+          "url": "https://www.portalsamorzadowy.pl/fundusze-europejskie/pozyczki-bez-odsetek-i-splata-przez-20-lat-poplyna-miliardy-na-bezpieczenstwo,667567.html",
+          "date": "2026-07-06",
           "source": "portalsamorzadowy.pl"
         },
         {
-          "title": "Koniec fikcyjnych deklaracji . Turyści wreszcie zapłacą za śmieci",
-          "url": "https://www.portalsamorzadowy.pl/gospodarka-komunalna/koniec-fikcyjnych-deklaracji-turysci-wreszcie-zaplaca-za-smieci,666687.html",
-          "date": "2026-06-29",
+          "title": "ИННОПРОМ 2026 : даты , место и адрес проведения в Екатеринбурге , участники и партнеры , официальный сайт и программа международной промышленной выставки",
+          "url": "https://news.mail.ru/society/66735027/",
+          "date": "2026-07-06",
+          "source": "news.mail.ru"
+        },
+        {
+          "title": "Koniec szlabanów i trzeci pas ruchu . Państwo przejmuje obleganą autostradę",
+          "url": "https://www.portalsamorzadowy.pl/inwestycje/koniec-szlabanow-i-trzeci-pas-ruchu-panstwo-przejmuje-oblegana-autostrade,667424.html",
+          "date": "2026-07-06",
           "source": "portalsamorzadowy.pl"
         },
         {
-          "title": "600 zł nowej dopłaty do wczasów . Tylko 7 dni na skorzystanie z pieniędzy",
-          "url": "https://www.portalsamorzadowy.pl/zmiany-w-prawie/600-zl-nowej-doplaty-do-wczasow-tylko-7-dni-na-skorzystanie-z-pieniedzy,666661.html",
-          "date": "2026-06-29",
+          "title": "O tę linię kolejową trwa walka od lat . Niemcy hamują połączenie z Polską",
+          "url": "https://www.portalsamorzadowy.pl/gospodarka-komunalna/o-te-linie-kolejowa-trwa-walka-od-lat-niemcy-hamuja-polaczenie-z-polska,667588.html",
+          "date": "2026-07-06",
           "source": "portalsamorzadowy.pl"
-        },
-        {
-          "title": "Höchster Anstieg der Bruttoinvestitionen des Staates seit 2000",
-          "url": "https://www.epochtimes.de/politik/deutschland/bruttoinvestitionen-des-staates-steigen-deutlich-a5535356.html",
-          "date": "2026-06-29",
-          "source": "epochtimes.de"
-        },
-        {
-          "title": "Rafał Trzaskowski w tarapatach . Referendum może być  prezentem  na mikołajki",
-          "url": "https://natemat.pl/659011,rafal-trzaskowski-w-tarapatach-referendum-moze-byc-prezentem-na-mikolajki",
-          "date": "2026-06-29",
-          "source": "natemat.pl"
         }
       ]
     },
     "CHN": {
       "name": "China",
-      "score": 62,
+      "score": 61,
       "metrics": {
-        "pos_tone": -0.43,
+        "pos_tone": -0.52,
         "neg_tone": 0.0,
-        "pos_count": 28,
+        "pos_count": 24,
         "neg_count": 0
       },
       "reasons": []
