@@ -1,75 +1,149 @@
 {
-  "updated": "2026-07-06",
+  "updated": "2026-07-13",
   "countries": {
     "USA": {
       "name": "United States",
-      "score": 50,
+      "score": 52,
       "metrics": {
-        "pos_tone": 0.0,
-        "neg_tone": 0.0,
-        "pos_count": 0,
-        "neg_count": 0
+        "pos_tone": -1.56,
+        "neg_tone": -2.69,
+        "pos_count": 24,
+        "neg_count": 24
       },
-      "reasons": []
+      "reasons": [
+        {
+          "title": "Holtec seeks U . S . IPO as AI boosts demand for nuclear energy",
+          "url": "http://www.sierraleonetimes.com/news/279181179/holtec-seeks-u-s-ipo-as-ai-boosts-demand-for-nuclear-energy",
+          "date": "2026-07-13",
+          "source": "sierraleonetimes.com"
+        },
+        {
+          "title": "Seoul Stocks Plunge 9 % on Tech Losses , Middle East Tensions",
+          "url": "https://www.newkerala.com/news/a/seoul-shares-tank-pc-tech-losses-amid-middle-957.htm",
+          "date": "2026-07-13",
+          "source": "newkerala.com"
+        },
+        {
+          "title": "NATO rimpac war drills in the pacific and a political farce ....",
+          "url": "https://www.yourdemocracy.net.au/drupal/node/60438",
+          "date": "2026-07-13",
+          "source": "yourdemocracy.net.au"
+        },
+        {
+          "title": "이스라엘 , 10월 가자전쟁 후 첫 총선 … 네타냐후 장기집권 시험대",
+          "url": "https://www.kmib.co.kr/article/view.asp?arcid=0030104845&code=61131111&sid1=int",
+          "date": "2026-07-13",
+          "source": "kmib.co.kr"
+        },
+        {
+          "title": "US strikes Iran on Sunday , Strait of Hormuz status unclear | News , Sports , Jobs",
+          "url": "https://www.lockhaven.com/news/local-news/2026/07/us-strikes-iran-on-sunday-strait-of-hormuz-status-unclear/",
+          "date": "2026-07-13",
+          "source": "lockhaven.com"
+        },
+        {
+          "title": "Five Huskers earn fellowships for language learning",
+          "url": "https://beatricedailysun.com/news/community/article_fc3f7a78-c3a6-5a0c-a81b-e29c8ca7a8f7.html",
+          "date": "2026-07-13",
+          "source": "beatricedailysun.com"
+        }
+      ]
     },
     "RUS": {
       "name": "Russia",
-      "score": 50,
+      "score": 58,
       "metrics": {
-        "pos_tone": 0.0,
+        "pos_tone": -2.0,
         "neg_tone": 0.0,
-        "pos_count": 0,
+        "pos_count": 24,
         "neg_count": 0
       },
       "reasons": [
         {
-          "title": "Polska oddała pociski Ukrainie ? Błaszczak : Nie ma dementi ze strony rządu",
-          "url": "https://dorzeczy.pl/opinie/911152/polska-oddala-pociski-ukrainie-blaszczak-nie-ma-dementi-ze-strony-rzadu.html",
-          "date": "2026-07-06",
-          "source": "dorzeczy.pl"
+          "title": "Sen . Lindsey Graham likely died after aorta rupture , medical examiner says | News , Sports , Jobs",
+          "url": "https://www.salemnews.net/uncategorized/2026/07/sen-lindsey-graham-likely-died-after-aorta-rupture-medical-examiner-says/",
+          "date": "2026-07-13",
+          "source": "salemnews.net"
         },
         {
-          "title": "Новости - Правительство России",
-          "url": "http://government.ru/news/59233/",
-          "date": "2026-07-06",
-          "source": "government.ru"
+          "title": "US senate returns to Washington after Lindsey Graham sudden death",
+          "url": "https://www.braintreeandwithamtimes.co.uk/news/national/26273796.us-senate-returns-washington-lindsey-grahams-sudden-death/",
+          "date": "2026-07-13",
+          "source": "braintreeandwithamtimes.co.uk"
         },
         {
-          "title": "Мишустин отметил положительную динамику в обрабатывающем секторе России",
-          "url": "https://ria.ru/20260706/mishustin-2103032624.html",
-          "date": "2026-07-06",
-          "source": "ria.ru"
+          "title": "EU targets Russian intelligence officers accused of running a yearslong cyber spying campaign – Winnipeg Free Press",
+          "url": "https://www.winnipegfreepress.com/arts-and-life/life/sci-tech/2026/07/13/eu-targets-russian-intelligence-officers-accused-of-running-a-yearslong-cyber-spying-campaign",
+          "date": "2026-07-13",
+          "source": "winnipegfreepress.com"
         },
         {
-          "title": "Шведского посла вызвали в МИД из - за атак дронов на дипмиссию",
-          "url": "https://wek.ru/shvedskogo-posla-vyzvali-v-mid-iz-za-atak-dronov-na-dipmissiyu",
-          "date": "2026-07-06",
-          "source": "wek.ru"
+          "title": "Кобахидзе : Россия не признаёт наш суверенитет над 20 процентами территории , а госпожа Каллас над 100 процентами",
+          "url": "https://ru.apa.az/evropa/kobaxidze-rossiya-ne-priznayot-nas-suverenitet-nad-20-procentami-territorii-a-gospoza-kallas-nad-100-procentami-661839",
+          "date": "2026-07-13",
+          "source": "ru.apa.az"
         },
         {
-          "title": "Poleciały ukraińskie drony . Atak na rosyjskie porty nad Bałtykiem",
-          "url": "https://wiadomosci.wp.pl/polecialy-ukrainskie-drony-atak-na-rosyjskie-porty-nad-baltykiem-7304529490143584a",
-          "date": "2026-07-06",
-          "source": "wiadomosci.wp.pl"
+          "title": "US senate returns to Washington after Lindsey Graham sudden death",
+          "url": "https://www.newsandstar.co.uk/news/national/26273796.us-senate-returns-washington-lindsey-grahams-sudden-death/",
+          "date": "2026-07-13",
+          "source": "newsandstar.co.uk"
         },
         {
-          "title": "Россия заинтересована в разработке судов с Индонезией , заявил Мишустин",
-          "url": "https://ria.ru/20260706/rossija-2103032082.html",
-          "date": "2026-07-06",
-          "source": "ria.ru"
+          "title": "Lindsey Graham tot : So wird sein Senatssitz neu besetzt",
+          "url": "http://www.come-on.de/politik/lindsey-graham-tot-so-wird-sein-senatssitz-neu-besetzt-zr-94394621.html",
+          "date": "2026-07-13",
+          "source": "come-on.de"
         }
       ]
     },
     "VEN": {
       "name": "Venezuela",
-      "score": 53,
+      "score": 59,
       "metrics": {
-        "pos_tone": -1.98,
-        "neg_tone": -3.34,
+        "pos_tone": -1.84,
+        "neg_tone": 0.0,
         "pos_count": 24,
-        "neg_count": 24
+        "neg_count": 0
       },
-      "reasons": []
+      "reasons": [
+        {
+          "title": "Venezuela po ničivom zemetrasení krváca . Trosky domov odhalili aj hlboký hnev ľudí na Chávezovo pošramotené dedičstvo",
+          "url": "https://www.ta3.com/clanok/1060365/venezuela-po-zemetraseni-krvaca-trosky-domov-odhalili-aj-hlboky-hnev-ludi-na-chavezovo-posramotene-dedicstvo",
+          "date": "2026-07-13",
+          "source": "ta3.com"
+        },
+        {
+          "title": "El embajador de EEUU ante la ONU reitera que Cuba es  una amenaza  para la  seguridad nacional  de EEUU",
+          "url": "https://www.notimerica.com/politica/noticia-cuba-embajador-eeuu-onu-reitera-cuba-amenaza-seguridad-nacional-eeuu-20260713074453.html",
+          "date": "2026-07-13",
+          "source": "notimerica.com"
+        },
+        {
+          "title": "Βενεζουέλα : Σχεδόν 4 . 500 οι νεκροί στον διπλό σεισμό της 24ης Ιουνίου",
+          "url": "https://www.businessnews.gr/kosmos/item/342111-venezouela-sxedon-4-500-oi-nekroi-ston-diplo-seismo-tis-24is-iouniou",
+          "date": "2026-07-13",
+          "source": "businessnews.gr"
+        },
+        {
+          "title": "Reactivan la causa al exetarra  Txistu  al verificar por los terremotos que está en Venezuela",
+          "url": "https://www.diariodenavarra.es/noticias/actualidad/nacional/2026/07/13/reactivan-causa-exetarra-txistu-verificar-terremotos-venezuela-828168-28.html",
+          "date": "2026-07-13",
+          "source": "diariodenavarra.es"
+        },
+        {
+          "title": "Como Marco Rubio está governando a Venezuela à distância - 13 / 07 / 2026 - Mundo",
+          "url": "https://www1.folha.uol.com.br/mundo/2026/07/como-secretario-de-estado-dos-eua-controla-a-venezuela-apos-captura-de-maduro.shtml",
+          "date": "2026-07-13",
+          "source": "folha.uol.com.br"
+        },
+        {
+          "title": "Maxim Ross : Venezuela ; Inconsistencias y Fallas DEL Plan Trump - Rubio",
+          "url": "https://confirmado.com.ve/maxim-ross-venezuela-inconsistencias-y-fallas-del-plan-trump-rubio/",
+          "date": "2026-07-13",
+          "source": "confirmado.com.ve"
+        }
+      ]
     },
     "IRN": {
       "name": "Iran",
@@ -84,6 +158,65 @@
     },
     "HUN": {
       "name": "Hungary",
+      "score": 53,
+      "metrics": {
+        "pos_tone": -1.03,
+        "neg_tone": -2.43,
+        "pos_count": 24,
+        "neg_count": 24
+      },
+      "reasons": []
+    },
+    "TUR": {
+      "name": "Turkey",
+      "score": 53,
+      "metrics": {
+        "pos_tone": -1.09,
+        "neg_tone": -2.77,
+        "pos_count": 24,
+        "neg_count": 24
+      },
+      "reasons": [
+        {
+          "title": "NATO rimpac war drills in the pacific and a political farce ....",
+          "url": "https://www.yourdemocracy.net.au/drupal/node/60438",
+          "date": "2026-07-13",
+          "source": "yourdemocracy.net.au"
+        },
+        {
+          "title": "« Πρωθηπουργός » κατεχομένων : Θέλει συνεργασία για νερό , ηλεκτρισμό και φυσικό αέριο",
+          "url": "https://ikypros.com/?p=713033",
+          "date": "2026-07-13",
+          "source": "ikypros.com"
+        },
+        {
+          "title": "Mahmut Arıkandan Demirtaş  a ziyaret : Önemli bir siyasi aktör – Güncel Haberler , Son Dakika Haberleri , Turktime Haber Portalı",
+          "url": "https://www.turktime.com/haber/mahmut-arikan-dan-demirtas-a-ziyaret-onemli-bir-siyasi-aktor/749291",
+          "date": "2026-07-13",
+          "source": "turktime.com"
+        },
+        {
+          "title": "SON DAKİKA HABERLER 13 TEMMUZ 2026 || Haluk Leventin kaçış güzergahı ortaya çıktı : Planlar hızla değişmiş",
+          "url": "https://www.hurriyet.com.tr/gundem/haluk-leventin-kacis-guzergahi-ortaya-cikti-43237936",
+          "date": "2026-07-13",
+          "source": "hurriyet.com.tr"
+        },
+        {
+          "title": "Iran Revenge List : Trump , Netanyahu Among 13 Named",
+          "url": "https://www.newkerala.com/news/a/trump-netanyahu-meloni-among-13-world-leaders-featured-837.htm",
+          "date": "2026-07-13",
+          "source": "newkerala.com"
+        },
+        {
+          "title": "İletişim Başkanı Durandan 15 Temmuz Demokrasi ve Milli Birlik Günü 10 . yıl programına ilişkin paylaşım – Güncel Haberler , Son Dakika Haberleri , Turktime Haber Portalı",
+          "url": "https://www.turktime.com/haber/iletisim-baskani-duran-dan-15-temmuz-demokrasi-ve-milli-birlik-gunu-10-yil-programina-iliskin-paylasim/749289",
+          "date": "2026-07-13",
+          "source": "turktime.com"
+        }
+      ]
+    },
+    "BRA": {
+      "name": "Brazil",
       "score": 50,
       "metrics": {
         "pos_tone": 0.0,
@@ -93,112 +226,53 @@
       },
       "reasons": []
     },
-    "TUR": {
-      "name": "Turkey",
-      "score": 54,
+    "IND": {
+      "name": "India",
+      "score": 55,
       "metrics": {
-        "pos_tone": -0.93,
-        "neg_tone": -2.7,
+        "pos_tone": -1.23,
+        "neg_tone": -3.74,
         "pos_count": 24,
         "neg_count": 24
       },
       "reasons": [
         {
-          "title": "ИННОПРОМ 2026 : даты , место и адрес проведения в Екатеринбурге , участники и партнеры , официальный сайт и программа международной промышленной выставки",
-          "url": "https://news.mail.ru/society/66735027/",
-          "date": "2026-07-06",
-          "source": "news.mail.ru"
+          "title": "Thị trường hàng hóa thế giới tuần từ 4 - 11 / 7 : Giá dầu bật mạnh , vàng quay đầu giảm",
+          "url": "https://www.tinnhanhchungkhoan.vn/thi-truong-hang-hoa-the-gioi-tuan-tu-4-117-gia-dau-bat-manh-vang-quay-dau-giam-post393918.html",
+          "date": "2026-07-13",
+          "source": "tinnhanhchungkhoan.vn"
         },
         {
-          "title": "Vor dem Nato - Gipfel in Ankara : Europa sucht Wege aus der Abhängigkeit von den united states – und will offenen Bruch vermeiden",
-          "url": "https://www.tagesspiegel.de/internationales/vor-dem-nato-gipfel-in-ankara-europa-sucht-wege-aus-der-abhangigkeit-von-den-usa--und-will-offenen-bruch-vermeiden-15804315.html",
-          "date": "2026-07-06",
-          "source": "tagesspiegel.de"
+          "title": "BJP serves defamation notice to Omar Abdullah over MLA poaching allegations , seeks Rs 100 - crore damages",
+          "url": "https://www.ibtimes.co.in/bjp-serves-rs-100-crore-defamation-notice-omar-over-mla-poaching-charge-903820",
+          "date": "2026-07-13",
+          "source": "ibtimes.co.in"
         },
         {
-          "title": "Ibrahimović na NATO samitu u Ankari :: Politika :: RTCG - Radio Televizija Crne Gore",
-          "url": "https://rtcg.me/vijesti/politika/861521/ibrahimovic-na-nato-samitu-u-ankari.html",
-          "date": "2026-07-06",
-          "source": "rtcg.me"
+          "title": "Narottam Mishra ticket cut changed equations : Congress candidate Ghanshyam Singh confident of 100 % Datia win",
+          "url": "http://www.indiagazette.com/news/279183665/narottam-mishra-ticket-cut-changed-equations-congress-candidate-ghanshyam-singh-confident-of-100-datia-win",
+          "date": "2026-07-13",
+          "source": "indiagazette.com"
         },
         {
-          "title": "LILLEY : Will Carney announce mixed submarine fleet on his way to NATO ?",
-          "url": "https://calgarysun.com/opinion/columnists/will-carney-announce-a-mixed-submarine-fleet-on-his-way-to-nato/wcm/48682492-c97b-48a7-8e26-f91e0c0714da",
-          "date": "2026-07-06",
-          "source": "calgarysun.com"
+          "title": "Uttar Pradesh Sets an Example in the Conservation of Water , Forests , Land , and Biodiversity",
+          "url": "https://www.newsx.com/press-release/uttar-pradesh-sets-an-example-in-the-conservation-of-water-forests-land-and-biodiversity-247910/",
+          "date": "2026-07-13",
+          "source": "newsx.com"
         },
         {
-          "title": "Հայոց ցեղասպանության իրականացման գործընթացում իսլամի գործոնի հարցի շուրջ",
-          "url": "https://www.aravot.am/2026/07/06/1567359/",
-          "date": "2026-07-06",
-          "source": "aravot.am"
+          "title": "Paudhropan Mahabhiyan Is a Mahayagya To Express Gratitude To Mother Earth : CM Yogi",
+          "url": "https://www.newsx.com/press-release/paudhropan-mahabhiyan-is-a-mahayagya-to-express-gratitude-to-mother-earth-cm-yogi-247942/",
+          "date": "2026-07-13",
+          "source": "newsx.com"
         },
         {
-          "title": "Ubice , napustite zemlju  Veliki protest u Turskoj protiv NATO - a",
-          "url": "https://www.alo.rs/vesti/svet/16835819/ubice-napustite-zemlju-veliki-protest-u-turskoj-protiv-nato-a.html",
-          "date": "2026-07-06",
-          "source": "alo.rs"
+          "title": "Ensuring no votes are missed : Karnataka minister Yathindra Siddaramaiah on Opposition claims over SIR exercise",
+          "url": "http://www.indiagazette.com/news/279184201/ensuring-no-votes-are-missed-karnataka-minister-yathindra-siddaramaiah-on-opposition-claims-over-sir-exercise",
+          "date": "2026-07-13",
+          "source": "indiagazette.com"
         }
       ]
-    },
-    "BRA": {
-      "name": "Brazil",
-      "score": 42,
-      "metrics": {
-        "pos_tone": 0.0,
-        "neg_tone": -2.05,
-        "pos_count": 0,
-        "neg_count": 24
-      },
-      "reasons": [
-        {
-          "title": "Desmatamento no Amazonas é impulsionado por falta de emprego e renda",
-          "url": "https://g1.globo.com/am/amazonas/noticia/2026/07/06/falta-de-emprego-e-renda-impulsiona-desmatamento-no-amazonas-diz-estudo.ghtml",
-          "date": "2026-07-06",
-          "source": "g1.globo.com"
-        },
-        {
-          "title": "Governo Lula aposta em nova reunião para barrar tarifaço dos Estados Unidos",
-          "url": "https://extra.globo.com/economia/noticia/2026/07/governo-lula-aposta-em-nova-reuniao-para-barrar-tarifaco-dos-estados-unidos.ghtml",
-          "date": "2026-07-06",
-          "source": "extra.globo.com"
-        },
-        {
-          "title": "FIFA World Cup 2026 :",
-          "url": "http://www.europesun.com/news/279169278/fifa-world-cup-2026-when-the-lion-is-hungry-he-eats-says-zlatan-on-norway-dream-run-after-brazil-shocker",
-          "date": "2026-07-06",
-          "source": "europesun.com"
-        },
-        {
-          "title": "Fortress North America  is a bad idea in service of a bad deal",
-          "url": "https://www.theglobeandmail.com/opinion/article-usmca-fortress-north-america-canada-sovereignty/",
-          "date": "2026-07-06",
-          "source": "theglobeandmail.com"
-        },
-        {
-          "title": "Denúncia contra  mensageiros do crime  expõe dimensão da influência de advogados nas faces - Segurança",
-          "url": "https://diariodonordeste.verdesmares.com.br/seguranca/denuncia-contra-mensageiros-do-crime-expoe-dimensao-da-influencia-de-advogados-nas-faccoes-1.3774814",
-          "date": "2026-07-06",
-          "source": "diariodonordeste.verdesmares.com.br"
-        },
-        {
-          "title": "Le ragioni della crisi dellauto tedesca ( e perché il modello cinese è quello vincente ) - OP - ED",
-          "url": "https://www.lantidiplomatico.it/dettnews-le_ragioni_della_crisi_dellauto_tedesca_e_perch_il_modello_cinese__quello_vincente/39602_67893/",
-          "date": "2026-07-06",
-          "source": "lantidiplomatico.it"
-        }
-      ]
-    },
-    "IND": {
-      "name": "India",
-      "score": 45,
-      "metrics": {
-        "pos_tone": 0.0,
-        "neg_tone": -3.53,
-        "pos_count": 0,
-        "neg_count": 24
-      },
-      "reasons": []
     },
     "POL": {
       "name": "Poland",
@@ -209,55 +283,55 @@
         "pos_count": 0,
         "neg_count": 0
       },
-      "reasons": [
-        {
-          "title": "Εκατομμύρια έφεδροι στα σύνορα Ρωσίας – Η Ευρώπη ετοιμάζει … σύγκρουση μεγατόνων – Σοκ , οι ΗΠΑ πετούν τα ουκρανικά drones",
-          "url": "https://www.bankingnews.gr/diethni/articles/886397/oxyra-katafygia-ekatommyria-efedroi-sta-synora-tis-rosias-i-evropi-etoimazetai-gia-polemo",
-          "date": "2026-07-06",
-          "source": "bankingnews.gr"
-        },
-        {
-          "title": "Zwrot kosztów leczenia za granicą na nowych zasadach . Resort szykuje ważne zmiany",
-          "url": "https://wiadomosci.radiozet.pl/zdrowie/zwrot-kosztow-leczenia-za-granica-na-nowych-zasadach-resort-szykuje-wazne-zmiany",
-          "date": "2026-07-06",
-          "source": "wiadomosci.radiozet.pl"
-        },
-        {
-          "title": "Pożyczki bez odsetek i spłata przez 20 lat . Popłyną miliardy na bezpieczeństwo",
-          "url": "https://www.portalsamorzadowy.pl/fundusze-europejskie/pozyczki-bez-odsetek-i-splata-przez-20-lat-poplyna-miliardy-na-bezpieczenstwo,667567.html",
-          "date": "2026-07-06",
-          "source": "portalsamorzadowy.pl"
-        },
-        {
-          "title": "ИННОПРОМ 2026 : даты , место и адрес проведения в Екатеринбурге , участники и партнеры , официальный сайт и программа международной промышленной выставки",
-          "url": "https://news.mail.ru/society/66735027/",
-          "date": "2026-07-06",
-          "source": "news.mail.ru"
-        },
-        {
-          "title": "Koniec szlabanów i trzeci pas ruchu . Państwo przejmuje obleganą autostradę",
-          "url": "https://www.portalsamorzadowy.pl/inwestycje/koniec-szlabanow-i-trzeci-pas-ruchu-panstwo-przejmuje-oblegana-autostrade,667424.html",
-          "date": "2026-07-06",
-          "source": "portalsamorzadowy.pl"
-        },
-        {
-          "title": "O tę linię kolejową trwa walka od lat . Niemcy hamują połączenie z Polską",
-          "url": "https://www.portalsamorzadowy.pl/gospodarka-komunalna/o-te-linie-kolejowa-trwa-walka-od-lat-niemcy-hamuja-polaczenie-z-polska,667588.html",
-          "date": "2026-07-06",
-          "source": "portalsamorzadowy.pl"
-        }
-      ]
+      "reasons": []
     },
     "CHN": {
       "name": "China",
       "score": 61,
       "metrics": {
-        "pos_tone": -0.52,
+        "pos_tone": -0.67,
         "neg_tone": 0.0,
         "pos_count": 24,
         "neg_count": 0
       },
-      "reasons": []
+      "reasons": [
+        {
+          "title": "Мрачное будущее НАТО ( и ЕС ) ( El Pais , Испания )",
+          "url": "https://inosmi.ru/20260713/nato-279267698.html",
+          "date": "2026-07-13",
+          "source": "inosmi.ru"
+        },
+        {
+          "title": "Χάρης Θεοχάρης : Η εξωστρέφεια ως στρατηγική",
+          "url": "https://www.naftemporiki.gr/afieromata/the-n-society/2136858/charis-theocharis-i-exostrefeia-os-stratigiki/",
+          "date": "2026-07-13",
+          "source": "naftemporiki.gr"
+        },
+        {
+          "title": "खैरवाड़ा : राउमावि पीपली अ में छात्र संसद का चुनाव संपन्न , अजीत मीणा बने नवनिर्वाचित अध्यक्ष | Student parliament elections held in Khairwada school ; President elected",
+          "url": "https://www.pratahkal.com/udaipur/khairwada-school-student-parliament-election-1611788",
+          "date": "2026-07-13",
+          "source": "pratahkal.com"
+        },
+        {
+          "title": "Japan building new centralised intelligence agency with support from Western Allies : Report",
+          "url": "http://www.newyorkstatesman.com/news/279183891/japan-building-new-centralised-intelligence-agency-with-support-from-western-allies-report",
+          "date": "2026-07-13",
+          "source": "newyorkstatesman.com"
+        },
+        {
+          "title": "AI 반도체 전쟁 시대 , 노조 역할과 넘지 말아야 할 선",
+          "url": "https://www.newsway.co.kr/news/view?ud=2026071314545331225",
+          "date": "2026-07-13",
+          "source": "newsway.co.kr"
+        },
+        {
+          "title": "憂跨境鎮壓頻傳 張育萌 ： 政治暴力犯罪成本太低 | 西藏 | 陸委會 | 何韻詩",
+          "url": "http://www.epochtimes.com.tw/n508137/%E6%86%82%E8%B7%A8%E5%A2%83%E9%8E%AE%E5%A3%93%E9%A0%BB%E5%82%B3--%E5%BC%B5%E8%82%B2%E8%90%8C-%E6%94%BF%E6%B2%BB%E6%9A%B4%E5%8A%9B%E7%8A%AF%E7%BD%AA%E6%88%90%E6%9C%AC%E5%A4%AA%E4%BD%8E.html",
+          "date": "2026-07-13",
+          "source": "epochtimes.com.tw"
+        }
+      ]
     }
   }
 }
