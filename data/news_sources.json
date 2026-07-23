@@ -1,0 +1,76 @@
+{
+  "description": "Free RSS allowlist emphasizing wire services (Reuters/AP via Google News). No paid APIs.",
+  "max_age_days": 30,
+  "wire_enrichment": true,
+  "feeds": [
+    {
+      "id": "reuters_google",
+      "name": "Reuters",
+      "url": "https://news.google.com/rss/search?q=source:Reuters+when:30d&hl=en-US&gl=US&ceid=US:en",
+      "wire": true
+    },
+    {
+      "id": "ap_google",
+      "name": "Associated Press",
+      "url": "https://news.google.com/rss/search?q=source:AP+when:30d&hl=en-US&gl=US&ceid=US:en",
+      "wire": true
+    },
+    {
+      "id": "afp_google",
+      "name": "AFP",
+      "url": "https://news.google.com/rss/search?q=source:AFP+when:30d&hl=en-US&gl=US&ceid=US:en",
+      "wire": true
+    },
+    {
+      "id": "reuters_politics",
+      "name": "Reuters",
+      "url": "https://news.google.com/rss/search?q=source:Reuters+(election+OR+democracy+OR+parliament+OR+protest+OR+%22human+rights%22+OR+authoritarian)+when:30d&hl=en-US&gl=US&ceid=US:en",
+      "wire": true
+    },
+    {
+      "id": "bbc_world",
+      "name": "BBC News",
+      "url": "https://feeds.bbci.co.uk/news/world/rss.xml"
+    },
+    {
+      "id": "bbc_asia",
+      "name": "BBC News",
+      "url": "https://feeds.bbci.co.uk/news/world/asia/rss.xml"
+    },
+    {
+      "id": "bbc_africa",
+      "name": "BBC News",
+      "url": "https://feeds.bbci.co.uk/news/world/africa/rss.xml"
+    },
+    {
+      "id": "bbc_europe",
+      "name": "BBC News",
+      "url": "https://feeds.bbci.co.uk/news/world/europe/rss.xml"
+    },
+    {
+      "id": "bbc_latin_america",
+      "name": "BBC News",
+      "url": "https://feeds.bbci.co.uk/news/world/latin_america/rss.xml"
+    },
+    {
+      "id": "bbc_us_canada",
+      "name": "BBC News",
+      "url": "https://feeds.bbci.co.uk/news/world/us_and_canada/rss.xml"
+    },
+    {
+      "id": "dw_en",
+      "name": "Deutsche Welle",
+      "url": "https://rss.dw.com/rdf/rss-en-world"
+    },
+    {
+      "id": "un_news",
+      "name": "UN News",
+      "url": "https://news.un.org/feed/subscribe/en/news/all/rss.xml"
+    },
+    {
+      "id": "hrw",
+      "name": "Human Rights Watch",
+      "url": "https://www.hrw.org/rss"
+    }
+  ]
+}

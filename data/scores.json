@@ -1,337 +1,5801 @@
 {
-  "updated": "2026-07-20",
+  "schema_version": 2,
+  "updated": "2026-07-23",
+  "methodology": {
+    "model": "baseline_plus_news_delta",
+    "formula": "score = clamp(baseline + news_delta, 0, 100)",
+    "baseline": {
+      "vdem_weight": 0.6,
+      "freedom_house_weight": 0.4,
+      "min_year": 2020,
+      "years_present": [
+        2025
+      ],
+      "sources": {
+        "vdem": {
+          "producer": "V-Dem Institute",
+          "indicator": "Liberal democracy index (v2x_libdem)",
+          "scale": "0–1 (scaled ×100)",
+          "via": "Our World in Data",
+          "url": "https://ourworldindata.org/grapher/liberal-democracy-index"
+        },
+        "freedom_house": {
+          "producer": "Freedom House",
+          "indicator": "Total democracy score (Political Rights + Civil Liberties)",
+          "scale": "0–100",
+          "via": "Our World in Data",
+          "url": "https://ourworldindata.org/grapher/freedom-score-fh"
+        }
+      }
+    },
+    "news_delta": {
+      "status": "active",
+      "cap": 5.0,
+      "decay": 0.5,
+      "max_age_days": 30,
+      "sources_file": "data/news_sources.json",
+      "note": "Weekly free-RSS evidence adjusts baseline; see METHODOLOGY.md",
+      "last_run": "2026-07-23T13:33:54Z",
+      "articles_fetched": 427,
+      "articles_matched": 30,
+      "countries_with_evidence": 27
+    }
+  },
   "countries": {
-    "USA": {
-      "name": "United States",
-      "score": 59,
-      "metrics": {
-        "pos_tone": -1.79,
-        "neg_tone": 0.0,
-        "pos_count": 24,
-        "neg_count": 0
+    "AFG": {
+      "name": "Afghanistan",
+      "iso3": "AFG",
+      "iso_numeric": 4,
+      "baseline": 4.28,
+      "news_delta": 0.0,
+      "score": 4,
+      "label": "Closed Autocracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.018,
+          "scaled": 1.8,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 8.0,
+          "scaled": 8.0,
+          "year": 2025,
+          "weight": 0.4
+        }
       },
-      "reasons": []
+      "evidence": []
     },
-    "RUS": {
-      "name": "Russia",
-      "score": 52,
-      "metrics": {
-        "pos_tone": -2.07,
-        "neg_tone": -3.21,
-        "pos_count": 24,
-        "neg_count": 24
+    "AGO": {
+      "name": "Angola",
+      "iso3": "AGO",
+      "iso_numeric": 24,
+      "baseline": 20.98,
+      "news_delta": 0.0,
+      "score": 21,
+      "label": "Electoral Autocracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.163,
+          "scaled": 16.3,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 28.0,
+          "scaled": 28.0,
+          "year": 2025,
+          "weight": 0.4
+        }
       },
-      "reasons": []
+      "evidence": []
     },
-    "VEN": {
-      "name": "Venezuela",
-      "score": 52,
-      "metrics": {
-        "pos_tone": -2.13,
-        "neg_tone": -3.28,
-        "pos_count": 24,
-        "neg_count": 24
+    "ALB": {
+      "name": "Albania",
+      "iso3": "ALB",
+      "iso_numeric": 8,
+      "baseline": 50.52,
+      "news_delta": 0.0,
+      "score": 51,
+      "label": "Hybrid Regime",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.382,
+          "scaled": 38.2,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 69.0,
+          "scaled": 69.0,
+          "year": 2025,
+          "weight": 0.4
+        }
       },
-      "reasons": [
+      "evidence": []
+    },
+    "AND": {
+      "name": "Andorra",
+      "iso3": "AND",
+      "iso_numeric": 20,
+      "baseline": 93.0,
+      "news_delta": 0.0,
+      "score": 93,
+      "label": "Liberal Democracy",
+      "baseline_mode": "fh_only",
+      "components": {
+        "freedom_house": {
+          "raw": 93.0,
+          "scaled": 93.0,
+          "year": 2025,
+          "weight": 1.0
+        }
+      },
+      "evidence": []
+    },
+    "ARE": {
+      "name": "United Arab Emirates",
+      "iso3": "ARE",
+      "iso_numeric": 784,
+      "baseline": 11.82,
+      "news_delta": 0.0,
+      "score": 12,
+      "label": "Closed Autocracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.077,
+          "scaled": 7.7,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 18.0,
+          "scaled": 18.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "ARG": {
+      "name": "Argentina",
+      "iso3": "ARG",
+      "iso_numeric": 32,
+      "baseline": 65.44,
+      "news_delta": 0.0,
+      "score": 65,
+      "label": "Electoral Democracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.524,
+          "scaled": 52.4,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 85.0,
+          "scaled": 85.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "ARM": {
+      "name": "Armenia",
+      "iso3": "ARM",
+      "iso_numeric": 51,
+      "baseline": 43.86,
+      "news_delta": 0.0,
+      "score": 44,
+      "label": "Hybrid Regime",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.371,
+          "scaled": 37.1,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 54.0,
+          "scaled": 54.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "ATG": {
+      "name": "Antigua and Barbuda",
+      "iso3": "ATG",
+      "iso_numeric": 28,
+      "baseline": 83.0,
+      "news_delta": 0.0,
+      "score": 83,
+      "label": "Liberal Democracy",
+      "baseline_mode": "fh_only",
+      "components": {
+        "freedom_house": {
+          "raw": 83.0,
+          "scaled": 83.0,
+          "year": 2025,
+          "weight": 1.0
+        }
+      },
+      "evidence": []
+    },
+    "AUS": {
+      "name": "Australia",
+      "iso3": "AUS",
+      "iso_numeric": 36,
+      "baseline": 85.18,
+      "news_delta": 0.0,
+      "score": 85,
+      "label": "Liberal Democracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.793,
+          "scaled": 79.3,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 94.0,
+          "scaled": 94.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": [
         {
-          "title": "Andalucía superó en junio los 423 . 000 extranjeros afiliados a la Seguridad Social",
-          "url": "https://www.diariodejerez.es/andalucia/andalucia-supero-junio-423-000_0_2007502895.html",
-          "date": "2026-07-20",
-          "source": "diariodejerez.es"
+          "title": "Australia gives regulator more power to pursue Big Tech over under-16 ban",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPUlJVTDZWY0lFV2wyQlpEMTlXem9qTWJHalBXRmc0dFJ2RjJwRlN5bElSUXhXeWFLdzY0eVc4ak1OWnphWkVINzh4X3NkdXhvcHJ3YnM5NjRDSE4zWWZLNzBPd1ZzdmVReXFLdEZ2SXI4d1Y2WXQtWUxiMDFFeHZ4SHd1N2tvN1VJcUNIcmVnVUl1VFRKZEliWjhRNjFhRjRITjZmSTFwSWVwWUM0V0FGd3RwMjh5LVNFOV82YmFFOA?oc=5",
+          "date": "2026-06-29",
+          "source": "Reuters",
+          "weight": 0.0,
+          "tag": "wire context"
         },
         {
-          "title": "Andalucía superó en junio los 423 . 000 extranjeros afiliados a la Seguridad Social",
-          "url": "https://www.huelvainformacion.es/andalucia/andalucia-supero-junio-423-000_0_2007502900.html",
-          "date": "2026-07-20",
-          "source": "huelvainformacion.es"
+          "title": "From Australia to Europe, countries move to curb children's social media access",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOZ2pNWDMxclFVVE9XcW1CcWFfUmhWbk41dE1GMUFQbmJlbmVHM0hZd09FVFk0Zm56bW00ekRpeEZhWHVpbnhXSWQxQXlsaE1VNDBvRU9RdTZ1VGphaVM1enZqeHNFTWJmOFVvMEJjalluMWhTRHJMNjZMVmJ0SkUzMlNUdDRJNi00WXZBeGsxMklDZkdyWmQtVHpxektIYm9hWlQ0T09sOFZsbFc4eFNfQzNDWFdyRFBUNGlz?oc=5",
+          "date": "2026-07-22",
+          "source": "Reuters",
+          "weight": 0.0,
+          "tag": "wire context"
         },
         {
-          "title": "Mbi 5 mijë e 200 viktima nga tërmetet në Venezuelë",
-          "url": "https://orainfo.net/mbi-5-mije-e-200-viktima-nga-termetet-ne-venezuele/",
-          "date": "2026-07-20",
-          "source": "orainfo.net"
+          "title": "Australia to establish government AI office, curb data centres' water use",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPNks2ZmFOR3l0VmZPeFUtRTRYd2xDcFIxdktBcThUNmlzbTU1Vlk0all5M0RXY3JxRWdla2ZkYld3OS1uTEdrdnJ4cHM4dzhfd0NJVWs1VkZsMl9mclZsNlU3WkRPLWJDSG1wQ1BQV2tIX3RNWHNfMTZKNV94R0Y4SFJuelBZc3F4Y2tka2g0S241dTFuaGhMOTFpM3JQamZCMWxsQUxQblU2WkNhc1g1bGZVVlprSEpT?oc=5",
+          "date": "2026-07-14",
+          "source": "Reuters",
+          "weight": 0.0,
+          "tag": "wire context"
         },
         {
-          "title": "Nohemi Pérez :  En Venezuela si sueltas un niño desaparece",
-          "url": "https://www.elprogreso.es/articulo/lugo/nohemi-perez-venezuela-sueltas-nino-desaparece/202607201022271986506.html",
-          "date": "2026-07-20",
-          "source": "elprogreso.es"
+          "title": "Australia pledges tougher enforcement of social media ban for teens",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPQWNkQ0k2eWdCOTZ2X0ZaWi13Qm5ISlJUUHVtVVVHWlRlNERqWmpEVDBGYXluWmczS3NhNUVOUjZ1aExTc2c5bjY0VUhIdDIxaXNoVmVjakkyNXpSLXVOdnVqQ0VIaGZCdUlQbmhVSFZpbkIzYl9LVWtueV8xVmhlMFVicUMwbnZUeTdWLXEybk5ac1lsYWs5Y0E2Umt0dF9XSlBaX2NfeXZOV3ROc0Jyczg5WC1ZZw?oc=5",
+          "date": "2026-06-26",
+          "source": "Reuters",
+          "weight": 0.0,
+          "tag": "governance"
         },
         {
-          "title": "Ortega pressionará por reformas na Nicarágua contra financiamento estrangeiro de campanhas",
-          "url": "https://noticiabrasil.net.br/20260720/ortega-pressionara-por-reformas-na-nicaragua-contra-financiamento-estrangeiro-de-campanhas-52391296.html",
-          "date": "2026-07-20",
-          "source": "noticiabrasil.net.br"
+          "title": "Australia toughens kids' social media ban, doubles potential penalties for tech firms",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPdjNWWE45OGxaRVY3b2FvV0x4RDRfT3d5aTZBRFM0UFhQREVLaGpEQjhFelA0UHBPUFhqWTlYcEwtTWI0dWdNanVJdDRjTlpmNndMLTZMQV9XeGRnQm1OakVkaDJMOE5ZYnEwb3Q3bWhxVDAwYUlRQlp3R3FjekV4Yk1wR2psQTZLNERqMEppOEJQU0RfZ2hnb0VzaE9sWktHc25oOWtuS1o4amFwQkt5bmJpakcwT1I3OEoxMDRqdHJFSW1NM1I4SFV6Um82aWh2YXQySw?oc=5",
+          "date": "2026-06-29",
+          "source": "Reuters",
+          "weight": 0.0,
+          "tag": "governance"
         },
         {
-          "title": "Unesco respalda a Venezuela en protección de sus bienes patrimoniales tras doblete sísmico",
-          "url": "https://www.tercerainformacion.es/articulo/cultura/20/07/2026/unesco-respalda-a-venezuela-en-proteccion-de-sus-bienes-patrimoniales-tras-doblete-sismico/",
-          "date": "2026-07-20",
-          "source": "tercerainformacion.es"
+          "title": "Australia finds serious gaps in Big Tech response to online child sexual abuse",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPOVNfcjZTTTNVSHdxRnZleldFTlhpWnZRRXNXQmREZWxzUFhUMDdxd0FxNTJ6dHh3d3ZodV9RMDJUWmJxRXI1ajI4NWM2azlXcGNhNk9QTVBVOVNxMXNxVkdYc0lmSUdoRTBaX3dMdk9iOHZvVGJfWVp6Y2MwczY4N0QtakZwaV9LX1BYWFpQcG1oVW5jWHBJcktSdnpuYWZfU3RFSFZ1SXRldUtZTjlCVFl1QlN3X19oekJuSnE5YTllc00?oc=5",
+          "date": "2026-07-13",
+          "source": "Reuters",
+          "weight": 0.0,
+          "tag": "wire context"
+        },
+        {
+          "title": "Australia jobs blow past expectations in June, cements bets of another rate rise",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQQnBNUzd5R0tSSzA1aG4wMEZvdlAzcUpHSDlBWnl2UmpGYWhiYkNud1FHck9KR21Gc2NnSi1lU24zMzJKMFdhYUJpZ0Z4cTY2VDBnbnE2TVhQaVN5NzRlZjR5Zy1QZzRRS1V2V1VCQWFpLVdJQi11c0NBbzlydU94Q1NmRXlZeVJKaUZkeVV0QWJQd0wxQkt6Uk5YR2N6dUJ0SEpWdWJGcjdUdWFfbEJfYjVSTW96S080Qlpr?oc=5",
+          "date": "2026-07-23",
+          "source": "Reuters",
+          "weight": 0.0,
+          "tag": "wire context"
+        },
+        {
+          "title": "EXCLUSIVE: Australia's teen social media ban fails to clear first hurdle in age checks, says study",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQMVVFOHA5aEVaNXgtQnRpNklUdDhKSnFjOGZNaWdrdU8xUERLV3llR1I5UjdVaUs4ZFAtMXFKV1p6WWVYRDFOd3cxdDQxdUhLVHdMS3lQbEZHb0oyWDZTcy1UdHNZdUFEeVZvR1ViRHd6alFGTXV4cTFwaXBMUkItUzgyZ19Ib1F3Y3Yya0J1VUlWWUlxVmdxX0oybG0ybkRxMHR5OWdHT1lWdUZkaGxZYmFuUGdZRmJMSno0TnB3?oc=5",
+          "date": "2026-07-14",
+          "source": "Reuters",
+          "weight": 0.0,
+          "tag": "governance"
+        },
+        {
+          "title": "Australia weighs break-up of Big Four accounting firms after scandals",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOMHQ2ai1Ma0hPUXcwMFBpRXR5TFpzc2hlMkJtNVV5Wk5keERpX2QybW1USkhUMzZfc0c3SlBYUVNqNGVNTlJDdmQ2bWpSZXhjbjF2N1RwbWN6VGdScTBlN0FzM2E4TFBTbGRVT0xjMDZpTGI3YmJHSUV1Xzg2dVkyWjgzNE4wbEFvTUJtTHpwT2o5cWV2ZW1TOVR3UUJqRGZVdWNib1BfYVhLWm1VbVdPclVyZWRnUm16aXZxXzhR?oc=5",
+          "date": "2026-07-01",
+          "source": "Reuters",
+          "weight": 0.0,
+          "tag": "wire context"
+        },
+        {
+          "title": "Australia's Origin Energy probes potential unauthorised data access",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNMkg4SWotNFU5OHpIODZUUFE1bVMycFlrejQ0TWstVERxLUVzbmhnYlZ4OVBhelZRcVBUODVZRWM5S0U0emNTbUFxenZqWjZ1YmY4VGxxQ2VxcWFRRVhQSG1nRHNjaFlwYnF6RVI1RlRKakRnRTgyTUJNbzB6M3JOM1NSeUV0V1hrRERNeFFoM2RkVzRaYi1CVWFxLU4zMXQ5SGZ6SlNvY2NRa0tyY2o1TllIVnh0cTNXR1E?oc=5",
+          "date": "2026-07-22",
+          "source": "Reuters",
+          "weight": 0.0,
+          "tag": "wire context"
         }
       ]
     },
-    "IRN": {
-      "name": "Iran",
-      "score": 50,
-      "metrics": {
-        "pos_tone": 0.0,
-        "neg_tone": 0.0,
-        "pos_count": 0,
-        "neg_count": 0
+    "AUT": {
+      "name": "Austria",
+      "iso3": "AUT",
+      "iso_numeric": 40,
+      "baseline": 83.02,
+      "news_delta": 0.0,
+      "score": 83,
+      "label": "Liberal Democracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.757,
+          "scaled": 75.7,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 94.0,
+          "scaled": 94.0,
+          "year": 2025,
+          "weight": 0.4
+        }
       },
-      "reasons": []
+      "evidence": []
+    },
+    "AZE": {
+      "name": "Azerbaijan",
+      "iso3": "AZE",
+      "iso_numeric": 31,
+      "baseline": 5.58,
+      "news_delta": 0.0,
+      "score": 6,
+      "label": "Closed Autocracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.053,
+          "scaled": 5.3,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 6.0,
+          "scaled": 6.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "BDI": {
+      "name": "Burundi",
+      "iso3": "BDI",
+      "iso_numeric": 108,
+      "baseline": 8.8,
+      "news_delta": 0.0,
+      "score": 9,
+      "label": "Closed Autocracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.06,
+          "scaled": 6.0,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 13.0,
+          "scaled": 13.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "BEL": {
+      "name": "Belgium",
+      "iso3": "BEL",
+      "iso_numeric": 56,
+      "baseline": 85.64,
+      "news_delta": 0.0,
+      "score": 86,
+      "label": "Liberal Democracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.794,
+          "scaled": 79.4,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 95.0,
+          "scaled": 95.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "BEN": {
+      "name": "Benin",
+      "iso3": "BEN",
+      "iso_numeric": 204,
+      "baseline": 43.78,
+      "news_delta": 0.0,
+      "score": 44,
+      "label": "Hybrid Regime",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.323,
+          "scaled": 32.3,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 61.0,
+          "scaled": 61.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "BFA": {
+      "name": "Burkina Faso",
+      "iso3": "BFA",
+      "iso_numeric": 854,
+      "baseline": 14.18,
+      "news_delta": 0.0,
+      "score": 14,
+      "label": "Closed Autocracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.103,
+          "scaled": 10.3,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 20.0,
+          "scaled": 20.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "BGD": {
+      "name": "Bangladesh",
+      "iso3": "BGD",
+      "iso_numeric": 50,
+      "baseline": 24.56,
+      "news_delta": 0.0,
+      "score": 25,
+      "label": "Electoral Autocracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.116,
+          "scaled": 11.6,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 44.0,
+          "scaled": 44.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "BGR": {
+      "name": "Bulgaria",
+      "iso3": "BGR",
+      "iso_numeric": 100,
+      "baseline": 59.54,
+      "news_delta": 0.0,
+      "score": 60,
+      "label": "Electoral Democracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.499,
+          "scaled": 49.9,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 74.0,
+          "scaled": 74.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "BHR": {
+      "name": "Bahrain",
+      "iso3": "BHR",
+      "iso_numeric": 48,
+      "baseline": 8.52,
+      "news_delta": 0.0,
+      "score": 9,
+      "label": "Closed Autocracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.062,
+          "scaled": 6.2,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 12.0,
+          "scaled": 12.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "BHS": {
+      "name": "Bahamas",
+      "iso3": "BHS",
+      "iso_numeric": 44,
+      "baseline": 90.0,
+      "news_delta": 0.0,
+      "score": 90,
+      "label": "Liberal Democracy",
+      "baseline_mode": "fh_only",
+      "components": {
+        "freedom_house": {
+          "raw": 90.0,
+          "scaled": 90.0,
+          "year": 2025,
+          "weight": 1.0
+        }
+      },
+      "evidence": []
+    },
+    "BIH": {
+      "name": "Bosnia and Herzegovina",
+      "iso3": "BIH",
+      "iso_numeric": 70,
+      "baseline": 41.94,
+      "news_delta": 0.0,
+      "score": 42,
+      "label": "Hybrid Regime",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.339,
+          "scaled": 33.9,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 54.0,
+          "scaled": 54.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "BLR": {
+      "name": "Belarus",
+      "iso3": "BLR",
+      "iso_numeric": 112,
+      "baseline": 5.08,
+      "news_delta": 0.0,
+      "score": 5,
+      "label": "Closed Autocracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.038,
+          "scaled": 3.8,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 7.0,
+          "scaled": 7.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "BLZ": {
+      "name": "Belize",
+      "iso3": "BLZ",
+      "iso_numeric": 84,
+      "baseline": 87.0,
+      "news_delta": 0.0,
+      "score": 87,
+      "label": "Liberal Democracy",
+      "baseline_mode": "fh_only",
+      "components": {
+        "freedom_house": {
+          "raw": 87.0,
+          "scaled": 87.0,
+          "year": 2025,
+          "weight": 1.0
+        }
+      },
+      "evidence": []
+    },
+    "BOL": {
+      "name": "Bolivia",
+      "iso3": "BOL",
+      "iso_numeric": 68,
+      "baseline": 48.72,
+      "news_delta": 0.0,
+      "score": 49,
+      "label": "Hybrid Regime",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.352,
+          "scaled": 35.2,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 69.0,
+          "scaled": 69.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "BRA": {
+      "name": "Brazil",
+      "iso3": "BRA",
+      "iso_numeric": 76,
+      "baseline": 71.44,
+      "news_delta": 0.0,
+      "score": 71,
+      "label": "Electoral Democracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.704,
+          "scaled": 70.4,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 73.0,
+          "scaled": 73.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": [
+        {
+          "title": "Brazil unveils credit package for rural sector hit by U.S. tariffs",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNVDVwMy1OT19wcmdEWFJBci1kdXJteGVzZU9DSzVrNkEzYm5IWElnZnJVVlNwY1NPTmZ0MHB5X2dpX2ZNdFdURmJVN3d0MXNxREJCSjlxSW5vYjZBTk5VakhOX0FvM2ViWEQ4Sk03VVZ4ekdJMDU0WkdZRGloUWZRSGdIaVhOTzhxVmMzakNTcjhMX2JtVVpNelNaUXhhQUpVcExkMVV4VzlkdHhTLVJzaQ?oc=5",
+          "date": "2026-07-17",
+          "source": "Reuters",
+          "weight": 0.0,
+          "tag": "wire context"
+        },
+        {
+          "title": "Brazil readies 'tough' response to new Trump tariffs, sources say",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPNXRXblpXS0Mtc2pTcF9iNTZaZ0NuYzMySmRjY3JDUmtLRjdhY016OUpGOG1GdnNaRVRWZjNSa1VmLVB4R1lvYUpQdTA5RTlZU3BaQUZFaFdDZjNnTHAxY2dLNmItQ3lPNzBfNGRFTkVETzdWSEdsV1lNM2VWMlNKS1FrMHRWMjhWXzcxYm5raVlsdGZxdDRiYnM1bjVmYnhxcEZTS3hEY1l1Ul9wNVVCb09zSQ?oc=5",
+          "date": "2026-07-16",
+          "source": "Reuters",
+          "weight": 0.0,
+          "tag": "wire context"
+        },
+        {
+          "title": "Brazil braces for new U.S. tariffs as Washington broadens trade push, sources say",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPZDlpa29KRTdDWTB6cEVwbEdWMGJ4c1VLWjMyUXNyUzB3UktBY0pIY0dkZkR3RTdOZkJKNlpUUWNtb1dqSUlCcXpRSlN3MDFjYjJDcVVxSWxXaXk0Vm1qZmJXb2l5b194d3UtdnQ5eUFZelBmNFFvd2kwQnVnRDdDTTI5dzZNMWhsX1RsakpjZUdrOUg2STctSm1qLW5wR3pvajNXM3VpeXJqV1VORU1LNEZ2eFNSVGdFQXhLY3NSUQ?oc=5",
+          "date": "2026-07-15",
+          "source": "Reuters",
+          "weight": 0.0,
+          "tag": "wire context"
+        },
+        {
+          "title": "US tariffs shake up Brazil's presidential race as candidates trade blame",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNSzlCbU9DSC05SjFEbzhVcjVRaDNJVUdxMVB5YjRlX3JEWmZnQ3VQS0NHWERnb2RwajJmbEVPT1RQWmJJdXZCNWM5LTdTM3Z6WW9sNmZxdjFtcUUxQ3RPam8wcE5BQXJIcXBpd3NvZE5GSnVTSVdmcGhCbkZDbFd2UnRjWFVLX2JuekhkR2pyV0pnRHFVQ3AtN2FmYW1wRTgyT0w4azU5bDhnb1NBVDJfWnYyUkVLQnoycXg4?oc=5",
+          "date": "2026-07-16",
+          "source": "Reuters",
+          "weight": 0.0,
+          "tag": "wire context"
+        },
+        {
+          "title": "US imposes new 25% tariffs on Brazil, expands exemptions list",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQbGRpMHZ2OHBuOU0tdVU1ZDFaQ29kd2RUNTZxV0VDWGVDcHBtSmxZal9LZjhWMC14T3pwcUt1RHFfUFJ6bDJYMUgyYjFCd293dVlnUndVLXZRS2VkR1AtUVhyZzVraVczVHRNMmNzWGdlNHBONEhnUnYxTlR3d3p2aUxYLW5JVTI1RkgtODEzX3lIUG8?oc=5",
+          "date": "2026-07-17",
+          "source": "Reuters",
+          "weight": 0.0,
+          "tag": "wire context"
+        },
+        {
+          "title": "Brazil's economy forecast to grow moderately after October presidential vote",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOVzhPUHlScE1PMmlWd183RXVtMC1nWVVqclU3SFZIX19QbmJLRmVHdnlnX0Y3VmFWMnlyeEFlYjF5R2pzMmJ5NjlGSVVrdkZWbk1ZRW1SZElvSE1Ra1E3MWZOazRHQ1Z0bjdTNUJaZkNVY1ZUWTRtTmtYTmVkZE5HVTF3NndHSzZGMTlOV0pNMk5FaFpzRVZRTjl6dGxuMlJPd0Jjem1NdjBUa2Q4RGQyNHAzWHBlc0RHZzBHWk1yUXc?oc=5",
+          "date": "2026-07-13",
+          "source": "Reuters",
+          "weight": 0.0,
+          "tag": "governance"
+        },
+        {
+          "title": "Brazil finance chief pledges reciprocity, not retaliation, after new U.S. tariffs",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPanEwRXhLSVREeHBYU0ZuM1J5TC1ZR1NHT1pqbmo0dGFnbmIzNGZtYUxFVU11Y3hEVF9JQlVZUGhKakNIUFk3ZVFWWndlRW83TlVCXzJSUkFfdk5yWkVkUjN2dlA1bUlsZ0huSFY4cjVnR3lWNjVrcUdZSFhORHVRNExTM0x0TEw4a2pCRGNPODJLVTRENU5LVGs2cDZ1QzI0X0ZJcExLVnRNazFRVExDX3owcHNrZktTdi1YZmNRelJsQjlieUZB?oc=5",
+          "date": "2026-07-17",
+          "source": "Reuters",
+          "weight": 0.0,
+          "tag": "wire context"
+        },
+        {
+          "title": "Brazil plans to expand support for micro-entrepreneurs",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQNTJmZHRWY0l1TTNuaVg0RXlWRkZsMmZFTEFmTktjLTF4WDlDaXFtVTRnZlBsTFBpSWVjVlhWS0tjWGV5NFZ6QldNZ2tjVm52bHIyREtFWjh3MnQ1R3R1SkNpajJjSlBDc1dZaGQ4c0pOcnR6OElDdUhlbGVuYzlYTmtaZy1uOF9jSnYxY045OUZKenFVbzcxQ2c2REhyQjQ?oc=5",
+          "date": "2026-06-24",
+          "source": "Reuters",
+          "weight": 0.0,
+          "tag": "wire context"
+        },
+        {
+          "title": "Brazil government now expects 2026 inflation to be above central bank's target",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPbWswXzF5UnFyWU84eVRQaWtpakVSY3hHbDJ1Sjk1NVhtTHZ0U2NNRllIN1NRblI4Z2dJYkItN1NxWXY5b1ZjdThLckRITE94bmJIbnVJcVhRSFA5U2FQa05sWUdxSUdsSUpNenNZeWFqbTF6WDNQWXV1VTF1d29nQU5TVVpWVFVkeWsxT2J2Yk5LR0xrcDJfUGRxTlBtWEtBRHItRHJZX1h1YzhjOXlBRE9ZVWhGY21QcVNiM0RGRXNXMFU?oc=5",
+          "date": "2026-07-15",
+          "source": "Reuters",
+          "weight": 0.0,
+          "tag": "wire context"
+        },
+        {
+          "title": "Brazil's Lula extends lead over Flavio Bolsonaro ahead of presidential vote, poll shows",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNTmhraWpaLWZLYXdEZFRKQy03YW1FbFc2dXhCZDc3NWQ0Y0trdE9Ka2xqNVNHRldUbFhzSUZjY2xhOGg2M0UwN3dYOW5GaXpBSnJ6Q3ZPUjRGenVmY0NSd2dhTUxCQTY3MXdZYlZHM0Y5eHFBNU1QMFpLQ0ZaVEFyZURhMDBOVGlnOVdpbWZFbzhCcDJVVGUxZC1JXzFQNENHMVY0Vk92VDhFTzhkcU9ZRTMydXhRSFhuYkRBYUZ6Sm5IRnhvcXk0?oc=5",
+          "date": "2026-07-20",
+          "source": "Reuters",
+          "weight": 0.0,
+          "tag": "governance"
+        }
+      ]
+    },
+    "BRB": {
+      "name": "Barbados",
+      "iso3": "BRB",
+      "iso_numeric": 52,
+      "baseline": 78.34,
+      "news_delta": 0.0,
+      "score": 78,
+      "label": "Electoral Democracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.679,
+          "scaled": 67.9,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 94.0,
+          "scaled": 94.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "BRN": {
+      "name": "Brunei",
+      "iso3": "BRN",
+      "iso_numeric": 96,
+      "baseline": 27.0,
+      "news_delta": 0.0,
+      "score": 27,
+      "label": "Electoral Autocracy",
+      "baseline_mode": "fh_only",
+      "components": {
+        "freedom_house": {
+          "raw": 27.0,
+          "scaled": 27.0,
+          "year": 2025,
+          "weight": 1.0
+        }
+      },
+      "evidence": []
+    },
+    "BTN": {
+      "name": "Bhutan",
+      "iso3": "BTN",
+      "iso_numeric": 64,
+      "baseline": 55.02,
+      "news_delta": 0.0,
+      "score": 55,
+      "label": "Hybrid Regime",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.457,
+          "scaled": 45.7,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 69.0,
+          "scaled": 69.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "BWA": {
+      "name": "Botswana",
+      "iso3": "BWA",
+      "iso_numeric": 72,
+      "baseline": 61.2,
+      "news_delta": 0.0,
+      "score": 61,
+      "label": "Electoral Democracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.52,
+          "scaled": 52.0,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 75.0,
+          "scaled": 75.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "CAF": {
+      "name": "Central African Republic",
+      "iso3": "CAF",
+      "iso_numeric": 140,
+      "baseline": 8.12,
+      "news_delta": 0.0,
+      "score": 8,
+      "label": "Closed Autocracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.102,
+          "scaled": 10.2,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 5.0,
+          "scaled": 5.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "CAN": {
+      "name": "Canada",
+      "iso3": "CAN",
+      "iso_numeric": 124,
+      "baseline": 82.96,
+      "news_delta": 0.0,
+      "score": 83,
+      "label": "Liberal Democracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.736,
+          "scaled": 73.6,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 97.0,
+          "scaled": 97.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": [
+        {
+          "title": "Canada will become observer to advanced fighter project, says source",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPT3ZzTU1sQ1FrbldoMklHTVQ0bTJVTHVfbHhXYm5FazdLOURWbkxtSmJLeS1PRi1CQ1JDN1NrVndjQXpsRXFrbE9PMHhjYVE1b1JpSjhJUW5kRW1MR0d2Wjg5aEtCd3Zkd242TUhSOWpDbkliZ1habHFJakNZMHpjdTNBMm9vOW9KTExUMkhsVld4aXNOQkhpYUFMaVNHV1pQN2RBMG43dy1idw?oc=5",
+          "date": "2026-07-15",
+          "source": "Reuters",
+          "weight": 0.0,
+          "tag": "wire context"
+        },
+        {
+          "title": "Bank of Canada policymakers agreed to keep monetary policy nimble, minutes show",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQQWMxelNPS0JaeWVpNTk3cm1mSW1LQnplZGRJd0VXSk8xc2VqN0JaOG9QVVFTaWdXU0syYWZHa3NIRXRrNG93di11SHBILXRSRHJoUVFaZktGVkZselhWU1p4S1duODB0ZnB5c3A5UTlGRE9pRlFSeUNVNnJmZ1poLUQ5TUs2S0k2RWRaM0ozVmVkTV9GWFJ1Ul9PaDZlVl94MUZYdHY1U2dLaF9TSi05SGt4RTFjNVJwOFlsQ1l2dEE?oc=5",
+          "date": "2026-06-24",
+          "source": "Reuters",
+          "weight": 0.0,
+          "tag": "wire context"
+        },
+        {
+          "title": "Canada to tap Pratt & Whitney Canada for aerospace boost, government says",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxObUZ6ZndkYjBRUjE4TUc0MjJGVXJERGF0WElhWnY5cFUwTWNQSTQzVUZRWGNtRFJaNEdHQk9GMGxYM3E3MFZOTmFtN1dqZXNadEI4NW5hTVZZZjlaYlZOR0NGZU96OXB3c1VBSHlxVE04SGFGWFRiTXJQUWNiVFQyWk5lNDY5aFQzOGY2M25scXZVa2FRbWxXdGNDSVlkOE5HWmFwQUNta0g?oc=5",
+          "date": "2026-07-20",
+          "source": "Reuters",
+          "weight": 0.0,
+          "tag": "wire context"
+        },
+        {
+          "title": "US, Canada strike deal on tolls to let new bridge open on July 27",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQdkZfRDdJT3hXYjd6dEEyaTZ6RlFQdm1rMndyUzFjWUcyRnNXbzhyMDVka1ZFUjhEV29SVWNvdGU2TlJ6SDFVMFcyQnJqOVFhcGE2RnMzcFJib2wwRk1FZVZ2LWR0Z1FjZ2s0bDhBT3EwMG4zWGROODFuZV8xSXV1MEVzTjcwNjhWZGhSSDFHTVdfWmN3Wk5rT2ZmS3doYzZUeHc?oc=5",
+          "date": "2026-07-11",
+          "source": "Reuters",
+          "weight": 0.0,
+          "tag": "wire context"
+        },
+        {
+          "title": "Trump blames Canada for wildfire smoke, says he will add cost to tariffs",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQdXUtel94MS1EWVNOZU1tWW12N1lUWjBTSVBmSTk3bnNGWUd5ellVbVBYZ09LdmozUjVxT0dWbUZkTXU1UEpucm5kblpRd1JQX1Q0NDhEbDZ0dFJUazhCcjlJemk2RHUtMU1PTkdpSHRyZmVJZ01ZTFNyZ1REQkpFc1JLcTUzM2VaaVJqSDdZblNuWjBJTV9tQnZnVG9NSTRHXzJFUHJB?oc=5",
+          "date": "2026-07-18",
+          "source": "Reuters",
+          "weight": 0.0,
+          "tag": "wire context"
+        },
+        {
+          "title": "New British PM gains early defence win with Canada fighter jet tie-up",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQeG5PdEFjQkQtOWd3enhZcjBQVXRmTkpWbjJXa0tTckNUR2U3a1M0bFlkSDJvOGJkMWJMRnAzRmEzYXJhRW5zUmp6eW1pYkN0aHFFTWpiczRnOWlmLVY4b2ZZTk1yNzB3azVXMElIbUp2dzdJNFk3ckdqVVhaMUF3czdsVTFGWGQ1dE9mQVBaclgyQzZOcldKMzlUN2RxWFlpbmdET0ttLXRjWk9TUEZVcmMzTHVPaTdvTFA5ZkVPMWNYcnkzSm9LcnBZb21QLXJpSWdrQUZB?oc=5",
+          "date": "2026-07-21",
+          "source": "Reuters",
+          "weight": 0.0,
+          "tag": "wire context"
+        },
+        {
+          "title": "Canada carves role for gas in clean power grid strategy",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQX2VPX3h0OFNhOS1NUExhdkQzRmdXMkFVaFFQSlZaOGpDZ3JaeUpzRFdYVE5DTjZGajJqbmdxSWRqYVRodVJFNzJjdXpBempSaE1fWkhtd2VQczE5ZFdod19oMGl3el9vY1gzYXAxcTRzWW96T2xSMDZCSHhqSWQzRFd5cGl5cU16QXRkQmlLT2RWMlF3U0w5cmt3cjZkVG5Ua21lN1FvZzJiX0U?oc=5",
+          "date": "2026-07-07",
+          "source": "Reuters",
+          "weight": 0.0,
+          "tag": "wire context"
+        },
+        {
+          "title": "Turkey still evaluating participation in Canada's global defence bank, sources say",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQcEhFYkJqV0dPUVJhMjZQYUhpUkZFb3FtVEpoLS1MamtKU1lTdWFSVjNmcXYyUkZha21zTmtMVEZZa0hxMnlTM0ZjUEZxWmotRXBOQmZxQk8wVVpiODZTV00zeUY2N3FQWC1FTkNoeEJ5cDBJTHlDRElDTzFEdGMzT2JyZG9VNFYxUEUyUUN2YUZMV0tHSFYxWkpKdUt4RzBTUGNBaWptVDJtNGo2Y2g3SHZacURUdVczY0dVdVRaNWJZanhEbXJNQnpDaw?oc=5",
+          "date": "2026-07-11",
+          "source": "Reuters",
+          "weight": 0.0,
+          "tag": "wire context"
+        }
+      ]
+    },
+    "CHE": {
+      "name": "Switzerland",
+      "iso3": "CHE",
+      "iso_numeric": 756,
+      "baseline": 88.98,
+      "news_delta": 0.0,
+      "score": 89,
+      "label": "Liberal Democracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.843,
+          "scaled": 84.3,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 96.0,
+          "scaled": 96.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "CHL": {
+      "name": "Chile",
+      "iso3": "CHL",
+      "iso_numeric": 152,
+      "baseline": 84.86,
+      "news_delta": 0.0,
+      "score": 85,
+      "label": "Liberal Democracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.781,
+          "scaled": 78.1,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 95.0,
+          "scaled": 95.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "CHN": {
+      "name": "China",
+      "iso3": "CHN",
+      "iso_numeric": 156,
+      "baseline": 5.94,
+      "news_delta": 0.0,
+      "score": 6,
+      "label": "Closed Autocracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.039,
+          "scaled": 3.9,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 9.0,
+          "scaled": 9.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": [
+        {
+          "title": "Trump accuses China of 2020 election interference, contradicting US intel",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQQnIxbG1weWlQMmJNcnBLeWdvaFhkbFAxYS05NjZZVEFkMnNXbDNXWlBCZWxMY2FVSllaam8waXRveG9tYjVRa3NuOG5nVlFRc1lvcXpkeFlVN2cxMWN1TjRyckMtUUhmT0ZIRzVQa0QyTkIydmdzSWtEU0lvckNhTGxSN1AtUXd6UkZYNmRKaXQtd0hHSDlqVVRTSzREVmFGT05oM2RvZV80N1oybWhJdW5tRm1WSWdRb0duUA?oc=5",
+          "date": "2026-07-17",
+          "source": "Reuters",
+          "weight": 0.0,
+          "tag": "governance"
+        }
+      ]
+    },
+    "CIV": {
+      "name": "Cote d'Ivoire",
+      "iso3": "CIV",
+      "iso_numeric": 384,
+      "baseline": 32.08,
+      "news_delta": 0.0,
+      "score": 32,
+      "label": "Electoral Autocracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.228,
+          "scaled": 22.8,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 46.0,
+          "scaled": 46.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "CMR": {
+      "name": "Cameroon",
+      "iso3": "CMR",
+      "iso_numeric": 120,
+      "baseline": 12.84,
+      "news_delta": 0.0,
+      "score": 13,
+      "label": "Closed Autocracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.114,
+          "scaled": 11.4,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 15.0,
+          "scaled": 15.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "COD": {
+      "name": "Democratic Republic of Congo",
+      "iso3": "COD",
+      "iso_numeric": 180,
+      "baseline": 14.1,
+      "news_delta": -0.33,
+      "score": 14,
+      "label": "Closed Autocracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.115,
+          "scaled": 11.5,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 18.0,
+          "scaled": 18.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": [
+        {
+          "title": "World News in Brief: Sexual violence in DR Congo, deaths in Ukraine and Russia, crime in Southeast Asia",
+          "url": "https://news.un.org/feed/view/en/story/2026/07/1167992",
+          "date": "2026-07-21",
+          "source": "UN News - Global perspective Human stories",
+          "weight": -0.33,
+          "tag": "erosion"
+        }
+      ]
+    },
+    "COG": {
+      "name": "Congo",
+      "iso3": "COG",
+      "iso_numeric": 178,
+      "baseline": 13.7,
+      "news_delta": 0.0,
+      "score": 14,
+      "label": "Closed Autocracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.115,
+          "scaled": 11.5,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 17.0,
+          "scaled": 17.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "COL": {
+      "name": "Colombia",
+      "iso3": "COL",
+      "iso_numeric": 170,
+      "baseline": 60.9,
+      "news_delta": 0.0,
+      "score": 61,
+      "label": "Electoral Democracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.555,
+          "scaled": 55.5,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 69.0,
+          "scaled": 69.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "COM": {
+      "name": "Comoros",
+      "iso3": "COM",
+      "iso_numeric": 174,
+      "baseline": 24.32,
+      "news_delta": 0.0,
+      "score": 24,
+      "label": "Electoral Autocracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.132,
+          "scaled": 13.2,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 41.0,
+          "scaled": 41.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "CPV": {
+      "name": "Cape Verde",
+      "iso3": "CPV",
+      "iso_numeric": 132,
+      "baseline": 74.66,
+      "news_delta": 0.0,
+      "score": 75,
+      "label": "Electoral Democracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.631,
+          "scaled": 63.1,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 92.0,
+          "scaled": 92.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "CRI": {
+      "name": "Costa Rica",
+      "iso3": "CRI",
+      "iso_numeric": 188,
+      "baseline": 84.94,
+      "news_delta": 0.0,
+      "score": 85,
+      "label": "Liberal Democracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.809,
+          "scaled": 80.9,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 91.0,
+          "scaled": 91.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "CUB": {
+      "name": "Cuba",
+      "iso3": "CUB",
+      "iso_numeric": 192,
+      "baseline": 7.02,
+      "news_delta": 0.0,
+      "score": 7,
+      "label": "Closed Autocracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.057,
+          "scaled": 5.7,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 9.0,
+          "scaled": 9.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "CYP": {
+      "name": "Cyprus",
+      "iso3": "CYP",
+      "iso_numeric": 196,
+      "baseline": 75.84,
+      "news_delta": 0.0,
+      "score": 76,
+      "label": "Electoral Democracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.664,
+          "scaled": 66.4,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 90.0,
+          "scaled": 90.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "CZE": {
+      "name": "Czechia",
+      "iso3": "CZE",
+      "iso_numeric": 203,
+      "baseline": 85.64,
+      "news_delta": 0.0,
+      "score": 86,
+      "label": "Liberal Democracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.794,
+          "scaled": 79.4,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 95.0,
+          "scaled": 95.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "DEU": {
+      "name": "Germany",
+      "iso3": "DEU",
+      "iso_numeric": 276,
+      "baseline": 84.92,
+      "news_delta": -1.0,
+      "score": 84,
+      "label": "Liberal Democracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.782,
+          "scaled": 78.2,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 95.0,
+          "scaled": 95.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": [
+        {
+          "title": "Germany plans tougher tax crime crackdown to raise billions in revenue",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOZVZLcklWM2NZalpzSEwxOEh4NDF1SjYtWXBta2NxS2VURThiOHZYREEyZ2hWRjRxOG54UDR2anlRTHB4a3BwR213a1UyV2JHcDRZWVd6cERVYk9DRVdNTU1KVFRweEhtWWxjT3RXZlhQOVlWVE1TeEFKVmgtMl9HOTJfYkV4azZVNHdUYnpvQlRzMmxNZHVqVEVDV2FHd3Roc3pBc2xoY2xsNE9RVER2V1BtemhpeHpM?oc=5",
+          "date": "2026-07-16",
+          "source": "Reuters",
+          "weight": -1.0,
+          "tag": "erosion"
+        },
+        {
+          "title": "Budget committee backs Germany's 40% stake in KNDS",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOWTVFeXRBN0ZRUVk3TDh3WWszZnhCb2xmQ2RnZVhpUmtEX3dERlZZcmV0SlJrdklVVkR5emppWGdTcU4wU2Q3RDJwbzhMdllCQkhDY2dYamphZUd0emdTU25rUWk2R2lzd3M0TDhwVTJKYUtKVDRZR2V0bHFXUldQOHFsTzlUMTBZd0dOSm54TUJfdGxrb2ltaU5XNDltZTMtMmRramw0WlJ0TkpBbl90UW5abjRLdk54a1ZR?oc=5",
+          "date": "2026-06-26",
+          "source": "Reuters",
+          "weight": 0.0,
+          "tag": "wire context"
+        },
+        {
+          "title": "Germany's federal and state governments agree on cost-sharing deal, sources say",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOdHpPZ0NETTdQZm5pN3dvUDRkZnlveS1JcWxjZkN3MlNOZzdhT2JmckFUMkNwZXc1d0ZXV3V4MHVUSGNfbG5OSFFSaXFvbFBuTHZtR0ZFUTFCSnhjVU8zSlN2cmhzeWxLNHBQWVZmZjMzaW9sS0tmaHNXMEJsUC04eDFfcFIzeDhvaTFodjNmUENocE9vVDBMdVp2UDRscGt2OXlIVWIyY1lFMlBHZHd6cG93?oc=5",
+          "date": "2026-06-25",
+          "source": "Reuters",
+          "weight": 0.0,
+          "tag": "wire context"
+        },
+        {
+          "title": "Germany funds 50,000 strike drones for Ukraine, source says",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxObmw1bUVFVGYxWlZDbmR2eVB0QkZreWY0SW8wUW9rYkdSXzF6QVJWa1QyeDhOLVRjWVNiSkhSVURjdFg4RHA5eW9peC14SzZ3cHNqLVNTS0VsbWdFTlNVREtzTEFnaHpfSFEzWEppbG9taElxMUlHMllGenJiSGJzemQyRFBGS0labzdCX1dYQlEzcDh0ODJ2enpScw?oc=5",
+          "date": "2026-07-12",
+          "source": "Reuters",
+          "weight": 0.0,
+          "tag": "wire context"
+        },
+        {
+          "title": "Thousands protest in Germany as far-right AfD sets sights on power",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNSDF2ZkFFUHEyZnpvN3FqZ2QxbV83T1h2RUxZc3p2Um5YeG1GMlBKOXlhUEZ6VzNtc1BqekVGVzVESFhNRk1zcVRmdDV1UDRRVDMtT2lOWEp6T2czM1VpUEVwSUFCdFhwLWtsMmlIT3hxZzNLZGtrazlrRXVGVVQtY0tiT1hsc3dvZUVod1k2NVdmY2c?oc=5",
+          "date": "2026-07-04",
+          "source": "Reuters",
+          "weight": 0.0,
+          "tag": "governance"
+        },
+        {
+          "title": "Germany to approve €600 million package to cut red tape",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQem1nYnJLaThuNFlGYUhONW1LdzVzbVMtYU1MV3ZZYWFpWEd6Z1BFMXJCNjBlRWVVYWlRWkZjWlVERFp6RmJPcU1hZmtqRnkzdHhySnJhUk45M01vUDJKRG5sLXUzVlZkYTE5SzdLN3dNUHRaZXYtVEJ4bDN2RkdrQmdaRDRqUFhBX0oxUE9jYmhqdVhz?oc=5",
+          "date": "2026-07-14",
+          "source": "Reuters",
+          "weight": 0.0,
+          "tag": "wire context"
+        },
+        {
+          "title": "Germany's Merz aims to pass pension reform by year end",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxONVFheXFvN0hXWTBrN3Q4MTNPS0loY2MtUkx0VDFObDd6cm8ydkNLMmYwS0pUM2tITHNEb3lLRnI3c0VWSEd0Z21XY2phNHptdmtiQktvUGk3bEYzcGNnN0FhMklZMkFqTXMxb2Z0cjRvSGR0LXhQLTN4RF9zX09tLUJYMVBpQ0xOZW9HQ2ZFdUh3OFE2TFQ4?oc=5",
+          "date": "2026-06-24",
+          "source": "Reuters",
+          "weight": 0.0,
+          "tag": "wire context"
+        },
+        {
+          "title": "Germany joins opponents of EU methane law, warns it could up-end jet fuel supply",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNQ2UtQWdoSktYaXhLaU5hcjY4eTZ3ajdNQXlDX1JOb3hSYWtxcHFtVGUzNVBpMW41aE5kYzFtS3JGelh3Zm1sWi13RWhiU0Mwbi1YVU1rZzJGSmlKZ2h1SzAxTi1RNWFiM0FqOEZVczB4bHQtbTJTd3FFajdlOUhOU1hHM1JMam1rZDlxWWZEUEZvUmdGeHZTTV85WkF6eGx5VWxVVE9EUkFOaTdMMTdPbmF5RFdSM2ZTNEQ5Q183OGRjaVRhZUtF?oc=5",
+          "date": "2026-06-26",
+          "source": "Reuters",
+          "weight": 0.0,
+          "tag": "wire context"
+        },
+        {
+          "title": "Senior Merz ally under pressure in Germany over surrogate baby",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPb2pnT01hSHFCd084NmhRSjFYVkE1SHNrZzBVcUM1djcyaXY1QWVtLXU0TVFqbUtKZk1uV05UR0t2TUZfcUROdzMtYlI0SVZmaFdBRzlPSTVwSVBXWEZ3NFZtME04N2kzcVllVGxmeDF6OUVLc3VodU5IY3BxcUZ6VURvMlFOc0dfZzZVYU5Ka2hiX0UtSTJGTXVJcmRaT2JpWGRn?oc=5",
+          "date": "2026-07-17",
+          "source": "Reuters",
+          "weight": 0.0,
+          "tag": "wire context"
+        },
+        {
+          "title": "EXCLUSIVE: Germany demands $450 billion cut to 'unaffordable' EU budget, document shows",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOUzVHSi1POVhiVmI5SW9TNlBVX2VJRklvaVRYWm4wd0NkZ2xQaFdDblZEYTAzOFp5Q3hfSlhtQU1XMzRpS0IzUTRJZjgyZ1QzLUdnVDVnak9ydXh2MVMydXNuM2cwSXRZaG1yTmxpY0QyYTB6aHRnSTVIQ2ZHRUpyNkc1S3lHVDdRNk1GTTNIR0V5ckhNUnh3WWE4elNOaE1kcjVKQnAtSTVNWmFNaFplYU9aY1I?oc=5",
+          "date": "2026-06-30",
+          "source": "Reuters",
+          "weight": 0.0,
+          "tag": "wire context"
+        }
+      ]
+    },
+    "DJI": {
+      "name": "Djibouti",
+      "iso3": "DJI",
+      "iso_numeric": 262,
+      "baseline": 16.68,
+      "news_delta": 0.0,
+      "score": 17,
+      "label": "Closed Autocracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.118,
+          "scaled": 11.8,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 24.0,
+          "scaled": 24.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "DMA": {
+      "name": "Dominica",
+      "iso3": "DMA",
+      "iso_numeric": 212,
+      "baseline": 92.0,
+      "news_delta": 0.0,
+      "score": 92,
+      "label": "Liberal Democracy",
+      "baseline_mode": "fh_only",
+      "components": {
+        "freedom_house": {
+          "raw": 92.0,
+          "scaled": 92.0,
+          "year": 2025,
+          "weight": 1.0
+        }
+      },
+      "evidence": []
+    },
+    "DNK": {
+      "name": "Denmark",
+      "iso3": "DNK",
+      "iso_numeric": 208,
+      "baseline": 91.84,
+      "news_delta": 0.0,
+      "score": 92,
+      "label": "Liberal Democracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.884,
+          "scaled": 88.4,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 97.0,
+          "scaled": 97.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "DOM": {
+      "name": "Dominican Republic",
+      "iso3": "DOM",
+      "iso_numeric": 214,
+      "baseline": 57.1,
+      "news_delta": 0.0,
+      "score": 57,
+      "label": "Hybrid Regime",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.505,
+          "scaled": 50.5,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 67.0,
+          "scaled": 67.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "DZA": {
+      "name": "Algeria",
+      "iso3": "DZA",
+      "iso_numeric": 12,
+      "baseline": 19.96,
+      "news_delta": 0.0,
+      "score": 20,
+      "label": "Electoral Autocracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.126,
+          "scaled": 12.6,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 31.0,
+          "scaled": 31.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "ECU": {
+      "name": "Ecuador",
+      "iso3": "ECU",
+      "iso_numeric": 218,
+      "baseline": 48.76,
+      "news_delta": 0.0,
+      "score": 49,
+      "label": "Hybrid Regime",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.386,
+          "scaled": 38.6,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 64.0,
+          "scaled": 64.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "EGY": {
+      "name": "Egypt",
+      "iso3": "EGY",
+      "iso_numeric": 818,
+      "baseline": 14.1,
+      "news_delta": 0.0,
+      "score": 14,
+      "label": "Closed Autocracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.115,
+          "scaled": 11.5,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 18.0,
+          "scaled": 18.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "ERI": {
+      "name": "Eritrea",
+      "iso3": "ERI",
+      "iso_numeric": 232,
+      "baseline": 1.74,
+      "news_delta": 0.0,
+      "score": 2,
+      "label": "Closed Autocracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.009,
+          "scaled": 0.9,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 3.0,
+          "scaled": 3.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "ESH": {
+      "name": "Western Sahara",
+      "iso3": "ESH",
+      "iso_numeric": 732,
+      "baseline": 4.0,
+      "news_delta": 0.0,
+      "score": 4,
+      "label": "Closed Autocracy",
+      "baseline_mode": "fh_only",
+      "components": {
+        "freedom_house": {
+          "raw": 4.0,
+          "scaled": 4.0,
+          "year": 2025,
+          "weight": 1.0
+        }
+      },
+      "evidence": []
+    },
+    "ESP": {
+      "name": "Spain",
+      "iso3": "ESP",
+      "iso_numeric": 724,
+      "baseline": 80.86,
+      "news_delta": 0.0,
+      "score": 81,
+      "label": "Liberal Democracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.741,
+          "scaled": 74.1,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 91.0,
+          "scaled": 91.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": [
+        {
+          "title": "Trump orders halt to US trade with Spain over NATO spending, Iran",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPUHpycW05eTVleW81UVFsUkdsdzhiaDJuSTl1dDhFNy10bHpyYkVoeWFpWmtvSnFEa2MyRW4wdjExcGpMUVNRNlVveERCZXpPM0lmWkpnNVFBUzhENGdHQmVSRGw3WDN6bXQ4YkdaZGRveWVkWjlkdDFWU0lFSVF3UGFxMzREQkEyYkR0Yy1PbEl2Ul80WGJUMHp6VEE?oc=5",
+          "date": "2026-07-08",
+          "source": "Reuters",
+          "weight": 0.0,
+          "tag": "wire context"
+        },
+        {
+          "title": "De la Fuente sings Lamine's praises as Spain reach World Cup quarter-finals",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPTXdQRHhab1VzRExYOG00WFd0WUZSX19TakFkZVV4Umtvbzk2OWpEckVuMkVaWGdEUjRDbTdQd3U4S2w2bkZrQUdKRnZyTDFtSGk5TDRfZmM3SFBfWjBmZ1lXb3B5d3JCbURrSmhMVWptZXZRMXNVZlhPeXN4bDQ1MmtxT1B2Zk5rM05RQVBIYk1XU3JoZHdjYUdwdHhpY0MySWxNalRfZExxT05yLWZNWTlJblByU28xTUFhQmxR?oc=5",
+          "date": "2026-07-06",
+          "source": "Reuters",
+          "weight": 0.0,
+          "tag": "wire context"
+        },
+        {
+          "title": "Explainer: How can Trump 'cut off all trade' with Spain?",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPcmlKRXlnd0QtYmZLQnVZSFZ0MzdSakJTbWVWem5RbmE1SllvUWttSm1wUlpuelZYN3Zqd1FERFpxNFB3Z0lqMlRZU0JLOWVReTNJYzFDUnk5NjVaQjFudDY3NnZSVDR6eDc0aGlLS181LXFBYzQ3eFhOc0RIemRsUk5oQVdsQ3JwOWZPTmlkQUcxQmRQMTVRVg?oc=5",
+          "date": "2026-07-09",
+          "source": "Reuters",
+          "weight": 0.0,
+          "tag": "wire context"
+        },
+        {
+          "title": "Spain's lower house calls on PM Sanchez to resign in non-binding vote",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxObWtSRm9IdGlCR1ZqUWpWRnc4QmExWi0yYjZsdTZBbi1Yb09qMFU5WmEyWEktblRxelJBNXpJb3JKOHNzNnN1Y1pOWW02d0NYUHZpUnAxV2ZfaDhUOFpIU0tpc3I2bkNCRlVTVDRFTTBqdFRLRHQ2WkV3YWcyd2dvQXp1cThfVHQ5VlVVUlRPTWZVVk1uMG1nSlNmNUY2c0tkanhn?oc=5",
+          "date": "2026-06-25",
+          "source": "Reuters",
+          "weight": 0.0,
+          "tag": "governance"
+        },
+        {
+          "title": "Spain citizenship law for expatriates' descendants sparks voting quarrel",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPenVhYVNaV3VGZWN6MHpVNzhjTWtfLUFudjYwckt5RVZqLV9uZEp0bDNlRGxtbEJHbDZYblVEV1B5N25teDhzdHM5VGlaN2JlYS1Mb0JtZ1NkZjhDbl8zdWJMRFhYV09OeFVqQ294TkpzMUZBWFM0RTN0OGZFMHlIa0pBUmxMWmRlQ1JaREE1RG01Qk83enk4SUpIc20wU1BHZFJmV3ZIaWtfQlNtcGx0NldlRFRGZw?oc=5",
+          "date": "2026-07-01",
+          "source": "Reuters",
+          "weight": 0.0,
+          "tag": "governance"
+        },
+        {
+          "title": "Spain markets watchdog rules out extension for EU crypto licence deadline",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPamdvRVFFU1dZX0VMb2NXMFZrMFE3cWhZX3pJcnNjb25oaGg1UFZTbHdFaHJaeHc4ZlVzekc0bFFrazMwTndnYldCWER6MHFRYTFjZGVBdUxpU0N1NzBiUTdNVXNFb0t2RHR2RDBQRDVLdzg4eW5BdllkR0UzalpzREJkMHVIV1RaR0NjWlBUTzd0TWxmT25wbWVQNndtMTNIZ1BvUlNlR01Mc0tFcUpqU2ZNWGlnZE5wNVNfc19iRQ?oc=5",
+          "date": "2026-06-26",
+          "source": "Reuters",
+          "weight": 0.0,
+          "tag": "wire context"
+        },
+        {
+          "title": "Spain's Sanchez to attend World Cup final alongside Trump amid tensions",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQS2dEWE5NZURyUlE1c0o5d0ZEalBXRTZZaWZ5cGdNakg3cG04c0FuOXdELXVOV21BVnk0LXZvQ1BiT0pfeDE3MDZXVE5pMnIwRjJCaWJmWDgwZnZjRUNlMEg0aC1Pa2pwYzlKb3pPYm1fR201RzJGYU9ZOE1OUkpweTBGc2ZiVGFZSGdUaEgyaEpjVzE5N0ZLMUgzTDJuMDRoR1FTU25PeEdDeUlQMGc?oc=5",
+          "date": "2026-07-17",
+          "source": "Reuters",
+          "weight": 0.0,
+          "tag": "wire context"
+        },
+        {
+          "title": "Spain's High Court widens graft inquiry to include PM's close ally",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOUnNxeGJLOVNYcEJVbFhDOE1YQVVOeHhmaWZIREVGOVR2SVp6UFpwVXduWXJaQWdVaXNQYXFQZHZ1M0ZFeE8zay1XeFlHeXpORWNyd0p6MFNxTVFMVElDeElNY1o1VzZOQmZBZlhxOTgwVWotSURfUlRDbmJ0bzgwTGZ1dG5wQkpJOWt4ZWt6a0M5Q21LX0d5WXMtcXNtdk0xN3pZcGZR?oc=5",
+          "date": "2026-07-10",
+          "source": "Reuters",
+          "weight": 0.0,
+          "tag": "wire context"
+        },
+        {
+          "title": "Spain apologises for ex-PM's column questioning 'Frenchness' of France team",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNa0F2Y3RHSGIzRDg5WFIwR3FGNjNCeHd1azJKNjJCY3JfQmk2UWtJSUdadHItTF9oSU11ZnNsSUtGZUxJWGk4c1RkczRfYUFwUzNtV2V3dlo2R3lfTVFRSEVlVGpQTVBPZTdOZzhPMTVDaWVULUxLbnhMV2VqUF9qVWZCUF9MOWdjZGx1UkdSdVdMMHpONm1qYUNzVUxsbFZ0eWF0V0NEZVJtLS1zMzBDUWl4S0JJdw?oc=5",
+          "date": "2026-07-14",
+          "source": "Reuters",
+          "weight": 0.0,
+          "tag": "wire context"
+        },
+        {
+          "title": "Spain says Trump softened rhetoric after learning of Madrid's contributions to NATO",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPX3A2dTVOVjIzaUxFWnRYVjhpdmkyaS1sV1dOSFE0eTVJODN1QW9vT0RYLUxNX2V3S2RGNHU5WmpCOEV5YlpHT0MzU3BLb1Q4a2FKUWl2eC1mekFmWFhVdlZlZnZWWkFLdFZmSnBsQW9sa1VybC16YTJfZ1IyTHZuVk5Nb0oySU1BVnJnQUJtcm5EN19yNnR6QzRWMFdVS2lZSlA5RDRmcXZfNDRqczRMa1VWVVV6RnBqZDhidllacFBPYm8?oc=5",
+          "date": "2026-07-09",
+          "source": "Reuters",
+          "weight": 0.0,
+          "tag": "wire context"
+        }
+      ]
+    },
+    "EST": {
+      "name": "Estonia",
+      "iso3": "EST",
+      "iso_numeric": 233,
+      "baseline": 88.62,
+      "news_delta": 0.0,
+      "score": 89,
+      "label": "Liberal Democracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.837,
+          "scaled": 83.7,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 96.0,
+          "scaled": 96.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "ETH": {
+      "name": "Ethiopia",
+      "iso3": "ETH",
+      "iso_numeric": 231,
+      "baseline": 13.2,
+      "news_delta": 0.0,
+      "score": 13,
+      "label": "Closed Autocracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.1,
+          "scaled": 10.0,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 18.0,
+          "scaled": 18.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "FIN": {
+      "name": "Finland",
+      "iso3": "FIN",
+      "iso_numeric": 246,
+      "baseline": 88.48,
+      "news_delta": 0.0,
+      "score": 88,
+      "label": "Liberal Democracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.808,
+          "scaled": 80.8,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 100.0,
+          "scaled": 100.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "FJI": {
+      "name": "Fiji",
+      "iso3": "FJI",
+      "iso_numeric": 242,
+      "baseline": 52.68,
+      "news_delta": 0.0,
+      "score": 53,
+      "label": "Hybrid Regime",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.398,
+          "scaled": 39.8,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 72.0,
+          "scaled": 72.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "FRA": {
+      "name": "France",
+      "iso3": "FRA",
+      "iso_numeric": 250,
+      "baseline": 83.6,
+      "news_delta": -0.5,
+      "score": 83,
+      "label": "Liberal Democracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.8,
+          "scaled": 80.0,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 89.0,
+          "scaled": 89.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "FSM": {
+      "name": "Micronesia (country)",
+      "iso3": "FSM",
+      "iso_numeric": 583,
+      "baseline": 92.0,
+      "news_delta": 0.0,
+      "score": 92,
+      "label": "Liberal Democracy",
+      "baseline_mode": "fh_only",
+      "components": {
+        "freedom_house": {
+          "raw": 92.0,
+          "scaled": 92.0,
+          "year": 2025,
+          "weight": 1.0
+        }
+      },
+      "evidence": []
+    },
+    "GAB": {
+      "name": "Gabon",
+      "iso3": "GAB",
+      "iso_numeric": 266,
+      "baseline": 20.68,
+      "news_delta": 0.0,
+      "score": 21,
+      "label": "Electoral Autocracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.178,
+          "scaled": 17.8,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 25.0,
+          "scaled": 25.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "GBR": {
+      "name": "United Kingdom",
+      "iso3": "GBR",
+      "iso_numeric": 826,
+      "baseline": 78.14,
+      "news_delta": 0.0,
+      "score": 78,
+      "label": "Electoral Democracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.689,
+          "scaled": 68.9,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 92.0,
+          "scaled": 92.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": [
+        {
+          "title": "UK populist leader Farage to quit parliament, seek re-election after gift allegations",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPMG5WUW54NHJmTjNlRDBZaDNuaGFpd2h0Z1N0NjRxRVFsWUdKOTNUcjFmRl9oNFBjcG0tVmtBTXcwTzVUTHB1NDliSWUzaVoxRHZoNjVWbUVFTVRTLUNUNDZrR242bWdyZDYtdGFsTFpSaHdMWTZmb0JURkdVRFdLcDlfaGlvb2RPNmo3ampkeGlKMFI3b0VubUJYZy0?oc=5",
+          "date": "2026-07-07",
+          "source": "Reuters",
+          "weight": 0.0,
+          "tag": "governance"
+        }
+      ]
+    },
+    "GEO": {
+      "name": "Georgia",
+      "iso3": "GEO",
+      "iso_numeric": 268,
+      "baseline": 36.9,
+      "news_delta": 0.0,
+      "score": 37,
+      "label": "Electoral Autocracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.275,
+          "scaled": 27.5,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 51.0,
+          "scaled": 51.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "GHA": {
+      "name": "Ghana",
+      "iso3": "GHA",
+      "iso_numeric": 288,
+      "baseline": 68.36,
+      "news_delta": 0.0,
+      "score": 68,
+      "label": "Electoral Democracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.606,
+          "scaled": 60.6,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 80.0,
+          "scaled": 80.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "GIN": {
+      "name": "Guinea",
+      "iso3": "GIN",
+      "iso_numeric": 324,
+      "baseline": 16.9,
+      "news_delta": 0.0,
+      "score": 17,
+      "label": "Closed Autocracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.095,
+          "scaled": 9.5,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 28.0,
+          "scaled": 28.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "GMB": {
+      "name": "Gambia",
+      "iso3": "GMB",
+      "iso_numeric": 270,
+      "baseline": 51.72,
+      "news_delta": 0.0,
+      "score": 52,
+      "label": "Hybrid Regime",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.522,
+          "scaled": 52.2,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 51.0,
+          "scaled": 51.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "GNB": {
+      "name": "Guinea-Bissau",
+      "iso3": "GNB",
+      "iso_numeric": 624,
+      "baseline": 18.9,
+      "news_delta": 0.0,
+      "score": 19,
+      "label": "Closed Autocracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.095,
+          "scaled": 9.5,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 33.0,
+          "scaled": 33.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "GNQ": {
+      "name": "Equatorial Guinea",
+      "iso3": "GNQ",
+      "iso_numeric": 226,
+      "baseline": 4.82,
+      "news_delta": 0.0,
+      "score": 5,
+      "label": "Closed Autocracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.047,
+          "scaled": 4.7,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 5.0,
+          "scaled": 5.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "GRC": {
+      "name": "Greece",
+      "iso3": "GRC",
+      "iso_numeric": 300,
+      "baseline": 68.08,
+      "news_delta": 0.0,
+      "score": 68,
+      "label": "Electoral Democracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.568,
+          "scaled": 56.8,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 85.0,
+          "scaled": 85.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "GRD": {
+      "name": "Grenada",
+      "iso3": "GRD",
+      "iso_numeric": 308,
+      "baseline": 89.0,
+      "news_delta": 0.0,
+      "score": 89,
+      "label": "Liberal Democracy",
+      "baseline_mode": "fh_only",
+      "components": {
+        "freedom_house": {
+          "raw": 89.0,
+          "scaled": 89.0,
+          "year": 2025,
+          "weight": 1.0
+        }
+      },
+      "evidence": []
+    },
+    "GTM": {
+      "name": "Guatemala",
+      "iso3": "GTM",
+      "iso_numeric": 320,
+      "baseline": 50.58,
+      "news_delta": 0.0,
+      "score": 51,
+      "label": "Hybrid Regime",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.523,
+          "scaled": 52.3,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 48.0,
+          "scaled": 48.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "GUY": {
+      "name": "Guyana",
+      "iso3": "GUY",
+      "iso_numeric": 328,
+      "baseline": 49.28,
+      "news_delta": 0.0,
+      "score": 49,
+      "label": "Hybrid Regime",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.328,
+          "scaled": 32.8,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 74.0,
+          "scaled": 74.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "HKG": {
+      "name": "Hong Kong",
+      "iso3": "HKG",
+      "iso_numeric": 344,
+      "baseline": 24.92,
+      "news_delta": 0.0,
+      "score": 25,
+      "label": "Electoral Autocracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.142,
+          "scaled": 14.2,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 41.0,
+          "scaled": 41.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "HND": {
+      "name": "Honduras",
+      "iso3": "HND",
+      "iso_numeric": 340,
+      "baseline": 41.6,
+      "news_delta": 0.0,
+      "score": 42,
+      "label": "Hybrid Regime",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.38,
+          "scaled": 38.0,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 47.0,
+          "scaled": 47.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "HRV": {
+      "name": "Croatia",
+      "iso3": "HRV",
+      "iso_numeric": 191,
+      "baseline": 68.38,
+      "news_delta": 0.0,
+      "score": 68,
+      "label": "Electoral Democracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.593,
+          "scaled": 59.3,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 82.0,
+          "scaled": 82.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "HTI": {
+      "name": "Haiti",
+      "iso3": "HTI",
+      "iso_numeric": 332,
+      "baseline": 14.68,
+      "news_delta": 0.0,
+      "score": 15,
+      "label": "Closed Autocracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.098,
+          "scaled": 9.8,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 22.0,
+          "scaled": 22.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
     },
     "HUN": {
       "name": "Hungary",
-      "score": 50,
-      "metrics": {
-        "pos_tone": 0.0,
-        "neg_tone": 0.0,
-        "pos_count": 0,
-        "neg_count": 0
+      "iso3": "HUN",
+      "iso_numeric": 348,
+      "baseline": 44.9,
+      "news_delta": 0.0,
+      "score": 45,
+      "label": "Hybrid Regime",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.315,
+          "scaled": 31.5,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 65.0,
+          "scaled": 65.0,
+          "year": 2025,
+          "weight": 0.4
+        }
       },
-      "reasons": [
+      "evidence": [
         {
-          "title": "Calendarul evenimentelor , 20 iulie – selecțiuni | Agenția de presă Rador",
-          "url": "https://www.rador.ro/2026/07/20/calendarul-evenimentelor-20-iulie-selectiuni-2/",
-          "date": "2026-07-20",
-          "source": "rador.ro"
+          "title": "Hungary parliament passes law to oust president in Magyar's power shake-up",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQY01qMXV0dmtuN2pGZko3aUVzYm01Zng4WGlYTVZaaTUxdTVBRWx6SWtEWFBwaXl4VXZGQXhZRUU0VnlsVUlJazVJR3FYeE5IcUZDR042alowZDhUaE5KaVR2NnotZGJTQzB5RFpJdlctekxnUy1ZZGpuaUZrekFQWmJuZlhKVHVNUi1yWmloZ0xzbWFPWUdQWkFGVzdmck1LSUwxUmFyMHp2bURQbEtEODM5YTc2clF6aUR3?oc=5",
+          "date": "2026-07-13",
+          "source": "Reuters",
+          "weight": 0.0,
+          "tag": "governance"
+        }
+      ]
+    },
+    "IDN": {
+      "name": "Indonesia",
+      "iso3": "IDN",
+      "iso_numeric": 360,
+      "baseline": 40.16,
+      "news_delta": 0.0,
+      "score": 40,
+      "label": "Hybrid Regime",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.296,
+          "scaled": 29.6,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 56.0,
+          "scaled": 56.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "IND": {
+      "name": "India",
+      "iso3": "IND",
+      "iso_numeric": 356,
+      "baseline": 40.4,
+      "news_delta": 0.0,
+      "score": 40,
+      "label": "Hybrid Regime",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.26,
+          "scaled": 26.0,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 62.0,
+          "scaled": 62.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": [
+        {
+          "title": "Food, fury and supporters near and far keep India protest alive",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOR0RNVzRyelJ3Ri1RODRZbFRrSzlhTFVTbGt4Z0NoSTdvdlJFLVRkVVB6VHFUM2hCc0EyTDRrRGlEVkc4UUlFdXFJSUVUaDQzSk9uVlZfOVVZZlR1eU1JRGZOTFVTU01Qa2VuNGxSR2V2UktOMjY2LW04VkdwWmp5VzRzM3pIaVhNelJfb21GRkVtZ25RT0JaNWdHZ1ZEcWhsUmpUMA?oc=5",
+          "date": "2026-07-22",
+          "source": "Reuters",
+          "weight": 0.0,
+          "tag": "governance"
         },
         {
-          "title": "Veszélyessé vált a Deseda - kilátó - Nem először merül fel probléma",
-          "url": "https://www.blikk.hu/gazdasag/penz/deseda-kilato-kaposvar-felujitas-lezaras-penz/pxfm78g",
-          "date": "2026-07-20",
-          "source": "blikk.hu"
+          "title": "Thousands protest in India after clashes, despite Modi assuring action on exams",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQbFp4WTA4Y1dOQ1dpekQyNmtWaEZhLXh0RTA0OGxnbUdtbm1UcEdKOWJJU0h3UmdQekMtU0FhcWRjUkV1YlpkNzFLWVF3ZE4yeG5uWUxBTjlJSW11WFpPMzVkd3dSY3h6TUZVWXozXzJyTEtzX0pxVncwbTdTQzRLWkQ0bUdGWURjV1AyU2JfM0poT3U3WlFCQVU4MHVXR1VPZk44MWlJaFQxUkxYSDNBcGxvZ3d6WDZzdHc?oc=5",
+          "date": "2026-07-21",
+          "source": "Reuters",
+          "weight": 0.0,
+          "tag": "governance"
+        }
+      ]
+    },
+    "IRL": {
+      "name": "Ireland",
+      "iso3": "IRL",
+      "iso_numeric": 372,
+      "baseline": 88.52,
+      "news_delta": 0.0,
+      "score": 89,
+      "label": "Liberal Democracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.822,
+          "scaled": 82.2,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 98.0,
+          "scaled": 98.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "IRN": {
+      "name": "Iran",
+      "iso3": "IRN",
+      "iso_numeric": 364,
+      "baseline": 10.18,
+      "news_delta": 0.0,
+      "score": 10,
+      "label": "Closed Autocracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.103,
+          "scaled": 10.3,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 10.0,
+          "scaled": 10.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "IRQ": {
+      "name": "Iraq",
+      "iso3": "IRQ",
+      "iso_numeric": 368,
+      "baseline": 25.6,
+      "news_delta": 0.0,
+      "score": 26,
+      "label": "Electoral Autocracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.22,
+          "scaled": 22.0,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 31.0,
+          "scaled": 31.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "ISL": {
+      "name": "Iceland",
+      "iso3": "ISL",
+      "iso_numeric": 352,
+      "baseline": 81.2,
+      "news_delta": 0.0,
+      "score": 81,
+      "label": "Liberal Democracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.72,
+          "scaled": 72.0,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 95.0,
+          "scaled": 95.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "ISR": {
+      "name": "Israel",
+      "iso3": "ISR",
+      "iso_numeric": 376,
+      "baseline": 64.48,
+      "news_delta": 0.0,
+      "score": 64,
+      "label": "Electoral Democracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.588,
+          "scaled": 58.8,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 73.0,
+          "scaled": 73.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "ITA": {
+      "name": "Italy",
+      "iso3": "ITA",
+      "iso_numeric": 380,
+      "baseline": 73.32,
+      "news_delta": 1.0,
+      "score": 74,
+      "label": "Electoral Democracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.642,
+          "scaled": 64.2,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 87.0,
+          "scaled": 87.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": [
+        {
+          "title": "Italy's parliament backs Meloni's contested electoral reform",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPaXllLTFSTGhSOFY2Znk1WVRtSVREYmxYX0VHbnY0dzFvTnZid1hHeUM0WHA0RVdYblYteDZHdllnWGtaQUNCT3ZJeVZWTTVRNG1vRW9KVkR1V3JsdURSbkx4Y3o5YmphWFF1THF3U2trTGRiM2ZnMmZwRWZ3UnVFNkx1a2hQYk5xWFY0RFpac1k0amxfWmFKUmF0QzI0d2pRYmc?oc=5",
+          "date": "2026-07-16",
+          "source": "Reuters",
+          "weight": 1.0,
+          "tag": "pro-democracy"
         },
         {
-          "title": "Visszaszólt Polt Péter a tiszás miniszternek",
-          "url": "https://mfor.hu/cikkek/kozelet/visszaszolt-polt-peter-a-tiszas-miniszternek.html",
-          "date": "2026-07-20",
-          "source": "mfor.hu"
+          "title": "Italy's Meloni suffers parliamentary defeat on election law reform",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPWlUzUWx5bUQ5UzVOSXI2ZWtfXzFIbjkwR0EwZG9vVFYwRDRWeWZzMDBIVWdBSi1YbEFTb0t0cjJ3LUl4cDlMV0FPelI3X2M5RWt1NEcyMFdrRGpCRm9tS0NZTWd3ZDFVR3hzZV9TaUtDUndTZW5VaTFPMEpSNjZKczFkUEFjSUZQei1UWDkwQ3N4T2RnV3g5QnlCclF6c0tRQ3d6NDN0TQ?oc=5",
+          "date": "2026-07-14",
+          "source": "Reuters",
+          "weight": 0.0,
+          "tag": "governance"
         },
         {
-          "title": "Szőcs László",
-          "url": "https://magyarnemzet.hu/velemenyvaro/2026/07/uj-atkost-faragnak-a-tizenhat-evbol",
-          "date": "2026-07-20",
-          "source": "magyarnemzet.hu"
+          "title": "Italy's coalition vows to pursue election law reform after setback",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQOWxNWkVFOXJiMEdtdWd3VV8xa3NOTDkzcUg2N200R1YwMDVvd3ZqUmxYeE9DMFpOQmlTTmNnd3BwdmZVQWNsc0NtVzZoNXktYmZIb1lrMGRWTXJrQXJFQy1kYkRmSmZqZWY0WFJ6RERIaDEwVmR6VFExVUZGWkx5RE5XSnYtX0xHRDZKUVBJSU5tdGxPZTJtQWlsQi1aWnZETlRMZHdrVQ?oc=5",
+          "date": "2026-07-15",
+          "source": "Reuters",
+          "weight": 0.0,
+          "tag": "governance"
         },
         {
-          "title": "Osztie Zoltán plébános : Magya Péter erkölcstelen",
-          "url": "https://gondola.hu/hirek/osztie-zoltan-plebanos-magyar-peter-erkolcstelen-magatartas-me-feljetek-320501",
-          "date": "2026-07-20",
-          "source": "gondola.hu"
+          "title": "Italy's Domyn to launch open source frontier AI model within a year, CEO says",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQaVZuaEFnWmhnTmNqMEMtcS1PeDFkNDRVbk1WbUVkOUlIVzJ3M0hUTmRBWG9JMWxHenZpZkpJUGF4SHpRRDNJU3Q1WGhzbzF1TGhueHkzSGtJOVl2cEtuQnZhYkVqZUk1bHRHaDQ1blhJMjdDTndlZzNEVWJGU3hKQjRkYTJhakFmR1BFbVk3RVNobnMxaXgxeHpQczZpbUdJemZlbVJ6U1NmcHlvX0hSY190Zzc5VUxSQ1E?oc=5",
+          "date": "2026-06-25",
+          "source": "Reuters",
+          "weight": 0.0,
+          "tag": "wire context"
         },
         {
-          "title": "It was supposed to be shipped , but remained in Poland : Ukrainian grain fuels a conflict between neighbouring countries",
-          "url": "https://www.delfi.lt/en/business/it-was-supposed-to-be-shipped-but-remained-in-poland-ukrainian-grain-fuels-a-conflict-between-neighbouring-countries-120278921",
+          "title": "Italy to use EU budget leeway to fund energy-relief measures in 2027-2028",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOZ1d5OEVkblF1d2FaenBjMTQtWmhlR25FRjFQVVNCbm1EY1ByZ2xkWWVNS0Utc0xkQTBnOUloQUstR3lzUDdLQ2VwMGpjQlJwXzR1NFY0MXEzWk15djFJUDNla0xoNGwyVGxLTktiSDM1UkxEbWcweHV4aWJhc0VXbmQtOGFFVy1SbE1QN3lRTkRjVENtc2VsQnduUWRtUlA5RG5BaWgwQlVpT1N1NFE?oc=5",
+          "date": "2026-07-21",
+          "source": "Reuters",
+          "weight": 0.0,
+          "tag": "wire context"
+        },
+        {
+          "title": "Italy picks antitrust expert to lead market watchdog Consob",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxONFRDX1NRRFI3SldvakRoRVVmQ0VvSGRqNG41ZWFBSnZHY2ZodElNcVJiRERUQU9aYXlxcEVsZ29SRXlDQ1BpdWh4VlZUeTNKTnlhZWtyZUV3a24wYkoxRmZyUzNWSjJfcHNYdzdabGdfa3ZBOFdIa2cxVGdMTkh1TVRRYjRqbUttcnJTdVZkNXdEaTl2Rm1XZlEyTGtnS3Z1V2RRY1dyNk5zVFkz?oc=5",
+          "date": "2026-07-14",
+          "source": "Reuters",
+          "weight": 0.0,
+          "tag": "wire context"
+        },
+        {
+          "title": "Trump calls Italy's Meloni a 'nice person' but blames her for not helping with Iran",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPbUIzT3luM0t5aGs0MGdjamhjZ25sRHk1VXdFN0xlUmdub3pJWUVhYVNhUUZMRHV3SDQzb29MNHRuX1ZHYV9sa2xkN0E5RHFXaHAxYTF5aTJzQ3pBZzJVUEhXQXN3RkVPcERmR3hJNC1lZ3M1SmFadlFURThEZkhFOXZqNFNHU1pOOExqeTRadVl6MFpLVnB1V0JGa0Y3WjRyX0hQMHlkSkZuOURKZWtsRWZ0M2RoTzVRZ3lSVUJkWWZ5R3RCTEhVWA?oc=5",
+          "date": "2026-07-07",
+          "source": "Reuters",
+          "weight": 0.0,
+          "tag": "wire context"
+        },
+        {
+          "title": "Italy reshapes national cloud company as Leonardo, Poste target control, sources say",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQb0M3Y3psNUZzMFNLT3VUNTJJRThjalJEaXRRN1E1QzlUWlVHeVJ4WDV2dGhWR3AzTVRwcnpFU2lqcC1zZjNpazJGWWVSTEEtXzJTcV9pX0JpZm1TZUZtbkU3VkFyeUV4VTFPRHp3ZmNkTlNMSElORUpSWDZoelNkeWRZMldEUFEyQm9iRHYtYnBubjltNlZRXzhDc3h0MlRPQkY3RTNNalFfN0Q0cG43bTZkeEwtRnhOaXhJalNaN2ZxYnI2VHJ6b1B1N3hNVnpt?oc=5",
+          "date": "2026-07-06",
+          "source": "Reuters",
+          "weight": 0.0,
+          "tag": "wire context"
+        }
+      ]
+    },
+    "JAM": {
+      "name": "Jamaica",
+      "iso3": "JAM",
+      "iso_numeric": 388,
+      "baseline": 73.14,
+      "news_delta": 0.0,
+      "score": 73,
+      "label": "Electoral Democracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.679,
+          "scaled": 67.9,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 81.0,
+          "scaled": 81.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "JOR": {
+      "name": "Jordan",
+      "iso3": "JOR",
+      "iso_numeric": 400,
+      "baseline": 30.04,
+      "news_delta": 0.0,
+      "score": 30,
+      "label": "Electoral Autocracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.274,
+          "scaled": 27.4,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 34.0,
+          "scaled": 34.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "JPN": {
+      "name": "Japan",
+      "iso3": "JPN",
+      "iso_numeric": 392,
+      "baseline": 82.44,
+      "news_delta": 0.0,
+      "score": 82,
+      "label": "Liberal Democracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.734,
+          "scaled": 73.4,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 96.0,
+          "scaled": 96.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": [
+        {
+          "title": "Japan has no plans to overhaul pension funds' asset allocation, sources say",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQTHZpYlRmYlhPZEFWRzI1dGxweHdrXzQtTmxFeFRXR2dSTW1JSENpWGtqSHFXRGNFWEJVR0ZJalJvNkpiLUpxNjRZUjJ2RXFmN29FSDhlaTVpeFA0ay1WSmRlbk0weGphTXhWMDRlbHRVYUh0V243RWNBM2NueHZXeWNxaFItZTUwVzFfTUNVdWFaaUFzT0RScnFGU2hYNWtfa2cwbHVVQ095bGs0Zk9PcnRCT1laZHVvS29KNi16M1NiUQ?oc=5",
+          "date": "2026-07-13",
+          "source": "Reuters",
+          "weight": 0.0,
+          "tag": "wire context"
+        },
+        {
+          "title": "EXCLUSIVE: JPMorgan, other US banks set to help finance Japan's $550 billion US investment plan, sources say",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNVDUtNHE1UHpyQXg2Sk5BbEUzRFhiLVJyNEdmaEFvLWxHVm4zRFZGcTBwTzVvczBBSVBKMnoxZ0pvYXV4V0huS1Y0a29EMFNlY0RyWHE3R2d2djg1SjJUUktrZnJmR0hjLWdGZWpXSk9wTFFqaUhqMU1DZ19xOEZkeW9OS3NqdWxYSXJQcFFlbjRTQ0VTTnFLNUdfSC0zUEs2RGRvU2diQ1A5cXVVbWR5U3BQeTNJNFA3QzVxeGpiX0Vkc00zSFdmSG1KSQ?oc=5",
+          "date": "2026-07-21",
+          "source": "Reuters",
+          "weight": 0.0,
+          "tag": "wire context"
+        },
+        {
+          "title": "Japan refiners to diversify crude sources, explore support for Hormuz bypass routes",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOUWp2dE9rM2pIbG5lRURsTnVvRXFuRWRCanlLTW9uMWhReXlmZHUyTWMtbHNqSVQ1T1NybTFGSmtOMGd3M1RCWmFGYUpkenlRREpoQWdkR3dtekZ1eFNMczBXYjlzMGFEb0ctUmQ1SFZKNGlQNGd6NXFkYW4zSFFQUWVJbDVGaEZ5dXNwTmk3SUo5Rnk5MTBfY3hmVkh6eHEwNDJyQ2lXRXJLSjIyNHFoRHhpZjhlV1kzNXV6TGJRTzR4T2JMZVE?oc=5",
+          "date": "2026-07-15",
+          "source": "Reuters",
+          "weight": 0.0,
+          "tag": "wire context"
+        },
+        {
+          "title": "Japan to add BOJ independence reference to economic blueprint, source says",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQUjhrc0Q2dTZHUHoyVWZJem94WHRHdXNyLXdJR3QyVmNOZVZDeVZVWFJPY1hxajVaMWFjUldINFJiQjhUMlBxc3ltTTdzMUZobU5qdmtMTW9VY3BuQWlDcDgxRWE3d1ViT3dsYm42MU9JUktPcTlLb2xILW5ZRmdRMXd4MVVGQlFWOThPeUgzbTZYY3c4WTUtWmxJNjNsb3hJTFR5YTBHWXdyaFFzcHhzVnZ0WG9SUQ?oc=5",
+          "date": "2026-07-09",
+          "source": "Reuters",
+          "weight": 0.0,
+          "tag": "wire context"
+        },
+        {
+          "title": "Japan likely reaped record tax revenues last year, sources say",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNSTNuNE5WQWdiYzN3d1FNLVVjTzFBQXFmdGpLdUFUOEpVM3VaRHpCYWJpLWZ1OXZneFpKYm9SVWhmYm91TjhpMHhGMi1ZdEZRS0lIbUpuRHpFMGp3c25Ld2h0WGdXOWZoQlViTC1jSTRvQWVCc0RqVk5nWkNwNEx5WWRHaEVaa2hxTGhxXzg3QllxVWxxWEZBVFItblNxbVFYVkllMWhuODB6VHk4QmNZczBqWUg1VHM?oc=5",
+          "date": "2026-07-01",
+          "source": "Reuters",
+          "weight": 0.0,
+          "tag": "wire context"
+        },
+        {
+          "title": "EXCLUSIVE: Japan shifts to ambush intervention tactics against yen short sellers, sources say",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOa1Q0c01xOGdLNWgwRUR2cE15dWRUR2YxZk41d2I2LVpaMDdDcVpTOTNNa2p0MEhLZmZjdTIwRjdVQ25WLUc0TVlXUFZRM2xEdXl2N3ZlWWlTck1IOUxHNTZBT2d1N0FxR05HUkV3SUdkcFJRUEkzWk9GRmZlWTBxak1jRDdLWDZTT2h1UUZvcnBISlBvT1BNLXNzV21LN2ljQWR4cHpDNFUyUjBTVDJiOWlyN1pNVVpnLUFJdENMNkJ6d0x0MDhHTENoX3dpZw?oc=5",
+          "date": "2026-07-02",
+          "source": "Reuters",
+          "weight": 0.0,
+          "tag": "wire context"
+        },
+        {
+          "title": "EXCLUSIVE: Japan plans to better manage war chest for yen intervention, draft shows",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPMjFzUDh5dXE1NkcwbU1UQ25wNDlGXzYyRzNlRDlaX0d3TlZsbXZWVVpiMXpLVnFpaVE5Z3Nxd2docVdaVk5kM0VEWHBneUt5eFp2MVdYdXE3b3JxOXByR2lLaXJjUXlKLUstblYzQ3p0UjlFSVIzaHZVM2tKZmtOU2YzLWpYQnZsb0RGWWlhUlNCcF9QcEpjSnNVY2J5aWpmZ1pvaV95XzdNYmV4WWNUQlozTXVnelpxM1h3aHpuZXA0bWNM?oc=5",
+          "date": "2026-06-24",
+          "source": "Reuters",
+          "weight": 0.0,
+          "tag": "wire context"
+        },
+        {
+          "title": "EXCLUSIVE: Japan's government blueprint nudges BOJ to fuel demand, clouding rates path",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNNkYtSDJIeE5WSThqc0UtY05yREdqaHh3WlVEV0NfU3VjSTFvWHhSNzNTeUhHR1I1QmZJdWlOb3FneWpzOEZXTmk3VF9tdmR3Sk1aM3NFR3FLTnpqT3llYktzdkdlNEcyanUtWlRqV2trZHBadmp6MnZMbE40dHdYdnJkZ0NINi02STM5M0lEd19IRUItVTVrQnhyblZENmFnMkl5QWNwRl9PdVFQX0FBeU9rMG1jR0EtYzNxSFJBTlk0bjZBSTBxUk5n?oc=5",
+          "date": "2026-06-24",
+          "source": "Reuters",
+          "weight": 0.0,
+          "tag": "wire context"
+        },
+        {
+          "title": "Japan bond market signals waning faith in inflation, government's fiscal management",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxONlVUVHhWODVnbEROTi1haWF1WVZPZnkySkV2S2hma29XY1JFZTgweGYteG9HeTR1RzdBZy0yelNIUnpxVEFaLWRZMFJHUC1FVjFHUk5rbGg4bG5hY2VWSU9iS0NwNU8tcl9tVWNmOF9LOVNaMXZ5Z3pUeUxGbERZTDQ0NG5hRkNJTFVHWktvVm10Q0FMUG02SnMyVVotUEdTQ0xqQnk1SUtEQ25VbmMyS3pJQk5YR2piUDc2djdfTzJITXFFVjluc3JsdEMzdw?oc=5",
+          "date": "2026-07-08",
+          "source": "Reuters",
+          "weight": 0.0,
+          "tag": "wire context"
+        },
+        {
+          "title": "Japan to leave monetary policy tools to BOJ in economic blueprint, document shows",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQVElWQnh5bTl3TDBwU1ZCenI5TW0wVzJHQTZoV1ZUNFpWVGU3Vll6dVVzaUx3amVSX2tIZ2J2NXAyc2VsUlBlMXFLWldYT1VmTmg5WWJPNzdYZjhfUjZ2Ni13YWNseXhlYVlFMjl4WlZhbjhHbEdrWDZ1ZXF4SW1iWGFKZzg2X0pwaGpzT2JUM0VkRFB4eW5jUnpoSXdocXliTkNJZzNRRWkxQjUtMnlpWThzcm5ySTVHaGktd2N3MWNoejNY?oc=5",
+          "date": "2026-07-17",
+          "source": "Reuters",
+          "weight": 0.0,
+          "tag": "wire context"
+        }
+      ]
+    },
+    "KAZ": {
+      "name": "Kazakhstan",
+      "iso3": "KAZ",
+      "iso_numeric": 398,
+      "baseline": 17.06,
+      "news_delta": 0.0,
+      "score": 17,
+      "label": "Closed Autocracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.131,
+          "scaled": 13.1,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 23.0,
+          "scaled": 23.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "KEN": {
+      "name": "Kenya",
+      "iso3": "KEN",
+      "iso_numeric": 404,
+      "baseline": 46.36,
+      "news_delta": 0.0,
+      "score": 46,
+      "label": "Hybrid Regime",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.446,
+          "scaled": 44.6,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 49.0,
+          "scaled": 49.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "KGZ": {
+      "name": "Kyrgyzstan",
+      "iso3": "KGZ",
+      "iso_numeric": 417,
+      "baseline": 20.68,
+      "news_delta": 0.0,
+      "score": 21,
+      "label": "Electoral Autocracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.178,
+          "scaled": 17.8,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 25.0,
+          "scaled": 25.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "KHM": {
+      "name": "Cambodia",
+      "iso3": "KHM",
+      "iso_numeric": 116,
+      "baseline": 11.86,
+      "news_delta": 0.0,
+      "score": 12,
+      "label": "Closed Autocracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.051,
+          "scaled": 5.1,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 22.0,
+          "scaled": 22.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "KIR": {
+      "name": "Kiribati",
+      "iso3": "KIR",
+      "iso_numeric": 296,
+      "baseline": 89.0,
+      "news_delta": 0.0,
+      "score": 89,
+      "label": "Liberal Democracy",
+      "baseline_mode": "fh_only",
+      "components": {
+        "freedom_house": {
+          "raw": 89.0,
+          "scaled": 89.0,
+          "year": 2025,
+          "weight": 1.0
+        }
+      },
+      "evidence": []
+    },
+    "KNA": {
+      "name": "Saint Kitts and Nevis",
+      "iso3": "KNA",
+      "iso_numeric": 659,
+      "baseline": 89.0,
+      "news_delta": 0.0,
+      "score": 89,
+      "label": "Liberal Democracy",
+      "baseline_mode": "fh_only",
+      "components": {
+        "freedom_house": {
+          "raw": 89.0,
+          "scaled": 89.0,
+          "year": 2025,
+          "weight": 1.0
+        }
+      },
+      "evidence": []
+    },
+    "KOR": {
+      "name": "South Korea",
+      "iso3": "KOR",
+      "iso_numeric": 410,
+      "baseline": 77.54,
+      "news_delta": 0.0,
+      "score": 78,
+      "label": "Electoral Democracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.739,
+          "scaled": 73.9,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 83.0,
+          "scaled": 83.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": [
+        {
+          "title": "Samsung, SK Hynix mega South Korea chips gamble tests optimism of AI cycle",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQMk1zekxDdlhicFlKSXppbTBDQk9TaTFwX04wUnNiWFVsWm45aUQ2ckt4R2Nhbm12NFViN2FDa2t3anBJOXZ0QTdqUnBkelNqSVpTaXdPYnlyYkVMQldEVENpVU16dUt6eGZSLXlXY0g1b3hlZXBTeUlHTno2MGoxQnp6M3hiXzJKdnRMNEJxbzljN25MVDhkUTdtYWdOMDhnWE1mOE02cURBeDJRUTdaNGlVeEh3MWZzVnZmMWN6ZTFqSG9FWVpKN1gyRlU1OWRBZzlpMDBVTmtGSnY1LVE?oc=5",
+          "date": "2026-06-30",
+          "source": "Reuters",
+          "weight": 0.0,
+          "tag": "wire context"
+        },
+        {
+          "title": "Samsung Electronics, SK Hynix to invest in two new fabrication sites in South Korea, government says",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPb215Q1JiUjhYeEg2ekszWmtBSDV4bjhQalh0MjhQMGRfbFNUaW9idnZRT1lmY0pvc1NURk0tc3lNVXFCaWFWZGxYQXZoSGFKWUZHRnowelVFSHZBbWUxNmlOZ1dDTG5LVGRLN1dFNEhvWF9CYVlDaFlDZkhRUGtHcUVsZGJLUzdBUHBSdVFYZllwS1BUbkFoQ0NTVmkyT2tjRVQ0WG15d3J6RGxfZnQ4OFg2dFIwSGk1TGZPX3Y5VkwwZjJIRERj?oc=5",
+          "date": "2026-06-28",
+          "source": "Reuters",
+          "weight": 0.0,
+          "tag": "wire context"
+        },
+        {
+          "title": "Power, water needs test South Korea's push to build AI chip hub beyond Seoul",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNOHVPM29HcFNnU1Y5azdMTko1WVRacThpX1IxQ2IxVnNPcDM4dVpmODVTZFB4aDJCWVJaOGVMZzNHaGtSZmpodVBRZ3NhekJ5UG5KaGoxRVk4UVd5MkpTN1kzOE45ZG9Ea0JuaWUzRzlaNm5KdklNWmNiMm51ZW5JN0xYWnZKeE1keDIwdmlpaGVLZE8xTFQ0Z05SeXZnTjNNVDI0RUxhSFJKcVBMVU1mMzRCWW9RSmhWTGdVcWlDN20?oc=5",
+          "date": "2026-07-22",
+          "source": "Reuters",
+          "weight": 0.0,
+          "tag": "wire context"
+        },
+        {
+          "title": "South Korea fin min: will be ready by early-2027 for MSCI developed market inclusion",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPSkZXUmZiV1lCbXJ5QTBLU1dKLTNxeW5Fa0Z3UjQyMnRGNDV5bXRzblNkbHBKY2xMb0ZjVnpNdkd3bktqa1hIQmxmeEFDbXRSSXo5NVd1TWlkUW5LSVZDeXJuZndzMXg1anh5Q3llcl8xei1kZWxDRUgwM21ySkxQV0NYcE9kUl9mYjE3R2l1NnNJSDZlOFNpTUk0R0VhX2FmWkdBZGRvVzVhWVBHb3JCVUQwTGsxazlFbzc0TmJiVmVGOGczMzhIRVVsOA?oc=5",
+          "date": "2026-07-03",
+          "source": "Reuters",
+          "weight": 0.0,
+          "tag": "wire context"
+        },
+        {
+          "title": "South Korea says Coupang dispute not holding up US trade and security agenda",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNTXM3Zy01eXdXY0NPakEtdkJEOGoxYUlfcWJQbXpKS0F3VFVyazVQeXl5cUp1cXZJRmdsX19FSERZSnBkVjBWVlJybHlCSUkxeWluX3JsODUxQVRJNzRFYjg3cXIyd25DUzhQWHFWWC1XNzRUTEwwMkFRWjN6cUdRYkt4YjRzOEwyVGdORmQ1QnFoSmdUTFNGMnRveTZPZFZaV1RybG5vMEtyMy11VWl6YUxvWkpkZm5xRTVzektYTWcxVHNBQnc?oc=5",
+          "date": "2026-07-22",
+          "source": "Reuters",
+          "weight": 0.0,
+          "tag": "wire context"
+        },
+        {
+          "title": "South Korea to ban new listings of single-stock leveraged ETFs",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxONTBON3BiUDdHUmU3Rkk4NGhwNWs5YVNkMUJmWHFHb3daMkZlT2sxVDItcjNiYXNrQk5pR01QSE5CUXlCa2xPLXp0ZHhQTDJnWnEyOWV6dW4xWURwNUJMR1VUa2p0amIyT00zYUdFQ0lWVDhiYTRZVFlQSGpHcHhtdjY2bUpRX1doSmd2dGtGRW1waGpnbkd4ZFhEYktLNFRPSWR4cXo3akVYWE1FN1ZhZE1tU0R0aWRGYkh1ZUZCQ09KUQ?oc=5",
+          "date": "2026-07-16",
+          "source": "Reuters",
+          "weight": 0.0,
+          "tag": "wire context"
+        },
+        {
+          "title": "Samsung readies $648 billion bet, report says, as AI boom reshapes South Korea",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOY2F3d094MUpXQUcxZUloQzFSYVNpRWRjUWhSSEtQZ2RMVDdGdU1hZnl4VnFGSjd4emtNYm5FTkFITFByZXpFX3BQNmstbDZDVDJITjgtYnBIN1NiQ3RfSG5CbEdaQnlqaXFva2RRcDZqUDdFTGlZck1rcmtadU96R0hETkk1bnlNNGgwTGs2N3JYQl9jMVJGWlo3OXlhTzBwa2UtOWhQUDJrdGExaTZnTGRRbEJXVF9o?oc=5",
+          "date": "2026-06-26",
+          "source": "Reuters",
+          "weight": 0.0,
+          "tag": "wire context"
+        },
+        {
+          "title": "'I couldn't breathe': South Korea's frenzied stock trading exposes margin loan risks",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOVUJEdTQybDFaUnQ0Nk1QdnROR0YtbG5iVWZ2WEwxNEZ1M1ZSOWdYRFhyNExDdW5oU3NEQmkzVWY2dmVFY2F2aGEta2JLSm90WEdNVDBrd3JyNktDZVdfYUxyRnEyM21GaEpMOGl3LXhvejFtSnc3am5Ic1hzVlUzY0dwTzZkbVVrMTBxcmpMcTZwUGZJekZBWGRvaWZrRW5Na2NycE5YQ0FPeGpTSnNBX3JNbFVTTlhlYUdoY1VHc2tOMUJaTjFxbGFsa2NKdw?oc=5",
           "date": "2026-07-20",
-          "source": "delfi.lt"
+          "source": "Reuters",
+          "weight": 0.0,
+          "tag": "wire context"
+        },
+        {
+          "title": "South Korea's Lee accused of skirting his own loan curbs with sale of apartment",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOcnJYb1NrZDBMb1c1WTZpeWRtTjlFdVk2MGpWSjdhLUF2c0dSRmlyRnJkZmQ1T2lXYmthOTRGQjUtQkIzUzNxY0dabGd3MmllZXZyTmpkWG5JTE9Kcm1MSmNaQ3VKUmdtSkJkZFVUMFp2ZlVRY2pOeFdPZHJnaE1vbnNsa2EtZ1hmRGJpX09rdVF2ajktUmpGRUNhWlJIcmFhMmk0ZlFKNURJYjJPeEFNR3k2Ni1HZFhQMFdTeXczZ0gxLVh6R2c?oc=5",
+          "date": "2026-07-21",
+          "source": "Reuters",
+          "weight": 0.0,
+          "tag": "wire context"
+        }
+      ]
+    },
+    "KWT": {
+      "name": "Kuwait",
+      "iso3": "KWT",
+      "iso_numeric": 414,
+      "baseline": 19.62,
+      "news_delta": 0.0,
+      "score": 20,
+      "label": "Electoral Autocracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.127,
+          "scaled": 12.7,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 30.0,
+          "scaled": 30.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "LAO": {
+      "name": "Laos",
+      "iso3": "LAO",
+      "iso_numeric": 418,
+      "baseline": 11.8,
+      "news_delta": 0.0,
+      "score": 12,
+      "label": "Closed Autocracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.11,
+          "scaled": 11.0,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 13.0,
+          "scaled": 13.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "LBN": {
+      "name": "Lebanon",
+      "iso3": "LBN",
+      "iso_numeric": 422,
+      "baseline": 32.42,
+      "news_delta": 0.0,
+      "score": 32,
+      "label": "Electoral Autocracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.267,
+          "scaled": 26.7,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 41.0,
+          "scaled": 41.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "LBR": {
+      "name": "Liberia",
+      "iso3": "LBR",
+      "iso_numeric": 430,
+      "baseline": 51.02,
+      "news_delta": 0.0,
+      "score": 51,
+      "label": "Hybrid Regime",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.417,
+          "scaled": 41.7,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 65.0,
+          "scaled": 65.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "LBY": {
+      "name": "Libya",
+      "iso3": "LBY",
+      "iso_numeric": 434,
+      "baseline": 9.88,
+      "news_delta": 0.0,
+      "score": 10,
+      "label": "Closed Autocracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.098,
+          "scaled": 9.8,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 10.0,
+          "scaled": 10.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "LCA": {
+      "name": "Saint Lucia",
+      "iso3": "LCA",
+      "iso_numeric": 662,
+      "baseline": 91.0,
+      "news_delta": 0.0,
+      "score": 91,
+      "label": "Liberal Democracy",
+      "baseline_mode": "fh_only",
+      "components": {
+        "freedom_house": {
+          "raw": 91.0,
+          "scaled": 91.0,
+          "year": 2025,
+          "weight": 1.0
+        }
+      },
+      "evidence": []
+    },
+    "LIE": {
+      "name": "Liechtenstein",
+      "iso3": "LIE",
+      "iso_numeric": 438,
+      "baseline": 90.0,
+      "news_delta": 0.0,
+      "score": 90,
+      "label": "Liberal Democracy",
+      "baseline_mode": "fh_only",
+      "components": {
+        "freedom_house": {
+          "raw": 90.0,
+          "scaled": 90.0,
+          "year": 2025,
+          "weight": 1.0
+        }
+      },
+      "evidence": []
+    },
+    "LKA": {
+      "name": "Sri Lanka",
+      "iso3": "LKA",
+      "iso_numeric": 144,
+      "baseline": 61.98,
+      "news_delta": 0.0,
+      "score": 62,
+      "label": "Electoral Democracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.613,
+          "scaled": 61.3,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 63.0,
+          "scaled": 63.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "LSO": {
+      "name": "Lesotho",
+      "iso3": "LSO",
+      "iso_numeric": 426,
+      "baseline": 57.52,
+      "news_delta": 0.0,
+      "score": 58,
+      "label": "Hybrid Regime",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.512,
+          "scaled": 51.2,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 67.0,
+          "scaled": 67.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "LTU": {
+      "name": "Lithuania",
+      "iso3": "LTU",
+      "iso_numeric": 440,
+      "baseline": 78.72,
+      "news_delta": 0.0,
+      "score": 79,
+      "label": "Electoral Democracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.712,
+          "scaled": 71.2,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 90.0,
+          "scaled": 90.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "LUX": {
+      "name": "Luxembourg",
+      "iso3": "LUX",
+      "iso_numeric": 442,
+      "baseline": 85.42,
+      "news_delta": 0.0,
+      "score": 85,
+      "label": "Liberal Democracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.777,
+          "scaled": 77.7,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 97.0,
+          "scaled": 97.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "LVA": {
+      "name": "Latvia",
+      "iso3": "LVA",
+      "iso_numeric": 428,
+      "baseline": 80.66,
+      "news_delta": 0.0,
+      "score": 81,
+      "label": "Liberal Democracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.751,
+          "scaled": 75.1,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 89.0,
+          "scaled": 89.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "MAR": {
+      "name": "Morocco",
+      "iso3": "MAR",
+      "iso_numeric": 504,
+      "baseline": 29.86,
+      "news_delta": 0.0,
+      "score": 30,
+      "label": "Electoral Autocracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.251,
+          "scaled": 25.1,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 37.0,
+          "scaled": 37.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "MCO": {
+      "name": "Monaco",
+      "iso3": "MCO",
+      "iso_numeric": 492,
+      "baseline": 82.0,
+      "news_delta": 0.0,
+      "score": 82,
+      "label": "Liberal Democracy",
+      "baseline_mode": "fh_only",
+      "components": {
+        "freedom_house": {
+          "raw": 82.0,
+          "scaled": 82.0,
+          "year": 2025,
+          "weight": 1.0
+        }
+      },
+      "evidence": []
+    },
+    "MDA": {
+      "name": "Moldova",
+      "iso3": "MDA",
+      "iso_numeric": 498,
+      "baseline": 50.94,
+      "news_delta": 0.0,
+      "score": 51,
+      "label": "Hybrid Regime",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.449,
+          "scaled": 44.9,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 60.0,
+          "scaled": 60.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "MDG": {
+      "name": "Madagascar",
+      "iso3": "MDG",
+      "iso_numeric": 450,
+      "baseline": 31.22,
+      "news_delta": 0.0,
+      "score": 31,
+      "label": "Electoral Autocracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.187,
+          "scaled": 18.7,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 50.0,
+          "scaled": 50.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "MDV": {
+      "name": "Maldives",
+      "iso3": "MDV",
+      "iso_numeric": 462,
+      "baseline": 41.36,
+      "news_delta": 0.0,
+      "score": 41,
+      "label": "Hybrid Regime",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.416,
+          "scaled": 41.6,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 41.0,
+          "scaled": 41.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "MEX": {
+      "name": "Mexico",
+      "iso3": "MEX",
+      "iso_numeric": 484,
+      "baseline": 36.46,
+      "news_delta": 0.0,
+      "score": 36,
+      "label": "Electoral Autocracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.221,
+          "scaled": 22.1,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 58.0,
+          "scaled": 58.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": [
+        {
+          "title": "Mexico says there is no evidence its lettuce caused US outbreak",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQQnhTenpEWTRwUlFoYVZhb3d5Uy1rekJQMmpmUTlhRWVIWlJzQlNMcVA3N3gyY0lkcmRXSmJOSG1jQ0JybXNIb0MtRmdCSktab0txajNvMFpFYUN6MEtjSXEtUUFLek9lWFhSNWM0WkhUQm0wdnpNQmlzVVJpWFd2Y0ZfUVQzY1BweHcwUUhBaUNQeV9nQkI5M3dfcGd6dFZtamlRd2Z0ei1zTk9QRmlrUUZzS3FERW5RZzJrUktLX21KMlhz?oc=5",
+          "date": "2026-07-21",
+          "source": "Reuters",
+          "weight": 0.0,
+          "tag": "wire context"
+        },
+        {
+          "title": "Grupo Mexico profit beats estimates on higher copper prices",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQNmlNMWc0T2lDdFEwQndxa3VDbmxaOU1ZU0tQeGQ2N3ZnZFVKSDYwLTBBLWtTOHlhT2R1S3dlQWxjb0E3QzJFMEs0akd4UTBVd01fNnVvaVNVbE1rZGhjNmJRcFhrOFhOWnR6OGNYMnA4UXFlRDY0WlI3ZzFiMnRaeFBvWmdzQnlQS2FVMjZ1QXBQcUZPSGFXcUtLZ2ptaTJsYTdzZGxNQUpOYmJmTmtrRTlB?oc=5",
+          "date": "2026-07-21",
+          "source": "Reuters",
+          "weight": 0.0,
+          "tag": "wire context"
+        },
+        {
+          "title": "In Houston's 'Little Mexico,' an ICE shooting leaves scars",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPaF94aEZKeFlsYnBMVE9HSE9Rd1FxMjBVM0pOc0U0Qmhiby1VRXpsa2dtdkItNE1OdzFLU0xtMlBwNUVpNFZ2WUJfcHNuZUFfM29FZXBOZkJpRGx1RVNoZFVEeENzVkJuckhlR1AyNVd5bHJoa083U3UzZFdjUnQ4NWZxMzdJaDdDeXY3c2tFdG5nSXpXUDNSRw?oc=5",
+          "date": "2026-07-09",
+          "source": "Reuters",
+          "weight": 0.0,
+          "tag": "wire context"
+        },
+        {
+          "title": "US aims for interim trade deals with Canada, Mexico by year-end",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQdUdLSWtyNlNyQURlVTlyM21LcUdNZDF1MVVRckJmWXFWQlRidU14WXF5NWR3RlMyUzB4LU5LUC1qVlV6RUNFcE1lYjV2UmpxQllRblZ0VzJCVHVKNWNuSFlaTkdfZVlzMVUxUDMwdllOUEFIUVVlZmhBMm02YzdfejM4VVdMRmR6b2g0MnJKQnNmbzhaOUloaWkyWUpkZlg0WGxTdkRUTHNLUVNvWVhSVFdhYVFzanRT?oc=5",
+          "date": "2026-07-22",
+          "source": "Reuters",
+          "weight": 0.0,
+          "tag": "wire context"
+        },
+        {
+          "title": "Mexico looking to address US dependence concerns in USMCA talks, Ebrard says",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQRm96SkxJWXBQeWhTZ0J5ZGlWT3dnLTFVem90a0h1aG85aUtXeDJFSjZOQWlxTkZ5T3pQRElsR3JRbFdNWGNKVGpqVXV3ZUg5eURMUVVkX2hmbnN1bnpGT08wdEVHLVR3VDdpakltcy10OFpsVUhIcTNPVWxpZHc5N3lyMlVYYzJ0SDAtQTdNQTJGZE1zNTFwWGJENERSVVRrNTVIWmcwYmo5aFZ5Q2V1NFhjQ3o?oc=5",
+          "date": "2026-07-01",
+          "source": "Reuters",
+          "weight": 0.0,
+          "tag": "wire context"
+        },
+        {
+          "title": "Mexico World Cup legacy must include women beyond the stadiums, Afghan activist Popal says",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPQnotNUtvYkZsYXc5YzFqQ3dja1F6SzBSa3JrVEZ1RnBNZTJtX3p5OWNlVFZqTDhqYmxtSGpQN3lvMXB2dVY5UVAtWEFWRHNyRUxtYlB6YkpxRWtZWUt1bDBjNUlneHVieUdfc3RqelJtem5LeWxOU3NPTWsyM3F5dkZ2WEtfU0pVVFpzZHhEcFRDLUlxVHl3c2RCVy1Vd2VSZVNTR1FKd0JZV0ozanVPSi11eVIySm9HeVpKNWpVTEZ3bl9XNExxU2Z3?oc=5",
+          "date": "2026-07-03",
+          "source": "Reuters",
+          "weight": 0.0,
+          "tag": "wire context"
+        },
+        {
+          "title": "Separate US talks with Canada, Mexico test North America's trilateral trade pact",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNdWYxaXNkdXdJenNXX3J5Q09FUDhiR2xiMUUxSzZrM1NuQ0JOZlF3TUUxbTN5dTN2TG82ME1vV0lONkNLNDBXN09EWEczSW9QOG1WM2xlOXo3Z29DTl9fbnlUSVlISHdfM0VEM0d0ZnQwZEZxb2hlZDdlenJ4Y3RDaS1vZTdZVlRNdUdRRnduWG5RbTRrYVI3UlpnY1JydlNaRTNBNmtnRVBUeFZMSldhdnMzVDVfRXJsczlTcDRmSUNGZzU4eUh0bw?oc=5",
+          "date": "2026-07-22",
+          "source": "Reuters",
+          "weight": 0.0,
+          "tag": "wire context"
+        }
+      ]
+    },
+    "MHL": {
+      "name": "Marshall Islands",
+      "iso3": "MHL",
+      "iso_numeric": 584,
+      "baseline": 93.0,
+      "news_delta": 0.0,
+      "score": 93,
+      "label": "Liberal Democracy",
+      "baseline_mode": "fh_only",
+      "components": {
+        "freedom_house": {
+          "raw": 93.0,
+          "scaled": 93.0,
+          "year": 2025,
+          "weight": 1.0
+        }
+      },
+      "evidence": []
+    },
+    "MKD": {
+      "name": "North Macedonia",
+      "iso3": "MKD",
+      "iso_numeric": 807,
+      "baseline": 49.24,
+      "news_delta": 0.0,
+      "score": 49,
+      "label": "Hybrid Regime",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.374,
+          "scaled": 37.4,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 67.0,
+          "scaled": 67.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "MLI": {
+      "name": "Mali",
+      "iso3": "MLI",
+      "iso_numeric": 466,
+      "baseline": 17.4,
+      "news_delta": 0.0,
+      "score": 17,
+      "label": "Closed Autocracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.15,
+          "scaled": 15.0,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 21.0,
+          "scaled": 21.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": [
+        {
+          "title": "Niger: 3 Years of Military Rule Deepens Human Rights Crisis",
+          "url": "https://www.hrw.org/news/2026/07/23/niger-3-years-of-military-rule-deepens-human-rights-crisis",
+          "date": "2026-07-23",
+          "source": "Human Rights Watch",
+          "weight": 0.0,
+          "tag": "erosion"
+        }
+      ]
+    },
+    "MLT": {
+      "name": "Malta",
+      "iso3": "MLT",
+      "iso_numeric": 470,
+      "baseline": 72.46,
+      "news_delta": 0.0,
+      "score": 72,
+      "label": "Electoral Democracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.621,
+          "scaled": 62.1,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 88.0,
+          "scaled": 88.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "MMR": {
+      "name": "Myanmar",
+      "iso3": "MMR",
+      "iso_numeric": 104,
+      "baseline": 2.5,
+      "news_delta": 0.0,
+      "score": 2,
+      "label": "Closed Autocracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.015,
+          "scaled": 1.5,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 4.0,
+          "scaled": 4.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "MNE": {
+      "name": "Montenegro",
+      "iso3": "MNE",
+      "iso_numeric": 499,
+      "baseline": 57.2,
+      "news_delta": 0.0,
+      "score": 57,
+      "label": "Hybrid Regime",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.5,
+          "scaled": 50.0,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 68.0,
+          "scaled": 68.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "MNG": {
+      "name": "Mongolia",
+      "iso3": "MNG",
+      "iso_numeric": 496,
+      "baseline": 59.04,
+      "news_delta": 0.0,
+      "score": 59,
+      "label": "Hybrid Regime",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.424,
+          "scaled": 42.4,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 84.0,
+          "scaled": 84.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "MOZ": {
+      "name": "Mozambique",
+      "iso3": "MOZ",
+      "iso_numeric": 508,
+      "baseline": 27.3,
+      "news_delta": 0.0,
+      "score": 27,
+      "label": "Electoral Autocracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.175,
+          "scaled": 17.5,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 42.0,
+          "scaled": 42.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "MRT": {
+      "name": "Mauritania",
+      "iso3": "MRT",
+      "iso_numeric": 478,
+      "baseline": 22.82,
+      "news_delta": 0.0,
+      "score": 23,
+      "label": "Electoral Autocracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.127,
+          "scaled": 12.7,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 38.0,
+          "scaled": 38.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "MUS": {
+      "name": "Mauritius",
+      "iso3": "MUS",
+      "iso_numeric": 480,
+      "baseline": 73.14,
+      "news_delta": 0.0,
+      "score": 73,
+      "label": "Electoral Democracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.639,
+          "scaled": 63.9,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 87.0,
+          "scaled": 87.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "MWI": {
+      "name": "Malawi",
+      "iso3": "MWI",
+      "iso_numeric": 454,
+      "baseline": 54.92,
+      "news_delta": 0.0,
+      "score": 55,
+      "label": "Hybrid Regime",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.462,
+          "scaled": 46.2,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 68.0,
+          "scaled": 68.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "MYS": {
+      "name": "Malaysia",
+      "iso3": "MYS",
+      "iso_numeric": 458,
+      "baseline": 42.5,
+      "news_delta": 0.0,
+      "score": 42,
+      "label": "Hybrid Regime",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.355,
+          "scaled": 35.5,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 53.0,
+          "scaled": 53.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "NAM": {
+      "name": "Namibia",
+      "iso3": "NAM",
+      "iso_numeric": 516,
+      "baseline": 60.34,
+      "news_delta": 0.0,
+      "score": 60,
+      "label": "Electoral Democracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.519,
+          "scaled": 51.9,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 73.0,
+          "scaled": 73.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "NER": {
+      "name": "Niger",
+      "iso3": "NER",
+      "iso_numeric": 562,
+      "baseline": 21.42,
+      "news_delta": -1.0,
+      "score": 20,
+      "label": "Electoral Autocracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.177,
+          "scaled": 17.7,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 27.0,
+          "scaled": 27.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": [
+        {
+          "title": "Niger: 3 Years of Military Rule Deepens Human Rights Crisis",
+          "url": "https://www.hrw.org/news/2026/07/23/niger-3-years-of-military-rule-deepens-human-rights-crisis",
+          "date": "2026-07-23",
+          "source": "Human Rights Watch",
+          "weight": -1.0,
+          "tag": "erosion"
+        }
+      ]
+    },
+    "NGA": {
+      "name": "Nigeria",
+      "iso3": "NGA",
+      "iso_numeric": 566,
+      "baseline": 36.26,
+      "news_delta": 0.0,
+      "score": 36,
+      "label": "Electoral Autocracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.311,
+          "scaled": 31.1,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 44.0,
+          "scaled": 44.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "NIC": {
+      "name": "Nicaragua",
+      "iso3": "NIC",
+      "iso_numeric": 558,
+      "baseline": 6.74,
+      "news_delta": 0.0,
+      "score": 7,
+      "label": "Closed Autocracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.019,
+          "scaled": 1.9,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 14.0,
+          "scaled": 14.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": [
+        {
+          "title": "Nicaragua continues to weaken political freedoms, UN warns",
+          "url": "https://news.un.org/feed/view/en/story/2026/07/1167999",
+          "date": "2026-07-22",
+          "source": "UN News - Global perspective Human stories",
+          "weight": 0.0,
+          "tag": "governance"
+        }
+      ]
+    },
+    "NLD": {
+      "name": "Netherlands",
+      "iso3": "NLD",
+      "iso_numeric": 528,
+      "baseline": 85.24,
+      "news_delta": 0.0,
+      "score": 85,
+      "label": "Liberal Democracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.774,
+          "scaled": 77.4,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 97.0,
+          "scaled": 97.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": [
+        {
+          "title": "EU: Tunisia Migration Deal Worsening Human Rights Violations",
+          "url": "https://www.hrw.org/news/2026/07/16/eu-tunisia-migration-deal-worsening-human-rights-violations",
+          "date": "2026-07-16",
+          "source": "Human Rights Watch",
+          "weight": 0.0,
+          "tag": "governance"
+        }
+      ]
+    },
+    "NOR": {
+      "name": "Norway",
+      "iso3": "NOR",
+      "iso_numeric": 578,
+      "baseline": 90.42,
+      "news_delta": 0.0,
+      "score": 90,
+      "label": "Liberal Democracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.847,
+          "scaled": 84.7,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 99.0,
+          "scaled": 99.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "NPL": {
+      "name": "Nepal",
+      "iso3": "NPL",
+      "iso_numeric": 524,
+      "baseline": 53.9,
+      "news_delta": 0.0,
+      "score": 54,
+      "label": "Hybrid Regime",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.505,
+          "scaled": 50.5,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 59.0,
+          "scaled": 59.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "NRU": {
+      "name": "Nauru",
+      "iso3": "NRU",
+      "iso_numeric": 520,
+      "baseline": 75.0,
+      "news_delta": 0.0,
+      "score": 75,
+      "label": "Electoral Democracy",
+      "baseline_mode": "fh_only",
+      "components": {
+        "freedom_house": {
+          "raw": 75.0,
+          "scaled": 75.0,
+          "year": 2025,
+          "weight": 1.0
+        }
+      },
+      "evidence": []
+    },
+    "NZL": {
+      "name": "New Zealand",
+      "iso3": "NZL",
+      "iso_numeric": 554,
+      "baseline": 86.82,
+      "news_delta": 0.0,
+      "score": 87,
+      "label": "Liberal Democracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.787,
+          "scaled": 78.7,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 99.0,
+          "scaled": 99.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "OMN": {
+      "name": "Oman",
+      "iso3": "OMN",
+      "iso_numeric": 512,
+      "baseline": 18.0,
+      "news_delta": 0.0,
+      "score": 18,
+      "label": "Closed Autocracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.14,
+          "scaled": 14.0,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 24.0,
+          "scaled": 24.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "PAK": {
+      "name": "Pakistan",
+      "iso3": "PAK",
+      "iso_numeric": 586,
+      "baseline": 23.36,
+      "news_delta": 0.0,
+      "score": 23,
+      "label": "Electoral Autocracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.176,
+          "scaled": 17.6,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 32.0,
+          "scaled": 32.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "PAN": {
+      "name": "Panama",
+      "iso3": "PAN",
+      "iso_numeric": 591,
+      "baseline": 67.3,
+      "news_delta": 0.0,
+      "score": 67,
+      "label": "Electoral Democracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.575,
+          "scaled": 57.5,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 82.0,
+          "scaled": 82.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "PER": {
+      "name": "Peru",
+      "iso3": "PER",
+      "iso_numeric": 604,
+      "baseline": 56.76,
+      "news_delta": 0.0,
+      "score": 57,
+      "label": "Hybrid Regime",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.506,
+          "scaled": 50.6,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 66.0,
+          "scaled": 66.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "PHL": {
+      "name": "Philippines",
+      "iso3": "PHL",
+      "iso_numeric": 608,
+      "baseline": 40.66,
+      "news_delta": 0.0,
+      "score": 41,
+      "label": "Hybrid Regime",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.291,
+          "scaled": 29.1,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 58.0,
+          "scaled": 58.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "PLW": {
+      "name": "Palau",
+      "iso3": "PLW",
+      "iso_numeric": 585,
+      "baseline": 92.0,
+      "news_delta": 0.0,
+      "score": 92,
+      "label": "Liberal Democracy",
+      "baseline_mode": "fh_only",
+      "components": {
+        "freedom_house": {
+          "raw": 92.0,
+          "scaled": 92.0,
+          "year": 2025,
+          "weight": 1.0
+        }
+      },
+      "evidence": []
+    },
+    "PNG": {
+      "name": "Papua New Guinea",
+      "iso3": "PNG",
+      "iso_numeric": 598,
+      "baseline": 47.44,
+      "news_delta": 0.0,
+      "score": 47,
+      "label": "Hybrid Regime",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.384,
+          "scaled": 38.4,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 61.0,
+          "scaled": 61.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "POL": {
+      "name": "Poland",
+      "iso3": "POL",
+      "iso_numeric": 616,
+      "baseline": 71.5,
+      "news_delta": 0.0,
+      "score": 72,
+      "label": "Electoral Democracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.645,
+          "scaled": 64.5,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 82.0,
+          "scaled": 82.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": [
+        {
+          "title": "Poland and Ukraine's difficult history creates political minefield for Tusk",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPMmtGamE1dTRFV3Q3eENkeGhlMFR3RDZENmV6RzNjQV9YVkRjRGh6NVZNYk1qSHZKb2VQRWV3emxMNWk5MjFMQzZSNkZ5MTU0NkkzTFVSZURTRm1FTllCUGpvb0JZNm5vcFMzTjRtUERMS3lvdDhiUGg4UnA5Sm9ncl9ZdkF1VDVPVWtYVHpqV2FVT1NvLXdCNUdsbktOQVRKV3N6TTUxYjA2Y0xlRElkY0JnT1lYZw?oc=5",
+          "date": "2026-06-25",
+          "source": "Reuters",
+          "weight": 0.0,
+          "tag": "wire context"
+        },
+        {
+          "title": "Poland, Hungary's foreign worker curbs create headache for business",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNNUdaTG5Td01XaUtIVkxQNGlEeXotTWRfdmdpenBTSGdFSXRvQnItZ2hfWFpLRk1fd3dzRG9NNkpWanFGeW1HTnM4YXU0OUE5RUZhUTVhS2tUNUJJTzV5OUFWNkNkMVV5NFk0eDI1T2RjQloyRTNYczRZZzJ6MEN6cVJtbzVhNDFaZEMzd0ZlY1FRTGhXSEk5M2JSdDg1Q3o1Q2tVakhOU1RWU2lHbkhuVXMxZUwya0E?oc=5",
+          "date": "2026-07-22",
+          "source": "Reuters",
+          "weight": 0.0,
+          "tag": "wire context"
+        }
+      ]
+    },
+    "PRK": {
+      "name": "North Korea",
+      "iso3": "PRK",
+      "iso_numeric": 408,
+      "baseline": 2.04,
+      "news_delta": 0.0,
+      "score": 2,
+      "label": "Closed Autocracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.014,
+          "scaled": 1.4,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 3.0,
+          "scaled": 3.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "PRT": {
+      "name": "Portugal",
+      "iso3": "PRT",
+      "iso_numeric": 620,
+      "baseline": 81.42,
+      "news_delta": 0.0,
+      "score": 81,
+      "label": "Liberal Democracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.717,
+          "scaled": 71.7,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 96.0,
+          "scaled": 96.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "PRY": {
+      "name": "Paraguay",
+      "iso3": "PRY",
+      "iso_numeric": 600,
+      "baseline": 47.76,
+      "news_delta": 0.0,
+      "score": 48,
+      "label": "Hybrid Regime",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.376,
+          "scaled": 37.6,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 63.0,
+          "scaled": 63.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "QAT": {
+      "name": "Qatar",
+      "iso3": "QAT",
+      "iso_numeric": 634,
+      "baseline": 15.46,
+      "news_delta": 0.0,
+      "score": 15,
+      "label": "Closed Autocracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.091,
+          "scaled": 9.1,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 25.0,
+          "scaled": 25.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "ROU": {
+      "name": "Romania",
+      "iso3": "ROU",
+      "iso_numeric": 642,
+      "baseline": 61.04,
+      "news_delta": 0.0,
+      "score": 61,
+      "label": "Electoral Democracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.464,
+          "scaled": 46.4,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 83.0,
+          "scaled": 83.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "RUS": {
+      "name": "Russia",
+      "iso3": "RUS",
+      "iso_numeric": 643,
+      "baseline": 8.16,
+      "news_delta": -0.33,
+      "score": 8,
+      "label": "Closed Autocracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.056,
+          "scaled": 5.6,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 12.0,
+          "scaled": 12.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": [
+        {
+          "title": "Concerns grow about tariffs in US sanctions bill on Russia",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNMGVWRHZZZXMtVkF1OEVlSjZVSFQ1ZnlRSHREeFBPT3RXbUlPOUJoejA0UnRJcWN6M25RS2NvX1ppSnN0ejBNUXpvSXd1NXRUbTJqeUtDTkozaVpadVBVUTJHR3ZwNW5LRWlFa29ZeElTcVRvQ3lGTVdwRU5ORy1FS3gtMDhqMUxWWnlIby14NHpLNWJRWExsY3pMTFJTSzF6Zll3Uk91UFU?oc=5",
+          "date": "2026-07-15",
+          "source": "Reuters",
+          "weight": 0.0,
+          "tag": "wire context"
+        },
+        {
+          "title": "EXCLUSIVE: Russia buys gasoline from India to tackle shortages, sources say",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPWFRJMk44c05WbExLd0NkcUJOQ05NUWI0U1N6YzBkSmNQVFlRMl9MLVIzaHRMY25hZE5PQUNuWktOMTJQUFdOODR5N0xYN3dIVUhpMUtzTzFIdk1WMFJ3MVptY3RsREM5QjRQRzZxZ3JTU3NscEdPUlRPeVFHaHRoZ05xN2dsZDZtLUVRNXNVZHlrVU1JU3FKSG5xSWN0UVdjN3hZaVRTbWhHYVk?oc=5",
+          "date": "2026-07-01",
+          "source": "Reuters",
+          "weight": 0.0,
+          "tag": "wire context"
+        },
+        {
+          "title": "Russia asks Kazakhstan for gasoline to ease shortages, sources say",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOUTBDOTVvRUtVYWdhX3FNRThzbGRNRm9wSjc4cWNNUjk1RV9UU0VPNExxZUhlWFVDS19YQWZRN1dLV0NYRkdJOWZPUmMyYVpwYnpWTl9nSndmOVFleUhuWnZxSjVtWVNJYm1yM2NZRXFpOXc5bjBjdFc3UGIyQjdyTHlRdWZUNS1MVERvOHVwWlhmMll6bVBfZnZFTFl1UVl4MFRoWFRzWXk1OE4wV2ZV?oc=5",
+          "date": "2026-06-24",
+          "source": "Reuters",
+          "weight": 0.0,
+          "tag": "wire context"
+        },
+        {
+          "title": "Russia's parliament approves tax changes to address fuel shortages",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNLTJ4NFZ1NTBjb09ZTVZRZGxoRjlvTzVvTEduSzF6VG9uMTc5SE41dV9ySGF6VmpKYU5XNUVkSFFBcm5zMHJOMVY5UGUxZlZBWkJMQS1WZHgtVnpGYzBjREZPcmJvd3dITXpiSFpiTkJocHNfcXpJQmc0MWRRU1pwWkRPLVZOMllHeWhRV3p2UXl1WjJEVlZmT1k3cFJtNmhkNXAwVGpIbUtNUm0yQmVpcng5a28?oc=5",
+          "date": "2026-06-24",
+          "source": "Reuters",
+          "weight": 0.0,
+          "tag": "governance"
+        },
+        {
+          "title": "EXCLUSIVE: Russia’s gasoline output covers 65% of demand after Ukrainian strikes, sources say",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNM3RKMFk3cHFOdURWcDhtd0trdzhsYWhsdjZ5dzBrQUx2Q01KeDVvTnFkODhIZTZKeXVYTUh4MzZKQ1U3NklhSWlRQUJuN0dPNTFLelFZcWY4WGVHWXNuZkxBYlZ6Nk5yQzZVSHNBZjRROHE1d3FpRGNOa194ZUczamtzdVdlQnFDUHkwb0t4bXlyWnZTWUwwcWs2OVVXQUVETndjRXJaaTJERnd4MXlUWVNpUkhwV1pQeEFZTXJRdkQ4U0ZXRHNr?oc=5",
+          "date": "2026-07-10",
+          "source": "Reuters",
+          "weight": 0.0,
+          "tag": "wire context"
+        },
+        {
+          "title": "Russia bans night vessel movement at Novorossiysk port, industry sources say",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPeUNoWnIwTXFNN1dzSk4yWVVQeEtNcjg1bEQxd1J6Q19qR3EwNkphNmF3VXg3NjJ6SjZ5WGVtUzkwVDFuS1FnOHRXUFR5YldNeW5kd2doV0VrZnhCTHBEZWROT1g2WGdFajRRNzd3Z1c5QTdkQmppdGR4S3ZkWWluNGUtVDB0UGhkeDFaeE40OHNFRUs3aGZtTVFvUUtsa1E4c0x1MG4yVm5TRGRXaS1lbmtfdnQ?oc=5",
+          "date": "2026-07-22",
+          "source": "Reuters",
+          "weight": 0.0,
+          "tag": "wire context"
+        }
+      ]
+    },
+    "RWA": {
+      "name": "Rwanda",
+      "iso3": "RWA",
+      "iso_numeric": 646,
+      "baseline": 13.8,
+      "news_delta": 0.0,
+      "score": 14,
+      "label": "Closed Autocracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.09,
+          "scaled": 9.0,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 21.0,
+          "scaled": 21.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": [
+        {
+          "title": "World News in Brief: Sexual violence in DR Congo, deaths in Ukraine and Russia, crime in Southeast Asia",
+          "url": "https://news.un.org/feed/view/en/story/2026/07/1167992",
+          "date": "2026-07-21",
+          "source": "UN News - Global perspective Human stories",
+          "weight": 0.0,
+          "tag": "erosion"
+        }
+      ]
+    },
+    "SAU": {
+      "name": "Saudi Arabia",
+      "iso3": "SAU",
+      "iso_numeric": 682,
+      "baseline": 6.42,
+      "news_delta": 0.0,
+      "score": 6,
+      "label": "Closed Autocracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.047,
+          "scaled": 4.7,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 9.0,
+          "scaled": 9.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "SDN": {
+      "name": "Sudan",
+      "iso3": "SDN",
+      "iso_numeric": 729,
+      "baseline": 2.44,
+      "news_delta": 0.0,
+      "score": 2,
+      "label": "Closed Autocracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.034,
+          "scaled": 3.4,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 1.0,
+          "scaled": 1.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": [
+        {
+          "title": "US Congress Should Pass Legislation on Sudan",
+          "url": "https://www.hrw.org/news/2026/07/21/us-congress-should-pass-legislation-on-sudan",
+          "date": "2026-07-21",
+          "source": "Human Rights Watch",
+          "weight": 0.0,
+          "tag": "governance"
+        }
+      ]
+    },
+    "SEN": {
+      "name": "Senegal",
+      "iso3": "SEN",
+      "iso_numeric": 686,
+      "baseline": 57.04,
+      "news_delta": 0.0,
+      "score": 57,
+      "label": "Hybrid Regime",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.484,
+          "scaled": 48.4,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 70.0,
+          "scaled": 70.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "SGP": {
+      "name": "Singapore",
+      "iso3": "SGP",
+      "iso_numeric": 702,
+      "baseline": 40.8,
+      "news_delta": 0.0,
+      "score": 41,
+      "label": "Hybrid Regime",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.36,
+          "scaled": 36.0,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 48.0,
+          "scaled": 48.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "SLB": {
+      "name": "Solomon Islands",
+      "iso3": "SLB",
+      "iso_numeric": 90,
+      "baseline": 61.94,
+      "news_delta": 0.0,
+      "score": 62,
+      "label": "Electoral Democracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.539,
+          "scaled": 53.9,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 74.0,
+          "scaled": 74.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "SLE": {
+      "name": "Sierra Leone",
+      "iso3": "SLE",
+      "iso_numeric": 694,
+      "baseline": 45.28,
+      "news_delta": 0.0,
+      "score": 45,
+      "label": "Hybrid Regime",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.348,
+          "scaled": 34.8,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 61.0,
+          "scaled": 61.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "SLV": {
+      "name": "El Salvador",
+      "iso3": "SLV",
+      "iso_numeric": 222,
+      "baseline": 22.2,
+      "news_delta": 0.0,
+      "score": 22,
+      "label": "Electoral Autocracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.09,
+          "scaled": 9.0,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 42.0,
+          "scaled": 42.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "SMR": {
+      "name": "San Marino",
+      "iso3": "SMR",
+      "iso_numeric": 674,
+      "baseline": 97.0,
+      "news_delta": 0.0,
+      "score": 97,
+      "label": "Liberal Democracy",
+      "baseline_mode": "fh_only",
+      "components": {
+        "freedom_house": {
+          "raw": 97.0,
+          "scaled": 97.0,
+          "year": 2025,
+          "weight": 1.0
+        }
+      },
+      "evidence": []
+    },
+    "SOM": {
+      "name": "Somalia",
+      "iso3": "SOM",
+      "iso_numeric": 706,
+      "baseline": 10.88,
+      "news_delta": 0.0,
+      "score": 11,
+      "label": "Closed Autocracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.128,
+          "scaled": 12.8,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 8.0,
+          "scaled": 8.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "SRB": {
+      "name": "Serbia",
+      "iso3": "SRB",
+      "iso_numeric": 688,
+      "baseline": 33.68,
+      "news_delta": 0.0,
+      "score": 34,
+      "label": "Electoral Autocracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.208,
+          "scaled": 20.8,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 53.0,
+          "scaled": 53.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "SSD": {
+      "name": "South Sudan",
+      "iso3": "SSD",
+      "iso_numeric": 728,
+      "baseline": 3.84,
+      "news_delta": 0.0,
+      "score": 4,
+      "label": "Closed Autocracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.064,
+          "scaled": 6.4,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 0.0,
+          "scaled": 0.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "STP": {
+      "name": "Sao Tome and Principe",
+      "iso3": "STP",
+      "iso_numeric": 678,
+      "baseline": 64.74,
+      "news_delta": 0.0,
+      "score": 65,
+      "label": "Electoral Democracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.519,
+          "scaled": 51.9,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 84.0,
+          "scaled": 84.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "SUR": {
+      "name": "Suriname",
+      "iso3": "SUR",
+      "iso_numeric": 740,
+      "baseline": 69.96,
+      "news_delta": 0.0,
+      "score": 70,
+      "label": "Electoral Democracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.626,
+          "scaled": 62.6,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 81.0,
+          "scaled": 81.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "SVK": {
+      "name": "Slovakia",
+      "iso3": "SVK",
+      "iso_numeric": 703,
+      "baseline": 69.58,
+      "news_delta": 0.0,
+      "score": 70,
+      "label": "Electoral Democracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.573,
+          "scaled": 57.3,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 88.0,
+          "scaled": 88.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "SVN": {
+      "name": "Slovenia",
+      "iso3": "SVN",
+      "iso_numeric": 705,
+      "baseline": 74.14,
+      "news_delta": 0.0,
+      "score": 74,
+      "label": "Electoral Democracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.589,
+          "scaled": 58.9,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 97.0,
+          "scaled": 97.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "SWE": {
+      "name": "Sweden",
+      "iso3": "SWE",
+      "iso_numeric": 752,
+      "baseline": 90.78,
+      "news_delta": 0.0,
+      "score": 91,
+      "label": "Liberal Democracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.853,
+          "scaled": 85.3,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 99.0,
+          "scaled": 99.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "SWZ": {
+      "name": "Eswatini",
+      "iso3": "SWZ",
+      "iso_numeric": 748,
+      "baseline": 12.62,
+      "news_delta": 0.0,
+      "score": 13,
+      "label": "Closed Autocracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.097,
+          "scaled": 9.7,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 17.0,
+          "scaled": 17.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "SYC": {
+      "name": "Seychelles",
+      "iso3": "SYC",
+      "iso_numeric": 690,
+      "baseline": 73.2,
+      "news_delta": 0.0,
+      "score": 73,
+      "label": "Electoral Democracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.68,
+          "scaled": 68.0,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 81.0,
+          "scaled": 81.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "SYR": {
+      "name": "Syria",
+      "iso3": "SYR",
+      "iso_numeric": 760,
+      "baseline": 7.24,
+      "news_delta": 0.0,
+      "score": 7,
+      "label": "Closed Autocracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.054,
+          "scaled": 5.4,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 10.0,
+          "scaled": 10.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "TCD": {
+      "name": "Chad",
+      "iso3": "TCD",
+      "iso_numeric": 148,
+      "baseline": 9.72,
+      "news_delta": 0.0,
+      "score": 10,
+      "label": "Closed Autocracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.062,
+          "scaled": 6.2,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 15.0,
+          "scaled": 15.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "TGO": {
+      "name": "Togo",
+      "iso3": "TGO",
+      "iso_numeric": 768,
+      "baseline": 24.22,
+      "news_delta": 0.0,
+      "score": 24,
+      "label": "Electoral Autocracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.157,
+          "scaled": 15.7,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 37.0,
+          "scaled": 37.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "THA": {
+      "name": "Thailand",
+      "iso3": "THA",
+      "iso_numeric": 764,
+      "baseline": 32.04,
+      "news_delta": 0.0,
+      "score": 32,
+      "label": "Electoral Autocracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.314,
+          "scaled": 31.4,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 33.0,
+          "scaled": 33.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "TJK": {
+      "name": "Tajikistan",
+      "iso3": "TJK",
+      "iso_numeric": 762,
+      "baseline": 4.58,
+      "news_delta": 0.0,
+      "score": 5,
+      "label": "Closed Autocracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.043,
+          "scaled": 4.3,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 5.0,
+          "scaled": 5.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "TKM": {
+      "name": "Turkmenistan",
+      "iso3": "TKM",
+      "iso_numeric": 795,
+      "baseline": 2.44,
+      "news_delta": 0.0,
+      "score": 2,
+      "label": "Closed Autocracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.034,
+          "scaled": 3.4,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 1.0,
+          "scaled": 1.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "TLS": {
+      "name": "East Timor",
+      "iso3": "TLS",
+      "iso_numeric": 626,
+      "baseline": 62.14,
+      "news_delta": 0.0,
+      "score": 62,
+      "label": "Electoral Democracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.549,
+          "scaled": 54.9,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 73.0,
+          "scaled": 73.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "TON": {
+      "name": "Tonga",
+      "iso3": "TON",
+      "iso_numeric": 776,
+      "baseline": 79.0,
+      "news_delta": 0.0,
+      "score": 79,
+      "label": "Electoral Democracy",
+      "baseline_mode": "fh_only",
+      "components": {
+        "freedom_house": {
+          "raw": 79.0,
+          "scaled": 79.0,
+          "year": 2025,
+          "weight": 1.0
+        }
+      },
+      "evidence": []
+    },
+    "TTO": {
+      "name": "Trinidad and Tobago",
+      "iso3": "TTO",
+      "iso_numeric": 780,
+      "baseline": 73.28,
+      "news_delta": 0.0,
+      "score": 73,
+      "label": "Electoral Democracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.668,
+          "scaled": 66.8,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 83.0,
+          "scaled": 83.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "TUN": {
+      "name": "Tunisia",
+      "iso3": "TUN",
+      "iso_numeric": 788,
+      "baseline": 32.7,
+      "news_delta": 0.0,
+      "score": 33,
+      "label": "Electoral Autocracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.265,
+          "scaled": 26.5,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 42.0,
+          "scaled": 42.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": [
+        {
+          "title": "EU: Tunisia Migration Deal Worsening Human Rights Violations",
+          "url": "https://www.hrw.org/news/2026/07/16/eu-tunisia-migration-deal-worsening-human-rights-violations",
+          "date": "2026-07-16",
+          "source": "Human Rights Watch",
+          "weight": 0.0,
+          "tag": "governance"
         }
       ]
     },
     "TUR": {
       "name": "Turkey",
-      "score": 50,
-      "metrics": {
-        "pos_tone": 0.0,
-        "neg_tone": 0.0,
-        "pos_count": 0,
-        "neg_count": 0
+      "iso3": "TUR",
+      "iso_numeric": 792,
+      "baseline": 19.4,
+      "news_delta": -2.0,
+      "score": 17,
+      "label": "Closed Autocracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.11,
+          "scaled": 11.0,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 32.0,
+          "scaled": 32.0,
+          "year": 2025,
+          "weight": 0.4
+        }
       },
-      "reasons": []
-    },
-    "BRA": {
-      "name": "Brazil",
-      "score": 52,
-      "metrics": {
-        "pos_tone": -1.26,
-        "neg_tone": -2.08,
-        "pos_count": 24,
-        "neg_count": 24
-      },
-      "reasons": [
+      "evidence": [
         {
-          "title": "美  新关税攻势  第一枪打向巴西 ， 卢拉回应 ： 毫无道理",
-          "url": "https://baijiahao.baidu.com/s?id=1870913754262088505",
-          "date": "2026-07-20",
-          "source": "baijiahao.baidu.com"
+          "title": "Turkey's main opposition party splits following years-long crackdown",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPOGtOWlVPSC1IdWtJUkp3dGdUcS1ubS1zT1hFWFpwWHh2LVJ2RVVTcVJ4cFdOMkJyZVN5R3o4aVJxNzBraGlwRW9URnF5MkRxSG9PSG51Ny0tRGRoOUo5ZG5wSHk4VHJzc0tTdUFwWDhiQlNtNkxFTVFzQW92Tk5RVExMdzB4WWZReDhzTFl0Q0lKNnlEN19WeE5mNDQ?oc=5",
+          "date": "2026-07-21",
+          "source": "Reuters",
+          "weight": -1.0,
+          "tag": "erosion"
         },
         {
-          "title": "Cosa successe al G8 di Genova",
-          "url": "https://www.ilpost.it/2021/07/19/g8-genova-venti-anni-dopo/?homepagePosition=13.1&referrerPost=3633539",
-          "date": "2026-07-20",
-          "source": "ilpost.it"
+          "title": "NATO’s Rutte stresses democratic rights after Turkey’s pre‑summit crackdown",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOSkstNzNjNGpMUHZnMTFJbDJTSGduaW5qVUo1RnZvWUt5ai0zdWZFcTJ2OWVDSVZXNTVxNVRxMFVQa04xYU9UYnMxVkRJdnRUX1JZRjM5dEMxOUJsdjVlOWlnZkd2RFpEZHl6ZXhfcDU4OE1nUnFtejc0UldueWJwNUltSkZqMVNQVkFOZXZnbks5ZFp4V29WWk9DTmlrVGY3NkxWSGE0bHdOR0d1akhhbFh0MUpoTGd2ZkpMLWNvMjlJMnFYSllGUkZUWQ?oc=5",
+          "date": "2026-07-06",
+          "source": "Reuters",
+          "weight": -1.0,
+          "tag": "erosion"
         },
         {
-          "title": "Į nemokamus koncertus kviečia jubiliejinis dešimtasis Kretingos senosios muzikos festivalis",
-          "url": "https://www.lrytas.lt/kultura/scena/2026/07/20/news/i-nemokamus-koncertus-kviecia-jubiliejinis-desimtasis-kretingos-senosios-muzikos-festivalis-43195379",
-          "date": "2026-07-20",
-          "source": "lrytas.lt"
+          "title": "EXCLUSIVE: US to move forward with Turkey jet engine sales ahead of NATO summit, sources say",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxORHZBcXlkVU9EbDhWVWgyV0tpTDlTUndYdnNpZk1vMzFuQXBGTHdGTFB2WWVFdkFpeGNPQXFManowX1NHdWxqTjZFVU9NSG9DaGk5ODRBNmhNNE9sSl8tX3FTdmdxUGpjeWxQa2RMb2ZFdm1uZDlWYTNNWE44M1hzeVY5NnVxU1RLTTVyQ0hXazN2em9fMjV5SnZlLUo5V3BPVEUxSE5QVTY5cHZXQW54VUFsYXpJY3NnV0hIQWJTLXZlcW5HY004?oc=5",
+          "date": "2026-06-24",
+          "source": "Reuters",
+          "weight": 0.0,
+          "tag": "wire context"
         },
         {
-          "title": "Rússia ataca porto de Odessa e atinge depósitos de combustível",
-          "url": "https://www.brasil247.com/mundo/russia-ataca-porto-de-odessa-e-atinge-depositos-de-combustivel/",
-          "date": "2026-07-20",
-          "source": "brasil247.com"
+          "title": "US moves ahead with $700 million jet engine sale to Turkey despite lawmaker concerns",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQQ3dMSll4RzVtZmFJQnFKMHpqOVJWa3BoM0NRTXdZdjRPMDdyN3RJeDRYTlNPMkFUd2daZ0twaWplTHA5QUt0NTZvcTB3V2J2OXNYSWViVFA1a1NqRVhoTU9CUWcxT3pZeEZRdWR5eHc3bGMtNjRiZXhTcmtKZkVXSFRLSkNHUXJya1NJOGFETl8wUTF1cEhHQnNrQ2Y?oc=5",
+          "date": "2026-06-25",
+          "source": "Reuters",
+          "weight": 0.0,
+          "tag": "wire context"
         },
         {
-          "title": "विश्वकप समाप्तिः फुटबलमा नयाँ युग थालनी",
-          "url": "https://www.gorkhapatraonline.com/news/215188",
-          "date": "2026-07-20",
-          "source": "gorkhapatraonline.com"
+          "title": "Hegseth cancels meeting with Netanyahu over possible sale of F-35s to Turkey, source tells Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNM2draWt5NURSeFk4d2NWaWlRdUk2a0Z3cUkyT1hTLXM3MzZ3R0pVb05zSGt5dFFYNjVLOU82Y1dmLUpPZWZkZ2pMZnBfb0hnX3k0VUpyN3B6RExtcHRoYzFOSk9Bai1KZ3pSWC1wR0dPQUtTNklfcWVsblF2MHpNQzR1R2dhNDBlM2lqUGU0U2w3YUQ3RVlrcVBYeEhTVVcwektNXzhmemdoVjBrdW9mRl8ycEgyTWZoTWhEVGtybHhzQUhhbnFDZQ?oc=5",
+          "date": "2026-07-08",
+          "source": "Reuters",
+          "weight": 0.0,
+          "tag": "wire context"
         },
         {
-          "title": "新山中央医院8月提升紧急部门 非紧急病患受促到政府诊所求诊 | 南马 | 地方",
-          "url": "https://www.orientaldaily.com.my/news/south/2026/07/20/834451",
-          "date": "2026-07-20",
-          "source": "orientaldaily.com.my"
+          "title": "EXCLUSIVE: France softens stance on Turkey SAMP/T air defence sale, sources say",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPN0JUREpzSjhEN0pmOTEtRXFvWWxaNW9yUU1HbE4yOEpBb0RYZEtzMm14dmFTRkVkaWpwbnJIUFg1cWhOaE1LTFFfQnpwcnRpTko1TTUzTERSTGZwNXNOdHUzYWlpZUZVcy10cWI5Y3pja2F1a253SERkYjZzY2E0Q0Q0aTk2NlY2dVNXc3p3anNBWm9lNDR5UFRKdm9TVFhaMG9iZU5lWldjVUpWeHFjb3Bn?oc=5",
+          "date": "2026-07-06",
+          "source": "Reuters",
+          "weight": 0.0,
+          "tag": "wire context"
+        },
+        {
+          "title": "Trump says US will lift sanctions on Turkey, heaps praise on Erdogan",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQemNEWDl5ZDlwZkE2b3FaTmdrOWQ2QnZ2QnREZlQyOER3cFJ4aEQyNTA5dk93Y25hQnFQeXpaLUptR012ZXpZNFR6bmd2dUdFMUhaN3ZKa01FRFNGS2YxUkIzSV9OSVpuUUtEWnRLUHkzaDJjdlJvY3VzLTRrX01SYjZNRTF0U3c4T19lRllBN2FQRC16SDdlWFN5b003NHVDUmU3cXVhOWc3XzMya291d1J6Nklfc2NNUmE1alVMYkNSMXJka29Ibg?oc=5",
+          "date": "2026-07-07",
+          "source": "Reuters",
+          "weight": 0.0,
+          "tag": "wire context"
+        },
+        {
+          "title": "Turkey's opposition leader to form new party to challenge Erdogan",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOZjhLQ2Y0SEN0RXFqcVc3aG0ySGl6dDExV1NjMkdZa0JlTWdwNVY1ekM3emk4Vk1EYkNaR2UwM0hhSnNrNHdBTndmU2dzUUk0b3RmSno2NHQ4MjFlcWRfZDA0T3VaRVBTRFhfWWYtUU1XdHU3U2Y5dVpCUnlzOGVQcEVuUk54NWxERTEtTjRfdk9tUzViYUlfeG1lNTZyS2dVZVR1Ykpn?oc=5",
+          "date": "2026-07-21",
+          "source": "Reuters",
+          "weight": 0.0,
+          "tag": "wire context"
+        },
+        {
+          "title": "Explainer: When are Turkey's next elections, and can Erdogan run again?",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQNU9INmh5WlQwNTRXdVVMdkcxVXJPQ2hjR29iYW9lLUE5eFczc19yRkdWMk5yenc3R1JsT1MtVzJZRzJzbV9MX1dtdDRIN2lGOE1GQi1YZW9US3U2R2tTaERNZkt4bTJvdlI4ako2dGxrN3ZCZzBMdG5jdWlheUpCRlNXTnBkV2ttWHUtajllSEp4S0xpYU01R3l2ZlBWaTZvelBqWGpaQmlhM3RX?oc=5",
+          "date": "2026-07-21",
+          "source": "Reuters",
+          "weight": 0.0,
+          "tag": "wire context"
+        },
+        {
+          "title": "Turkey's ousted opposition leader says preparing for possible new party",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPV0tYNWRPeGhxT2UzMEFKXzk1YnpkeTltbkR4NXZxZWZWTk95REk5dHZDVXBVTU1jcVMxZDhSSlZuRG5YZjN4UnMzZFVxc2VJT0picGxwRmJjdlpLU05tMW52R21PcHNhdUZIR3BuMldudDlhX0tXNnNSN2EyajNndUNlaWhOU1BvMThnakczLXlva1VoQXFPaGwzX1JXN3VWSmtjcGMzWlJVN1hXSm12ZEVWTHlNZkc2Q2NoUnhnSXg5a2c?oc=5",
+          "date": "2026-07-15",
+          "source": "Reuters",
+          "weight": 0.0,
+          "tag": "wire context"
         }
       ]
     },
-    "IND": {
-      "name": "India",
-      "score": 60,
-      "metrics": {
-        "pos_tone": -1.38,
-        "neg_tone": 0.0,
-        "pos_count": 24,
-        "neg_count": 0
+    "TUV": {
+      "name": "Tuvalu",
+      "iso3": "TUV",
+      "iso_numeric": 798,
+      "baseline": 93.0,
+      "news_delta": 0.0,
+      "score": 93,
+      "label": "Liberal Democracy",
+      "baseline_mode": "fh_only",
+      "components": {
+        "freedom_house": {
+          "raw": 93.0,
+          "scaled": 93.0,
+          "year": 2025,
+          "weight": 1.0
+        }
       },
-      "reasons": [
-        {
-          "title": "青岛真情巴士驾驶员于义睦 ： 27载方向盘守初心 十米车厢丈量城市文明温度",
-          "url": "https://baijiahao.baidu.com/s?id=1871219961135698903",
-          "date": "2026-07-20",
-          "source": "baijiahao.baidu.com"
+      "evidence": []
+    },
+    "TWN": {
+      "name": "Taiwan",
+      "iso3": "TWN",
+      "iso_numeric": 158,
+      "baseline": 79.44,
+      "news_delta": 0.0,
+      "score": 79,
+      "label": "Electoral Democracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.704,
+          "scaled": 70.4,
+          "year": 2025,
+          "weight": 0.6
         },
-        {
-          "title": "Calendarul evenimentelor , 20 iulie – selecțiuni | Agenția de presă Rador",
-          "url": "https://www.rador.ro/2026/07/20/calendarul-evenimentelor-20-iulie-selectiuni-2/",
-          "date": "2026-07-20",
-          "source": "rador.ro"
+        "freedom_house": {
+          "raw": 93.0,
+          "scaled": 93.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "TZA": {
+      "name": "Tanzania",
+      "iso3": "TZA",
+      "iso_numeric": 834,
+      "baseline": 29.02,
+      "news_delta": 0.0,
+      "score": 29,
+      "label": "Electoral Autocracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.297,
+          "scaled": 29.7,
+          "year": 2025,
+          "weight": 0.6
         },
+        "freedom_house": {
+          "raw": 28.0,
+          "scaled": 28.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": [
         {
-          "title": "India Planning Priorities After England ODI Series",
-          "url": "https://www.newkerala.com/news/a/india-need-dive-deeper-into-their-planning-saba-226.htm",
-          "date": "2026-07-20",
-          "source": "newkerala.com"
-        },
-        {
-          "title": "Новий прем  єр Британії Бернем . Як в Україні , Росії , США та світі сприймають це призначення",
-          "url": "https://www.bbc.com/ukrainian/articles/cy9w4e9v2jno",
-          "date": "2026-07-20",
-          "source": "bbc.com"
-        },
-        {
-          "title": "Himachal Rain Alert : Red Alert Till July 21",
-          "url": "https://www.newkerala.com/news/a/red-alert-heavy-extremely-heavy-rain-continues-himachal-315.htm",
-          "date": "2026-07-20",
-          "source": "newkerala.com"
-        },
-        {
-          "title": "Polizeigewalt bei Anti - Regierungsdemo in Indien",
-          "url": "https://www.vol.at/polizeigewalt-bei-anti-regierungsdemo-in-indien/10334075",
-          "date": "2026-07-20",
-          "source": "vol.at"
+          "title": "Tanzania bans political rallies ahead of youth-led protests",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNNURCd2dDMWZIMDN4Y0NpM0MxSHh6endXb2lwUGI4V3dzZ1o0UFMyZTNzT1NFMjg0YzNCNWdaVmJDdHVjUTRjWnJmUmJZeVJNUzRWU3VaRllGS2VISTVYa3lNbGp5LWhEcDVQSENJNFpscVBLQ0FRTTRpMTd2TTR0c01MV0o3aTYxWjlxZ2VoTUp2a2huaF85Z1VNS3FycUNnN25yUFpuN1U?oc=5",
+          "date": "2026-06-26",
+          "source": "Reuters",
+          "weight": 0.0,
+          "tag": "governance"
         }
       ]
     },
-    "POL": {
-      "name": "Poland",
-      "score": 42,
-      "metrics": {
-        "pos_tone": 0.0,
-        "neg_tone": -2.47,
-        "pos_count": 0,
-        "neg_count": 24
+    "UGA": {
+      "name": "Uganda",
+      "iso3": "UGA",
+      "iso_numeric": 800,
+      "baseline": 23.1,
+      "news_delta": 0.0,
+      "score": 23,
+      "label": "Electoral Autocracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.165,
+          "scaled": 16.5,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 33.0,
+          "scaled": 33.0,
+          "year": 2025,
+          "weight": 0.4
+        }
       },
-      "reasons": [
+      "evidence": []
+    },
+    "UKR": {
+      "name": "Ukraine",
+      "iso3": "UKR",
+      "iso_numeric": 804,
+      "baseline": 34.8,
+      "news_delta": -0.33,
+      "score": 34,
+      "label": "Electoral Autocracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.24,
+          "scaled": 24.0,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 51.0,
+          "scaled": 51.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": [
         {
-          "title": "Calendarul evenimentelor , 20 iulie – selecțiuni | Agenția de presă Rador",
-          "url": "https://www.rador.ro/2026/07/20/calendarul-evenimentelor-20-iulie-selectiuni-2/",
-          "date": "2026-07-20",
-          "source": "rador.ro"
+          "title": "World News in Brief: Sexual violence in DR Congo, deaths in Ukraine and Russia, crime in Southeast Asia",
+          "url": "https://news.un.org/feed/view/en/story/2026/07/1167992",
+          "date": "2026-07-21",
+          "source": "UN News - Global perspective Human stories",
+          "weight": -0.33,
+          "tag": "erosion"
         },
         {
-          "title": "The 2026 NATO Summit Confirmed A New Transatlantic Bargain",
-          "url": "https://www.americanthinker.com/articles/2026/07/the-2026-nato-summit-confirmed-a-new-transatlantic-bargain/",
-          "date": "2026-07-20",
-          "source": "americanthinker.com"
-        },
-        {
-          "title": "It was supposed to be shipped , but remained in Poland : Ukrainian grain fuels a conflict between neighbouring countries",
-          "url": "https://www.delfi.lt/en/business/it-was-supposed-to-be-shipped-but-remained-in-poland-ukrainian-grain-fuels-a-conflict-between-neighbouring-countries-120278921",
-          "date": "2026-07-20",
-          "source": "delfi.lt"
-        },
-        {
-          "title": "Entrée sans visa : le passeport mauricien confirme son avance en Europe",
-          "url": "https://defimedia.info/entree-sans-visa-le-passeport-mauricien-confirme-son-avance-en-europe",
-          "date": "2026-07-20",
-          "source": "defimedia.info"
-        },
-        {
-          "title": "Andrew Hastie in court as businessman sues over  toxic soil  claims",
-          "url": "https://www.smh.com.au/national/western-australia/perth-property-developer-sues-politicians-journalists-over-toxic-soil-articles-20260715-p60ffg.html",
-          "date": "2026-07-20",
-          "source": "smh.com.au"
-        },
-        {
-          "title": "Polonia apuesta por el fusil de asalto Grot A3 : compra 46 . 000 unidades de la versión diseñada a partir de la experiencia en Ucrania",
-          "url": "https://www.infodefensa.com/texto-diario/mostrar/5958758/polonia-apuesta-grot-a3-fusil-asalto-diseno-local-mejoras-partir-experiencia-ucrania",
-          "date": "2026-07-20",
-          "source": "infodefensa.com"
+          "title": "Zelensky sacks Ukraine's top army commander after days of protests",
+          "url": "https://www.bbc.co.uk/news/articles/cyvl35z3917o?at_medium=RSS&at_campaign=rss",
+          "date": "2026-07-22",
+          "source": "BBC News",
+          "weight": 0.0,
+          "tag": "governance"
         }
       ]
     },
-    "CHN": {
-      "name": "China",
-      "score": 42,
-      "metrics": {
-        "pos_tone": 0.0,
-        "neg_tone": -2.15,
-        "pos_count": 0,
-        "neg_count": 24
+    "URY": {
+      "name": "Uruguay",
+      "iso3": "URY",
+      "iso_numeric": 858,
+      "baseline": 86.2,
+      "news_delta": 0.0,
+      "score": 86,
+      "label": "Liberal Democracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.79,
+          "scaled": 79.0,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 97.0,
+          "scaled": 97.0,
+          "year": 2025,
+          "weight": 0.4
+        }
       },
-      "reasons": [
+      "evidence": []
+    },
+    "USA": {
+      "name": "United States",
+      "iso3": "USA",
+      "iso_numeric": 840,
+      "baseline": 66.66,
+      "news_delta": -0.5,
+      "score": 66,
+      "label": "Electoral Democracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.571,
+          "scaled": 57.1,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 81.0,
+          "scaled": 81.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": [
         {
-          "title": "青岛真情巴士驾驶员于义睦 ： 27载方向盘守初心 十米车厢丈量城市文明温度",
-          "url": "https://baijiahao.baidu.com/s?id=1871219961135698903",
-          "date": "2026-07-20",
-          "source": "baijiahao.baidu.com"
+          "title": "US Postal Service defends plan to require states to disclose mail voting lists",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOMUFHc0M3cUtSbDJPdzNEQTFhR01DR3J5Z1A1MDNoUV9iUFBROHl2TmtrMXgtNDA0X0hIcGJ4NXAwckx1amhJSlNsQVVUelFVNmsyUUJDMEZHNnNKdEpvZlJKTG5OQXV3cTcycUtRN2g0Y3lNTHdvcEZhd1lDUnhUcFd1a1pRTllpODBXcFIzMnJ2ZUdRVkhmcVE0dG5kZ3lYNzlIejFNNE5TWlNzN2N3bGtNZW4?oc=5",
+          "date": "2026-06-24",
+          "source": "Reuters",
+          "weight": 0.0,
+          "tag": "governance"
         },
         {
-          "title": "Why Are So Many Millionaires Leaving The united kingdom ?",
-          "url": "https://www.zerohedge.com/political/why-are-so-many-millionaires-leaving-uk",
-          "date": "2026-07-20",
-          "source": "zerohedge.com"
+          "title": "Trump accuses China of 2020 election interference, contradicting US intel",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQQnIxbG1weWlQMmJNcnBLeWdvaFhkbFAxYS05NjZZVEFkMnNXbDNXWlBCZWxMY2FVSllaam8waXRveG9tYjVRa3NuOG5nVlFRc1lvcXpkeFlVN2cxMWN1TjRyckMtUUhmT0ZIRzVQa0QyTkIydmdzSWtEU0lvckNhTGxSN1AtUXd6UkZYNmRKaXQtd0hHSDlqVVRTSzREVmFGT05oM2RvZV80N1oybWhJdW5tRm1WSWdRb0duUA?oc=5",
+          "date": "2026-07-17",
+          "source": "Reuters",
+          "weight": 0.0,
+          "tag": "governance"
         },
         {
-          "title": "Economic Watch : China energy storage sector benefits from synergy between AI , electricity",
-          "url": "http://www.bignewsnetwork.com/news/279197801/economic-watch-china-energy-storage-sector-benefits-from-synergy-between-ai-electricity",
-          "date": "2026-07-20",
-          "source": "bignewsnetwork.com"
+          "title": "US Justice Department tells state officials they could be prosecuted over noncitizen voting",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOTHdYeTlqZ2hlTXd0U21PVG5WQWxVb1JQQVRyZERUcmVPZ0xzN2MwWTFNU1V3ZElvOE4wZ3FYbzR3Wmk2TEdmeFFPd3lQOVc2ZE9LVDJrajRtYWtOYmFrZEZfMG1PUWQyVVFKN0YzUHJlMHNtSkhBNy1IMGhhZi0wTEloSW1NNlRvTUhlRmxoUTdybUlvalRXQzA0MEtGVEQ3SmZ4VkhKZ2dpYVJ4ZWRjUWR4LVQzTTBKVjhLU0NLZzRXVlVC?oc=5",
+          "date": "2026-07-09",
+          "source": "Reuters",
+          "weight": 0.0,
+          "tag": "governance"
         },
         {
-          "title": "Calendarul evenimentelor , 20 iulie – selecțiuni | Agenția de presă Rador",
-          "url": "https://www.rador.ro/2026/07/20/calendarul-evenimentelor-20-iulie-selectiuni-2/",
-          "date": "2026-07-20",
-          "source": "rador.ro"
-        },
-        {
-          "title": "[ HK ] EPS创健科技 ( 03860 ):( 1 ) 建议授出发行新股份及购回股份之一般授权 ；( 2 ) 建议重选退任董事 ；( 3 ) 建议重新委任核数师 ； 及 ( 4 ) 股东周年大会通告 - CFi . CN 中财网",
-          "url": "http://www.cfi.net.cn/p20260720000775.html",
-          "date": "2026-07-20",
-          "source": "cfi.net.cn"
-        },
-        {
-          "title": "Новий прем  єр Британії Бернем . Як в Україні , Росії , США та світі сприймають це призначення",
-          "url": "https://www.bbc.com/ukrainian/articles/cy9w4e9v2jno",
-          "date": "2026-07-20",
-          "source": "bbc.com"
+          "title": "Judge blocks US Postal Service's proposed restrictions on mail-in voting",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPbGpZNWZEVGo4VWgzR21MZ1RIbkdpM1B0enE2OU1BcF9TdmY1STNteWhjOWpIc3BHaTZla1BWaEN5TEtmaFBFZnZ5SWNwS2pYeEU3VDMzbzZIQ0hFYWVSZ3J1S2ZjQkNmdzZlRENobk5xX20yZkhnaUdtYTFSMXlsTEZQbXNJNG8wYWppRHM3SFNIUjhoSFlGZkg4SVR6c0RkdFMwRWkzYlNmckpRTW1v?oc=5",
+          "date": "2026-07-01",
+          "source": "Reuters",
+          "weight": 0.0,
+          "tag": "governance"
         }
       ]
+    },
+    "UZB": {
+      "name": "Uzbekistan",
+      "iso3": "UZB",
+      "iso_numeric": 860,
+      "baseline": 9.54,
+      "news_delta": 0.0,
+      "score": 10,
+      "label": "Closed Autocracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.079,
+          "scaled": 7.9,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 12.0,
+          "scaled": 12.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "VCT": {
+      "name": "Saint Vincent and the Grenadines",
+      "iso3": "VCT",
+      "iso_numeric": 670,
+      "baseline": 90.0,
+      "news_delta": 0.0,
+      "score": 90,
+      "label": "Liberal Democracy",
+      "baseline_mode": "fh_only",
+      "components": {
+        "freedom_house": {
+          "raw": 90.0,
+          "scaled": 90.0,
+          "year": 2025,
+          "weight": 1.0
+        }
+      },
+      "evidence": []
+    },
+    "VEN": {
+      "name": "Venezuela",
+      "iso3": "VEN",
+      "iso_numeric": 862,
+      "baseline": 7.72,
+      "news_delta": 0.0,
+      "score": 8,
+      "label": "Closed Autocracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.042,
+          "scaled": 4.2,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 13.0,
+          "scaled": 13.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "VNM": {
+      "name": "Vietnam",
+      "iso3": "VNM",
+      "iso_numeric": 704,
+      "baseline": 14.12,
+      "news_delta": 0.0,
+      "score": 14,
+      "label": "Closed Autocracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.102,
+          "scaled": 10.2,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 20.0,
+          "scaled": 20.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "VUT": {
+      "name": "Vanuatu",
+      "iso3": "VUT",
+      "iso_numeric": 548,
+      "baseline": 70.18,
+      "news_delta": 0.0,
+      "score": 70,
+      "label": "Electoral Democracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.623,
+          "scaled": 62.3,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 82.0,
+          "scaled": 82.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "WSM": {
+      "name": "Samoa",
+      "iso3": "WSM",
+      "iso_numeric": 882,
+      "baseline": 84.0,
+      "news_delta": 0.0,
+      "score": 84,
+      "label": "Liberal Democracy",
+      "baseline_mode": "fh_only",
+      "components": {
+        "freedom_house": {
+          "raw": 84.0,
+          "scaled": 84.0,
+          "year": 2025,
+          "weight": 1.0
+        }
+      },
+      "evidence": []
+    },
+    "YEM": {
+      "name": "Yemen",
+      "iso3": "YEM",
+      "iso_numeric": 887,
+      "baseline": 6.58,
+      "news_delta": 0.0,
+      "score": 7,
+      "label": "Closed Autocracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.043,
+          "scaled": 4.3,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 10.0,
+          "scaled": 10.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "ZAF": {
+      "name": "South Africa",
+      "iso3": "ZAF",
+      "iso_numeric": 710,
+      "baseline": 70.38,
+      "news_delta": 0.0,
+      "score": 70,
+      "label": "Electoral Democracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.633,
+          "scaled": 63.3,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 81.0,
+          "scaled": 81.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "ZMB": {
+      "name": "Zambia",
+      "iso3": "ZMB",
+      "iso_numeric": 894,
+      "baseline": 43.7,
+      "news_delta": 0.0,
+      "score": 44,
+      "label": "Hybrid Regime",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.375,
+          "scaled": 37.5,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 53.0,
+          "scaled": 53.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
+    },
+    "ZWE": {
+      "name": "Zimbabwe",
+      "iso3": "ZWE",
+      "iso_numeric": 716,
+      "baseline": 18.82,
+      "news_delta": 0.0,
+      "score": 19,
+      "label": "Closed Autocracy",
+      "baseline_mode": "blend",
+      "components": {
+        "vdem": {
+          "raw": 0.147,
+          "scaled": 14.7,
+          "year": 2025,
+          "weight": 0.6
+        },
+        "freedom_house": {
+          "raw": 25.0,
+          "scaled": 25.0,
+          "year": 2025,
+          "weight": 0.4
+        }
+      },
+      "evidence": []
     }
   }
 }

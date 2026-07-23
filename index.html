@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,14 +11,13 @@
     body {
       background: #0d0f18;
       color: #d0d4e0;
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      font-family: "Source Serif 4", "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
       height: 100vh;
       overflow: hidden;
       display: flex;
       flex-direction: column;
     }
 
-    /* ── Header ── */
     header {
       display: flex;
       align-items: center;
@@ -41,34 +41,42 @@
     }
 
     .header-badge {
+      font-family: "IBM Plex Sans", "Segoe UI", sans-serif;
       font-size: 11px;
-      background: #1c2a1c;
-      color: #5dba6a;
-      border: 1px solid #2a4a2a;
+      background: #1a2030;
+      color: #8fa3c1;
+      border: 1px solid #2a3348;
       border-radius: 4px;
       padding: 2px 7px;
       font-weight: 500;
     }
 
     .header-sub {
+      font-family: "IBM Plex Sans", "Segoe UI", sans-serif;
       font-size: 12px;
       color: #4a5070;
       flex: 1;
     }
 
+    .header-sub a {
+      color: #6a7394;
+      text-decoration: none;
+    }
+
+    .header-sub a:hover { color: #7eb8f5; }
+
     .last-updated {
+      font-family: "IBM Plex Sans", "Segoe UI", sans-serif;
       font-size: 11px;
       color: #3a3f55;
     }
 
-    /* ── Main layout ── */
     .main {
       display: flex;
       flex: 1;
       overflow: hidden;
     }
 
-    /* ── Map ── */
     #map-container {
       flex: 1;
       position: relative;
@@ -89,10 +97,9 @@
 
     .country.untracked { fill: #1e2133; }
     .country.tracked   { cursor: pointer; }
-    .country.tracked:hover { stroke: rgba(255,255,255,0.6); stroke-width: 1.5px; }
+    .country.tracked:hover { stroke: rgba(255,255,255,0.55); stroke-width: 1.4px; }
     .country.selected  { stroke: #fff; stroke-width: 2px; }
 
-    /* ── Tooltip ── */
     .tooltip {
       position: absolute;
       pointer-events: none;
@@ -100,15 +107,16 @@
       border: 1px solid #1c1f2e;
       border-radius: 6px;
       padding: 8px 12px;
+      font-family: "IBM Plex Sans", "Segoe UI", sans-serif;
       font-size: 13px;
       display: none;
       white-space: nowrap;
+      z-index: 5;
     }
 
     .tooltip-name { font-weight: 600; color: #fff; }
     .tooltip-score { font-size: 12px; color: #888; margin-top: 2px; }
 
-    /* ── Panel ── */
     #panel {
       width: 0;
       overflow: hidden;
@@ -118,13 +126,14 @@
       flex-shrink: 0;
     }
 
-    #panel.open { width: 340px; }
+    #panel.open { width: 380px; }
 
     #panel-inner {
-      width: 340px;
+      width: 380px;
       height: 100%;
       overflow-y: auto;
       padding: 20px;
+      font-family: "IBM Plex Sans", "Segoe UI", sans-serif;
     }
 
     #panel-inner::-webkit-scrollbar { width: 4px; }
@@ -135,13 +144,22 @@
       align-items: flex-start;
       justify-content: space-between;
       margin-bottom: 16px;
+      gap: 12px;
     }
 
     .panel-country-name {
-      font-size: 20px;
+      font-family: "Source Serif 4", Georgia, serif;
+      font-size: 22px;
       font-weight: 700;
       color: #fff;
       line-height: 1.2;
+    }
+
+    .panel-iso {
+      font-size: 11px;
+      color: #3a3f55;
+      margin-top: 4px;
+      letter-spacing: 0.04em;
     }
 
     .close-btn {
@@ -163,7 +181,6 @@
 
     .close-btn:hover { color: #fff; border-color: #444; }
 
-    /* Score ring */
     .score-block {
       display: flex;
       align-items: center;
@@ -202,9 +219,38 @@
 
     .score-meta { flex: 1; min-width: 0; }
     .score-label { font-size: 14px; font-weight: 600; color: #ccc; margin-bottom: 4px; }
-    .score-desc  { font-size: 12px; color: #4a5070; line-height: 1.4; }
+    .score-desc  { font-size: 12px; color: #4a5070; line-height: 1.45; }
 
-    /* Score bar */
+    .regime-def {
+      font-size: 12px;
+      color: #8b93a8;
+      line-height: 1.5;
+      margin: 10px 0 4px;
+      padding: 10px 12px;
+      background: #0d0f18;
+      border: 1px solid #1c1f2e;
+      border-radius: 6px;
+    }
+
+    .regime-def strong {
+      color: #c8cde0;
+      font-weight: 600;
+    }
+
+    .form-of-gov {
+      font-size: 11px;
+      color: #6a7394;
+      margin-top: 6px;
+      line-height: 1.4;
+    }
+
+    .baseline-note {
+      font-size: 11px;
+      color: #4a5070;
+      line-height: 1.45;
+      margin: 0 0 10px;
+    }
+
     .bar-row {
       display: flex;
       align-items: center;
@@ -229,8 +275,11 @@
       transition: width 0.6s ease;
     }
 
-    /* Metrics grid */
-    .metrics-section { margin: 16px 0; }
+    .divider {
+      height: 1px;
+      background: #1c1f2e;
+      margin: 16px 0;
+    }
 
     .section-label {
       font-size: 10px;
@@ -241,10 +290,11 @@
       margin-bottom: 8px;
     }
 
-    .metrics-grid {
+    .breakdown {
       display: grid;
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
       gap: 6px;
+      margin-bottom: 4px;
     }
 
     .metric-box {
@@ -255,18 +305,46 @@
     }
 
     .metric-value { font-size: 16px; font-weight: 600; color: #fff; }
-    .metric-unit  { font-size: 10px; color: #3a3f55; }
-    .metric-label { font-size: 10px; color: #3a3f55; margin-top: 3px; }
+    .metric-label { font-size: 10px; color: #3a3f55; margin-top: 3px; line-height: 1.3; }
+    .metric-note  { font-size: 10px; color: #4a5070; margin-top: 2px; }
 
-    /* Divider */
-    .divider {
-      height: 1px;
-      background: #1c1f2e;
-      margin: 16px 0;
+    .delta-pos { color: #5dba6a; }
+    .delta-neg { color: #e05757; }
+    .delta-zero { color: #6a7394; }
+
+    .components {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
     }
 
-    /* Articles */
-    .articles-list { margin-top: 8px; }
+    .component-row {
+      background: #0d0f18;
+      border: 1px solid #1c1f2e;
+      border-radius: 6px;
+      padding: 10px 12px;
+    }
+
+    .component-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 8px;
+      margin-bottom: 4px;
+    }
+
+    .component-name { font-size: 12px; font-weight: 600; color: #c8cde0; }
+    .component-score { font-size: 14px; font-weight: 700; color: #fff; }
+    .component-meta { font-size: 10px; color: #3a3f55; line-height: 1.4; }
+
+    .mode-note {
+      font-size: 11px;
+      color: #4a5070;
+      line-height: 1.45;
+      margin-top: 10px;
+    }
+
+    .articles-list { margin-top: 4px; }
 
     .article-item {
       padding: 10px 0;
@@ -293,14 +371,21 @@
       color: #3a3f55;
     }
 
-    .no-articles {
-      font-size: 12px;
-      color: #3a3f55;
-      font-style: italic;
-      padding: 8px 0;
+    .article-weight {
+      display: inline-block;
+      font-size: 10px;
+      font-weight: 600;
+      margin-left: 6px;
+      vertical-align: middle;
     }
 
-    /* Loading skeleton */
+    .no-articles {
+      font-size: 12px;
+      color: #4a5070;
+      line-height: 1.5;
+      padding: 4px 0 8px;
+    }
+
     .articles-loading {
       display: flex;
       flex-direction: column;
@@ -320,22 +405,6 @@
       100% { background-position: -200% 0; }
     }
 
-    .article-tag {
-      display: inline-block;
-      font-size: 10px;
-      font-weight: 600;
-      border-radius: 3px;
-      padding: 1px 5px;
-      margin-left: 5px;
-      vertical-align: middle;
-      text-transform: uppercase;
-      letter-spacing: 0.04em;
-    }
-
-    .tag-pos { background: #1c2a1c; color: #5dba6a; }
-    .tag-neg { background: #2a1c1c; color: #e05757; }
-
-    /* ── Legend ── */
     #legend {
       position: absolute;
       bottom: 20px;
@@ -345,6 +414,7 @@
       border-radius: 8px;
       padding: 12px 14px;
       pointer-events: none;
+      font-family: "IBM Plex Sans", "Segoe UI", sans-serif;
     }
 
     .legend-title {
@@ -388,26 +458,44 @@
       border-radius: 2px;
     }
 
-    /* ── Source note ── */
     #source-note {
       position: absolute;
       bottom: 20px;
       right: 20px;
+      font-family: "IBM Plex Sans", "Segoe UI", sans-serif;
       font-size: 10px;
       color: #2a2f45;
+      max-width: 280px;
+      text-align: right;
+      line-height: 1.4;
     }
 
     #source-note a { color: #3a3f55; text-decoration: none; }
     #source-note a:hover { color: #7eb8f5; }
+
+    @media (max-width: 720px) {
+      header { flex-wrap: wrap; gap: 8px; padding: 12px 16px; }
+      .header-sub { flex-basis: 100%; order: 3; }
+      #panel.open { width: min(100vw, 380px); position: absolute; right: 0; top: 0; bottom: 0; z-index: 10; }
+      #panel-inner { width: min(100vw, 380px); }
+      #legend { bottom: 12px; left: 12px; }
+      #source-note { display: none; }
+    }
   </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Source+Serif+4:wght@600;700&display=swap" rel="stylesheet">
 </head>
 <body>
   <header>
     <div class="header-title">
       <h1>Democracy Tracker</h1>
-      <span class="header-badge">GDELT-powered</span>
+      <span class="header-badge" id="country-count">Research baseline</span>
     </div>
-    <p class="header-sub">Weekly news-based democracy health scores for 10 countries</p>
+    <p class="header-sub">
+      Baseline from V-Dem + Freedom House · weekly news delta from free trusted RSS ·
+      <a href="METHODOLOGY.md">Methodology</a>
+    </p>
     <span class="last-updated" id="last-updated"></span>
   </header>
 
@@ -426,24 +514,28 @@
         </div>
         <div class="legend-untracked">
           <div class="legend-untracked-swatch"></div>
-          Not tracked
+          No score / not on map
         </div>
       </div>
       <div id="source-note">
-        Scores derived from <a href="https://www.gdeltproject.org/" target="_blank" rel="noopener">GDELT</a> news analysis
+        Baseline via <a href="https://ourworldindata.org/" target="_blank" rel="noopener">Our World in Data</a>
+        (V-Dem · Freedom House)
       </div>
     </div>
 
     <div id="panel">
       <div id="panel-inner">
         <div class="panel-header">
-          <div class="panel-country-name" id="panel-name"></div>
+          <div>
+            <div class="panel-country-name" id="panel-name"></div>
+            <div class="panel-iso" id="panel-iso"></div>
+          </div>
           <button class="close-btn" id="close-btn" title="Close" aria-label="Close panel">×</button>
         </div>
 
         <div class="score-block">
           <div class="score-ring-wrap">
-            <svg viewBox="0 0 72 72">
+            <svg viewBox="0 0 72 72" aria-hidden="true">
               <circle class="score-ring-bg" cx="36" cy="36" r="30"/>
               <circle class="score-ring-fill" id="ring-fill" cx="36" cy="36" r="30"
                 stroke-dasharray="188.5" stroke-dashoffset="188.5"/>
@@ -452,9 +544,13 @@
           </div>
           <div class="score-meta">
             <div class="score-label" id="panel-score-label">—</div>
-            <div class="score-desc" id="panel-score-desc">Score from 0 (authoritarian) to 100 (full democracy)</div>
+            <div class="score-desc" id="panel-score-desc">
+              score = baseline + news delta (0–100)
+            </div>
           </div>
         </div>
+
+        <div class="regime-def" id="regime-def" hidden></div>
 
         <div class="bar-row">
           <span class="bar-label">0</span>
@@ -466,32 +562,38 @@
 
         <div class="divider"></div>
 
-        <div class="metrics-section">
-          <div class="section-label">Signal Analysis (past 4 weeks)</div>
-          <div class="metrics-grid">
-            <div class="metric-box">
-              <div class="metric-value" id="m-pos-tone">—</div>
-              <div class="metric-label">Democracy signal tone</div>
-            </div>
-            <div class="metric-box">
-              <div class="metric-value" id="m-neg-tone">—</div>
-              <div class="metric-label">Repression signal tone</div>
-            </div>
-            <div class="metric-box">
-              <div class="metric-value" id="m-pos-count">—</div>
-              <div class="metric-label">Pro-democracy articles</div>
-            </div>
-            <div class="metric-box">
-              <div class="metric-value" id="m-neg-count">—</div>
-              <div class="metric-label">Repression articles</div>
-            </div>
+        <div class="section-label">Recent coverage</div>
+        <p class="baseline-note" id="coverage-note">
+          Headlines prefer Reuters / AP / AFP wire services from the weekly free update.
+        </p>
+        <div class="articles-list" id="articles-list"></div>
+
+        <div class="divider"></div>
+
+        <div class="section-label">Score breakdown</div>
+        <div class="breakdown">
+          <div class="metric-box">
+            <div class="metric-value" id="m-baseline">—</div>
+            <div class="metric-label">Baseline</div>
+          </div>
+          <div class="metric-box">
+            <div class="metric-value" id="m-delta">—</div>
+            <div class="metric-label">News delta</div>
+          </div>
+          <div class="metric-box">
+            <div class="metric-value" id="m-score">—</div>
+            <div class="metric-label">Displayed score</div>
           </div>
         </div>
 
         <div class="divider"></div>
 
-        <div class="section-label" id="news-label">Why this score? — Recent News</div>
-        <div class="articles-list" id="articles-list"></div>
+        <div class="section-label">Baseline components</div>
+        <p class="baseline-note" id="baseline-note">
+          The score floor comes from research indices (not headlines). Weekly news can nudge it via the news delta.
+        </p>
+        <div class="components" id="components-list"></div>
+        <p class="mode-note" id="mode-note"></p>
       </div>
     </div>
   </div>
@@ -499,41 +601,87 @@
   <script src="https://d3js.org/d3.v7.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/topojson-client@3/dist/topojson-client.min.js"></script>
   <script>
-    // ISO 3166-1 numeric → country key
-    const ISO_NUM_TO_KEY = {
-      "840": "USA", "643": "RUS", "862": "VEN", "364": "IRN",
-      "348": "HUN", "792": "TUR",  "76": "BRA", "356": "IND",
-      "616": "POL", "156": "CHN"
-    };
-
-    // Score → descriptive label
-    function scoreLabel(s) {
-      if (s <= 15)  return "Authoritarian";
-      if (s <= 35)  return "Highly Authoritarian";
-      if (s <= 50)  return "Hybrid / Partly Free";
-      if (s <= 65)  return "Partly Democratic";
-      if (s <= 80)  return "Flawed Democracy";
-      return "Full Democracy";
-    }
-
-    // Score 0–100 → colour (RdYlGn-like)
     const colourScale = d3.scaleSequential()
       .domain([0, 100])
       .interpolator(d3.interpolateRdYlGn);
 
-    let scores = {};
+    const CIRCUMFERENCE = 2 * Math.PI * 30;
+
+    let scores = {};           // iso3 → country record
+    let numericToIso3 = {};   // "840" → "USA"
     let selectedKey = null;
 
-    // ── Tooltip helpers ──
-    const tooltip  = document.getElementById("tooltip");
-    const ttName   = document.getElementById("tt-name");
-    const ttScore  = document.getElementById("tt-score");
+    const tooltip = document.getElementById("tooltip");
+    const ttName  = document.getElementById("tt-name");
+    const ttScore = document.getElementById("tt-score");
+    const panel   = document.getElementById("panel");
+    const closeBtn = document.getElementById("close-btn");
 
-    function showTooltip(event, name, scoreData) {
-      ttName.textContent  = name;
-      ttScore.textContent = scoreData
-        ? `Score: ${scoreData.score} — ${scoreLabel(scoreData.score)}`
-        : "Click to explore";
+    closeBtn.addEventListener("click", closePanel);
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape") closePanel();
+    });
+
+    const REGIME_DEFINITIONS = {
+      "Liberal Democracy":
+        "Competitive elections plus strong liberal protections: civil liberties, " +
+        "rule of law, and effective checks on the executive. Minority and individual " +
+        "rights are meaningfully constrained from majority or state abuse.",
+      "Electoral Democracy":
+        "Leaders are chosen in sufficiently free and multiparty elections with broad " +
+        "suffrage, and basic political freedoms exist—but liberal constraints " +
+        "(courts, rights, checks and balances) are weaker or uneven in practice.",
+      "Hybrid Regime":
+        "A mix of democratic and authoritarian traits: elections may occur, but they " +
+        "are flawed, uneven, or undermined by weak rights, skewed media, or " +
+        "executive dominance.",
+      "Electoral Autocracy":
+        "Elections are held, yet they are not free or fair enough to let the " +
+        "opposition genuinely compete for power. Formal democratic institutions " +
+        "mask authoritarian control.",
+      "Closed Autocracy":
+        "No meaningful multiparty competition for executive power. Opposition is " +
+        "banned, repressed, or irrelevant; political rights are severely restricted.",
+    };
+
+    function regimeLabel(country) {
+      if (country.label) return country.label;
+      const s = country.score;
+      if (s >= 80) return "Liberal Democracy";
+      if (s >= 60) return "Electoral Democracy";
+      if (s >= 40) return "Hybrid Regime";
+      if (s >= 20) return "Electoral Autocracy";
+      return "Closed Autocracy";
+    }
+
+    function regimeDefinition(country) {
+      const label = regimeLabel(country);
+      const text = REGIME_DEFINITIONS[label] || "";
+      // Form of government is separate from democracy quality
+      let form = null;
+      if (country.iso3 === "USA") {
+        form =
+          "Form of government: constitutional republic. That describes the " +
+          "institutional design (written constitution, no monarch, representative " +
+          "offices). It does not replace the democracy-quality label above—France, " +
+          "Germany, and Brazil are also republics, yet sit in different score bands.";
+      }
+      return { label, text, form };
+    }
+
+    function formatDelta(delta) {
+      const n = Number(delta) || 0;
+      if (n === 0) return { text: "0", cls: "delta-zero" };
+      const sign = n > 0 ? "+" : "";
+      return {
+        text: sign + (Number.isInteger(n) ? String(n) : n.toFixed(1)),
+        cls: n > 0 ? "delta-pos" : "delta-neg",
+      };
+    }
+
+    function showTooltip(event, country) {
+      ttName.textContent = country.name;
+      ttScore.textContent = `Score: ${country.score} — ${regimeLabel(country)}`;
       tooltip.style.display = "block";
       moveTooltip(event);
     }
@@ -542,7 +690,7 @@
       const rect = document.getElementById("map-container").getBoundingClientRect();
       let x = event.clientX - rect.left + 12;
       let y = event.clientY - rect.top  - 28;
-      if (x + 180 > rect.width)  x = event.clientX - rect.left - 190;
+      if (x + 200 > rect.width) x = event.clientX - rect.left - 210;
       if (y < 0) y = event.clientY - rect.top + 14;
       tooltip.style.left = x + "px";
       tooltip.style.top  = y + "px";
@@ -550,111 +698,83 @@
 
     function hideTooltip() { tooltip.style.display = "none"; }
 
-    // ── Panel ──
-    const panel      = document.getElementById("panel");
-    const closeBtn   = document.getElementById("close-btn");
-
-    closeBtn.addEventListener("click", closePanel);
-
     function closePanel() {
       panel.classList.remove("open");
       selectedKey = null;
       d3.selectAll(".country").classed("selected", false);
     }
 
-    function openPanel(key, countryData) {
-      selectedKey = key;
-      d3.selectAll(".country").classed("selected", false);
-      d3.selectAll(`.country-${key}`).classed("selected", true);
-
-      document.getElementById("panel-name").textContent = countryData.name;
-
-      const score = countryData.score;
-      const colour = colourScale(score);
-
-      // Ring
-      const circumference = 2 * Math.PI * 30; // r=30
-      const offset = circumference * (1 - score / 100);
-      const ring = document.getElementById("ring-fill");
-      ring.style.stroke = colour;
-      ring.style.strokeDashoffset = offset;
-
-      document.getElementById("panel-score").textContent = score;
-      document.getElementById("panel-score").style.color  = colour;
-      document.getElementById("panel-score-label").textContent = scoreLabel(score);
-
-      // Bar
-      const barFill = document.getElementById("bar-fill");
-      barFill.style.width = score + "%";
-      barFill.style.background = colour;
-
-      // Metrics
-      const m = countryData.metrics || {};
-      const fmt = v => (v !== undefined && v !== null) ? (v > 0 ? "+" : "") + v.toFixed(1) : "—";
-      document.getElementById("m-pos-tone").textContent  = fmt(m.pos_tone);
-      document.getElementById("m-neg-tone").textContent  = fmt(m.neg_tone);
-      document.getElementById("m-pos-count").textContent = m.pos_count ?? "—";
-      document.getElementById("m-neg-count").textContent = m.neg_count ?? "—";
-
-      // Colour-code tone values
-      const posEl = document.getElementById("m-pos-tone");
-      const negEl = document.getElementById("m-neg-tone");
-      posEl.style.color = m.pos_tone > 0 ? "#5dba6a" : "#e05757";
-      negEl.style.color = m.neg_tone > 0 ? "#5dba6a" : "#e05757";
-
-      // Show panel immediately with loading state for articles
-      const list = document.getElementById("articles-list");
-      list.innerHTML = `
-        <div class="articles-loading">
-          ${[80,60,70,55,65].map(w => `
-            <div>
-              <div class="skeleton-line" style="height:12px;width:${w}%;margin-bottom:5px"></div>
-              <div class="skeleton-line" style="height:10px;width:40%"></div>
-            </div>`).join("")}
-        </div>`;
-      panel.classList.add("open");
-
-      // Fetch live articles from GDELT
-      fetchLiveArticles(countryData.name, key, list);
+    function isoKeyFromFeature(d) {
+      if (d.id == null || d.id === "") return null;
+      const raw = String(d.id);
+      // world-atlas uses zero-padded IDs ("076"); we may store 76
+      return (
+        numericToIso3[raw] ||
+        numericToIso3[String(parseInt(raw, 10))] ||
+        null
+      );
     }
 
-    // ── Live article fetch from The Guardian (CORS-friendly, free, no signup needed) ──
-    const GUARDIAN_API = "https://content.guardianapis.com/search";
+    function renderComponents(country) {
+      const list = document.getElementById("components-list");
+      list.innerHTML = "";
+      const comps = country.components || {};
 
-    // Terms that flag democracy-positive signals
-    const POS_RE = /\b(democracy|democratic|election|civil liberties|press freedom|human rights|free speech|rule of law|acquittal|freed|released|pardoned)\b/i;
-    // Terms that flag repression signals
-    const NEG_RE = /\b(crackdown|censorship|political prisoner|authoritarian|repression|rigged|arrested|detained|banned|exile|sentenced|imprisoned|jailed|tortured)\b/i;
+      const rows = [];
+      if (comps.vdem) {
+        rows.push({
+          name: "V-Dem Liberal Democracy",
+          score: comps.vdem.scaled,
+          meta: `Weight ${(comps.vdem.weight * 100).toFixed(0)}% · year ${comps.vdem.year} · raw ${comps.vdem.raw}`,
+        });
+      }
+      if (comps.freedom_house) {
+        rows.push({
+          name: "Freedom House total",
+          score: comps.freedom_house.scaled,
+          meta: `Weight ${(comps.freedom_house.weight * 100).toFixed(0)}% · year ${comps.freedom_house.year}`,
+        });
+      }
 
-    function articleTag(title) {
-      const pos = POS_RE.test(title);
-      const neg = NEG_RE.test(title);
-      if (pos && !neg) return '<span class="article-tag tag-pos">pro-democracy</span>';
-      if (neg && !pos) return '<span class="article-tag tag-neg">repression</span>';
-      return "";
-    }
-
-    function renderArticles(articles, container) {
-      container.innerHTML = "";
-      if (!articles.length) {
-        container.innerHTML = '<div class="no-articles">No recent articles found.</div>';
+      if (!rows.length) {
+        list.innerHTML = '<div class="no-articles">No baseline components available.</div>';
         return;
       }
-      articles.forEach(a => {
+
+      rows.forEach((row) => {
+        const el = document.createElement("div");
+        el.className = "component-row";
+        el.innerHTML = `
+          <div class="component-top">
+            <span class="component-name">${row.name}</span>
+            <span class="component-score">${Number(row.score).toFixed(1)}</span>
+          </div>
+          <div class="component-meta">${row.meta}</div>`;
+        list.appendChild(el);
+      });
+    }
+
+    function renderEvidenceList(articles, container) {
+      container.innerHTML = "";
+      articles.forEach((a) => {
         const item = document.createElement("div");
         item.className = "article-item";
 
         const titleEl = document.createElement("div");
         titleEl.className = "article-title";
-        const tag = articleTag(a.title || "");
-        const safeTitle = (a.title || "").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+        const safeTitle = String(a.title || "").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+        let weightHtml = "";
+        if (a.weight !== undefined && a.weight !== null) {
+          const w = formatDelta(a.weight);
+          weightHtml = `<span class="article-weight ${w.cls}">${w.text}</span>`;
+        }
         titleEl.innerHTML = a.url
-          ? `<a href="${a.url}" target="_blank" rel="noopener noreferrer">${safeTitle}</a>${tag}`
-          : `${safeTitle}${tag}`;
+          ? `<a href="${a.url}" target="_blank" rel="noopener noreferrer">${safeTitle}</a>${weightHtml}`
+          : `${safeTitle}${weightHtml}`;
 
         const metaEl = document.createElement("div");
         metaEl.className = "article-meta";
-        metaEl.textContent = [a.date, a.source].filter(Boolean).join(" · ");
+        metaEl.textContent = [a.date, a.source, a.tag].filter(Boolean).join(" · ");
 
         item.appendChild(titleEl);
         item.appendChild(metaEl);
@@ -662,115 +782,147 @@
       });
     }
 
-    async function fetchLiveArticles(countryName, key, container) {
-      // Query The Guardian for recent political/democracy news about this country.
-      // Uses the public "test" API key which works without registration.
-      const q = `${countryName} democracy OR election OR "human rights" OR "press freedom" OR crackdown OR censorship OR authoritarian OR opposition`;
-      const url = `${GUARDIAN_API}?` + new URLSearchParams({
-        q,
-        "order-by":   "newest",
-        "page-size":  "8",
-        "show-tags":  "keyword",
-        "api-key":    "test",
-      });
-
-      try {
-        const resp = await fetch(url);
-        if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
-        const data = await resp.json();
-
-        // Guard: panel may have been closed or switched to another country while loading
-        if (selectedKey !== key) return;
-
-        const results = (data?.response?.results || []);
-        const articles = results.map(r => {
-          let date = "";
-          if (r.webPublicationDate) {
-            try {
-              date = new Date(r.webPublicationDate).toLocaleDateString("en-US", {
-                year: "numeric", month: "short", day: "numeric"
-              });
-            } catch (_) {}
-          }
-          return {
-            title:  r.webTitle  || "",
-            url:    r.webUrl    || "",
-            date,
-            source: "The Guardian",
-          };
-        }).filter(a => a.title && a.url);
-
-        renderArticles(articles, container);
-      } catch (err) {
-        if (selectedKey !== key) return;
-        container.innerHTML = '<div class="no-articles">Could not load live articles. Try again later.</div>';
-        console.warn("Guardian fetch failed:", err);
-      }
+    function isWireSource(article) {
+      const src = String(article.source || "").toLowerCase();
+      return (
+        src.includes("reuters") ||
+        src.includes("associated press") ||
+        src === "ap" ||
+        src.startsWith("ap ") ||
+        src.includes("afp") ||
+        src.includes("agence france")
+      );
     }
 
-    // ── Load data + draw map ──
-    Promise.all([
-      d3.json("https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json"),
-      d3.json("data/scores.json")
-    ]).then(([world, scoreData]) => {
+    function renderEvidence(country) {
+      const container = document.getElementById("articles-list");
+      const note = document.getElementById("coverage-note");
+      let evidence = Array.isArray(country.evidence) ? country.evidence.slice() : [];
 
-      // Populate scores lookup
-      for (const [key, val] of Object.entries(scoreData.countries || {})) {
-        scores[key] = val;
+      // Prefer wire services when present
+      const wires = evidence.filter(isWireSource);
+      if (wires.length) evidence = wires;
+
+      if (evidence.length) {
+        note.textContent =
+          "Recent coverage from wire services (Reuters, AP, AFP) and other allowlisted free sources. Signed weights affect the news delta.";
+        renderEvidenceList(evidence, container);
+        return;
       }
 
-      // Last updated
-      if (scoreData.updated) {
-        document.getElementById("last-updated").textContent =
-          "Updated " + scoreData.updated;
+      note.textContent =
+        "Wire-service coverage (Reuters / AP) is refreshed weekly by GitHub Actions.";
+      container.innerHTML = `
+        <div class="no-articles">
+          No Reuters/AP headlines matched this country in the latest weekly update.
+          The score still reflects the research baseline. Check again after the next Monday refresh,
+          or open India / Nicaragua for examples that currently have wire evidence.
+        </div>`;
+    }
+
+    function openPanel(key, country) {
+      selectedKey = key;
+      d3.selectAll(".country").classed("selected", false);
+      d3.selectAll(`.country-${key}`).classed("selected", true);
+
+      document.getElementById("panel-name").textContent = country.name;
+      document.getElementById("panel-iso").textContent = country.iso3
+        + (country.iso_numeric != null ? ` · ISO ${country.iso_numeric}` : "");
+
+      const score = country.score;
+      const colour = colourScale(score);
+
+      const ring = document.getElementById("ring-fill");
+      ring.style.stroke = colour;
+      ring.style.strokeDashoffset = CIRCUMFERENCE * (1 - score / 100);
+
+      document.getElementById("panel-score").textContent = score;
+      document.getElementById("panel-score").style.color = colour;
+      const def = regimeDefinition(country);
+      document.getElementById("panel-score-label").textContent = def.label;
+
+      const defEl = document.getElementById("regime-def");
+      if (def.text || def.form) {
+        defEl.hidden = false;
+        let html = def.text ? `<strong>${def.label}:</strong> ${def.text}` : "";
+        if (def.form) {
+          html += `<div class="form-of-gov">${def.form}</div>`;
+        }
+        defEl.innerHTML = html;
+      } else {
+        defEl.hidden = true;
+        defEl.textContent = "";
       }
 
-      // D3 setup
+      const barFill = document.getElementById("bar-fill");
+      barFill.style.width = score + "%";
+      barFill.style.background = colour;
+
+      const baseline = country.baseline != null ? country.baseline : score;
+      const delta = country.news_delta != null ? country.news_delta : 0;
+      const deltaFmt = formatDelta(delta);
+
+      document.getElementById("m-baseline").textContent =
+        typeof baseline === "number" ? baseline.toFixed(1) : baseline;
+      const deltaEl = document.getElementById("m-delta");
+      deltaEl.textContent = deltaFmt.text;
+      deltaEl.className = "metric-value " + deltaFmt.cls;
+      document.getElementById("m-score").textContent = score;
+
+      renderComponents(country);
+
+      const mode = country.baseline_mode || "blend";
+      const modeText = {
+        blend: "Baseline blends 60% V-Dem and 40% Freedom House.",
+        vdem_only: "Freedom House unavailable for this country — baseline is V-Dem only.",
+        fh_only: "V-Dem unavailable for this country — baseline is Freedom House only.",
+      };
+      document.getElementById("mode-note").textContent = modeText[mode] || "";
+
+      renderEvidence(country);
+      panel.classList.add("open");
+    }
+
+    function drawMap(world) {
       const container = document.getElementById("map-container");
       const svg = d3.select("#map");
-
       const projection = d3.geoNaturalEarth1();
       const path = d3.geoPath().projection(projection);
-
       const countries = topojson.feature(world, world.objects.countries);
 
       function resize() {
         const w = container.clientWidth;
         const h = container.clientHeight;
         svg.attr("width", w).attr("height", h);
-
         projection.fitSize([w, h], countries);
         path.projection(projection);
-
         svg.selectAll(".country").attr("d", path);
       }
 
-      // Draw countries
       svg.selectAll(".country")
         .data(countries.features)
         .join("path")
-        .attr("class", d => {
-          const key = ISO_NUM_TO_KEY[d.id];
-          return `country${key ? " tracked country-" + key : " untracked"}`;
+        .attr("class", (d) => {
+          const key = isoKeyFromFeature(d);
+          return `country${key && scores[key] ? " tracked country-" + key : " untracked"}`;
         })
-        .attr("fill", d => {
-          const key = ISO_NUM_TO_KEY[d.id];
-          if (!key || !scores[key]) return null; // uses CSS .untracked fill
+        .attr("fill", (d) => {
+          const key = isoKeyFromFeature(d);
+          if (!key || !scores[key]) return null;
           return colourScale(scores[key].score);
         })
-        .on("mouseenter", function(event, d) {
-          const key = ISO_NUM_TO_KEY[d.id];
-          if (!key) return;
-          const s = scores[key];
-          showTooltip(event, s ? s.name : key, s);
+        .on("mouseenter", function (event, d) {
+          const key = isoKeyFromFeature(d);
+          if (!key || !scores[key]) return;
+          showTooltip(event, scores[key]);
         })
-        .on("mousemove", function(event, d) {
-          const key = ISO_NUM_TO_KEY[d.id];
-          if (key) moveTooltip(event);
+        .on("mousemove", function (event, d) {
+          const key = isoKeyFromFeature(d);
+          if (key && scores[key]) moveTooltip(event);
         })
-        .on("mouseleave", function() { hideTooltip(); })
-        .on("click", function(event, d) {
-          const key = ISO_NUM_TO_KEY[d.id];
+        .on("mouseleave", hideTooltip)
+        .on("click", function (event, d) {
+          const key = isoKeyFromFeature(d);
           if (!key || !scores[key]) return;
           if (selectedKey === key) { closePanel(); return; }
           openPanel(key, scores[key]);
@@ -778,37 +930,42 @@
 
       resize();
       window.addEventListener("resize", resize);
-    }).catch(err => {
+    }
+
+    Promise.all([
+      d3.json("https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json"),
+      d3.json("data/scores.json"),
+    ]).then(([world, scoreData]) => {
+      scores = scoreData.countries || {};
+      numericToIso3 = {};
+
+      let mapped = 0;
+      for (const [iso3, country] of Object.entries(scores)) {
+        if (country.iso_numeric != null) {
+          const n = Number(country.iso_numeric);
+          const raw = String(n);
+          const padded = raw.padStart(3, "0");
+          numericToIso3[raw] = iso3;
+          numericToIso3[padded] = iso3;
+          mapped += 1;
+        }
+      }
+
+      const n = Object.keys(scores).length;
+      document.getElementById("country-count").textContent = `${n} countries`;
+
+      if (scoreData.updated) {
+        document.getElementById("last-updated").textContent =
+          "Updated " + scoreData.updated;
+      }
+
+      console.info(`Democracy Tracker: ${n} scores, ${mapped} with ISO numeric`);
+      drawMap(world);
+    }).catch((err) => {
       console.error("Failed to load data:", err);
-      // Try loading just the map if scores fail
       d3.json("https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json")
-        .then(world => {
-          const container = document.getElementById("map-container");
-          const svg = d3.select("#map");
-          const projection = d3.geoNaturalEarth1();
-          const path = d3.geoPath().projection(projection);
-          const countries = topojson.feature(world, world.objects.countries);
-
-          function resize() {
-            const w = container.clientWidth;
-            const h = container.clientHeight;
-            svg.attr("width", w).attr("height", h);
-            projection.fitSize([w, h], countries);
-            path.projection(projection);
-            svg.selectAll(".country").attr("d", path);
-          }
-
-          svg.selectAll(".country")
-            .data(countries.features)
-            .join("path")
-            .attr("class", d => {
-              const key = ISO_NUM_TO_KEY[d.id];
-              return `country${key ? " tracked country-" + key : " untracked"}`;
-            })
-            .attr("fill", "#1e2133");
-
-          resize();
-          window.addEventListener("resize", resize);
+        .then((world) => {
+          drawMap(world);
           document.getElementById("last-updated").textContent = "Score data unavailable";
         });
     });

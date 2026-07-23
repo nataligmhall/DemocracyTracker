@@ -1,14 +1,14 @@
-name: Update Democracy Baselines
+name: Update News Deltas
 
 on:
   schedule:
-    # Monthly — baselines are annual; refresh in case OWID revises data
-    - cron: "0 7 1 * *"
+    # Every Monday at 07:00 UTC
+    - cron: "0 7 * * 1"
   workflow_dispatch:
 
 jobs:
   update:
-    name: Import V-Dem + Freedom House baselines
+    name: Fetch free RSS and update news deltas
     runs-on: ubuntu-latest
 
     permissions:
@@ -28,8 +28,9 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Import baselines
-        run: python scripts/import_baselines.py
+      - name: Update news deltas
+        run: python scripts/update_news_delta.py
+        timeout-minutes: 25
 
       - name: Commit updated scores
         run: |
@@ -39,6 +40,6 @@ jobs:
           if git diff --staged --quiet; then
             echo "No score changes — skipping commit."
           else
-            git commit -m "chore: refresh democracy baselines $(date -u +%Y-%m-%d)"
+            git commit -m "chore: update news deltas $(date -u +%Y-%m-%d)"
             git push
           fi
