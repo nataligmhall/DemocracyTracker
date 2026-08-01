@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated": "2026-07-27",
+  "updated": "2026-08-01",
   "methodology": {
     "model": "baseline_plus_news_delta",
     "formula": "score = clamp(baseline + news_delta, 0, 100)",
@@ -30,15 +30,9 @@
     },
     "news_delta": {
       "status": "active",
-      "cap": 5.0,
+      "cap": 5,
       "decay": 0.5,
-      "max_age_days": 30,
-      "sources_file": "data/news_sources.json",
-      "note": "Weekly free-RSS evidence adjusts baseline; see METHODOLOGY.md",
-      "last_run": "2026-07-27T10:33:49Z",
-      "articles_fetched": 428,
-      "articles_matched": 37,
-      "countries_with_evidence": 64
+      "note": "Preserved from weekly updater when present; see METHODOLOGY.md"
     }
   },
   "countries": {
