@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated": "2026-08-10",
+  "updated": "2026-08-17",
   "methodology": {
     "model": "baseline_plus_news_delta",
     "formula": "score = clamp(baseline + news_delta, 0, 100)",
@@ -35,10 +35,10 @@
       "max_age_days": 30,
       "sources_file": "data/news_sources.json",
       "note": "Weekly free-RSS evidence adjusts baseline; see METHODOLOGY.md",
-      "last_run": "2026-08-10T08:21:50Z",
-      "articles_fetched": 413,
-      "articles_matched": 25,
-      "countries_with_evidence": 63
+      "last_run": "2026-08-17T07:44:11Z",
+      "articles_fetched": 200,
+      "articles_matched": 5,
+      "countries_with_evidence": 5
     }
   },
   "countries": {
@@ -90,24 +90,7 @@
           "weight": 0.4
         }
       },
-      "evidence": [
-        {
-          "title": "Trafigura backs out of Angola transmission line project sources say",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOclhadC1nWjZvNkJlaFZyck1qZDRrb2lOR3RxWm5WNU9wQnl3MDh5Z0ZjWjRxZm1wTUZHUHhxX25vZ1NIQW5UdFF1akJobVU3RlBWT3ZmOXBEbEZ3OXh4cklQU0ZwWFhGaFkzb1gxdHNpeGpCWGczdGdnNWxNMVY1eDZQcXR3Z2RRM2NLVnBoSzdtN0dVQk9QaDgyMi10QS1rZC1LbllYM3ozTlNXbTlVSk1YUF9oMDA?oc=5",
-          "date": "2026-07-15",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Angola's BFA to join China's CIPS to meet growing yuan demand, source says",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOLWQxWmpnS1pzcURjc3VPcTZqR3F4TlhPRS14SXR5c253TnpEY1NtV2xYZ0Z3SkdDb3NwM3hLRENGbWhBU040ak5BYWV4aG12R2J2QlpXU2xtSkw5TEdPWTRQbU5hV1FfZjFyQW5INVMzTEd5UnJ5N0paS0g5bnliUjZURkhodmVSRlcwWkZVclBjc2NtVWxRS29uZ181MS1NenhQazBWOTk4Z1Nzc3BYeVNpRUNCMVVjMVplTg?oc=5",
-          "date": "2026-07-22",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        }
-      ]
+      "evidence": []
     },
     "ALB": {
       "name": "Albania",
@@ -132,24 +115,7 @@
           "weight": 0.4
         }
       },
-      "evidence": [
-        {
-          "title": "Police clash with anti-government protesters in Albania",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1fVHpGaExiVnlUd0IyUFUyem01bTlaZ25FRkl1SXRrczljMTlydWlQa0FiUVB2aDVqbkNOc2h6UXVoM0dQa0tfRWxtVXhEZlhfLXZ6enBEUVkzVldScjNTY2RzaFYybWM?oc=5",
-          "date": "2026-07-23",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "governance"
-        },
-        {
-          "title": "Businessman who sold land for Kushner resort in Albania suspected of faking the deeds",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOSlNmN2luQVhJdF9FcU1XWGUxSTBLdWhiUHZsd09wdllLUGJmRHlacGVPTmNMaVdTV0lyNEJzV3RrWEIyTzlHSkhJV0VCcVdzLUl3SnlFNm8tMVF2dUR6RnZJeEJxOG5SbHU0TUlRM0FMMkdKbHZLU2xCY2o3QWxBNFFuczFucm44dkxObks0bGpVXzN3d0s4alJqSEc2WDdtWlpoMTZheGVyMlU2ZDB4ZXZBZWJScV8wLTRBTw?oc=5",
-          "date": "2026-07-13",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        }
-      ]
+      "evidence": []
     },
     "AND": {
       "name": "Andorra",
@@ -193,16 +159,7 @@
           "weight": 0.4
         }
       },
-      "evidence": [
-        {
-          "title": "UAE to unlock billions of dollars for Iran, sources say",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNdU8xSkdDSVRGOXhzQTVoemlTUi1GaFEyMzFNSUFXdGdQd21pbUNENTdfX01KaGFXdGQ5RklfMVNiSDlBRzRvb0xZVkU1dVd6Q0NTakI1WmxVaXZMMlVtUHVEZ2I1d3NkbExTQXU4RlRSQVhueHE0RU9sbTg5VjJWU0VwUjRMeGJtRmhXbzBQM013T3p4Y05JU2JnZkt1d0k?oc=5",
-          "date": "2026-06-13",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        }
-      ]
+      "evidence": []
     },
     "ARG": {
       "name": "Argentina",
@@ -227,56 +184,7 @@
           "weight": 0.4
         }
       },
-      "evidence": [
-        {
-          "title": "Brazil downgrades diplomatic ties with Argentina after Milei insults Lula",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPOEJrREUxMm9DZ0RuajlJcjJXMW85UWdCLW0tcFBWeGJKNVVWVkMwdVpnT3RmMlQ2MGg3bVItV1YwVEJqMkxfSkNNTnZENXRjTmFnVWx3S2xzaUtURUVWWmNwZEdIbWNBak00Vy1XVnBzdlZqcXo3TkJDdnJIdXdxaThFcWdKR1l0dzFRVVVxRUdHU240TGJ1RDd5ejhGUDZNMXFoQ0ttRXJYVDRsTE1od2tYTXhTZkNyZnlr?oc=5",
-          "date": "2026-08-05",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Brazil recalls ambassador to Argentina after Milei attacks Lula, sources say",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPTU9NOEtMYzBWMVVrbzlvZ00wQVBoVE9RbWw5OWVwSzB1NTQyMHM2Y3ZkNWhveWp4WnZVMldNZXlYUHZGZFBVazlLN1NObkdwRVFRT3k0ZHRnSEhNZGI5ZGVxYUZUMU93SWpGbThxYWVZbnBidGY3NnBiN1l0QjR1eF9ES0dwUXZtc1Y0MndBNHVLUEJMVVo4QWhUbUFfb21kNHZDNUdSQmJ0RTFiU3A2NW5ERUxxQzRya0VDaVlIcXU?oc=5",
-          "date": "2026-07-26",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Argentina President Milei flies to Brazil to kick-start Bolsonaro presidential bid",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPcEVST1FyNVBCaE8yMEdMYzVPY3ZmRXU3R0Z5TGZxSlBCeXFEcHJpYmNaaGMtYjJBcUZFVHFmdTR1cjJEU1pWSjRfbzlJWG1PeWdyU3RBVWtNbDBfODJvdllTZ1piVXNsdi00aFI0amxnZkFGSGduNDJJR3VuV0xIdG03cmM1R3hUNnd4Wng5dUN4b0ZEQXI0MFl3NjV0TXVYTmh1VTRMQ2pzc1VNOVlHWTZjNmlkOF9uRXVyRTR2ZUxoZWlaQ3c?oc=5",
-          "date": "2026-07-24",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Argentina's grain ports operating normally following end of maritime workers' protest",
-          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOeW9BcUJ1a3lnZFJtMEd3N2hEMDZtcXpiZ09QUnpiNGdVOXo1VjlxbVhfSGdoOTZhZmNlT2hISDZFQ3pRWk9iQkZ4VEw0NWczWUdxQkVtUXJDUEJKanJBdGNNdWZObDM3ZTJGR2RGRGVuRGc3ZmxVdFZkcHgzclhRLXBkRUdPZXowVmNGamg4VFFobGp3VTYwYnBOR0I4WUN6c180RXpxSTN2dHRuTjY0TGNzT1BRXzVRMy1MVm15TmtadGlaMDNaS0hTcVZsXzdDaXpISDB3?oc=5",
-          "date": "2026-08-05",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "governance"
-        },
-        {
-          "title": "Argentina's YPF Electric Energy reveals revenue jump in US IPO filing",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOUDFaWF9rUDdCZXM3UlJJRVZPby1wY0FuVXBSU3BKOTJJSGl0QnozdEZHa05LamVyZE81bi1vNDlHLU5CTlRaa1BINUpWOElDVDVDQ2JvZmhNNDBzNFBCZGI1Y2lHM1JjR0dQRjFFaEtrbDVNd0VsU2FvQ3JjWDdTV0g2WWZzLWJUemJRcndFd0lWM1dlME54RHdDRQ?oc=5",
-          "date": "2026-07-13",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Argentina's Milei unveils bill to shield central bank from political pressure",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPemJMZDkweFdSbFRhRGE3Q0lvZlJJX3IxZDFhdEJ5SmRTVVpMMmQ2YzRkemNBT3lhcFVONmRYU2g5bHp0c2k5UThUV1l4RlhpMXMwanVQaV9SR2JDbUhSVS1MVkthZjFpb05lZDB2eHJvV29CTWtDclZhOGxYaVptWTZzYkZTRk9HdHFLX2R4ODBUOEVzcVpsYVhtSkVMLTVVWWYyTkhNQXlYUHJHYXhyZ1NETnViOVBLVHow?oc=5",
-          "date": "2026-07-30",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        }
-      ]
+      "evidence": []
     },
     "ARM": {
       "name": "Armenia",
@@ -301,24 +209,7 @@
           "weight": 0.4
         }
       },
-      "evidence": [
-        {
-          "title": "Armenia seizes company from opposition leader charged with fraud",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNQk91Y0Z6amE3dm5UOF9BN3cyZ1MwRG43d0JCUTRqTDZVQmp4aGJEMExMLWQwYkpoTzR3a0dwQW4yWkpublhBQWh4c0hFSk51UVpYRW9abVpiTzZMUnpHbkR0OFRVYUQzT1VHaUN6emJuMHY3dnhRVlFSWE1fVG9Bb1ZtRVY3aGZsTkxhYXk1UlMyLV9rQTlnMDNEbm5zYk5IT2lJ?oc=5",
-          "date": "2026-07-16",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Armenia's Pashinyan asks Putin to help resolve Russian restrictions on Armenian exports",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOWENYclR1MEprdGdyMV9mdV92T2NnX0xZUGJlX1Z0TEFubm1IZGU5Y0xBLUtuNVVZNGZkUU42S3NfZW1sVHJRMTc1U2pUVlR2OTVuYkFSM2NCRl8xWjU3YU1OZmYtUVowU2tQei1VdWgyV21qcEljZGloU3QzVG1Uc1ZNWTE2Sk56T2t6SXdlcUM2bkFxRmRZTTNTNmhUbHdfZm9UUk1lanNHRUZVVi1FYW5nZzBHOGU5cXFDV051UQ?oc=5",
-          "date": "2026-07-27",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        }
-      ]
+      "evidence": []
     },
     "ATG": {
       "name": "Antigua and Barbuda",
@@ -337,32 +228,15 @@
           "weight": 1.0
         }
       },
-      "evidence": [
-        {
-          "title": "Antigua and Barbuda planning vote to become republic within three years, media report",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQZDdpem80MjNIYW9vcnE2RXVXNHljN1o2U1RncVdaZFBFRF9jbUNiWm5JeV81bXp2ZmRBd1NVVnlyRm9sMWFfeDlJMXl5RVVvUkItemNXVUFCdE9DckhFSzhuVWZwaEhFYllWZFpsc3YtQXlKUFZIMGhDMDIwNXhubms5RXVMdW85cmM4aHJieDdDMDVkdGJYR1ZvNW5na3lNX2hkZVotN2ljQ1ZxWjR4WnEyNXdVNS1p?oc=5",
-          "date": "2022-09-11",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "governance"
-        },
-        {
-          "title": "EU adds Belize, Seychelles, Antigua and Barbuda to tax havens list",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNWHozcWRFWkszeFNyMzNZTmlSX2dTc0hTc1dJV1FLRXNabmRiZ0FxaG9qdnBjeG9hdDJSZ2VpQTU4aW5vNmlRT1FsLWp2RWRaU3oyNGVjNmdySFlNalNvZUtvVkk4TXlDUmxrMFItd09KbUw1cHVZaGc0dTE5dG9DZEFhT0dFcF8xcGhxVndmWmFWSFkxVnVGb0JtcU5Xc0JoQW1qSXRKc251Rzg3?oc=5",
-          "date": "2023-10-17",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        }
-      ]
+      "evidence": []
     },
     "AUS": {
       "name": "Australia",
       "iso3": "AUS",
       "iso_numeric": 36,
       "baseline": 85.18,
-      "news_delta": -1.0,
-      "score": 84,
+      "news_delta": -0.5,
+      "score": 85,
       "label": "Liberal Democracy",
       "baseline_mode": "blend",
       "components": {
@@ -379,88 +253,7 @@
           "weight": 0.4
         }
       },
-      "evidence": [
-        {
-          "title": "Musk's X says Australia social media ban crackdown undermines international law",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNVnlfRm5SaFNpQ1E2Mlhqcmk2VVVSc1NtUE1yMkNmQklfOER5N1QyODlYZXVMUWpKamNhQ1AxcVlpTEZQX1pCdm5TcXFKQV9QbnlnN2EyS2RSMHRzWUZjQXF3VU1CX3dFMWlrWnpJbkx5ZUFtNFQtOTlpSHd6c2Q1eHBMT3ZsbkNvbElHWXhhS1FzaHIyLVc1MTF2MEN0ZVlsTXlQd2E1N3VfV180ZWIxdDZvaXBCYXo4U0M1cFVyY0R6LW15bk8xb0o1SQ?oc=5",
-          "date": "2026-07-29",
-          "source": "Reuters",
-          "weight": -1.0,
-          "tag": "erosion"
-        },
-        {
-          "title": "From Australia to Europe, countries move to curb children's social media access",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOZ2pNWDMxclFVVE9XcW1CcWFfUmhWbk41dE1GMUFQbmJlbmVHM0hZd09FVFk0Zm56bW00ekRpeEZhWHVpbnhXSWQxQXlsaE1VNDBvRU9RdTZ1VGphaVM1enZqeHNFTWJmOFVvMEJjalluMWhTRHJMNjZMVmJ0SkUzMlNUdDRJNi00WXZBeGsxMklDZkdyWmQtVHpxektIYm9hWlQ0T09sOFZsbFc4eFNfQzNDWFdyRFBUNGlz?oc=5",
-          "date": "2026-07-21",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Australia defends teen social media ban after study shows most still online",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPajJLelh6Z1BJbzZuSHc3ZVFfaF85T051ZDVleTZ0Mko0b2NhdUpZaVJBaTd3cDJkTmNXYlRNRkpMLURpYlR3NUtjOGxzODh6NnJHbVoyS2ozVlFSMWZtWDBGZ2VfSHU1MnZjOGN6eERSX3VFRV9hc3BPajJfMl8wb3BUZDhQOWlWdGNZYkhJRk0yZWN6bHA2dkhtVEhydzFVeEQxUWcwRThyOVNlbThRS3ZsbU5JQXhfa0U5cnJjZWpHZXhfTTJZ?oc=5",
-          "date": "2026-07-31",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "governance"
-        },
-        {
-          "title": "Australia hikes levy for tech giants that fail to strike local news deals",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQODJjVEpneEtpNVY1clRBdmlTbWlLTmxEUllsVTZIZ2oyWk0tSWJtT2cyem5FM3hsTHRWOG44OEYtc3RVTXNMeEVUb2RiYllBV2FQQ2JUdDFOVHM1ZnFibjhqNDc4WW5TMENLZG1kREFhbGdzUmdEd3ZXbllNWC1ORjY2aGt1NzVvZFhnQ2VUbUtLalJ6cGZXd3BQdkpQV2w3cFJpbFRxMWFOQWpoSVJwaGFENUl5SWN6TWtLMnpUWDZoV3M?oc=5",
-          "date": "2026-08-03",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Australia to establish government AI office, curb data centres' water use",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPNks2ZmFOR3l0VmZPeFUtRTRYd2xDcFIxdktBcThUNmlzbTU1Vlk0all5M0RXY3JxRWdla2ZkYld3OS1uTEdrdnJ4cHM4dzhfd0NJVWs1VkZsMl9mclZsNlU3WkRPLWJDSG1wQ1BQV2tIX3RNWHNfMTZKNV94R0Y4SFJuelBZc3F4Y2tka2g0S241dTFuaGhMOTFpM3JQamZCMWxsQUxQblU2WkNhc1g1bGZVVlprSEpT?oc=5",
-          "date": "2026-07-14",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Australia to raise concerns over new tariffs with Trump, PM Albanese says",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPemd6N2ZxclRhSXRnQWN1Y3dwNWo1VXU2Qjg3Q2VfaElydmJtd1VmaUcxckpJWlJyaVh6dWoybnpQYUZ3WEtrbjhQa1haeFJia1dCYjR6QzFqQ1BPQWkxLW9SY1AxM1RLbXduMGxRbWQ3bkZXVVFQeDdQMUNfU2xzSzA4dGpOdjQ5MVBPOXFUVVNkQ1RjU0tkbEo2ZGoxZFNmWTlKN085Z2Z5SWJDS1ZvNFYxN3FmMTV6SDNiaFotM3lSdw?oc=5",
-          "date": "2026-07-25",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Australia household spending posts solid June gain as EV sales jump",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQWmFiV1FrMXpIdW5QRGN2UmFUVDlINGFiMEs1MHIyTjEyUm9JVG9PemluTlJjaUptWndXM3pXNE1takpKRWd6aHBJYm5JNHV4dkZnSW9jYXdCWmduMmg4Y01XRjFISk84aXhPckpUTnhTTzZpaXlrWDRTTWlET01nc00wT0Z3bExZOUxfMnFuYmxqSkxtbU1XdGFIeG00UFJOV3JURmswVUw5cDd2Ymp5a2JzWnBSTExTa3Rz?oc=5",
-          "date": "2026-08-04",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Australia's Labor party replaces Victoria state premier ahead of November election",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOckpUdmJOY3h6NkRFMkhJa1BvcEx1UkRRTEJLTWRhdWwycmRCQVBnS0JNUC03d3BfaHpQNF84ZzZiYmtGV3dCUHF6UG9vaTV1MU1hTXdPd3ljWEFqM2NrY1Z2cGtyb0tPN2RmeEF5VnFILW00dng2MmJjWm42YktRQmFPM3NLNURTTmg4ZEZBelFQc2ZSWGVxOUJIREhoVzNuejlnMXBJakVLM2Y2eGNsbHpCcHNhajAwUzdSXw?oc=5",
-          "date": "2026-07-27",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "governance"
-        },
-        {
-          "title": "Australia's Origin Energy flags possible data exposure of about 900,000 customers",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOZ2xVeG82NGV6bUY5aTNMZng3bkRMaVlZMVBvSlFmSzF1VFV3NzlsYTU1UjdnM19lMW4xWldCdXI2LUp6bGwxdU5mS0tGMjJTczZHZFk1Qm16WXFibWF5SUtOQXh5U1ozWU1WWXNvVkZaaWpoQ2ZHQTR1OEItWHdLTUUyUEpzQW0tUkJsSHRLYl9qNXA4QkwwcWdnWFdCTUZKMWtQaXhWMk54T0EyeUNDRms4RURCQUJ5UjRkVktjdGl0bmMxeElv?oc=5",
-          "date": "2026-07-28",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Vietnam's top leader To Lam to visit Australia, New Zealand to strengthen partnerships",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOWHFKcW5BTzV2QS1RcmpOMWlER0lPV3hEYjNHN0FuSW96NGFkSzZfdjZvMlhDd1lIb3NkNEo4WWlGRHlzaW1uckVfVE44ell6VjVrbllObmE3ejBaM3BILXBLN3BYM0tlaFZmQm9hblBMVnBRQ1BDWVdsUHJsd1lZU09YVENMb01raEl6T0hZZEdEcW1qc3ZzdGJFQnNMeVlsVU0zQVktUll5bVdUT2liNktocFAzYmp1SEhVelZBeThla3VjSFh3bWx3?oc=5",
-          "date": "2026-08-06",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        }
-      ]
+      "evidence": []
     },
     "AUT": {
       "name": "Austria",
@@ -635,48 +428,7 @@
           "weight": 0.4
         }
       },
-      "evidence": [
-        {
-          "title": "EXCLUSIVE: Bangladesh president to resign Friday as pressure grows over Hasina's planned return",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQb0I2eFNHM1lwYUlTeXBXdW9WZTBiNmVhU1lGWDFIVEJWdUZhSHI0LVZVck1IbG1obk9iWFQ5MFJMVXpKTzhBUjBzMHBQWFhKa3I2Smd2LXJmVE9lU3Jrd2JGT2lJY290U1ZBMzRxand2cktIX0NlSDBiU2RqOFBMeHdTV3JUZWJsbWNQSFVIQmVXdmFsQ1p4UnI0M3BYc01kUTJYNzFIUFFWZ0laaDh5TWpuSVV6eEdZVWkycXREYzRseWVHWVJz?oc=5",
-          "date": "2026-07-23",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Bangladesh warns media against airing Hasina's planned address from India",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOWnZkdElzV3RFcGd6dTA0WEZHQlkxNC1RXzVkZmlTTjRfMFRYQ1hVYXctblpYVnR6eFRGc04xTWRvYkFIV2NLeTlfVEZveGk0WVhVQkxfcVlSTFVhczJmSlREOVZtMVJsNUU4WlU4dDdhUDBvSG1JdnhXdmE4TFNqakN0NDJCZFRlU0RNZTNrOVdrNnZHSmJUNzBMeHpCUkEzVElJUEZMbHBOSExHM1M4dWJuNkIyaVVHSGFNM20yQndpZw?oc=5",
-          "date": "2026-08-04",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Bangladesh ex-PM Hasina says ban on her party should be lifted",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPWFZpSzhseTFxel9QUm5id0JkNFBUQ18xRmhBdXNPVUVMWXZpUTFqTG9OUVVubWVqckIxUk1WQXNCRm1uaDhmZDZ5S1h6UUtDWW9XaWRtRjRwSXVLLTBBUW0zWjFhZUs3cGhNRnRwUFVPalFnanVnZFppZjl0Vm1jV2doSGNRaXRrN0x3eTBsZGRYdG1vZ0J6azBwMWROWGpWTTNBN0JqblM2LWwzYTZfSEdRRWI?oc=5",
-          "date": "2026-08-05",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "IMF says new Bangladesh programme talks ahead, sees growth slowing",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPcVJhV1ZreGZHVnM2dnc2Z1doSDZaS3ZrVTM1MnJVRWt1UTZPRGNjQldwdlRzODRTMTZrelNuWDM2Vl9oNFotcHQwWldoTWhIbzdjQzN6WXdsQnd1VnZjb240VlZRdlJvX3RRdmNOSm1ZTC0tV1ZJa2tYYjJQODF1MXZTN0F0Z3VFcEgxUURxcmtYMTdvRC1uZ2pRUUpnejRuOTgtSjMycmxpTXBiNU55TkJ2YUNXaERQbGRsTg?oc=5",
-          "date": "2026-07-16",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Former Bangladesh cricket captain Shakib's home attacked after Hasina media event",
-          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPWHRyNHp5SGFzVE9LYnQyaFB4bFM3WkFnWDRuU2dRR3RmeUg5MnpqcExMNzJTVFJwUHdBdW5fZVR6NWRYWUJhM3djYkc0U05KUDctOWY1MEJqb1plQmJaeERIeFFZOEMyOTFhNXB1THBOS0REVm95YzZFdXNFWkE3Ulh6am40MFFKYVZGYnllTDl1TkxOWnBmcUlYRENzSHlMM0s3TWJldzRwUFlndkhXcE5rbnZQX3ZhQ0xxZmMyOGNzM09wSk90bE9GWDNmS1RwSklYSmJR?oc=5",
-          "date": "2026-08-06",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        }
-      ]
+      "evidence": []
     },
     "BGR": {
       "name": "Bulgaria",
@@ -777,7 +529,7 @@
       "iso3": "BLR",
       "iso_numeric": 112,
       "baseline": 5.08,
-      "news_delta": -0.25,
+      "news_delta": -0.12,
       "score": 5,
       "label": "Closed Autocracy",
       "baseline_mode": "blend",
@@ -795,24 +547,7 @@
           "weight": 0.4
         }
       },
-      "evidence": [
-        {
-          "title": "Ukrainian prosecutor to weigh criminal case against Belarus' leader Lukashenko",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQS0tOVUtLVFRwYy1EU3FVenBSOUFHVjRrbVZVQnFPZl8zSFItVjNMQnJKdk9lYXpReDJnODQ3R1hjZnBDbEdWV1JpSXZkazlIX21nY0NyWnZNNEtlUnJWSjF1Q3RrSk41T0RmN3VGZjZaTlJDQXVrQTBzVER1WDRobUR5V2Q1UXpCcmJNN0xMX2g3RC1teVl5VjNoOE5nc3NudWYzbHVyWFpxdUUzcmNBUU90VFF2Sm8?oc=5",
-          "date": "2026-07-28",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Gasoline, diesel exports from Belarus to Russia hit new record high in July, sources say",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNMmVnS1JKM2JHV09BWEVCeUxYZnQxd2VoRUFLY2RaSG9seFFCMXV2ZUxzQkREVlRyMG5FLXpJYzA5TVlyUXFJRVptcWFvaFRNOTRNWHpaOVlQZGxEbVJKcU1ZbnZuSERhOFRhYW5SRkhxS2dkUWlpdGY3dm5SY3dsYThtbDFYZTI2eEp3RnNWNTFnQ2QxR0s5b3JRTmViR1d1em5ZSTRtOGNkaGFCYVpxTkpPY1lXcFllWm1kWUo5WUcwWXBkSWc?oc=5",
-          "date": "2026-08-05",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        }
-      ]
+      "evidence": []
     },
     "BLZ": {
       "name": "Belize",
@@ -881,24 +616,7 @@
           "weight": 0.4
         }
       },
-      "evidence": [
-        {
-          "title": "Brazil officials say visa requests denied to Trump officials ahead of election",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPcFVGYU1LZGlpcDFxdUZsdEhGVVhaX2w4eXlnbmZvN2FJdXUwM2wySWxaMWhvVEZzRUFWWkdkc0JxajBsbkFId3hBRTVsX2VJRkRJX2JKRXFUajNja05FSUFjUWFuaXlLcmZtbXgtUkt0MDFiREdySVotemhGWm1BNmxEU2ZZOWc2S09fYUEyMzlZbXVleVZBaHZOdlZ3RDBIdGJhY0ttYTllUkZzVlYtMTFmeUN2MDA?oc=5",
-          "date": "2026-07-25",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "governance"
-        },
-        {
-          "title": "Flavio Bolsonaro closes in on Lula in Nexus/BTG poll for Brazil election",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNWXJrRmJXYTNvdjNmT3FFVkJLQWp4d09SSmtEVGdtN19xU0dqTnF1RlE5UUxsNkltMGlPR0d1U0c1cVZodW5BMEp1VTAyTkRlNGQ4VmkyR3htdEE0Y3YyMVQ0WVBrd2tUbEhtTldVTEl4REpqc2VFTWdiRjlwaWVJQl8zN0R2TE1zUzdtNHpWS3gyelJ2MHY2QllES3BFclhQX2pLZEdWN0FhNHFVV2c?oc=5",
-          "date": "2026-08-03",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "governance"
-        }
-      ]
+      "evidence": []
     },
     "BRB": {
       "name": "Barbados",
@@ -1042,56 +760,7 @@
           "weight": 0.4
         }
       },
-      "evidence": [
-        {
-          "title": "US State Department to close consulates in Canada, Japan and Indonesia, sources say",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNZ0Rza3lnM0tJaGxLa3N2elcyM0FiYU85V3NTODhJNGowcjRlMS1NU2s2a3diSi1QVnJXNUswZ1l2enR1emtUVndfWkFpNGxiNEhCN0xEcHNkbGVHaVRWVEVUa0Q0Q3VMM1pLMDVWQ0ZFd0RqZTB0eE9yUU9Pa2hTdWhieDQ2bmhqNFVYa29henVRVjBUdEtiSDFXSmh6bUtuMVJ1TjZwX2RRcFR3WUxKaWs4eHI1UDA?oc=5",
-          "date": "2026-08-03",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Canada, UAE conclude trade talks as Ottawa seeks new markets",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPdHVyR2JKTldYRE9ieDRsTEtqQ2JBbEFsTUtJYU4zS2tMd253T1BYa3NOTkJWN3pURldoaFFDZGp5YlhwR3B6RWM5T0RwTFItVXp4VjJBZ1F5Rmt6Mjd0VmZZc2xnaHVld2JHSHN1SUdvV1lzRE01ODJXWlZJTk1sZHYya0JGS1JDZExGcEFqMkpJMk5mY3BrMTBueVhrSFhlREQ2YmZ1STk0eU55WW9kd2swTQ?oc=5",
-          "date": "2026-07-24",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Canada will become observer to advanced fighter project, says source",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPT3ZzTU1sQ1FrbldoMklHTVQ0bTJVTHVfbHhXYm5FazdLOURWbkxtSmJLeS1PRi1CQ1JDN1NrVndjQXpsRXFrbE9PMHhjYVE1b1JpSjhJUW5kRW1MR0d2Wjg5aEtCd3Zkd242TUhSOWpDbkliZ1habHFJakNZMHpjdTNBMm9vOW9KTExUMkhsVld4aXNOQkhpYUFMaVNHV1pQN2RBMG43dy1idw?oc=5",
-          "date": "2026-07-15",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "US aims for interim trade deals with Canada, Mexico by year-end",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQdUdLSWtyNlNyQURlVTlyM21LcUdNZDF1MVVRckJmWXFWQlRidU14WXF5NWR3RlMyUzB4LU5LUC1qVlV6RUNFcE1lYjV2UmpxQllRblZ0VzJCVHVKNWNuSFlaTkdfZVlzMVUxUDMwdllOUEFIUVVlZmhBMm02YzdfejM4VVdMRmR6b2g0MnJKQnNmbzhaOUloaWkyWUpkZlg0WGxTdkRUTHNLUVNvWVhSVFdhYVFzanRT?oc=5",
-          "date": "2026-07-23",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Canada to tap Pratt & Whitney Canada for aerospace boost, government says",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxObUZ6ZndkYjBRUjE4TUc0MjJGVXJERGF0WElhWnY5cFUwTWNQSTQzVUZRWGNtRFJaNEdHQk9GMGxYM3E3MFZOTmFtN1dqZXNadEI4NW5hTVZZZjlaYlZOR0NGZU96OXB3c1VBSHlxVE04SGFGWFRiTXJQUWNiVFQyWk5lNDY5aFQzOGY2M25scXZVa2FRbWxXdGNDSVlkOE5HWmFwQUNta0g?oc=5",
-          "date": "2026-07-20",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Canada discussing trade concessions with US to avoid new tariffs, says source",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOTTJRalcxal9mNGtRZEtHUThMUHBhQjhybXJtWTlfYnk5UF80bmRlSl85cWdEeG92RnVGM0JUZDZVU3B1UGZZXzNuaTJMbVYzaHNpWWpPcjJSSTczTVo2LXJLLWdINUhGb1M0aTNIekNIQTNNeXdUbU9STGE4dXRyUFRPVU5Cc1N2S0ttTHBLT1dFTW0zQ05vQUpPS1ZtV05KUjFEem91OGZreFdqZV9SeTE4ZGdJV3JmVUJjZ1NQbDY1eVU?oc=5",
-          "date": "2026-08-07",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        }
-      ]
+      "evidence": []
     },
     "CHE": {
       "name": "Switzerland",
@@ -1116,23 +785,14 @@
           "weight": 0.4
         }
       },
-      "evidence": [
-        {
-          "title": "EXCLUSIVE Watches of Switzerland held talks over potential takeover offers, sources say",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNUVZlcy1YdWhHVUlKOGU3bVRnYmhVVHVBZ0ppbnJENHFKd0p0Rk05MDhuOFJieU9ucUh2WERZX3pZMWxJRGY5X2hRc3pOeFUwbUJFTF9yZEI2NFM5UEFHVlpQNl9zWTJHaFJxc3BxMno5MWVucl9WbEZIOFhPMWF0Zzc3cU5yQ1RpdGxLbHo0M3pGRWdZQklYb3JXNjQ1QlJuWEM4ZnFQUGJvOVNsZUU0dzFqcjlMalpZdERzczJvX1JQc1Fq?oc=5",
-          "date": "2026-07-13",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        }
-      ]
+      "evidence": []
     },
     "CHL": {
       "name": "Chile",
       "iso3": "CHL",
       "iso_numeric": 152,
       "baseline": 84.86,
-      "news_delta": -1.0,
+      "news_delta": -0.5,
       "score": 84,
       "label": "Liberal Democracy",
       "baseline_mode": "blend",
@@ -1150,48 +810,7 @@
           "weight": 0.4
         }
       },
-      "evidence": [
-        {
-          "title": "Reuters given rare access to Chile's Mapuche communities as repression ramps up",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA4TTJZN0VYcU1DZ0RoeTFuRjJ0QkY2dFlWUnFDZ2MzbnB0X0ZyUnlaVzdHTF83NFBTcGxZU3Myd09RZHRLTnNEaFlwQjRLVGNZYXZHU0tiZVNqSHY1TzdxRl9keE5mOUU?oc=5",
-          "date": "2026-07-24",
-          "source": "Reuters",
-          "weight": -1.0,
-          "tag": "erosion"
-        },
-        {
-          "title": "Chile Congress approves sweeping Kast reform to spur growth, rollout to face delays",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQSWI0aDJXazhkTWM2SU5Nb2JfZzlkdVZEVy02Ykpud2x0c3I5eDNwNVVodkdOZU9TWExSTFhpV1NOQTFvVjJWaFdPRmlvNWpfeGlLVHdrOTFZTkE0dGpqUFRxQ3FNN1Y5X2JRX2ZNMHRlSWNyaXhTTjNQc1J0OFZUZFZ6bXRJSFZRWFk5dmwtNV83bFNCME9HTUVHOVJybXl4?oc=5",
-          "date": "2026-08-04",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "governance"
-        },
-        {
-          "title": "Chile rains leave 13 dead, 7 missing, authorities say",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPcVFNV0VYcHdySHVmdVZ1d3dIazhYa3Q5LVZnR1cycmNGcnpUU2ZicE1UcVJISGx0Y2Q3UTFzM0dkaDhoblRCNzk1V3ZOeXZrLWVrdW9SSE9XRHlPMDRTaVZvOFg3TkFWNzZwcS12elplUlZ2d1FTeWFXZlpEOW45VlktaGYxMEZfX2xUdXdBcC1qSjJRY3A5NVNmQVR4NDJ4MFU1cEVqT1dHWDZy?oc=5",
-          "date": "2026-07-21",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Chile storms kill three, displace hundreds as heaviest rains expected",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOei0za2x5N2QxMXFJSG5keEJVQk5NbWRhWVI1YTB2ZDZoME03cmkyZk9xZEpaX2Z6cHZ6NFdEV0VraC1mUG9ISkctRGs1ZFZGVWxDNVZCQWpfT0Izcm5wcS1CSFlMZHVHWXZQQlVYWXJjeGxqWW12Ulh5RVdQQ1FILXZoRTR5QTk5UGRrdlBJbGwzcWs2QzM5OUVrcGxVcUxqUE5BdUNUc0xCeHNlYlJERFpxSW1xWklmLVhYRllBQQ?oc=5",
-          "date": "2026-07-17",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Chile declares emergency ahead of 'extreme' El Nino weather front",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB2dWdVcU83Q3dQOTg1aXZNS19UYXczMmI5YnlCRllGZG1XLU1WNWxiR0JwSmxZRGFOaUZmWVlsS1RWNEg5OFlJUjgwWFRxd3hYMmpFREdfUTdUN0VJa0NhMy1fQXRadzQ?oc=5",
-          "date": "2026-07-15",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        }
-      ]
+      "evidence": []
     },
     "CHN": {
       "name": "China",
@@ -1216,88 +835,7 @@
           "weight": 0.4
         }
       },
-      "evidence": [
-        {
-          "title": "Trump accuses China of 2020 election interference, contradicting US intel",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQQnIxbG1weWlQMmJNcnBLeWdvaFhkbFAxYS05NjZZVEFkMnNXbDNXWlBCZWxMY2FVSllaam8waXRveG9tYjVRa3NuOG5nVlFRc1lvcXpkeFlVN2cxMWN1TjRyckMtUUhmT0ZIRzVQa0QyTkIydmdzSWtEU0lvckNhTGxSN1AtUXd6UkZYNmRKaXQtd0hHSDlqVVRTSzREVmFGT05oM2RvZV80N1oybWhJdW5tRm1WSWdRb0duUA?oc=5",
-          "date": "2026-07-16",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "governance"
-        },
-        {
-          "title": "White House weighs releasing controversial intel on China and US elections, sources say",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPMVZ4Mzg3dlZPREVfbHd2MC1yTm5XYWFTeWV6bTlOU2lxeUNQNjYtb3lFODhxRkFpdUt4djhBZk5wWjNFNWhoOGZjU3FVTk1MVkdWOHpfeGVpbUMtdUJIWTdJaDRkTmNkVVREUG8zM0JGZ1l3MGN4eXNzSTl0S09INEhKcWRWWHJXUUhaLWE0a3hCRGZoQkhyb3dvVG9mVGVGa1hId2ZfcDBXV1J5cXFwZ3JZWHI0R25DWi1iSGo1eVNyNFgwRkJpN3lxVk4?oc=5",
-          "date": "2026-07-16",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Pakistan, Iran explore path towards new talks with US in a China-initiated push, sources say",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNeElZbVRDTVhmbnotSkZKNEZLT3RiOEZCOW9ISVF3MWNYTTBqaWVKS29GNVJuc0Z2bzVKN2RKbm9mdTREaWx6WWh0UGhDMS1Cb1pRQ0xQOEJSdTlBRGhZVlZPS014X05BcjFDX2x0Q0JSTG45R2c2eEdGMzNiQk1lVG1vSDFnb2xDTkl2dHo0RFJ2eTN4aXRhMmI5RHdjZXdySWFzWlE5TDNQZ2V5bnljUEIyanJyTTZjY2ZUVWZn?oc=5",
-          "date": "2026-07-24",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Trump's fiery China allegations may threaten superpower truce",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQb3Q2djF3aTYzTjNuOGRGdW5FYTVma3JnXzAwUjc3WTdJNk9McWZTckZVZlNGalFRX2xEZUlYd09kaUlHYjNpUkliQ0loOXJTQ01nb3JYTFB1WWVKZndpWW5kb0tJVFA1a2h0aDlIc1A1dWJXcWpfYk1Ia3o2V1dBbUlVQjc0UnJuRW9yV1d5V1R1SnRYaDY3bHR3?oc=5",
-          "date": "2026-07-17",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "EXCLUSIVE: US, China to hold AI talks in September, sources say",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNRnA2ZW5UVVBMZkFtcExCdG5vSTJIMDFGYVhtcFpXellZRkpmcnJocExRNkp5c0VDdXRfVDdXcGs1OGszNEdMM3YxQ3R2UFVwYmdCQW85MjdYUHBlaWloVENJZmE1OVYxc2FFQml4LTFOWXEwOW5BcGIyVEQ3Rk5uMmxPQUFLVWY4cTYxNzJTZzZBbkJ1RkFr?oc=5",
-          "date": "2026-07-22",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "China's Moonshot unveils world's largest open AI model, closing in on US rivals",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOUFBidnJRbHRkSDh4WXNUVlBOY1VmZ3NCSlRhQzEwZWY3dGJfeXlMQ1FWN1FheElOWU0wdFBJZ2p0Y0VDSnd2RDlDSExSQ3lOb19UYkc4Q0d6UEtsQzN4TWg2LWtianhwbEgtZmR4OWs4QU9QbjM3RkJqNHI2TmgzRVRxcXhuRlE4ZHdlRFRvNlBvWUxYUkFQRmZ1Y3NaeWh1V0swM2NHaW5NcEg2UGdiOHFMMzN4bGMweVE?oc=5",
-          "date": "2026-07-17",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Xi pitches China as leader of new global AI order, challenging US dominance",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQZVpoVTlwUHY0LXNXd19nbFlNWVZoWDdQeVVFSi1ISkZzYVI1YUlzQTR6OXd3XzNhWDhsaTRkdnByczNqMlE4bm1JTHhyaEk2VXhrUDRFdmVjdHN3RW9FZU1OTW5aMnMzTmk1VW5sMUNGTkhYYVc1LUN5bUJJWkNBdUJFSU0wNUZyMDdtZklkRkJPLXBTRlhHQmZ1S1dQSVdTZ3l4OC13TE5aVWNBSUZfeHpfRVRwTG9hdzFKWkdVa2RfaVoxeWpr?oc=5",
-          "date": "2026-07-17",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "China bets on faster state-backed projects to shore up growth, avoid broad stimulus",
-          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNZWpfeWVNcWlsRWQzNHNJMGFYeDhQZEdsMU9xX0QzQnVETk12YUxUWGlWMS13Nkd6dGlMWDlRbWV4Z3RXQkd6cGVkR0JVTlI5XzBLRnZtZzBCb203R2dCMXhBTG9oSTZYLTRIRENMX1ZtaDF2UGRYbVVFNUdaSTdXcWhIVDJkd2U4Qm1ObHh0elFSbDNhcjhuSEk4b3pvc29YUkpRbHk3SkQ0dXVabUxfZUdjcEZraGtIWUlJcXlUenZlRzNNRnl0MmZhSlc5blhTUTNjcnJrOFhWZw?oc=5",
-          "date": "2026-07-16",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "EXCLUSIVE: China starts production of home-grown immersion DUV chipmaking tools, source says",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOR1Zubmoxd1FlV0N3dFpST2F0QUFhNS04Mlg5cmNUcndrWXlwYVFfSFZZODc5UzQxTWZiNzktWEZ6dlJfVm4xVXZWYUlSdndZUXFyNjNhLUZlWm9Zc3pSN001WmZFQWZRSjd3dFo0dmptM1VIbGg2aUhVYU9aNllfV3VkRFZGREJsczdOZThmQ2tidTJMc2dweFp3V1FWQ0hLOEIzaU9mMFRWWGhrUXoySUxST3VqekE4Rnp5Qg?oc=5",
-          "date": "2026-07-28",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Can China restrain Iran? Gulf states test Beijing's influence",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOdklTZHJ1YU1Db09vbVRyR0Z2SHFydjMxZVJLUHZHMDlubnljR21Nd0tIbnBxVk1OYkFmNWE3VldxQ21aSmtaMlNTV1Z5VVZCR1pMSzNIdUpHUnhQdGdZZmk4UnBFSXVQa1FBemhaRnlKSW1QRDdKR3J0Z1E1WnpJcEhNYjlfeDBMN2tSX2p5ZjdwRnZqZnNjdUs0UGk1V3REemI0TGtyUllFc0U?oc=5",
-          "date": "2026-07-30",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        }
-      ]
+      "evidence": []
     },
     "CIV": {
       "name": "Cote d'Ivoire",
@@ -1354,7 +892,7 @@
       "iso3": "COD",
       "iso_numeric": 180,
       "baseline": 14.1,
-      "news_delta": -0.14,
+      "news_delta": -0.07,
       "score": 14,
       "label": "Closed Autocracy",
       "baseline_mode": "blend",
@@ -1372,16 +910,7 @@
           "weight": 0.4
         }
       },
-      "evidence": [
-        {
-          "title": "CDC says one American tested positive for Ebola in DRC",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxONkI1bV93cDhPa3JEU3JyQ3dFWWw5cnAyZ21VYkdxdTNVelJuRVEyU0lSdTFnbFZmck1IV0ZJcDZRZFNCUmt2ZlEzOXNyRmJKcVlWRmx5cjZJMG90aC13MHJzNkVPV2tFWlRlNks5ai1QbmRHdVJQSzlnc1F4bWpGYklsZmxKdV9rUWdxZndSNDhRZXhZdlczeTJvYTh1X2JXeWZfVERxdWUxMWxybHNrcjBvWmZhd3JEaTRHNi15aXJDSXc3cThGWEZB?oc=5",
-          "date": "2026-05-19",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        }
-      ]
+      "evidence": []
     },
     "COG": {
       "name": "Congo",
@@ -1431,64 +960,7 @@
           "weight": 0.4
         }
       },
-      "evidence": [
-        {
-          "title": "Colombia's Ecopetrol says cyberattack stole data tied to 3,300 accounts",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNU0F1ZXlIX3EtVmMzRWVzaHNUY2J2U29JSS1Wd3JRV2xXZzVRMDNHd3FnSENVYzFkSUVvak1GSGZDN2FnamQ3eTF2UjMtTy1BNk9fWkU1dUw0R2ZFbldZbGhEUWh3cXlwX2FkbFVCMTR2SjN5NEN1X1JGdV9pVEpnYUZtWG13anZIYWdSU3pUS1dIZ29VaGVkdXVZeXhhUzVCODl4M1hIRzJTY3JYS1ozSDllMGhDWk9vTWZR?oc=5",
-          "date": "2026-07-17",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "New Colombia president pledges robust fight against crime, fiscal austerity in maiden speech",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNeWs5YkpEcnQzdEJrblFDQ3gweHhyQXBvOFVTTXVjeXlxaExxYTFzQS1BWURpU0hVNS1aT2pmbkdHemJEWVJxZ1BHMlAxT2h1UVRsUUliWlBVdzAxTGxlSUk4Mk82aWJhbGk3UlJibVZZZ0hQQ1ZnRkcybjNlOThhbXM3RXdva004cnZFOVlrajFXbVBzMjNlakpBZnlCRURaUUM0YlN2QWdhWVlPQ0QycldsV180ZllRRElmVXVERjMydw?oc=5",
-          "date": "2026-08-07",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "US says it plans $1 billion security assistance to government of Colombia's new leader",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPeW1jcFhmVTc4MXRBdGZsZ0FuVXZBUFdSVVlXVEVWZTNPR2JTUVZITGk4blEtVDFkVWNfSkJuUk1zRkZSYlBDZzVsWDE5ejZUWTl4TE9mOHFmZFZac1VxRVduQU1HWkhIMGRycWE2ZWNVYTdzWFpjanBrVEZvWW55alM4QS03YnBwQ2x6MXc0QVlWV3Zoak5hM21Tay1MY0FaOUQ5ejZ6MFdCMnNsc19LNE5WbWMxN3l4YzgtdTFDR3I?oc=5",
-          "date": "2026-08-08",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Colombia oil, mining industries upbeat on new government, seek swift changes",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNbVh0TjV2SUVaaTl1ZVViWDczOFdQR3VzLWVvMWlhdEFMZzRQZDdzMUVqeUtpWWRNLWR2V2kyU29RU3VRVWJJb3NOZVNwRnZ3WElxSmJnX2hCMlJ6X1lyWVVQWHRQTEhubzIwSklYT2Zldi1pdW51N3Q0LWZpME83VDdRUjRZbWxNNjV3MHZZQmllRHVBRzZoYzlMNFlLTFVYaXl2RFNCeGdlYTBYR0VXdGRlSTMwV0pJNE05VHYwR2xzQQ?oc=5",
-          "date": "2026-08-06",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Colombia's 2025 forest loss hits two-decade low, government says",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPT0RmaTZXTTVUb19yNW5tV2FEaVhqLXZZTU93aVZwYXFKUnR5RmZ3dGV0dDdHUTdIaWNkSmlsZ2xuSERwRUw3OGNNWDFGOFZOSTRteExSb0pUZ2N3cm95bjJ0SF9DV2JFQ2p4dEpZSkNyM29jWEE5WlFjY3QzbkF3LXlXeEpwcTNQaFU1UHZOa3htS19HeHdubGtsaWozMGNPUl9pN0tJaU1uWGlGX1FkTWs5ZDRfaWs2SWow?oc=5",
-          "date": "2026-08-01",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Colombia to resume power exports to Ecuador, enables export contracts",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNRTV4WFVJTVZsX3dsYldQLVVsNTk0RzI4UmNqM21RWFptbVFvRjVOMm9Db0J1TTJVSEJCQ2tzcnIzMEVoQUlGVTZFRzU0ZDZsRm5VQU1HNmYzeFh2Wmsyc1dQTTFKb3E4QUV3NUw3Q1RYeFJxeUhJN3FnOGhYTVh4TC1qSU9xclhWLUtQTTN1UkFxV3NSOTQ0NWNRZ0RhTkdib2xYMGRlQ0g2Y1plVUpCdjdpYm8?oc=5",
-          "date": "2026-08-05",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Colombia swears in right-wing President Abelardo de la Espriella",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBBMHM4ZUNWazNMUExsS1JPV1pzSGVFQURtT1M3RURzLWk2Sk1uRzREWFl1UVJva05qYVF2Y1VPalE3amp6aGN3UjJPbmlZWEdlOGNJc2pJbW1jbTVSdjdyemoxVnNweHc?oc=5",
-          "date": "2026-08-08",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        }
-      ]
+      "evidence": []
     },
     "COM": {
       "name": "Comoros",
@@ -1588,56 +1060,7 @@
           "weight": 0.4
         }
       },
-      "evidence": [
-        {
-          "title": "Cuba takes steps to implement economic overhaul amid US pressure campaign",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPME15MUpEQ1dzSEYxQzRoV3RvNGt6WjBncWtYMml5T0xaWng2V1A3WlI2M0ZsZk9LaFZ4MjBBcllJNUJLM1FGcGZ2S0dhc3ZMOWt5YWZxODd4NEJmMmt5dW0wYW5Mbm52ejFjeXRsM0p5WW1CcmxleWZfWF9Kb1VSSnVpZkZzd2xYWGw2VDZEVTExSU1yZDdlSnlvVVBvVHF6bTl5S2JQRG1YdlA5a2JCcDZFVVFISjRFNVpKSm9mSjk?oc=5",
-          "date": "2026-07-30",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "UN rights experts urge action to avert 'silent Gaza' in Cuba",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOLXhwUGZqNG05YW1tcUhCd0RwUjVJeVkxS3BrSXVKdmNCUGFLMzRnU1RIT0ExMWljbzZBTkx2d3c5VHBodXp3Yjk3OTRwMHdUa09XeEVYMkM4c0FHZXFUX0YxeEI4NTl0WjRHYWhHaXBueDNkdFVJWXg2cFBSZTVIRTMwZElfV3JYb1M5YWVHTEZYa0NxbC1VNDdaR01xdnhWTmwzMHFR?oc=5",
-          "date": "2026-08-06",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "US sends first humanitarian flight to Cuba under new aid package",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOUjluRVpMSWQ0eko2eW5SVm8zMURwN1VKTTFxbkFMM2RpNC1BbUF0a2Y0bktBMVZPazlydGNkZEZVNzZ6MUsxcGt4WnMwdk4xVmlJUzJ3NDlNNXZ5VjE5X3NORlI3b21aVk1TeWhXVnlFcGZ4YXU5SGlkNHg1dW9uTGtJQk1KNU4tRWVQOVZGWDRGMV9hZjRpZDJpX2ljNEFsUzhoQWZOSkMzZ2xZdWR6Z0ZR?oc=5",
-          "date": "2026-07-21",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Cuba plunges into darkness as electric grid collapses",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOMTdFbGhVSWlfdzZ3aWduVjdUeTFvMnBFVFhaMjg4SkhrMXJlcnFtWTlWTTdnRjNLMzRCNHg4Tm9OTlpkM2c3QlFGR2RuejZnNlM5R182b09EbXQ4dG5RaEJjSHNDRjhtOS1aY05DZlAtQWlMZVBHdE1yY0xFb29yazdJeW03ZXVGcXZSQ2FLOFlremVCcGZ0ckZobkFqRG9fZGc?oc=5",
-          "date": "2026-08-03",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Cuba plunged into darkness as aging power grid collapses for second time in 24 hours - August 5, 2026 | رويترز",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5nUGRJZ3U5U1l0eURNV2pTS3NyOEhPX2l4bGdJZU1ZY0JwNE9tVnRpMU5ONl9ULXVYWXpBak5mUW5teFg0VDFoc2JKUkFQRVgzVjZTRk9ETW9ZQkYtR0I1alMtQW81VFVPM1p1UjhwRnpLOUgyQmMzaTRxYkwtVzA?oc=5",
-          "date": "2026-08-05",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Cuba power grid collapses again after nationwide blackout",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBhdlYzV3I1QS0tRFB4Zk9MeWZod21FQ0drTjRmZTVvUEhWS1JTV0s2amxIaFQ5X3BGNjVzbnZESlBVRk4yZ0ZHaGc5TzB1cWVuZXFRSnZaWUctVVh5S2hXb29QSWdTS0E?oc=5",
-          "date": "2026-08-04",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        }
-      ]
+      "evidence": []
     },
     "CYP": {
       "name": "Cyprus",
@@ -1694,8 +1117,8 @@
       "iso3": "DEU",
       "iso_numeric": 276,
       "baseline": 84.92,
-      "news_delta": -1.94,
-      "score": 83,
+      "news_delta": -0.97,
+      "score": 84,
       "label": "Liberal Democracy",
       "baseline_mode": "blend",
       "components": {
@@ -1712,56 +1135,7 @@
           "weight": 0.4
         }
       },
-      "evidence": [
-        {
-          "title": "Germany plans tougher tax crime crackdown to raise billions in revenue",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOZVZLcklWM2NZalpzSEwxOEh4NDF1SjYtWXBta2NxS2VURThiOHZYREEyZ2hWRjRxOG54UDR2anlRTHB4a3BwR213a1UyV2JHcDRZWVd6cERVYk9DRVdNTU1KVFRweEhtWWxjT3RXZlhQOVlWVE1TeEFKVmgtMl9HOTJfYkV4azZVNHdUYnpvQlRzMmxNZHVqVEVDV2FHd3Roc3pBc2xoY2xsNE9RVER2V1BtemhpeHpM?oc=5",
-          "date": "2026-07-16",
-          "source": "Reuters",
-          "weight": -1.0,
-          "tag": "erosion"
-        },
-        {
-          "title": "Germany's Merz could announce cabinet reshuffle on Friday, sources say",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNaDU4aVYzdGRObnM5TlBIVFgyMm9VRzVRQ1ZrQWNmUWkwd2pDbmU0RTRKNEp4Ums1Ul9nV2ViRW0wS1FqdXpVYUc5dzhOd3JtTVhkU1hzcGl5Zm5iZmJCMUxGb3oyWnRDMXNodmEtdllPUnZuX3ZWanJXTl9RVl9KdXhIOEh2QjVQMVN3blBYbmFrZkZmRFhyM3dzUVlTV09zRTVDa1JwOHhfTTJjSjY3cFdFQ3l5V19ldlE?oc=5",
-          "date": "2026-07-23",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "AfD on pre-election roll in east Germany, despite economists' scepticism",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPNHVGZzhaR3JFOXhKeF84Qy14bHBBRkphM3RuQ250MTN4Y0NLT1l1RldGUDVRTDlRZ3ZTcmRBSmRMT0hkN3d1aWxhODNyMjVsRXU0NllWVUUtLS1SbzRhZDNuTkJQY0duMnJJanBfS3pabkI4MFBVeWk3WHVwZDFMMEZzV1g3UDFPZEFHV010NnA2ZG5oZ1BUMy1ZdE8zMmpnODRaMHR5YnN2QQ?oc=5",
-          "date": "2026-08-10",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "governance"
-        },
-        {
-          "title": "Germany to approve €600 million package to cut red tape",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQem1nYnJLaThuNFlGYUhONW1LdzVzbVMtYU1MV3ZZYWFpWEd6Z1BFMXJCNjBlRWVVYWlRWkZjWlVERFp6RmJPcU1hZmtqRnkzdHhySnJhUk45M01vUDJKRG5sLXUzVlZkYTE5SzdLN3dNUHRaZXYtVEJ4bDN2RkdrQmdaRDRqUFhBX0oxUE9jYmhqdVhz?oc=5",
-          "date": "2026-07-14",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Electric cars became cheaper in Germany despite rising average prices",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNRVdVczJzOFg4M05WNGJncWNLamtTUzhNaWxHdFE4UF8yWXI0c0NfZGVIN3BzcHhlM3ZnbFVjZVpxOHZWUnUtSUNqcG5ra2JqaUZKOWx6d2tKTEV4MVRyTEw1T2hHUGVQWjJNVmFmN1Q2VVBHVWU0OUlES1RFdERqbkZKZkdVN3pKSTFGZTNmWUtXbXBVeUhvQjdRT0d0c0xEcC14VEhBVGdCMk5tVS1XZA?oc=5",
-          "date": "2026-07-20",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Senior Merz ally under pressure in Germany over surrogate baby",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPb2pnT01hSHFCd084NmhRSjFYVkE1SHNrZzBVcUM1djcyaXY1QWVtLXU0TVFqbUtKZk1uV05UR0t2TUZfcUROdzMtYlI0SVZmaFdBRzlPSTVwSVBXWEZ3NFZtME04N2kzcVllVGxmeDF6OUVLc3VodU5IY3BxcUZ6VURvMlFOc0dfZzZVYU5Ka2hiX0UtSTJGTXVJcmRaT2JpWGRn?oc=5",
-          "date": "2026-07-17",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        }
-      ]
+      "evidence": []
     },
     "DJI": {
       "name": "Djibouti",
@@ -1880,16 +1254,7 @@
           "weight": 0.4
         }
       },
-      "evidence": [
-        {
-          "title": "Firefighters battle a wildfire in northern Algeria",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE14aU90b1E0Nm5jWkpwTE5PYUVqWjRlcTFlb2hSdGFQMW5JRHI1WFZqa213R0Y2T1p0V0lHcGxWdVdFeWg4NXo3Um9IN2JVSGZWVlpzVEdkNHhmeHlBZTlGbld3VDhZYzQ?oc=5",
-          "date": "2026-07-21",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        }
-      ]
+      "evidence": []
     },
     "ECU": {
       "name": "Ecuador",
@@ -1939,48 +1304,7 @@
           "weight": 0.4
         }
       },
-      "evidence": [
-        {
-          "title": "Egypt has procured nearly 4.9 million tonnes of wheat since start of procurement season, PM says",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQR3pqSEF1akc2VC1DVnhzQkRxaWFBWWxlY05HS0RPWEVkUUlQQmVEd2xnUVItWGhDVThMNURmYjZMc2VnX2pQcTdPSFdGakcxV0toNS1PSmM3QWZmUUhPVU5JWWczRzBRQjFrT2pMVTlCRUZvVHlBM29rcFJJUE14UC0ycHJSbXBIVWtIcG5vb1BfZU9fNVFYNUh5YlF3U0M3c3I3eXdlVG5sTDZDQy11WjgtQlY1TC1uQ3RCQlZLSVg1MkVXUHJMYQ?oc=5",
-          "date": "2026-07-15",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Egypt confirms drone caused fire on two gas vessels at Damietta",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOYjF1aWhGTmZFRVNLcWFNN2JqX2FUUkZMY3ZLeldiNEJUZE0zLWFqa0xQQXVIdWxIQ3JidXJaS2ltNWF1MU1TVlZzZVFTUVhnTTl2djhtaUxDemp5Rkl1al9ZdHFfSmo0RjgwZGJGYmN0NU04V1ZROEpheFJfX2pzN0tELUVPVVYtVGE5UGJsNUt3ZEtCbFREX1hBNGQ5cTlpTFljQU10X2tTSkhGd09XdQ?oc=5",
-          "date": "2026-07-30",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Egypt secures alternatives to cover energy demands after attack on gas vessel, PM says",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNQlZMRUlMMkRNdEtpVlBKa0J3Nng3VnBSSmpuTlBxMEpXLTJNU2JHRGl5eTdZZ2ZMVkhfREpGU2dvMTR4MmhYdE9oNDVxQ3JVeGFiZkJLNGlqSjYyT2hDNzVNbWNTOTNCN3R3WnN3d3dkVktVaVZUcTh6VDllaHdXTWFwVlllR2pFOEVvMzZxZDdZdDc5d2lzZGNOSFZVT3lCejc5LTNLa3ljSlhPdk9ITXBjUzNDaVQyWi1JaC1lelZyQ2ZMblZvMm9QQQ?oc=5",
-          "date": "2026-07-30",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Egypt confirms drone caused fire on two gas vessels at Damietta",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPM3F5LWg3Mm9rYmlhejJpdzJqQW9SWnU1WHJRVm9iZ1p0TUpmRTR6Mk1JYXVUekU2c1VlTHI5bV9DbzIyejlvYU13Y2cxYU12WExOYzJoVmxsVzVoc2hiWkQ2ZWFUZ0EwZHBZZlZ1UnREZjZGc243TlQtMXVKcDQ5bUpEaDR2Tmo5eTJkdlJhSXMtZ0U2cnk0OWNLLU50YlBjbnZrei1FVm9CYWw5cUE?oc=5",
-          "date": "2026-07-30",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Drone strike in Egypt sparks security concerns about Suez oil exports",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNY19zWlhiQmx4WmRhRHRLMUdTbjhwdEdVcHpaUmMtWndRMlB1MFNiZ2pJMzJZcFJQWEJSTzdfSGl6R0FXV016c2JUODlSV0Y3ZzBEbWRFeUVkRDQxQ2p5S0VPRWoyc0lZS3pobjVGR0l5YTV1V1FEbmE2N1BscGlFZWlLTjl6Qmp4TDJmalFTX1ZYVUJEYkV2NjBCWVhuNmRsdC1UZzBCVm1GQ2djejdiWUo1UnBfT1UzNmc?oc=5",
-          "date": "2026-07-30",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        }
-      ]
+      "evidence": []
     },
     "ERI": {
       "name": "Eritrea",
@@ -2049,72 +1373,7 @@
           "weight": 0.4
         }
       },
-      "evidence": [
-        {
-          "title": "Spain says migrants are returning from Ceuta after 57 die in border rush",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNa1ZzcUQ2cjlBUVYyaXhhaTJHRWQwWkE5UzU4ZUhuaUdmSkpmLURVdmNRS0xjd09pYzJ6MEIzNW1TaDZaMDJ1U09yX1dFS1pZR0szaFhvRVc2ZHk2MFZqLUExRURpY09PdEFUOTZTcWQ5Z29OUXBrQTNnUjNXRjF3V1RoWVZIUTJ6NDJ0Q19ENUQyNnoxREZjYTJrbjFUbmZPMFkyUFlBb1RyaXlLSHdRVWsyY0trYjVZ?oc=5",
-          "date": "2026-07-31",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Leader of Spain's Ceuta warns of emergency as 1,500 migrants arrive in one week",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNU3BXcF8xa01yQWU1eGpialdva2VERS1uRnJRdm4zMnY4RnNKMXU2VHJqOVJKQllpa3V6bEc4OHFzanEzZ3dqWGhJOFZxNXlQY2F0b3VheGZhMzZBWkVtYVVZT3ZyWVNBTnkwWlVTOERteUNvWFNDYkVmWk1IcklzaVNkUWc4Mk5aLXllUWIzRnoyRlQtSzNxanc2N2cwTkF2Ul9XYW9CQl9uMnI4ajI3WWMxT0c?oc=5",
-          "date": "2026-07-30",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Italy reimposes border controls on Spain after Ceuta migrant surge",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPamczZkxsZG1uMnYxeHhrT0Z2a2ZkVjdmdDZPeENzaVhPNndMY0pBOGtBaEoxNzgtTlFIVHUyZkRIX3ZSV2RObTN2eEtmcHgzanZuUjJ5aDR2LTFJajM3NTBubGNLSXVGZWU4WEpTN1FxaE93RUZFNFV0Y2pKUnZreVAzNnFmTUprMEJXc2l4Wm1abXJ4ZFVSN2lITm53QnhEQjZrWERqX2xOQy03SU1rTjY0Z1g?oc=5",
-          "date": "2026-07-31",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Migrants pour into Spain's Ceuta from Morocco, military called in",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNLTJ4YmJvZ19TT3o5RDRpZzdoSm9Vd2hwNVozSjVURDkyMjcyZ3B1WGdxY2Q0QWlkdkU1VGFsY0ktaXZpVDlXdE5RdDJMYTR6UkdYMDl2ZGx0QXpLcW1TZUZ0OThmdENpdW5VYnprSVF1WF9iXzlPdmhnd3dsUldjZ0IzYWtJX1JWYnhudDJadFlidzM1ME9YWGV4Mmdma2ZzZGVxQUhoLVhoMm5N?oc=5",
-          "date": "2026-07-30",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Spain to establish border controls on travellers from Italy amid migration dispute",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOQzZ6UV9rMTc4dnZpaHBLM1NjTU55M3VSWGdXdllUaEY1cUV3LUxoZWVGUGhhRlNoOWQwcWVtOS1IdEItWEI1MkN5UjNnbzZyLXhtWFBxMW5hSnlpM0s3NmVHQlhyVjlNaDBFaENhZEF6VlRxbDcxWVUzWDVXdG5pd0d1UGFFYXl3RlNyakpmSHFpOTdFbUlnQ3B5Y3R1YVJNeVRJMzdseVNNQmVnN3c?oc=5",
-          "date": "2026-08-07",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Spain's Ceuta seeks transfer of unaccompanied migrant minors to mainland Spain after border rush",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNamh6Wi15cnNtQ2dJZ3BZV1A1YTRsaG5MbHNWcW9nZi1qVm5lVGpYdlVqTE1JLWZ3VGZtNzBSTTJERXh3a0QzSmFHdnVua3htUDNhbF9WdVVwMUgwRUhxWUFvZUVDbHktb0lnaTBVeTIyVVhiZ21zREtaZkQ3eFFMUTdxSzJsQ05GRkhrMzNLMUlWNzJQdlJLeGJVcVI3MFNjWS1MMk9tYTlIbEpQOUMtYkg0N3NoT051cldQcHh4cmlMRUtN?oc=5",
-          "date": "2026-08-05",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Spain's Sanchez to attend World Cup final alongside Trump amid tensions",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQS2dEWE5NZURyUlE1c0o5d0ZEalBXRTZZaWZ5cGdNakg3cG04c0FuOXdELXVOV21BVnk0LXZvQ1BiT0pfeDE3MDZXVE5pMnIwRjJCaWJmWDgwZnZjRUNlMEg0aC1Pa2pwYzlKb3pPYm1fR201RzJGYU9ZOE1OUkpweTBGc2ZiVGFZSGdUaEgyaEpjVzE5N0ZLMUgzTDJuMDRoR1FTU25PeEdDeUlQMGc?oc=5",
-          "date": "2026-07-17",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Spain apologises for ex-PM's column questioning 'Frenchness' of France team",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNa0F2Y3RHSGIzRDg5WFIwR3FGNjNCeHd1azJKNjJCY3JfQmk2UWtJSUdadHItTF9oSU11ZnNsSUtGZUxJWGk4c1RkczRfYUFwUzNtV2V3dlo2R3lfTVFRSEVlVGpQTVBPZTdOZzhPMTVDaWVULUxLbnhMV2VqUF9qVWZCUF9MOWdjZGx1UkdSdVdMMHpONm1qYUNzVUxsbFZ0eWF0V0NEZVJtLS1zMzBDUWl4S0JJdw?oc=5",
-          "date": "2026-07-14",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        }
-      ]
+      "evidence": []
     },
     "EST": {
       "name": "Estonia",
@@ -2221,7 +1480,7 @@
       "iso3": "FRA",
       "iso_numeric": 250,
       "baseline": 83.6,
-      "news_delta": -0.47,
+      "news_delta": -0.23,
       "score": 83,
       "label": "Liberal Democracy",
       "baseline_mode": "blend",
@@ -2241,10 +1500,18 @@
       },
       "evidence": [
         {
-          "title": "EXCLUSIVE: US mulls scuppering France's Washington ambassador pick over human rights spat",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQTHllbEd5SmtPUHdweHg4ZTBLVkE5WnJuYkhnRzI1d3FBUEd3SHFMcU9VVkJIS1pqNmhJMEJuMFljd2F3UDM2VlRvWGFGd3NWTmtJQnNraUVpeVR4OVhxcEhmQW1fc1ZZQm1McHA4MEFWbm9NUER3cTZndWtTc2NYX0VGbC1xNmNlQU03dThIUmNJYWZsTVBiQ29DdE53QldoS0NEaVNyT0QyNlRpeWRwd1dnejdyN2UxV0pHd0hTbmx3d3RZ?oc=5",
-          "date": "2026-07-30",
-          "source": "Reuters",
+          "title": "Presidential pardon for French alleged spy accused of plotting Mali coup",
+          "url": "https://www.bbc.co.uk/news/articles/c2el29e3m3xo?at_medium=RSS&at_campaign=rss",
+          "date": "2026-08-13",
+          "source": "BBC News",
+          "weight": 0.0,
+          "tag": "mixed"
+        },
+        {
+          "title": "France's top court blocks social media ban for under-15s",
+          "url": "https://www.bbc.co.uk/news/articles/cx2vj433xqlo?at_medium=RSS&at_campaign=rss",
+          "date": "2026-08-14",
+          "source": "BBC News",
           "weight": 0.0,
           "tag": "governance"
         }
@@ -2492,24 +1759,7 @@
           "weight": 0.4
         }
       },
-      "evidence": [
-        {
-          "title": "Greece to buy $4 billion air defence system from Israel",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQZWUydERDck5OUFpNOXZyQ3FwdzJhemdFdDRhNFZLeXBGQ3VNMWg4SUNnWjk4ZTZYVmMyNGY3OExkYnVMUzhhVVFyVDNnRHVnVlh4UDdSaHZhRVpiZGlFemg5RXpSUnMwVy1uWXR4X0F2MGJvZEJfYVo2QldLQlhPVFB3MDFmYldDZ2tFOU1WU21SbkJrVmdHRk8yblZyb0s0V3gtaEh1b1RfYmE2OVpkcjYtZFBacF9UcThXMFVjcw?oc=5",
-          "date": "2026-07-23",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Greece-based Dynagas allowed to carry Russian LNG under new EU sanctions, FT says",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPdlZOZEhSSTVfUjU3ZUdYVVJUSzdyRjh0VUxYMDhQaFZUZzNmV0NyNDFyYW9YUVpPT0hXbmVudEZ3aWFDdmdheW9Tc2pFV2ppOWRyNy1fXzIyWFhHSjhvNWpvYTJzdU9OSF9ndktUWHFuT2sxSFZyM3RyUDFYSG9OTHVndFY4c3BYaUtWRVFzSEw0M1NhQWEwb0s4UkpEN2JZRWk3ME5ZaVBIeHdjeXY4eDB3X2dwVVJ5ajJtSjhsM1EwYkV3cFlYWQ?oc=5",
-          "date": "2026-07-22",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        }
-      ]
+      "evidence": []
     },
     "GRD": {
       "name": "Grenada",
@@ -2703,64 +1953,7 @@
           "weight": 0.4
         }
       },
-      "evidence": [
-        {
-          "title": "Hungary parliament passes law to oust president in Magyar's power shake-up",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQY01qMXV0dmtuN2pGZko3aUVzYm01Zng4WGlYTVZaaTUxdTVBRWx6SWtEWFBwaXl4VXZGQXhZRUU0VnlsVUlJazVJR3FYeE5IcUZDR042alowZDhUaE5KaVR2NnotZGJTQzB5RFpJdlctekxnUy1ZZGpuaUZrekFQWmJuZlhKVHVNUi1yWmloZ0xzbWFPWUdQWkFGVzdmck1LSUwxUmFyMHp2bURQbEtEODM5YTc2clF6aUR3?oc=5",
-          "date": "2026-07-13",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "governance"
-        },
-        {
-          "title": "Hungary's ruling party proposes parliament should elect new president on August 11",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOUl85UzdseWU2WjBHSllFQlBuM1ZkTmlhZzdIemo1clVjRTExODA0UUpSSU9SMkhJdTF4ZVlpQUZRN09RMGRHY1FKbVEydEduLTYwdDNMUkVTZEJObjVKR0tZeFR3eHZaX3NYTnRJYjRyeWZCNXY2a2hUMVVBWlZqem0xYXl2a2pScmhfY0g2Z2RmZm1XOEtHMHhBNy05d3l6N0dPbzU1QXNWT1llWlJkaTNUQlJjWlFxU3ljNA?oc=5",
-          "date": "2026-08-05",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "governance"
-        },
-        {
-          "title": "Hungary government reports Orban-era IT contracts to police",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOY0FuMjN6NGtYNjZtTDdSeXF1RVNjSEF6aURCVEFIQWFiWFk3UURjYzBGS0lMbzFmY2kwenBFalR6TjhUdUoyZ0Z3Y0RnLTlaUDlWVjRnYXFjdVR6bTA1NGFIZDVFbUo1T3dlWEgyWW0wVE01T3FsaERoVjRwWEdRQ3hSWVVvblJROHl6cmZNQUZlcTU0RXVYaGMtWGpTTjA?oc=5",
-          "date": "2026-07-16",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Hungary's president signs law change ending his term in office",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNRExvZWZaR0NUN0NMcHg1UTR0TnMwWC1aYlhTcW9XamNiSHVxU1JFa1pMMnc0cWkxNEdGVS1rU2F3Ui04YjFjUmtlaXEyTXdFVmtwYkZmbmdsdFJqSVg2TzNuZlJ2Nnc3cWtwenB0SGdTWlZfUWhIYlRTWTdEcV9QcjRVblBmT293YlZoZW5PdW5rczMwZVFROERVdVFkbmZWX2c?oc=5",
-          "date": "2026-07-19",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Hungary PM flags 'critical' days ahead with looming nuclear shutdown",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNZ3k3dmJWR3pfSnFZRFVOcE1KMXF6UkpsQUoyTk9JVVFLOW1XNGlLQXkxRlhnNXVuaTRnOElUT2paNnlneG1pYnNNMjhxZFVsR3R4czN3dFdab2w4S1hfZms5TC1tRDdpR3F3cGYzQnFvOVViWGtsdFdaQUpZZ1FvOFJiMl9QUk1raEF1M1BDZzdUM1NyZDB1Znp4OGlUZWdIMDRBeEptWlhpaU9BeTl2YkF6dDluS1VIRmc?oc=5",
-          "date": "2026-08-02",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Hungary's PM Magyar to ask chess champion Judit Polgar to become president",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPUWxOZ3R4MG94U0tvZGVmdV9qcS1iMkN3dldKV3o0a1M0VTNlTllWV2JEWlMtTU93eHhZdU1QV0VGMWh6R2ZFcVBZdVE3MGVrSC1ybHUyTUlBbWJTQV9MZGd5M3RfclN2a3Q5STVxWXFoMURUdF95cEw0Y3FSc2tub0ZSaHFpSTBVSjg1RFdjdEstWU5SaDdrN2Vuak1iQnpaa0FhNWFDNVNEUDRDNkE?oc=5",
-          "date": "2026-07-19",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Record low water levels force nuclear output cuts in Hungary and Romania",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPemZ3NGRKejhvRmw3MDBwTmg4cGVRMjlWcUpyNjh3eDJIUERTZnY2eEh4Sjg1Vnk5ZE5WS09rSEpEb3FxeDJuTFEyM2xqQTdYQ0RiOTRqVkliMjEyZTBRak8tODZXOEF5QUVkSVU3dzhlck5zZWM1RnNCRWQ3UmZyZnlOdHJ2MnpuNE9mQ1Z2T2ozRF9xQ2hBaUdfeHdjcmoyQXNQMDlxQXBFXzh1OHBJajFOTmpabFc2a0JNMTBscw?oc=5",
-          "date": "2026-07-30",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        }
-      ]
+      "evidence": []
     },
     "IDN": {
       "name": "Indonesia",
@@ -2785,57 +1978,16 @@
           "weight": 0.4
         }
       },
-      "evidence": [
-        {
-          "title": "US State Department to close consulates in Canada, Japan and Indonesia, sources say",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNZ0Rza3lnM0tJaGxLa3N2elcyM0FiYU85V3NTODhJNGowcjRlMS1NU2s2a3diSi1QVnJXNUswZ1l2enR1emtUVndfWkFpNGxiNEhCN0xEcHNkbGVHaVRWVEVUa0Q0Q3VMM1pLMDVWQ0ZFd0RqZTB0eE9yUU9Pa2hTdWhieDQ2bmhqNFVYa29henVRVjBUdEtiSDFXSmh6bUtuMVJ1TjZwX2RRcFR3WUxKaWs4eHI1UDA?oc=5",
-          "date": "2026-08-03",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Indonesia to extend $11.2 billion government placement in state banks, minister says",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPYmsyM3dXWUlVN1J6RHlaQ2pNVjU5aU1xYVlhcTRKTjMzdjFidkRuU3d5cjVfM0pWUjZmYnM1Rzh4WmlBSHNNMlpvSzNfSFdnSlJ6TUZPdmJTSTFFTEhkaXRGMUZCT1o0SllJRkVwSXFLY2h3ZjVubEhmVmVRai1KX283akN0U2VWdmQzX09QVlc0S0haTVpqQnFkaUlJZkVjSC15TXZSVmJwTG9UNGFzVVRB?oc=5",
-          "date": "2026-08-05",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Interim head Destry frontrunner to be Bank Indonesia Governor, source says",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPejYtM0pOSlFSR2MybWxhMVNYOF9lMVY2X3BqX1lGeTVCR2RNQUI5Vll6Q08ybWxpN2N5QnRxc3ZBeGZFMUxVWXk4UUtBZkllV1BjS2dTZG9qMUNPY1c3NE8tTzV6NWszRmptdVpSVnJXdEZaT3JKMjlNS2ZScEZUYmNfcHNuT3ozT3FJQld6amZfRGVGVnAzemhLSXJfWGNTRndmdUNrN0NwU0l0WVVadkFFN1lZREZnN3RvWnhRRlZiNDA?oc=5",
-          "date": "2026-08-06",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Policy tensions grew before the sudden resignation of Indonesia's central bank chief, sources say",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNMVZKaWZmdkxqY3FVbXhDTG9GX09DOXBHeTM0b1V5X3RmTUZBYVctUlctenNDenpoTU5ybkh5Q1J6UDNWRGtmOHNfREh1Sy1yd0E0T3JaVlFyb2VlWHBJS2RfNDlnMjBTakQ5dDJKUmVQcVE2eXJFZ3FNQ0JMTkNlQi1pdUxja3ViYWlWNkNOaFhEQ0VPSkNiNndiSmJoYUdaUVpkQjdfRkJuOUhZNm5qYWZkdjF3eXc4RVhheHROdzMtUjFKa2lQd3N5TQ?oc=5",
-          "date": "2026-07-27",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "EXCLUSIVE: Indonesia's copyright rewrite puts Google, AI platforms on notice",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQRkowc3QtZ1pWX1JNa3Y1Q25uMk1xRGRUemxObDBhQ1lQRm1XVVFDWHhvZDdqZmJrZU9ZSkdZYXhkMkNtUl9GLVlkRVZQZWlCWktpOHFCNUZqUDlWZDluSDN1dmhhVkhsMlMxNHNxci1vQXZ0Vk1vWGQ1aWN4a3hSR2lpYmdPRi0xemdDSHJNQ2NuNmNOVmc2M25sV3RvRlpNLVJkYVp4M1M4X3E4LUVxRW14dw?oc=5",
-          "date": "2026-07-17",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        }
-      ]
+      "evidence": []
     },
     "IND": {
       "name": "India",
       "iso3": "IND",
       "iso_numeric": 356,
       "baseline": 40.4,
-      "news_delta": -1.75,
-      "score": 39,
-      "label": "Electoral Autocracy",
+      "news_delta": -0.88,
+      "score": 40,
+      "label": "Hybrid Regime",
       "baseline_mode": "blend",
       "components": {
         "vdem": {
@@ -2851,40 +2003,7 @@
           "weight": 0.4
         }
       },
-      "evidence": [
-        {
-          "title": "India firm on 'energy drink' crackdown despite Pepsi, Red Bull, Monster protest",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNNkVsQ1VtRWhIaDhxNU9OUlgydkc4ajRxTWJhTm1LT1Y0VDdhal8xbDZraFloRnpQWUZQc3hOeVJ6aHIxbmxYVXlxZXpPbzF1c3FobW1yNG0xM1k2WW0tN0JaLVVzaTNVNVJCYTgzaDk4OVQwb2NoRmZHZllaZ1VWOUx2VGthZURDaFdCN01xVWZUOWVhRlo3TVEtaHhhRjVhYmJRX1M5TzBjRGRsY1o1blQ2RG9aMlVOaUlzZw?oc=5",
-          "date": "2026-07-27",
-          "source": "Reuters",
-          "weight": -1.0,
-          "tag": "erosion"
-        },
-        {
-          "title": "Food, fury and supporters near and far keep India protest alive",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOR0RNVzRyelJ3Ri1RODRZbFRrSzlhTFVTbGt4Z0NoSTdvdlJFLVRkVVB6VHFUM2hCc0EyTDRrRGlEVkc4UUlFdXFJSUVUaDQzSk9uVlZfOVVZZlR1eU1JRGZOTFVTU01Qa2VuNGxSR2V2UktOMjY2LW04VkdwWmp5VzRzM3pIaVhNelJfb21GRkVtZ25RT0JaNWdHZ1ZEcWhsUmpUMA?oc=5",
-          "date": "2026-07-23",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "governance"
-        },
-        {
-          "title": "Thousands protest in India after clashes, despite Modi assuring action on exams",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQbFp4WTA4Y1dOQ1dpekQyNmtWaEZhLXh0RTA0OGxnbUdtbm1UcEdKOWJJU0h3UmdQekMtU0FhcWRjUkV1YlpkNzFLWVF3ZE4yeG5uWUxBTjlJSW11WFpPMzVkd3dSY3h6TUZVWXozXzJyTEtzX0pxVncwbTdTQzRLWkQ0bUdGWURjV1AyU2JfM0poT3U3WlFCQVU4MHVXR1VPZk44MWlJaFQxUkxYSDNBcGxvZ3d6WDZzdHc?oc=5",
-          "date": "2026-07-21",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "governance"
-        },
-        {
-          "title": "India protest leaders say government seeks time until Saturday on demand for minister's resignation",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPTXVrMFdyVEZUYXBXMEgxSmRkU3pDV0hhYm5FeUVPUlRDVUo4WnVnOW85cmhtQWNKX0duNFNfNFdwMlBfZzkwV2I5ODI0bG15QUJKMHVrVW10Y2xBYWlNUVIxenRkd0gtNVZvczRERG1LczJ3VzFReXpYd2tnTmg0X1Fwamw3N2NJdkJqLThBSXpDbDBZelVvYjlHU0Rnd2ozd1ExdHZqWDlKQzg5dW5WTmx5eVI0aWM2cGtUVWZwV1p1MXA2S1E?oc=5",
-          "date": "2026-07-24",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "governance"
-        }
-      ]
+      "evidence": []
     },
     "IRL": {
       "name": "Ireland",
@@ -2934,95 +2053,14 @@
           "weight": 0.4
         }
       },
-      "evidence": [
-        {
-          "title": "Pakistan, Iran explore path towards new talks with US in a China-initiated push, sources say",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNeElZbVRDTVhmbnotSkZKNEZLT3RiOEZCOW9ISVF3MWNYTTBqaWVKS29GNVJuc0Z2bzVKN2RKbm9mdTREaWx6WWh0UGhDMS1Cb1pRQ0xQOEJSdTlBRGhZVlZPS014X05BcjFDX2x0Q0JSTG45R2c2eEdGMzNiQk1lVG1vSDFnb2xDTkl2dHo0RFJ2eTN4aXRhMmI5RHdjZXdySWFzWlE5TDNQZ2V5bnljUEIyanJyTTZjY2ZUVWZn?oc=5",
-          "date": "2026-07-24",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "US attacks deepen hardship, not dissent, in Iran's restive south",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQdlQ4cXVNbUZvZFR3WFhqaGt6ZU1haS1PQVVmODJkdWNaZzFfaGxtemY3eTg1VUtZLTFZcEZxUVd2YmZyQk5WSmpFcENVeVNoalFsN1RVTHFNOFJyeVhXOWpGYm1QcEg5LWJIMHQ4NEpnc2VXTnpkN0JYYnNoSmFnVnFnaWVhS0RISWotUjNrZE02UzhocXdvUTZPWHN2VDg0cmRvQS13WGlsSTcyQ1lYbEZ3?oc=5",
-          "date": "2026-07-20",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Proposed Hormuz deal would give Iran control of inbound traffic, sources say",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQUFpfZEh3NVhNLURNVl9ETWp2ak5nZEx4d0JYQ19WZ3Z6bTl3V2wyUzVLQmFnTkJrZTZtVXd1cnp2dkdXUmh0d1FXUmhfbGQ1a3dKY1ZzQ0pXQTdUcS02X1llNkdFbzFLN0k2YXk2X2JEUTVCV1RBeGdUaFA2VGFzSW9LYlRDQm5senFDSzFVRkxHaXdSazRBWUlTT1pjY00yU1Qw?oc=5",
-          "date": "2026-08-06",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "EXCLUSIVE: US has used 'virtually all' of its long-range precision missiles during Iran war, sources say",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOZjVoa01lTFhQYVMtVjRxRWZKSng1YzFUTTNJOVI1T1pWZVNKc1czOWhJWHB3VDFFWnVrY3lLT1FnSVBfU1M1RFdrU2FsYVlKZXdhVm9VbF9PaEFNeGVMR0ZtNmlEeGhkWG1iang1U0kzb3hmWENGSnNXODRzdnZYaE1LYkY4Vm1hbzJEcEl1ZzZIRVBQLS1nYUYyTWdDdjZjXzN0NmtuZm5IV2FEdlBQby1UUnBqc0FF?oc=5",
-          "date": "2026-08-04",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "US House votes to halt Iran war, in another symbolic rebuke of Trump",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPZUpXN3hsMGcyQU16bVZOVDBoaDBOZnoxQmtaei1FUkdrQ1p2VnJfaldQV3RxRUxZbFJSbU9IZzRvTHdYZVB1b2I4RV80aVAxNGJjRmFoZ2RmTTgxOXluWUdqclhVVUxYMlNrclV3NTNrV3hwQkd2YmNWN0hUS1U3c0V4aTZXcG1keVNKS2JVcU9zNTBVZmhsSVJsUlpzM1FKZGc4QzVWaFduYVpCcF9QMA?oc=5",
-          "date": "2026-07-23",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Trump could get a lesson on Iran from an unlikely source — emus",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZjdTVU1SRUJFdUZKRS15aVpWZHc2MXNGU1ExNFUtcnY0S3NWbHNNOG83VGQ3c2hwTEdtRnV0Y2FyLTlBWXNuOHhwQ0d0RFZBb2J1VC1aZE95aURNWVNFTVpSdTJKMVlndXBTSVBGeVoxMTFsTDVJZ1lnRU5qdnZiWUluQmJSRElmNDBjblBJcFhtd2VSN1RZSHFMZE40c0o3QTFMQWFvMUFQT215STVuVEc5ZGxQSnJDbnM2Sg?oc=5",
-          "date": "2026-07-17",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "EXCLUSIVE: Iran tells Houthis to close Red Sea gateway if US hits power network, sources say",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQNnlkS245LVFESkFHd2V1MjVwTjdoSm9ZZmRWTlRUZ0dBdkN1VlRPUHU0ZXZLbjNVWGVIdGxldS1uVi1TOFctd2VXQy1jeXRmLWhyOVczWmpaRVY1Ml9sVWQ2N3ktdE5iRUNOcTdaWnZmNzdzT1M4NG1jMkNIeFVaa05YSHhRdHZYQ3BDS3lnb2pkYmFpYS1NR2E5WHBuOEFsTWljaDNsWGVqZ1VKSFlaNmd2UkU4aE1Xa29XeDNVcFdZZnh4bjFSQ1NuUQ?oc=5",
-          "date": "2026-07-16",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Mediators propose 10-day ceasefire to revive Iran-U.S. interim deal, senior Iranian official tells Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPSE4zQ25lM2VIMGM1RkYteUt5YW1tMXNWanVyRV9jX1NzUHlFU213Ry1BaTVzZ0xoc2ZzZ01IVmR2eW1BWTNMT04tci1Ual9WeDN6b1VJbjNKeFBHUlFVZi1zOEZNZ3NfckhfMkRSSjJuSU5KOGxpUG54WFdPT19YNUxCTzlrSVlXWmZZTmNZTHBpSEtVd0Zya2VqOUZpbjFMUlFiU1FJdl9MN0V0VWd0d1JnYkhhUnRoLWdFZ0ZpNDhmSW5yeVVlXy04NA?oc=5",
-          "date": "2026-07-20",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "US strikes Iran as widening war engulfs more countries",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNcFJoOXIwZmxCNHBjd05nc3dlYjNXXzd1NzdyQldTOVQ4S3NjZnNDRWdqdG1WUFRUS2tRSkJJTEhQYjJWa1FraklySUtoamVybzBfbUR4aUItanFrRG1hMDZJTzlSQ3lrS25SLUo4QzR0RVQxdmFSVUFaUFpHYWV0cmdnVURNVHJ1QzBzM0pIRTMwUmVFZmxwVVpyTklTallXU2ZLOGl3TDJ1U3VnRzd3bmZnQjVfcUw2a1pWSGdFOTNlUXFa?oc=5",
-          "date": "2026-07-29",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "EXCLUSIVE: Pakistan seeks $10 billion fund from US after mediating Iran talks, sources say",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPT190ZlgyOU0tU2VVdFRleldkdkdEZ0JiUEJGVlFiNUFQQ3RPLTdmSi15MTJ5V19tSXZOTWxlQWV3cHBkMU8wU3BxRDFfbVZNMFdpZnNPbmVHd09XZV85YTdCaTFBejFzYXd6WUpkVTI1MUdyLWJDRXNSZVhGWjMwajlEOEQtWlVqVFRyRklQQ0VkTk1pdzRIbjRjS3RQNjVkMGIxRHJEM21IMFdqUS1jWHJCUDUzY093bjg5ZENvU09PYTVTaGc4?oc=5",
-          "date": "2026-07-22",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        }
-      ]
+      "evidence": []
     },
     "IRQ": {
       "name": "Iraq",
       "iso3": "IRQ",
       "iso_numeric": 368,
       "baseline": 25.6,
-      "news_delta": -0.38,
+      "news_delta": -0.19,
       "score": 25,
       "label": "Electoral Autocracy",
       "baseline_mode": "blend",
@@ -3040,24 +2078,7 @@
           "weight": 0.4
         }
       },
-      "evidence": [
-        {
-          "title": "EXCLUSIVE: Yemen's Houthis are attacking Saudi Arabia from Iraq, sources say",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOOG5nRVpXaFJmYzZnNk1aMDMwdmc4NDdTalNOTWtaWHhzZGFXWE5JanRRM192OC1qZUs4Q0JHUktVR2VEb1lvdWh4ZjFEd0xQWW1aZkczRFY4VmxQTVV1anlGQ2RsSjFPTjB0aW53NGloTU9Na0hhM1V2ZnpTRFAwOTEtQUpIZ085VHZyS05XN241U3EyZmFqa3hGNzZsU0ZjN1Y2cTRaakE0bWU5VmV6ZTVR?oc=5",
-          "date": "2026-07-30",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Iraq's prime minister seeks big energy investments on US trip",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPNUp3RWUyY1hPdU9rek9oeHNQVFNwTTRkLS1Sd2I3V0FsYk9BcjB4X0NObDItNWdVd1lhRmFNNENaSFlpclI1MWgyTDgtZHAydnlPWmZQamlHSk1WQm1NeS1UQW4xbzJWNHR0OTUxVG9femNXUUM2dFN4QVVyM3BwdnF6S0JCY0V4QnU5clJtb2Z3a3Etb25ISnY5cUVzQVZTcnFZNGdsLXBiWjJ2dlE?oc=5",
-          "date": "2026-07-13",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        }
-      ]
+      "evidence": []
     },
     "ISL": {
       "name": "Iceland",
@@ -3082,24 +2103,15 @@
           "weight": 0.4
         }
       },
-      "evidence": [
-        {
-          "title": "Iceland’s EU vote: A nation divided over Europe",
-          "url": "https://www.dw.com/en/iceland-s-eu-vote-a-nation-divided-over-europe/a-78285133?maca=en-rss-en-world-4025-rdf",
-          "date": "2026-08-07",
-          "source": "Deutsche Welle",
-          "weight": 0.0,
-          "tag": "governance"
-        }
-      ]
+      "evidence": []
     },
     "ISR": {
       "name": "Israel",
       "iso3": "ISR",
       "iso_numeric": 376,
       "baseline": 64.48,
-      "news_delta": 0.0,
-      "score": 64,
+      "news_delta": -1.0,
+      "score": 63,
       "label": "Electoral Democracy",
       "baseline_mode": "blend",
       "components": {
@@ -3118,44 +2130,12 @@
       },
       "evidence": [
         {
-          "title": "US House defeats bid to cut off Israel aid in vote dividing Democrats",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOQm8waXB1ckxpM2VtUUJHNEdoZVpEVjE3bTRNb1pueDFKSlJMMWtWYlQ5SFE3dXoyTDlxY0ZldTFyMmhCTVo3NzhielpuN255QTZKeVlRZWVHYW1pakdjT1RiVnJidFN5RlB2aEdmRnlzTGxxZzlDTFdvN0hDMmNITmFEZHhFU2QycG1kTm5sRGJlRkgwVl9lb2ZYVDlxQU1qaDNSd09zLXl3ZzVx?oc=5",
-          "date": "2026-07-15",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "governance"
-        },
-        {
-          "title": "US says Saudi nuclear deal off without Israel recognition",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPaFEtb2pVRzJFQThOZGROZ0hBV0pQUHNWSE1kZkFIdG9nV3d4eHBHUXlaTW1jQlpKVmNmV2twYmQ4VjJ1WDNPeW4tOXYtamtJeXk4STFCWk5CS09yUDBoRENzakZmR1FXbXdTcy0zbGdneURkUWphR1p0bTZxOUszS3Z5TXkxQnBwYjlBYVpXSEJCR3cyR3dZZTYwQktlTDJ1ejNpYklIQmlESXJCempEYUR4UWJXX2QyR1lwVGdiUmtMYU5NdzE2UDBn?oc=5",
-          "date": "2026-07-24",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Israel's decades-old US support risks losing Democrats",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNWGhwZWVGTHdMV2tZRUZYMWtvSVlsNk4wY3h1X0g5Tm1UWjhmTS1nM2wxaWZSRTdjOWhScXFSOUFzdzBBSUlWeGVoOFVNUmRodWkwVV9LenNza2dwRnBOMW9SN2RZX0JoaUd5N0cxVFRfZ2tSV3NySHZybTlyNG9HcG5tb0ZBM2ZxX01BT3NMQ0s1RDExRXV2cTZVTXhOU28?oc=5",
-          "date": "2026-07-29",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Next Israel government must halt rise in debt burden, central bank chief says",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxORDdrRkRmcDBDZVJ0NGVNRU5FOVZWOHJCb0g1dDhJdGE4V0pKZnhaaGY1a2VjX2lWcENPMU5ydGE2cE9EV00wU0lKREthd2Z2ZDhpcVBmY3g1bW5ydUhnaEdDbjRVTUxFS0JGSTRoMC10LVY2WEdVSnV1bnZ3Y0QxUkVQU0NBUTR0bnAzM1FWUG1NLTVMZjF3Vll0R1RxTXdEdDhoQi1uQVBSUUEtblF4T3ZETndDWHFQRWt2b0dhUDVjMVdFS0E?oc=5",
-          "date": "2026-07-15",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "US House passes $1 trillion defense bill despite Iran, Israel concerns",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPRXN5SFByNFBWb1hOU2l0QzNvTkU0QzFtZlEzRk1VRE43QzZmNlV1V2FiVk9qQXZ0MzlseE5qMUNVSGFVVk80eVFyWHVYcjVPWEZyanlvZWE0NU5FdmxoSzBraFdIcVNmM24wYkJXTmdITHZ6dE5GdFBMR2h3ZEhGLTlWbldBLWZKZ19xOVpLM3YtaGl1RnhObE5oTnJtQ3NhYTdMTGtjMV9kbWpmWU1LblZtbjRadkJVTkc2QnNHeXpURGY0azZ5eVcyaw?oc=5",
-          "date": "2026-07-23",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
+          "title": "Trump's Latin America allies open arms to Israel",
+          "url": "https://www.dw.com/en/trump-s-latin-america-allies-open-arms-to-israel/a-78378930?maca=en-rss-en-world-4025-rdf",
+          "date": "2026-08-15",
+          "source": "Deutsche Welle",
+          "weight": -1.0,
+          "tag": "erosion"
         }
       ]
     },
@@ -3164,8 +2144,8 @@
       "iso3": "ITA",
       "iso_numeric": 380,
       "baseline": 73.32,
-      "news_delta": 1.94,
-      "score": 75,
+      "news_delta": 0.97,
+      "score": 74,
       "label": "Electoral Democracy",
       "baseline_mode": "blend",
       "components": {
@@ -3182,88 +2162,7 @@
           "weight": 0.4
         }
       },
-      "evidence": [
-        {
-          "title": "Italy's parliament backs Meloni's contested electoral reform",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPaXllLTFSTGhSOFY2Znk1WVRtSVREYmxYX0VHbnY0dzFvTnZid1hHeUM0WHA0RVdYblYteDZHdllnWGtaQUNCT3ZJeVZWTTVRNG1vRW9KVkR1V3JsdURSbkx4Y3o5YmphWFF1THF3U2trTGRiM2ZnMmZwRWZ3UnVFNkx1a2hQYk5xWFY0RFpac1k0amxfWmFKUmF0QzI0d2pRYmc?oc=5",
-          "date": "2026-07-16",
-          "source": "Reuters",
-          "weight": 1.0,
-          "tag": "pro-democracy"
-        },
-        {
-          "title": "Italy's Meloni suffers parliamentary defeat on election law reform",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPWlUzUWx5bUQ5UzVOSXI2ZWtfXzFIbjkwR0EwZG9vVFYwRDRWeWZzMDBIVWdBSi1YbEFTb0t0cjJ3LUl4cDlMV0FPelI3X2M5RWt1NEcyMFdrRGpCRm9tS0NZTWd3ZDFVR3hzZV9TaUtDUndTZW5VaTFPMEpSNjZKczFkUEFjSUZQei1UWDkwQ3N4T2RnV3g5QnlCclF6c0tRQ3d6NDN0TQ?oc=5",
-          "date": "2026-07-14",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "governance"
-        },
-        {
-          "title": "Italy reimposes border controls on Spain after Ceuta migrant surge",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPamczZkxsZG1uMnYxeHhrT0Z2a2ZkVjdmdDZPeENzaVhPNndMY0pBOGtBaEoxNzgtTlFIVHUyZkRIX3ZSV2RObTN2eEtmcHgzanZuUjJ5aDR2LTFJajM3NTBubGNLSXVGZWU4WEpTN1FxaE93RUZFNFV0Y2pKUnZreVAzNnFmTUprMEJXc2l4Wm1abXJ4ZFVSN2lITm53QnhEQjZrWERqX2xOQy03SU1rTjY0Z1g?oc=5",
-          "date": "2026-07-31",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Italy's League says parliament will have final say on EU defence funds",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQRkhhQUZxcVQtaXFNR0pZUXh5eWhaN3hPamVJeElScjFYUHJaeDkyaGY2LUNkeVFIS2plRnJqc1dJempkWWdKZU5WRmVlbDNydlVuQmx5cExFTTJsaHN2dGZFRFpTSWEzOUNBYlNTMFFycXM5ZUp5TFJYa3lJV084M1dHWTVucWx3bXBHd3FaMHhzQkVUblVPWVdNMW9ZMDBpcVdVOE8xeGFHZTJSTksxWUJTNA?oc=5",
-          "date": "2026-07-28",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "governance"
-        },
-        {
-          "title": "Italy to make partial use of EU budget leeway for energy and defence",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNRXpiOE9LNWJib0ZGUFlmTURrUnNBZEFvSXJpTmFQMUtEbEJvY1lwNmN0SVVrdUJwQ3owc3FjZ3NFZDQ1cnZlWEM1WWM1Y3A1N2tfWC1iVmlvWC1zYm01a3ZwZTcyVk1wT3owYmhpX0pYYklscHM1TDBqbks3MmtUb21wQzBJOEl3S3VxQThJMFN6Y0xGVHk3SlNVRzhlMDBLM0pfUDFnUlFQMVdQRmc?oc=5",
-          "date": "2026-08-05",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Italy's far-right general extends rise in opinion polls",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQU1owekRRWGxUajRwWllPa2gxU3BfX3IzWUVGRmh1NVpfd283MExFekQ3YUZ5VERUejRvRWJ5alJUZU1tQjJqOW12RGNCdDh6d2RSS0Vma09sYlByOG52VkQySmNSdG5rX09RV3NOakpZeUpFSHRpLXR5T0JUTGR1MXBqdEhvVk5wZzU2NHVENjR3bjI2OHBSTA?oc=5",
-          "date": "2026-07-24",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Spain to establish border controls on travellers from Italy amid migration dispute",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOQzZ6UV9rMTc4dnZpaHBLM1NjTU55M3VSWGdXdllUaEY1cUV3LUxoZWVGUGhhRlNoOWQwcWVtOS1IdEItWEI1MkN5UjNnbzZyLXhtWFBxMW5hSnlpM0s3NmVHQlhyVjlNaDBFaENhZEF6VlRxbDcxWVUzWDVXdG5pd0d1UGFFYXl3RlNyakpmSHFpOTdFbUlnQ3B5Y3R1YVJNeVRJMzdseVNNQmVnN3c?oc=5",
-          "date": "2026-08-07",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Italy minister rejects opposition criticism of Saudi troop deployment",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQcWdVTjBhZ2Y3TExnakpycHU5M2hhSVZHSzhIQTY3LVVvdHd0UzlZWHljUVBsNHJjUTBrT3Ayam5EVV9IMURuZUJQbHI3Rzdub1pVMWJFU0tsaWhJNWFGMTZZWlRzWkRpR2dDOXQtT1hyZGh0MUUxREIzSUdGRGxWOTA5cVFiTHVnMzFUZ29lRC16UUxZak1ZSmFaczREMVRHdlBKWUkwTHJ6RnNJYkxZV3hGS1MzelpVSjdBbXhOMUduS3JEby1xRA?oc=5",
-          "date": "2026-07-31",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Italy picks antitrust expert to lead market watchdog Consob",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxONFRDX1NRRFI3SldvakRoRVVmQ0VvSGRqNG41ZWFBSnZHY2ZodElNcVJiRERUQU9aYXlxcEVsZ29SRXlDQ1BpdWh4VlZUeTNKTnlhZWtyZUV3a24wYkoxRmZyUzNWSjJfcHNYdzdabGdfa3ZBOFdIa2cxVGdMTkh1TVRRYjRqbUttcnJTdVZkNXdEaTl2Rm1XZlEyTGtnS3Z1V2RRY1dyNk5zVFkz?oc=5",
-          "date": "2026-07-14",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Italy to use EU budget leeway to fund energy-relief measures in 2027-2028",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOZ1d5OEVkblF1d2FaenBjMTQtWmhlR25FRjFQVVNCbm1EY1ByZ2xkWWVNS0Utc0xkQTBnOUloQUstR3lzUDdLQ2VwMGpjQlJwXzR1NFY0MXEzWk15djFJUDNla0xoNGwyVGxLTktiSDM1UkxEbWcweHV4aWJhc0VXbmQtOGFFVy1SbE1QN3lRTkRjVENtc2VsQnduUWRtUlA5RG5BaWgwQlVpT1N1NFE?oc=5",
-          "date": "2026-07-21",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        }
-      ]
+      "evidence": []
     },
     "JAM": {
       "name": "Jamaica",
@@ -3338,88 +2237,7 @@
           "weight": 0.4
         }
       },
-      "evidence": [
-        {
-          "title": "Japan has no plans to overhaul pension funds' asset allocation, sources say",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQTHZpYlRmYlhPZEFWRzI1dGxweHdrXzQtTmxFeFRXR2dSTW1JSENpWGtqSHFXRGNFWEJVR0ZJalJvNkpiLUpxNjRZUjJ2RXFmN29FSDhlaTVpeFA0ay1WSmRlbk0weGphTXhWMDRlbHRVYUh0V243RWNBM2NueHZXeWNxaFItZTUwVzFfTUNVdWFaaUFzT0RScnFGU2hYNWtfa2cwbHVVQ095bGs0Zk9PcnRCT1laZHVvS29KNi16M1NiUQ?oc=5",
-          "date": "2026-07-13",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "EXCLUSIVE: Japan to announce Tokyo, Washington took joint action on yen, sources say",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNeWRxZmUtQUZfS21oaHA2QVRaX0FYX09hRTBYRXZ6dnZ4dzAxamMzREtPN2laazBKdDNacXg3UUcxbS1fM3VSNGV4bDFNVkJPU3RCUWFDZjlDQ3VaTV9zTmQzaDgxYlV1MmNJcFZZcmJvRG9qSlRWTnZlQ1MyTm14OVItU2M2cDJfcklTdERRR2xBZ09FVWtYVkhZaTJiQXE5S0Q1eUNFdE5fbGl1X3VyUko1bHFiQ1M2SExvVw?oc=5",
-          "date": "2026-08-03",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "EXCLUSIVE: JPMorgan, other US banks set to help finance Japan's $550 billion US investment plan, sources say",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNVDUtNHE1UHpyQXg2Sk5BbEUzRFhiLVJyNEdmaEFvLWxHVm4zRFZGcTBwTzVvczBBSVBKMnoxZ0pvYXV4V0huS1Y0a29EMFNlY0RyWHE3R2d2djg1SjJUUktrZnJmR0hjLWdGZWpXSk9wTFFqaUhqMU1DZ19xOEZkeW9OS3NqdWxYSXJQcFFlbjRTQ0VTTnFLNUdfSC0zUEs2RGRvU2diQ1A5cXVVbWR5U3BQeTNJNFA3QzVxeGpiX0Vkc00zSFdmSG1KSQ?oc=5",
-          "date": "2026-07-21",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Japan's government approves Takaichi's costly food tax cut despite fiscal concerns",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPd2dBbjIxVzdWeW9ySnRDa2FpUGlqMzlJVm1pQTJFZGtsLWdwTWs3VU1nWmdDQW81QWtpNzctNFh5ZXZmc0kxWGZsdk56Ykd1M0poRlRHbXdMY1NQZzFiVlpKOWhnbmItdnRRdXR0Z2hqSG9qcUc2SWc5TE5nQl9xQ095QU15RkhzM3IwSDBiMTY4b245VU1KNXFQdy1FNUtRSGZMenBsQTJpQl8yM0NqYWNCUVRkMWUwSGRQVEN5MWNHOW9FSDVSX3Zocw?oc=5",
-          "date": "2026-08-05",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Japan refiners to diversify crude sources, explore support for Hormuz bypass routes",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOUWp2dE9rM2pIbG5lRURsTnVvRXFuRWRCanlLTW9uMWhReXlmZHUyTWMtbHNqSVQ1T1NybTFGSmtOMGd3M1RCWmFGYUpkenlRREpoQWdkR3dtekZ1eFNMczBXYjlzMGFEb0ctUmQ1SFZKNGlQNGd6NXFkYW4zSFFQUWVJbDVGaEZ5dXNwTmk3SUo5Rnk5MTBfY3hmVkh6eHEwNDJyQ2lXRXJLSjIyNHFoRHhpZjhlV1kzNXV6TGJRTzR4T2JMZVE?oc=5",
-          "date": "2026-07-15",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "South Korea conducts rare forex intervention alongside Japan, source says",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOeXRHZjVlUG5JYUFGeDFLQWxxaW5LQUY0TnNqbzFSenlTTFZNVnZxbzV2b0t0SlhaUlFjbE12X1QwbFlBWG5UZmhDWGRyWExBTkt4ZW5MVmhiQ21CQzVzTEdPbG00LXcwZ2RCeFAtS2dKczB4ZDRzMDdQMExLVTZ1OXhxeTVIRXU3NUJoTnJWVkJRM0E3UlVsX3dfU04xVV91cG5sajhLOW11RDExQzY5UEtLVDg0VHVlVHgtaA?oc=5",
-          "date": "2026-07-30",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Robot AI company Noetra is 'last chance' for Japan, CEO says",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOMjdzVkUtNzk5bDlKS0pvQ0Z1Skd3c19iVHhra0ZxbE0ydG9rc3AxdGJ4YUJSSEVfZ1BpbVlVNmVKUkZ4QkRpd0Zsa1g2RDdsdlpsMDJBeWdfNjl3WkRkdFlKX0NKamRkbVRuakduY3NDNm9PMlBieHg5ZHZsRHVNODgtTnpGMGRpTVpLblZVVVpGZ1loNnAxMVc3VWxyYW03QjQzRXpMRjlsWklqeVVhUHVn?oc=5",
-          "date": "2026-07-21",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Japan PM's political doom loop worsens her fight with markets",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQUDJQcXVZWGc3ejlIbjZ4XzYwRENoYjhjTm5uY185Q3lXUHJ2VjJqQkl5SnJIOXJ3RUM0T2hUaG1oOE43RmJxaHRnZjlva0ZkMFZURG80amotSGJMVjlYNWZvUzBweFdJWHRiZXZCMTRKYTZ2aW03akJuLVphX2hUMC11ZFlrWWV0ZWlDdW05cDBXWlg0TW5tTHVZUWJBc3BUNTF5ZXU3SVFXY2J4eE5oa1NaekNXQQ?oc=5",
-          "date": "2026-07-29",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Japan to push its massive pension fund to boost alternative investments, Nikkei says",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNT3BCNEk4aVozc3pMcDBVN1lqYVRsT1B6VU5UOVNVdWJNWjU2Um9lZ1c2dURqREUtbDZsdzZrUVlsUVJ5MVVnbnV0b0FyWUJJRmR4WGsxZ1AzNzhwbzhUbmxiV1NOZzgwT0NWRmVPaTlLdnY5Z0t4SExITEVhQVlaNWRJQk1jUXdSTGpKTVdqdWpBUk5hbDBiLVRoZkNxSVZzc2o0WGY2RWFnQktlVHZvY0NOYXlsLXcyVGcxVkF4XzBvVmNMRm9OamZBVzc?oc=5",
-          "date": "2026-07-12",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Japan's Takaichi to proceed with food sales tax cut to 1%, Yomiuri reports",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNNGpkNDVzNTlKZWZQQ3ZENk9ELU5Xa3hqUmh1djF4ZGZXUmJNX3VJcng4emxlVkRoRUlSeGdMd096S1JaLUFEcGJFNFlSOU5sRWJQVEFwckc4TkwxYkFwVEowNTFjay10ay1OSVkwVEJ0Zl81U0hfTWRhQTEzbEtIeU1yekFDXzJSbXN1dHRQbG5TcWM2ZzhLbXlWN0s3ZlBXZlE5U2ltMnJWazlpSDhFaXBGOFBvbGpwZGJJaA?oc=5",
-          "date": "2026-07-28",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        }
-      ]
+      "evidence": []
     },
     "KAZ": {
       "name": "Kazakhstan",
@@ -3469,24 +2287,7 @@
           "weight": 0.4
         }
       },
-      "evidence": [
-        {
-          "title": "Kenya extends fuel tax cut for three more months",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPcmNhYUc4OXVVajBqbnVYVUpKZVJjclFtYXNXaGFiMnZnazJhSGhKWTdHNzZRVkx5ZUdjY2dXY1FPeFNlRUhBRnRWVTlfVHRtVHBPSlVGY3BVanMyMVNuWFZaZ0ZWUTFCbWtFRnF6aEs3Rk9GNXhnek90Z2JOQXhyZUZZT0RHYVp2dzV4dGZROWdiSmgzTmRoaDBUQXo?oc=5",
-          "date": "2026-07-14",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Kenya's stock exchange plans East Africa's first AI-focused ETF",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPSHU2c1MwcFNmR0NiYktnXzZEaE5faUZhXzBXeGFrTFNydEhYR2FZRXA2cFBhdTVYY05ROUgxYUYyZ3V3dkxXeVA1SEZ4dWIzeXU3YnZtdzZhSnBoN2ltV0V0MUxqcnpuUjZrY1JFZTRRMjZwOFBNU05GblBLX0g4R1NFMzU1anNWU0pKOE9jc21FSFFjNlJVQ211cTZXaEhSQUpxdk41ZnRiZkgyVDVr?oc=5",
-          "date": "2026-08-05",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        }
-      ]
+      "evidence": []
     },
     "KGZ": {
       "name": "Kyrgyzstan",
@@ -3536,16 +2337,7 @@
           "weight": 0.4
         }
       },
-      "evidence": [
-        {
-          "title": "World News in Brief: Cambodia human rights, Hormuz invasive species risk, IOM lauds 2025 progress",
-          "url": "https://news.un.org/feed/view/en/story/2026/08/1168086",
-          "date": "2026-08-05",
-          "source": "UN News - Global perspective Human stories",
-          "weight": 0.0,
-          "tag": "governance"
-        }
-      ]
+      "evidence": []
     },
     "KIR": {
       "name": "Kiribati",
@@ -3608,88 +2400,7 @@
           "weight": 0.4
         }
       },
-      "evidence": [
-        {
-          "title": "South Korea conducts rare forex intervention alongside Japan, source says",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOeXRHZjVlUG5JYUFGeDFLQWxxaW5LQUY0TnNqbzFSenlTTFZNVnZxbzV2b0t0SlhaUlFjbE12X1QwbFlBWG5UZmhDWGRyWExBTkt4ZW5MVmhiQ21CQzVzTEdPbG00LXcwZ2RCeFAtS2dKczB4ZDRzMDdQMExLVTZ1OXhxeTVIRXU3NUJoTnJWVkJRM0E3UlVsX3dfU04xVV91cG5sajhLOW11RDExQzY5UEtLVDg0VHVlVHgtaA?oc=5",
-          "date": "2026-07-30",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "South Korea says Coupang dispute not holding up US trade and security agenda",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNTXM3Zy01eXdXY0NPakEtdkJEOGoxYUlfcWJQbXpKS0F3VFVyazVQeXl5cUp1cXZJRmdsX19FSERZSnBkVjBWVlJybHlCSUkxeWluX3JsODUxQVRJNzRFYjg3cXIyd25DUzhQWHFWWC1XNzRUTEwwMkFRWjN6cUdRYkt4YjRzOEwyVGdORmQ1QnFoSmdUTFNGMnRveTZPZFZaV1RybG5vMEtyMy11VWl6YUxvWkpkZm5xRTVzektYTWcxVHNBQnc?oc=5",
-          "date": "2026-07-22",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "South Korea ministers clash publicly over North Korea policy as Lee pushes engagement",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNcWFza29kQXAtWExKV0h4ek1SM0NQcmltWGQ2RlNITmNLQlRxMXZnQlRQVVZBSVhfUS1JMjN3ZTJERDNUSUJJVVNHOE1TS1hZN3NOU1lrYWZ6VVI2MGRhQW5fZ0dWNnoyUmdkeVlBYWhxTkE2TndybFF6Z2d2ZDNEWHhqVE40Z09yS2U5ODNRLTlvbkFTT1FGTkFRd1B1ZDFBdzExVEZDLXdMcVBsU1A1NkJ1WHI3b3BkVFAw?oc=5",
-          "date": "2026-08-07",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "South Korea vows to soothe stock market volatility as ETF boom slows",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQa0pfazFKclUtSTdJQVlsVWIxUlEzT0huQi14MWsyeEI0TVo2SmpuSFpkMFllSS1qUDBmTVpfNkRvT0ZhMlZETmNoRFVETkcwQUJLX1JnU1pRdUxSR3oyc0ozTTZVWVo4UGRNX00wdDhPeEVhVm00QlpkVFRrNXFUUFo3WnA1M2ROOTJFWEtQMEk3VldMQlpZQkpxOHo5OHRpbkRpaE1JSkdQSVNIMGViRlhvYmJNZWZL?oc=5",
-          "date": "2026-08-04",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "South Korea to revive stalled rail project that could connect to North Korea",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNdWdmZHMxeF82QTM2ZzItNURJdkU3cFo5bElOcHNKNWpRVVdXSHd4OGlMVWxRdWV6bm9iMnAycjNxSm1tT3IwQ0VXOUxPbFc3NlRrS21EWDI1Y3N5OTRZay1PUVR1dVZZNzB3SVo5azZnODZkVTRlYzJFWnJnWWloeTVtNVBlTUdrUTJ1UG1QYTVhaFRhcjNJUWNNT2RFbTFqWnZoRi1zVEY2WElBdmE1NlVIWnBQNEw3bXpZRG5OZkI4M00?oc=5",
-          "date": "2026-08-05",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "South Korea to ban new listings of single-stock leveraged ETFs",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxONTBON3BiUDdHUmU3Rkk4NGhwNWs5YVNkMUJmWHFHb3daMkZlT2sxVDItcjNiYXNrQk5pR01QSE5CUXlCa2xPLXp0ZHhQTDJnWnEyOWV6dW4xWURwNUJMR1VUa2p0amIyT00zYUdFQ0lWVDhiYTRZVFlQSGpHcHhtdjY2bUpRX1doSmd2dGtGRW1waGpnbkd4ZFhEYktLNFRPSWR4cXo3akVYWE1FN1ZhZE1tU0R0aWRGYkh1ZUZCQ09KUQ?oc=5",
-          "date": "2026-07-16",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Power, water needs test South Korea's push to build AI chip hub beyond Seoul",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNOHVPM29HcFNnU1Y5azdMTko1WVRacThpX1IxQ2IxVnNPcDM4dVpmODVTZFB4aDJCWVJaOGVMZzNHaGtSZmpodVBRZ3NhekJ5UG5KaGoxRVk4UVd5MkpTN1kzOE45ZG9Ea0JuaWUzRzlaNm5KdklNWmNiMm51ZW5JN0xYWnZKeE1keDIwdmlpaGVLZE8xTFQ0Z05SeXZnTjNNVDI0RUxhSFJKcVBMVU1mMzRCWW9RSmhWTGdVcWlDN20?oc=5",
-          "date": "2026-07-21",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "South Korea to cap investment in single-stock leveraged ETFs, ministry says",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNZXI4QWhWYlV5NnVMa1p3YlhOSjg3SkxuQVludHRYRzNucTJSWlRDZjZ4S09kbE5tenQ3X1Fsd0syX2ZuWnhZLWxaVEFyZmRGVFlaMFo3TGVEaFhkNk10SHgtZTZ6VUVtUDBCMTFtWk1TV25ENVlJZXdCUjhwdjRBNG10ZmFlLThqUm1xWTBfTTFIb2MtZnhGS0VYQW11YUxRTXhBV2dERXNYZmtFNmZhSHY5SlF4c1ZObjFzaWkzVDk?oc=5",
-          "date": "2026-07-29",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "South Korea $2 trillion stock rout breaks records as SK Hynix results disappoint",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNLUY2eUIxTk5FN3ZLbDkzTkhPbjFxNS1fUzFxa0lVZnZoQ1FpcGNBMEt3OFhkdHJFN0JNUlVZOXd2eFNXbkhuNDdJeFY4Rmd1MHFfSnpCYmV3QVRuenlwNGxKXzhpRXZVOFFjMjFkQnpiQWl1amZtRUJ5V0RpQnF0cFdFTEVfUFgtb0ZWM0t6OGdjRHdTMnhLcHVWVzJUU0tieGFhMk40XzJfYTRvSDFTWlVzQzJyTVZ3M2lMS0JB?oc=5",
-          "date": "2026-07-29",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "South Korea province deploys drones to warn elderly farmers amid heatwave",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQWlZyLTZNRUFtWTlhRTJ5Z0NrTEFPMTRJQ285ckRSQlRoTFp0YnBnRTUwOWpERjc1c1ZoTWNVR3lOZTJFMi0zcUlhZTZhczE0MDZGa2MwR0NKVzlRRTZUNzJ4Mm11XzdTRmNXV3FyckloQjdnSEw4NERDS3ZjWG5yRDZFa0l3YTJXZ0xBSXFoY29FUmVkVW9FanUxZjkza3lwbEw3RVRtODc5SHljbUhQeW9JblI5TkFnelk0NXFOOUJuMkJSaWc?oc=5",
-          "date": "2026-08-06",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        }
-      ]
+      "evidence": []
     },
     "KWT": {
       "name": "Kuwait",
@@ -4121,72 +2832,7 @@
           "weight": 0.4
         }
       },
-      "evidence": [
-        {
-          "title": "Mexico's Sheinbaum weighs pilot fracking projects to boost gas production, sources say",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQLVlFbXBYdkt6MTBSM3hud3N6T2NtaG9ZVUFoU28tTmJaOXJUWURwdFVoaExiS2I0eGU1bXhRUlpQU2NDQ2J5ZjBGRjRpYlg3aXQzaE95NWxwZXBaWFVTUzI5Sl9Xb01HTXRBaGtzZUt0Rm85ZGVTa1llT1dWcE91OVZzenBQQ3BVY1FTNjNGcjY5d1hNa0RYeDJ2d0YyeGcwLUg1NTFTV1FmcGpjTFJvMDRpV0hXdndhLVcxU1E2ekZaWE1zVnBRcF9R?oc=5",
-          "date": "2026-08-05",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "US aims for interim trade deals with Canada, Mexico by year-end",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQdUdLSWtyNlNyQURlVTlyM21LcUdNZDF1MVVRckJmWXFWQlRidU14WXF5NWR3RlMyUzB4LU5LUC1qVlV6RUNFcE1lYjV2UmpxQllRblZ0VzJCVHVKNWNuSFlaTkdfZVlzMVUxUDMwdllOUEFIUVVlZmhBMm02YzdfejM4VVdMRmR6b2g0MnJKQnNmbzhaOUloaWkyWUpkZlg0WGxTdkRUTHNLUVNvWVhSVFdhYVFzanRT?oc=5",
-          "date": "2026-07-23",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Taylor Farms, Sysco pull iceberg lettuce from central Mexico linked to US parasite outbreak",
-          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOWktLMXhqdm1jU0Z4UVdKbWswc1hLbWxrQkdkeGFuT3Y5R29Ccm5fOXFseWVTak1ya3NkT0lFc0ZTRUFhamxUX0l1NkpqV0JFRXk4QVUxTkswaEFfYUVLcjU0eGk2SENmTkJRdXZhTGQtdkhkcHh3VXZoMHFvYlhsYlpaa25jOWQ4dWo0RHNxaTBIUnFfQkhpQkN3RjRDTHRITTR3VHEwV1oyandPZk5CNXVQVE1jcEFYLVZTSkpjZ0hLNEZOc3ZXQndPYVg3ekpORFlpeVhUTQ?oc=5",
-          "date": "2026-07-18",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Mexico to pay Vulcan Materials less than 1% of arbitration claim",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOa2lETFlubDRacVJNOUJhQWZqV2ZWYlh3OFdrWkVkdUJWLV9EOEhZNVVJTnF1SkVVRDl0SW1FalJkSk1obkNsRmJGR2t3MzQxLUxNT2NKQU9UaFZvenpveHgxd2dMNzFma3JfWGU2a0duLXJPZkNSTjNwdWtlSjZBUlcxVWxMbF83SzY4QzR0Z0plMzNQRXJ6WUtOR2hYd0RIMlE0VUlvUDdoUk43cHB3N0VINA?oc=5",
-          "date": "2026-07-28",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "US to partially restart activities in Mexico's avocado hub",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNZm5vU3FPeXB4eTNiY21qaUFyZk9waEdtdndfdW04YWExRG1nZ2Jmb3loTEktaUlvR2ZUeWpia1pjeHZmU2pSRFdFUlRhV083dXVGVmthLU9jd1F1dkExZGh1X1Rvb0Z3RHRZa2ZEN0dWV0NRcXptX2RkUHA5WEJhd2Jha01zSGF3clRZbng2R0pieGIzVFl4WFByMFJDcmpUd0xnRA?oc=5",
-          "date": "2026-08-08",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Peru and Mexico resume diplomatic relations after dispute over leftist politician",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOZmFXaV9LWk5mYmhUZlhnNWxXaTMxbWJYWlFBUXprbTU1NmJHTVQtUmNZN1o1ams3NlZVTDZlRkpYTlU3ZnNkaWh3eHZGdG9abUp5OWdsYkNUeVhkVkpCaHlfMlJmTW5LaFZWSDIxS0dmVC14N25fUkV1a1B3aXdXRGRvMXRmbWQtdjNjMzBFSEZLdzg4?oc=5",
-          "date": "2026-08-07",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Mexico expert panel recommends saltwater-only fracking, ban in Tampico-Misantla",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPaEdFZUVwOFlLaVBUbldpZ2dfRmtsTU1aWmxsYVVJMVpGX0VzR1lrajRHeUlHOEZfMW9qbl9aVTJKTWJHSjY3TWE4Wks0LVE1bHhUMUVsWk9uRWgzMFI2b1RRWVhvb0VMTldQWmpvcXdLWHlaTUJRZ25sbEh6WXlxNUpJdjdWblJPUGljQjlxRmgtVkxnNEhyemNjSlJZSUVtWGJ2LVZwM3ZXZ3kyOFJzd2xIM3RmMENEVFB4TXozX0NTaTVSX0RCZ0FUXzc?oc=5",
-          "date": "2026-08-06",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "EXCLUSIVE: Mexico's largest meat exporter SuKarne explores sale, sources say",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNbkpnUFgzWUFDQ3d5OVd4d3k4TV9KRnNraGV3b3VSZXJZUngyZFlZa1BBamYtZV9Zc0pjRktJYW1aV2p6bFhPZk4tM1pLc3pqY0o3elJfWUNrN2NwQjFRWjlZZWxXTGNreHE2WmhqaWhWZHpHRjZ3eEJTY2huVXJodUEwUmFEVVVoSzluM1hyakUzTnUwMVdQanI5RjBfSnBsT3NpdjhRTFcweGZSOWhrWVlScVh3R0xIZlM4?oc=5",
-          "date": "2026-08-03",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        }
-      ]
+      "evidence": []
     },
     "MHL": {
       "name": "Marshall Islands",
@@ -4237,8 +2883,8 @@
       "iso3": "MLI",
       "iso_numeric": 466,
       "baseline": 17.4,
-      "news_delta": 0.0,
-      "score": 17,
+      "news_delta": 0.5,
+      "score": 18,
       "label": "Closed Autocracy",
       "baseline_mode": "blend",
       "components": {
@@ -4255,7 +2901,16 @@
           "weight": 0.4
         }
       },
-      "evidence": []
+      "evidence": [
+        {
+          "title": "Presidential pardon for French alleged spy accused of plotting Mali coup",
+          "url": "https://www.bbc.co.uk/news/articles/c2el29e3m3xo?at_medium=RSS&at_campaign=rss",
+          "date": "2026-08-13",
+          "source": "BBC News",
+          "weight": 0.5,
+          "tag": "mixed"
+        }
+      ]
     },
     "MLT": {
       "name": "Malta",
@@ -4287,7 +2942,7 @@
       "iso3": "MMR",
       "iso_numeric": 104,
       "baseline": 2.5,
-      "news_delta": -0.5,
+      "news_delta": -0.25,
       "score": 2,
       "label": "Closed Autocracy",
       "baseline_mode": "blend",
@@ -4305,64 +2960,7 @@
           "weight": 0.4
         }
       },
-      "evidence": [
-        {
-          "title": "Myanmar pushes back on ASEAN envoy and call to free Suu Kyi",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNV04zS1JSbzlJNlJkZ3hra2UwS0tlcWJac1FJaldmcWJTUVpDLW95R3NMQ2E4T2FuTnJWM0dRWHpzMm1QYm9MT3RhV2NoakhUeUtqc0NUbmU0M3RMTUZyM3ZoYkRfNUk3RXJxZzF0ZVQ1akVTZlV0Z1lxaVRuTTNJOG9uNWhhMW5Ma3VLNUs2WFhBN1ZyMFBwanhfMDZxUURwYVNtTjJsWQ?oc=5",
-          "date": "2026-08-10",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Myanmar's Min Aung Hlaing criticises ASEAN, sets out government agenda",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOQklmeFJXclpIblhicHVxTlpFZ2l0cWRMaGljMWRCbHY1Zi1HbTRMVmhUcTkwcUxxYkloODNXU2pFR2VmQkxHelZNVGZJOFJibzdObTdTQWpIbjVoN3lSQTVfam45U3pxVWV5NXZ6NlNhUHJWRzBLVS1hZFBpOG02cEdJd19jb1MwZURmdTFLc3l3MDhGdkRuYzY0MU1meVR5Qk9nc2tQYUNGa1cyLWs0U09aVmRuQ2xwTEJ1UTVFZHY?oc=5",
-          "date": "2026-07-30",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "ASEAN envoy meets Myanmar opposition groups in Thailand",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOWHhETXN6aE1pODUzSmlub0puQ0NmaVBrVWRiWGRNakFOR3lwYmhpcnRCN3JjOEZneDd0eDJQb3dfRmh4NVRhV0w4b0NxbVUyenlfREhBRlBWbkx5UGZzNUMwSl83RUJwTm1sU0xkdEFZckQ1RjA2aWtqVWRMRHV4cjQtLTljd0lyaDRZWDFYRlludV8xSl94eEJPUXFlYmpEMmNJaDVSZl9rTEk?oc=5",
-          "date": "2026-07-14",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Malaysia says Myanmar refugee return will not go ahead if lives are at risk",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQTVRldEJmYU1IX0U4eHZvR2hQYjd2VF84LU5CVjFJeXc4VWg4dTE1cVRoUi1jb3FEbHNYZ2hRV2lHdHg3Z1ZhMEMyMlV1cDNISEpwajduRUVLMHZOTmJtdkhWVUdhWEF1NkNPRWZobm1MQjREV3FyQkE0bTZEZTJicllDMS1MYWVQM3NLNENKV1J3cWZab21Qd0lwc0VESUxZWkNRRXRyQ3FtNW1lNEptdUNoTUVIS01Gc1lSQ2QxVlZmLTdDUUE?oc=5",
-          "date": "2026-08-05",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "US judges allow Trump to end protections for migrants from South Sudan, Myanmar",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOS0R4Q05HNGkyM2Zzaml1b0lTTDJBeFpJWUx6YXZIOVM2RmJ1b0Nidk1qamJmQ2oyUFVVWW0wNWVCV0ZGRkx0c2gzdkh2c2F1TEZPR0lHRlUyNFJHdVhQYm1Ja2gwVjVCTkY5b2hHbWFtbFlBTlZDUTVFRDFERGEwSXhac3dXTHpRbFRxb1NYWHd6VWV6Qjl5bjFlZXVrMkZKOTdJWEZzcTRNSThsdEt1Vw?oc=5",
-          "date": "2026-08-07",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "U.S. and ASEAN chair call for unconditional release of Myanmar's Aung San Suu Kyi",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQNExDSXltT2VJQjNuZnZSeVU5N3lvWjVqT1M3NmFtU0tBZWgtc3NpUWtXNkhzSzNCTVFqNnBiaXF5OXljMl9nTF81QU9HNnpDQjVBR05tcjVTU2RUTkFhdmJVUFBTV0YyVlBLV3BnbXluV3BGM2hBN201Si1abU5veHBxa293SE80bWdScTNpdVRUbzNYVnRIMDRBSzdTSEtHUzlPdUJzMGhlZnVrR1g3TEF3MUlZeGEtODY1N3U4SQ?oc=5",
-          "date": "2026-08-07",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Myanmar civil war nears a rare opening for talks as diplomacy gains ground",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOa25IelZmaG1tdC1sbzBlODB6VFpxQXhLazhiUUZMWkd5aGprb0gzczZPdjFERXlpNlF5Yzdza3RzdklvdTlYSGZjS2xhWTNRVGREQkM3N2R0NUpnaURFbFdjeVpNeWVUYVd4V0E4ZUo4cXBReXdCR2pEcHpsdU12U1luQ1lBcTRMZVVITTlVTEJsZzdfeVdReG1aYVZDb25Fb3F6TW1Cb2REUWsxQTdwczdRalRmbk5GT0tqNA?oc=5",
-          "date": "2026-08-05",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        }
-      ]
+      "evidence": []
     },
     "MNE": {
       "name": "Montenegro",
@@ -4537,56 +3135,7 @@
           "weight": 0.4
         }
       },
-      "evidence": [
-        {
-          "title": "Malaysia foreign minister calls for review of UN refugee agency's presence, state media reports",
-          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNU3BwWTdBWkxvanFhaHlZV2gyMEktdGlZckt3NlhYSjZuQXI0MGxlSmR2TG42anFjZVA1N0N3RkpqNERLT3Z2QXdFOHRwdWRsc3lnS2k2dkQ3SjQ4b1hibm5hanlsTnZ4dnNpNXdVb09CSlhMNFI5cUIwSno2NmdJY1ZiR1ZkOWpFdjJBMXlyZ0RKd3VhNFpGWGVOLXd2a2M5S3FVQmdORDhpZkpFcTRqMkhySllod2tmRk0xZ1gya25TUTdXSnMyZ1BDLThDQQ?oc=5",
-          "date": "2026-07-28",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Malaysia asks UNHCR to temporarily cease registration of refugees",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPczhxR1FwYlgwN2Z2UTdRY2lfbkE1R2pLZzlnREgtTThLdngzX2RFMXVHY1JjVHpJcW0xQmVMTDdxUFNDXzZib1F0VXUxWk1FSmZ2dEtyUm43NFhmNjlGdXM0ejJJVkJLRzVWcWR0UDNSQWdmTUFDTVc4d0M1Z2g3b0IzVWpVWUpYYl9NS1pZeGNTZXhBQXZYcUJDQjBfVlctU2ItZmdxeElkV3RDUGt0R3cxWlg?oc=5",
-          "date": "2026-07-23",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Malaysia says Myanmar refugee return will not go ahead if lives are at risk",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQTVRldEJmYU1IX0U4eHZvR2hQYjd2VF84LU5CVjFJeXc4VWg4dTE1cVRoUi1jb3FEbHNYZ2hRV2lHdHg3Z1ZhMEMyMlV1cDNISEpwajduRUVLMHZOTmJtdkhWVUdhWEF1NkNPRWZobm1MQjREV3FyQkE0bTZEZTJicllDMS1MYWVQM3NLNENKV1J3cWZab21Qd0lwc0VESUxZWkNRRXRyQ3FtNW1lNEptdUNoTUVIS01Gc1lSQ2QxVlZmLTdDUUE?oc=5",
-          "date": "2026-08-05",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Malaysia back in the F1 frame as Bahrain hopes recede",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxONVhvalZNLVZ5U21sLWVhM3J4QjY0UTlqSEQ4UWMxTEozME5ycExHSEU5UG1FZE1uTWFncUhXVmczWG9ic2hCTWJWNkdCcVdEakdKNFFFTS1Zb2VBV0c0OWZ3QzJYZ1gzclRmZVZRbGZNaWVucG5QUmdQNHg5U0EwdWl3TFFoQk5vazV3TXdUd2FwNTFsSU11VTRpWQ?oc=5",
-          "date": "2026-07-23",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Malaysia detains over 100 Rohingya refugees seeking shelter at UNHCR",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNaUlHZnRyTTNJVDVSOGVwdVk1MTNCYzYyRGEzcmRpWHN5cVROR1BzU0xHLXJlVXd3MVhYU2Q4aFpoQzVOUlV6dGtkeXlxVHFtbXQ0Umw3d0V6bkNwZG1FWUp3RVRjbDFqSDdHa0ZsTjNEODROSDhLNzVUb2otN0p6THdCZXBpODN0dkdnTzFEQ2ZHYzdUZExsZUl2WFk4U3V3NHdTNV9ENVZvRm1wVkdhaURGLXJwdkF5ckduX2dDaDEtOHNIdndJd29KRQ?oc=5",
-          "date": "2026-07-27",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Malaysia revokes licence of U.S. investor Balaji Srinivasan's Network School, official says",
-          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxObkZtOGhUVU5BME03Z19IamV6c0c4cy1MOVhPclZaNDVCUW13MkVOam5QV1hIbWtvVE1QN29hWk5XZVRNN1NRQ0RJVnZWRlI3ckdseHVRRTJpeHhPNGFiZm1CQ0stYmpfRElGWlA1bV85bm1kMHlubElwTGxUSmlUNGRaZ0xSaU5SNFYzYXVRWWFBd1JNVV9rNllzdzVwTmxUNVpJdndnMXdNNklHOHdrSGt6d01sdFRrWDl4YVVwM0pjbHpXcjU3dldDWVdNY2s?oc=5",
-          "date": "2026-07-21",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        }
-      ]
+      "evidence": []
     },
     "NAM": {
       "name": "Namibia",
@@ -4618,7 +3167,7 @@
       "iso3": "NER",
       "iso_numeric": 562,
       "baseline": 21.42,
-      "news_delta": -0.06,
+      "news_delta": -0.03,
       "score": 21,
       "label": "Electoral Autocracy",
       "baseline_mode": "blend",
@@ -4661,88 +3210,7 @@
           "weight": 0.4
         }
       },
-      "evidence": [
-        {
-          "title": "Nigeria launches $552 million education drive backed by World Bank, GPE",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNV3VYSmRkSDM2OE9oNFhqMTlIanhGMDI0M05pZC1mZjJ1a3VzR2ZxcV85TmZULWZpNlN1ckVCcGhzWHN4Q242bkpzVC1PUFZORVBxT3N4MVNGUFhmY0c0QmxLSU1wRjRYaThFRkZaZXZxVkJYaEtDTUIyUmRYRlY5RW1kRTZmODNtT21mUnhIOWZfZ0xaY04yZzZodUdBeUhKOGdkSFNOV2ttamdDbW45OUJ3cVhHTkk2Nnc?oc=5",
-          "date": "2026-07-16",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Nigeria to track poverty, incomes as government seeks proof reforms are working",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOckg0YXVNay1vcVdMTGZQZUFfTUh1Y1Vod0oxRTdneGpBTnJKUVc0RUxOcVZhSG9WNXM2VnhyckoxUHBWemhvSk5oeFE0UGFSOXJqRjRmTk1ueEVma2ZhNGdTeUNSSEF0WlBBcTdtU2pDY2ZCSFB3Ny1JQXdWc3JZSlpxMUJTQ3FaV3JyZThrOXJvaC1WMFVCV29zQ1I4cl8tX0NBVXFwci1YQ01PS0dPcnpTOHh6WFdscUdlTUJB?oc=5",
-          "date": "2026-07-16",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Nigeria's plan to tax crypto transactions could undermine adoption, industry says",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNbVNRZzk2eThnd0J4M2Y5T0RYSkhhQ29rVFFZSmdXVXg1Wm1wNTBnUTQ3b1BUMzNESG1UODE1OV96cW9qR3ZaMTZGbTkwRzAtd1BoOVBmWDJyOTI2NGM4ald2S2RaVDUyN1NQS3p6ODBDTjVBUkJKY0xLdjZQXzRwczV1OTh4ZklJYUNyRk90bFNXWW1QSGdhbVUxNm1kSWRHMkxLaHc1V3RqSWJ4YU1fU3JacW5HS3lidEcwdDlmUDBNTkU?oc=5",
-          "date": "2026-08-06",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Nigeria central bank maintains key rate, citing renewed U.S.-Iran hostilities",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQdXZ3UnNodnpQSllmVlJ6eGVhcG9LSUViNmdydm9PcEtHVzNYZ25ibGQ3VF9vU3pUcWsyZk1ZeGZEZTR6MDFKQmtBQXpCeUlWa2JwcjNCMUhCaHZvb01TR1FLZ1BVUzhGU3NwTlNSU1pUekpnNGxUY3k3c3FsVmoxcmNZUkxsX0Z4OHNDWVFrQWt0dVFoNmIweFlR?oc=5",
-          "date": "2026-07-21",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Trump praises Nigeria's efforts against violence towards Christians",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOdVZRMkl6bVlXbU10dXUtMVF3alBLbDB3V3BMWDMxUTBRazFPMWFfN2hvUzhiRjlwRkMzMDFUTE9abUV0SW5nSmd1QUdBazdoal9EZzNLckVZZ3pwbnlqMXQyUXFmNHQyR0hFS2U5c01DbnVha2tsSUxSYUItaWZWMEFjeTBPdHl2dnpvWjhvLUp2dEZVT2pURGw2eGlhdlBLR0FFU25FZmk3NERoc0FNdWluczJrZw?oc=5",
-          "date": "2026-07-22",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Nigeria to lead humanitarian response as UN support evolves, minister says",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNNFREUVRCc2hTVWNJZlotTk9CZDkxSTIxMGJrU2VUV2JkQU14YzhKQkVLekhwTVRJTW5vYWUxOHJuQkdvenc3cEw3STYtb3VMRnBtdERyN2hIcDVGV2JSUEtnaTFya0VVTnBkdE4tbXFXeXNYMmN6a2RSdU9wRHZ2cHEzajh1YVljQV9JVzdKOVd0R2pkdUxZamJBQUdDMzhwS1V4Wm16Rk5RMzFrd3FITGhWZmdrVk0?oc=5",
-          "date": "2026-07-14",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Nigeria brings home 1,490 citizens from South Africa after xenophobic attacks",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxORFJxMjg0VzFOVG9kOG56N2FXbFpRZDJYZHlXdFBZZFRXcl93Q19mVHpPWlRoUW1mTllGbGpOVDVLNU92bDBId3JWeXBxbGhoX2VsNGlHZkNqLTdfU1I2ajBQNjh2VUNRVDRrWHhxdVNoR1NsUU1VZkNOdWcyRXRyc2hKSXY1RmhEM1BiZ1R1blRBUGV6ekJNQ2FOajNRZTBFRTRCVjZYdVVUcmVfMjhaRUxucTV3OXRGTVdtaA?oc=5",
-          "date": "2026-07-16",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Nigeria launches $500 million farm fund to drive food security",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxObGtUeFducV9xNWlMckozOHZOQ3pNRmV6U2MyRXg2ZkdmZnNqZWlNNV9jU0xCTmJHTHhoWWprQlhJSDJ2bUxHNUZodW5qVFBkQ3o4cmp1TmVYVE4zRTQtM0piSmxlQUtOV1NTTHRqQlJwZ2prNk1OZFpJQWh4dFlURmJpclU2OTF4bUowTU8yRE5zbHZQbzN0SjBFdWU5VUFWS0RVcnM3V2N0SE0?oc=5",
-          "date": "2026-07-15",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Nigeria tells South Africa to curb xenophobic attacks on migrants, questions state response",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxONE5Kclo4akt0MHJrOEo3OFROalQ3N1lUQ0NQbW1fOE5vS1NHN0dJZ3NYUWJlaUFGWElFUFAzdDV1a050R2dFaktzY25RODhDNE1KdVpzbDN3M19BN3B0ejRVVHpfVlcwUVp5OUZORS10X0pPb3kxaDZlZVJ2MDFCcFg0RnIxN1FjVVBXWTRkNThsRncxTWhmMWVWcEV6ODZOT1lrN0oxUWY0OUJwYWxscEZEZTl1bmVLajAxRVNYVEF0UQ?oc=5",
-          "date": "2026-07-27",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "At least 30 killed in village attack in Nigeria's Kaduna state, residents say",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNdVZqZ1NYcF9uSWJObmVKa0VNcTgtNEFGdm1pVGRfRkhkLU0wemhGVWswMFRaOEJrSE5yc1U2alViLXNWd1k4Y1g5VmUxOGtYVHpFeVRCXzA0bThLb0N0UF9MaUc4bU1ORlktWVlvWnQzWnlRVWlVTGQ0UlFaWmNnMXFfYU5RTHZHSU9yR3lnV1dFSzUyYUhXR0hNYTFNR2pmcHZBUkVCZmZOZXkwRXhxc1ZZT2Nzdw?oc=5",
-          "date": "2026-07-27",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        }
-      ]
+      "evidence": []
     },
     "NIC": {
       "name": "Nicaragua",
@@ -4767,64 +3235,7 @@
           "weight": 0.4
         }
       },
-      "evidence": [
-        {
-          "title": "UN rights chief condemns Nicaragua move to end elections",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPak9vc19xZnhHZWcxcGRMQ0RnMHl6SF95OXRNdFZYVWw3Y1dhd1MydjYtUGNPXzBhOEdrSWlGR0U1MzFCa3NHd2ZtY29ONlRSZWh6MERURlF2MDhkVVhDbGs4WThiTHYzWnBIcGlJZTY5bWZUYzZaeHUxN2dES3A3VlJpR1M4c0M3d3dpMnAxRzQwd2RUYndCRTBQY3oxbTlRcS1fV0FVOA?oc=5",
-          "date": "2026-07-22",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Nicaragua's Ortega says 'never again' for elections after two decades in power",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOYXJ3V1RkU0g0cGlJZVQ3d2szc184eVBWc21KR29wb05CNDZmX0dIaGpQNU9UU1BWV3JHcW4wZmNOa0p5d1FrOFJaRGxvcDNQcUI0ejRGRUxsbVNPd1dORGdyYmRLd2JMQl9oa09FZEEyLUFMTm5IMldneDNDOEM1cmJEYjVTSVBaLWVIR2l2ZkRYV2RJNGpETkFINk8xZVhHWnFsQQ?oc=5",
-          "date": "2026-07-21",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "US coffee drinkers could pay more if Trump punishes Nicaragua's election ban",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPMEQ4SEppVlMtQ1lfcDlPYkdvXzZSMzJiN0pjdEJSNXJRdmltT19OU0ktbWtUQnhqelR5emNiLXFfT1pucEZvajQxYmdYLXFNOUxKMHhyNHpETjlBNXl0cXgxRzI5MlUzQ1U2VGZJRExDYmpnaUxfS3J0QWJYVEhIVDlEZHBIM3haOG1JV0ltWFQzVE5MaUZGTFNfQmF6ODhka0gtMjI4MlVvdlhuaGt1bHc5c21QRmVkaF94amlUSHpnR092?oc=5",
-          "date": "2026-07-22",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "governance"
-        },
-        {
-          "title": "Nicaragua's Ortega moves to stretch term to 7 years, ban 'traitors' from elections",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPUDEyRWdETGhoeTNQbTJZb2hrZ3NQV2ludTNpdEVqVGFZSU9PWnN3OURqN3ZJWF9UUEN4Ny12MktCVFBoTmRGcmlhSjJ4T0xqV015M2dsQnZQNXdFTHJWQWVsLTlWWGdHYWIzaFd1YVRWdEpNTWgwSklTYkdCUHNJWXhjSzNfaDFRc2h6eW5NRzB1R24tMXZRNlk2S0NLTUlHaTd1dERXSQ?oc=5",
-          "date": "2026-07-29",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "US urges isolating Nicaragua after Ortega vows to end elections",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQeF9QLWFINjhzOURra0RyaFJkYW1RcGtWSWpWT1hrZ05HWEh6V0lkeS1qejBmT1RfVndkWHBjeUR2cGdoYW9oSENncXRLRkhPcktxN1hGdGJfdmhvNXNsVDBiMURpNF9tUUI2WDctN1BBNzZBLS1wX0NobG1ybHk1YWNtQ1BrTnJhU1hzY3p5WHpjRm5xMjIzOEVQRmxxckE3Wk1RWUN3b2NKdjh0Qldteg?oc=5",
-          "date": "2026-07-21",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Nicaragua breaks diplomatic ties with Italy over extradition row in killing of former PM Moro",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNbGRUVHBFUEd6aS1WM28yVHk0ZlJRcUtoMm5CQ2lRYk5tZFlKaElqT3ZBUFlYbFFxd2ZwelRINWtDbkhiUnVtOGxkTjBZVnBOejJPZy1fdEstdUpQWVdJeTNtS04zdXdWYlMxSlU1RlJueGV1MDVxYS1JZjd2TzdOYXhpQU93YzRYR0tlRjI3SGNRcmtLcThrLWR0TmRHM2k4eE5yZF8yWDdzdFhfV29GdXU1RFNDdFk?oc=5",
-          "date": "2026-07-16",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Nicaragua's Ortega says the country will no longer hold elections",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBJTGtpRWhFU1Y0MXptWkJ4bUJ1SmJaeU1zcy11T2ZGR2xydVU2SUJJOUptRGNCN0ZLdEcwRm5tWW5HdmVwUnlzRWFyMWFqNUg3c3RtZm5qbnNHRW1lMUtSYU5zTE5wN0E?oc=5",
-          "date": "2026-07-21",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        }
-      ]
+      "evidence": []
     },
     "NLD": {
       "name": "Netherlands",
@@ -4849,16 +3260,7 @@
           "weight": 0.4
         }
       },
-      "evidence": [
-        {
-          "title": "Houseboats sit on dry riverbeds amid Netherlands drought",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1Oei1kSXBfUTNNWmJCbkxjZnZFTWJ1emdsT1hZRWdEdmFLb19fM1lZaFlrQ0NpeFNOSll3UVpFSl9SdnRGTkwyMl9qM2IzSnlndTFPMEp6U3ZsQ0Vz?oc=5",
-          "date": "2026-07-17",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        }
-      ]
+      "evidence": []
     },
     "NOR": {
       "name": "Norway",
@@ -4883,40 +3285,7 @@
           "weight": 0.4
         }
       },
-      "evidence": [
-        {
-          "title": "Norway will speed up onshore wind power developments, government says",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOVVladFZ6TUlOOU1WMDVaRHEyTng1RXpOYmhVQWg2ZXNxNFNNNmpBWHRBdWRoNjV6ODAxZko5MlJpZGhSdDAtcEtnUFhwS1VjcWJjdm82UFpVbVBXLVFleGFRSVQyYXplbTVVcnBzQ3ZDYUlZUHlhRElRcDA1S1FRXzE3bHpaeFBlYXJ1bU5hV1FzZ1g0UTA1b1llcTJyamVNNzRHN24tNmJJRjFNZDNzUHpLeFpWYmk2UWRlVA?oc=5",
-          "date": "2026-08-07",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Norway's sovereign fund opposes US plan to scrap company climate reporting",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOSnVhRXNPTU1zZzFGRV9vZGhPdVNBWnowbTVGQ0l1WDJZb0lWbS1pZG9xQVRudXBZMG5TczBfMWI2TWlPSU1YeXhDSEFlSlRnMjlVVk9kMTZrdHpTMWctTk1sd0ZUdkFsV0pnZXE2SEFWUVJfa1hwUHFwcFpaZFJPcnlOblVOa21aUmFYdnBZc3MzU2kxWGplc3JXT3hWcEtvNmdVVUJsekRlZDFoMVFsdDJLOW9rN2JBT3haOG40b1A?oc=5",
-          "date": "2026-08-07",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Norway FA president Klaveness calls on FIFA boss Infantino to resign",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNVXhydXJFUktJbGdTV1I1ZWxxNnlXNDgxaUtEaTlaTEJMbnNPdGMtZkVtNGs5SDRNc01LazdydTF4YUhRU2JCcWczVU1IRzBXVVhybm5zUVJ4d1RpR1VwVlVFMXpQUldaekVNR3N6c2tvemlnMEg2VC11YlJVNTQ2enZKV2l6TDZMTC1OeTJ1V2dBOHNpY3d6dzM3TEtfSGFPdjRaM1AyZXdvYUpoYndJM0lB?oc=5",
-          "date": "2026-08-07",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Infantino allies rally as Norway FA demands FIFA president's resignation",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOWTJWaTZJVmF2Zm1DNDdfSDY5RzZBcVpLRjhPWjZtSjFnZUhoU0Z0cTMza3J0MGxoNnZjVFMycjdLWUV0a1ZoQUFNTHNJd2k1RHZoUW81VTFWRlhwYUExSHlmX29ZQkxvdWlmcnhRT2E4cmlNcVFqYUtTLXJjbmZjMjJfcmk3U00tU2FENjcyXzFmbk4ydTVSS2t5ZGpNR0U?oc=5",
-          "date": "2026-08-07",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        }
-      ]
+      "evidence": []
     },
     "NPL": {
       "name": "Nepal",
@@ -4985,72 +3354,7 @@
           "weight": 0.4
         }
       },
-      "evidence": [
-        {
-          "title": "New Zealand PM Luxon open to referendum on electoral system",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNU3lHWkpyc1pDU1AwOFBEbHJhMk0ycjYxNzlDYWQta2h6SnJmRWYtZjl3dE1mRnNtQ1lOSHFBR0RpU09BYTdxa0w0Q1lFVTM1ZzljLVRDS0JiVDlkQmdlQW5VNV9CMlNqeW9zeFBlMU5CY1RNZWF1bVBka3ViZ2MtdEYtYWhUS1I0dUJLZnBkeXJ4bENKNzY2R2RKOHRPSzk3eWNQS2dGR3ZXaG9v?oc=5",
-          "date": "2026-08-06",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "governance"
-        },
-        {
-          "title": "New Zealand gas exploration interest picks up after years in doldrums",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPc3N5RjV5am5ZdzgweGE5dzRWM0RBNUJvdkxtLWRQT3Rhck12NWxFRGN1akZNNlE5UzhvOGpkVUpPbUY0Skxrc05JR0pXdTBhaWo4VkZaUFdJNnZkWm9BOWJuOERlVkpSSzJHTEszbDdJcTNMamJkNDAwdHQ3Tm1fbDFEbm95blVIS1FfZ3d4cUl1SU0taldRM1R6V0FiRE92N2E2Mzg2VzlYWXJYc0lZYUdwT3FnSG1tMFZR?oc=5",
-          "date": "2026-07-20",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "China protests over New Zealand foreign minister's jibe at Chinese-born lawmaker",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPbEFSUEQ2TjdvLXFldEdHVTVwV2U4M1dua0dLaE9tQzBuX1QyalE0UnQxSjRaOUFWUzFVRkd5eWJzS0lMTTI5S0lnVUwtelFseXJMTERPUHNlN3A1RDd6MHZCRkl4YXZXT1RmeDJwdmVlWHh1d0ZFSnVnQ20wZGtCaGJWN0NRaG1UVnMyZTFCQWdhU1VmUE9ibm54OW1MTnIzeHhwaDVKOTljRHAxbnRpQ195c2d5VFlBbFY1Tk5iYnZXQQ?oc=5",
-          "date": "2026-07-30",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "governance"
-        },
-        {
-          "title": "New Zealand unemployment climbs to decade-high of 5.6% in Q2",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOSWs4TndXTE13dXJ5c0tMaUdmZmZJSmpTR0l3Znhvc2taSzZqUGpUblZydnlmakpkZEpPc3c5Q2NsaEZjajFVdzNKc0NTTmFDWURVampWS0lEcVhlcTc5cHFURjQzUHVkenllTG4tYjdISzgwT28zN1dHQWFEWUlyMl9VRUg2bHpUTUE3WnlqRVpvWFhyZDJBSGpyRXNPbGROcmpXeXpHVQ?oc=5",
-          "date": "2026-08-04",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Vietnam's top leader To Lam to visit Australia, New Zealand to strengthen partnerships",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOWHFKcW5BTzV2QS1RcmpOMWlER0lPV3hEYjNHN0FuSW96NGFkSzZfdjZvMlhDd1lIb3NkNEo4WWlGRHlzaW1uckVfVE44ell6VjVrbllObmE3ejBaM3BILXBLN3BYM0tlaFZmQm9hblBMVnBRQ1BDWVdsUHJsd1lZU09YVENMb01raEl6T0hZZEdEcW1qc3ZzdGJFQnNMeVlsVU0zQVktUll5bVdUT2liNktocFAzYmp1SEhVelZBeThla3VjSFh3bWx3?oc=5",
-          "date": "2026-08-06",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Explainer: What is New Zealand's MMP electoral system and does it favour coalitions?",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOZkhUeTZJY2NNZDhrTWdBWUZSdGIyM25TT3dCV2RzT2JGd0tWa3k1eWIwRmVVS3RpU0dicUkydGh6ZDVBdkhZdzRlYU9Wd2ZlTDVPcHlYb0JmN2dpeGlMdTBZWTRMV3dGampYUzJQNFZCbE5wbnFTSXppTjAyTC1NTTdkZGRkazItT245dzZQeF9rbW1GY21aNXNGTnVsX3E4QnczcWJZT2JiQXEyMG1DamswMlYtUW1BZWV0anV6UQ?oc=5",
-          "date": "2026-08-07",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "governance"
-        },
-        {
-          "title": "New Zealand urges Oceania unity amid 'shock to confidence' in FIFA",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPUkR4cjAycFJqSWFVcEdwb2plQ0Q2RFFFMFhDZVNOdmxXelM2OS1QS1lsbC1NUGRGaTRhS3ZKaE9ncmpHaWNIVkNnZVhRVEFrRjQxMHBRMmI4bGY1cEdZbkhLaUpSM01iSEw5WURlbmlaaFF0cWN5VWRtQUctNUdwZGxFOHBSbVhZMWh5bG1sU2FWMVNVWEVnYVBtMWhrRzVydWMtWU9HekxHUHBz?oc=5",
-          "date": "2026-08-04",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "New Zealand signs Scott Base construction deal in Antarctica",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOQUFWb0JXQzF1OHJEWkV4aGtPdDlTOWVkRVN2Z2ZvUE1scHFPTUstZUxvXy1rZlBSNFo3a2ZHbVR4aElRa0lKMzh4TXlBaFhnajZoQmJFcWNXdnowS09hOTIzWHlvb25ncEVONDFDYnEtSllIaGN0aVI3UzBRLThKajU5eG5INXpqcU14UVlyTXcySkJLaUpWVEdPTTA4RUppSDVIck1HR1JidTFNemc?oc=5",
-          "date": "2026-07-29",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        }
-      ]
+      "evidence": []
     },
     "OMN": {
       "name": "Oman",
@@ -5100,64 +3404,7 @@
           "weight": 0.4
         }
       },
-      "evidence": [
-        {
-          "title": "Pakistan, Iran explore path towards new talks with US in a China-initiated push, sources say",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNeElZbVRDTVhmbnotSkZKNEZLT3RiOEZCOW9ISVF3MWNYTTBqaWVKS29GNVJuc0Z2bzVKN2RKbm9mdTREaWx6WWh0UGhDMS1Cb1pRQ0xQOEJSdTlBRGhZVlZPS014X05BcjFDX2x0Q0JSTG45R2c2eEdGMzNiQk1lVG1vSDFnb2xDTkl2dHo0RFJ2eTN4aXRhMmI5RHdjZXdySWFzWlE5TDNQZ2V5bnljUEIyanJyTTZjY2ZUVWZn?oc=5",
-          "date": "2026-07-24",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "EXCLUSIVE: Pakistan seeks $10 billion fund from US after mediating Iran talks, sources say",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPT190ZlgyOU0tU2VVdFRleldkdkdEZ0JiUEJGVlFiNUFQQ3RPLTdmSi15MTJ5V19tSXZOTWxlQWV3cHBkMU8wU3BxRDFfbVZNMFdpZnNPbmVHd09XZV85YTdCaTFBejFzYXd6WUpkVTI1MUdyLWJDRXNSZVhGWjMwajlEOEQtWlVqVFRyRklQQ0VkTk1pdzRIbjRjS3RQNjVkMGIxRHJEM21IMFdqUS1jWHJCUDUzY093bjg5ZENvU09PYTVTaGc4?oc=5",
-          "date": "2026-07-22",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "As Pakistan's army chief turns on hardline Islamist groups, blasphemy cases plummet",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNUzZtQ1ZxZXhueDBybW5vbW5SODR4Zk9hNk50aVpZOExxMlIySXlwZjlFX094TWFrVTA0UjVOcnBGX2h5bFZxTzgxSml0aGNxUzdfRkp4YTJWMmNKOFppWnFpc0pFYWt5dHd1cDdEOWFxM0dTN2paY0h6RU1DLWphcTBGczJmaE82bmVqT1hDNmQ0NzdVU2tuQjI3NjVqbldoaVhoYXZVNXBySFdSYnlOekhqeVItbDg1dDNzcEVjQ3NrNGpBNk9WUWZB?oc=5",
-          "date": "2026-08-07",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Pakistan broadens foreign media curbs to local staff, drawing backlash",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPX0d1dkk0cXAwVmZ3VkdFSjNMMVdfbk1PSS1VYmdMSzhkSFNaeXFfamx0Y05yazRnQ1BQd3lYRlF2bnJSRDJ0Q0Nxd3JIbDdhaEJDay00MHlrODNUai1jY000OV8weFgxVHMwQVE4akJkOVNLVFFHSzVaaDVuQXhZcVB3SjdVdkl4b2JUcVdLV2JpYU5FcURhNkowTG4xNW85aFByQTZhUmRjZDZoT1NPVlQ3bGpla0tRRXZ3UjNJZU56VVU?oc=5",
-          "date": "2026-08-06",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Turkey, Saudi Arabia, Pakistan to sign joint defence agreement in Saudi Arabia on Friday, sources say",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPVWlCbG9KRkh2aHRNSjBWS25TWEM3V3Y5aDlfbFcwNGZIaldpZ25rNlpGUGVtcDFRQ0JUWnZ5NnhwSGJSZjBSRm5idU9iNFNUcEMxcFJDb0FrcjBUU2JvemN0OWYxazdOS3hzMHBxVVJvOVlsQ1RQcEIyT0R0NXFxSU01SDJJdm1hZklPSEYxSEQxS0t6WFpMemlDdWpFcXh5bW0wMUM3ODBBSjVPVHNJTk5rQ2ViSHdTWWlQeWQ0YjR4MjJNVTdXNDBqcw?oc=5",
-          "date": "2026-08-06",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Nine killed in Pakistan-administered Kashmir clashes",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOTGpHVFlJUUczN3hsMlJyV1loazlZSzU1Ui1ueEJwUEQ5cXBGXzZ0WFlYbUZfYXo0SjJYMkR5akJiS1o1QzNCN3BhbzVXX0RqcWpOekl6NXNHMktwVU4zVjE1VFVMTWNLSkdHV3RETXA1bTFLVEJNU05CV0d1VXF2TFY3QzN0UGh0WGJhQ0l6RGRrNzdRcm5QRVB5Nm5qdVlBZ0xtTUFXMA?oc=5",
-          "date": "2026-07-14",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Death toll rises to at least 34 after blast at Pakistan coal mine complex",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOazNiS0FGWDFrek9rc2ZXUHJ2a1hsSEdnYmlUeS1tVTloY0tKdGpJZjl6Vm9ITWt2QUcxZkI4Q3R3cmoxZnVQNEpiUThhY2QwakdydkNPcTZtbU8xTjEzU0NQR0RlNjFYcTI5Ul9ZZGZTSzlpdzVwNC1LOEVLWEZzWjBodzB5Xzk3cGxKNDgtb2g4VjZIY1RjcUJnYlFEN0IxT1RkZkh5ZDU0aXNzWXJQenBHS1U0bWU1VnBnWjU3dXFNS3BQMEhB?oc=5",
-          "date": "2026-07-30",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        }
-      ]
+      "evidence": []
     },
     "PAN": {
       "name": "Panama",
@@ -5207,80 +3454,7 @@
           "weight": 0.4
         }
       },
-      "evidence": [
-        {
-          "title": "Peru's Fujimori takes power, extending Latin America's rightward tilt",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPM2tXaW5xTUhjbElBakZ3eVljT3VtVW5lenA4UHJyRkVQV3hPekd6REQwd1pBNzV6S1lfSVBuY2FHX1JmQWFFdC1sVmJ2djZZT2lUdFM3YW5LX0hZakVNdUhWNzZJOFgtQS03b3E4b0xQZUpFWWJUUzVJaGljUGtwSG00aHdXN1UtU1phR2hMREFXMFZxOEhvX0h1Mk84T2hQSWIxMkl2cU9PeWgxb1VOc3FXZ0t6Q3o4?oc=5",
-          "date": "2026-07-28",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Peru's new foreign minister eyes stronger US ties as Fujimori takes office",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOZlNhT1kwWEJOREhhMXNyN3VNZEtoejdRcGx6ZUdONTBlZmxxLXE3bmZSRUlRVW9BZEFNV3lNQXRiUTVhMnBHclU3dFNNcDZWdVE2bng0UlpHY1h1enlSV1hmdks4SXl4Rk05UTBPNFk4TDdwZGlSckY0dXNCYnBpX0c0aWU5aUV2N3AtWWdETld4SkVZeDMxYWVmWTM2MGd5OWFCbkNFaGkyamlFb0ZPUUxHN0luSmxhMzZtcmNn?oc=5",
-          "date": "2026-07-31",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Fujimori's mining push could spur unrest in Peru, study says",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQc05MV19PNm5XdGIyUHhTSUVrMFpwelNzTVMxM25rSmp0TE1WYTJzaTMwWHVMTHR5empKRWFKdUl0RllBYU1BbWowLV9TVnctTnF0ZFRsdHJHOG82Ui1DN1NHa0IwcjVoeGdYRHp1bFpIb2ZselEwNlJUamlwdTd6SEY0VE1CRGhIU2Y5b2EzbVFpTXpEamdXeDRXbVlNZDczMURoTmJEVUlJZw?oc=5",
-          "date": "2026-07-15",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Peru approves $2.8 bln budget hike ahead of Fujimori transition",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNNy1Dano3OXU2dDliZmE1dkUwUGl1bHRtNGxsbHJJVDBhQnB1SE9selNfWEMwT3pQV2RaSUs5RENlTElrWFhhTWZ3T0V4aWZyQ2xzOC1aNEtHaFp4ZFNkanpCQmFkS0R4YzdwZEVSRzZhcVAxdGNJd0IwSDhILTVEY003dG5VRWpwTXF5SElzYzFyUUJsTVJpVi0zWnJmYjVvcTJvcmdpWEVqN2lhTFE?oc=5",
-          "date": "2026-07-15",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Peru and Mexico resume diplomatic relations after dispute over leftist politician",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOZmFXaV9LWk5mYmhUZlhnNWxXaTMxbWJYWlFBUXprbTU1NmJHTVQtUmNZN1o1ams3NlZVTDZlRkpYTlU3ZnNkaWh3eHZGdG9abUp5OWdsYkNUeVhkVkpCaHlfMlJmTW5LaFZWSDIxS0dmVC14N25fUkV1a1B3aXdXRGRvMXRmbWQtdjNjMzBFSEZLdzg4?oc=5",
-          "date": "2026-08-07",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Peru's president-elect Fujimori names key ministerial appointments",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPX1VoWkU1MllsMmVDRGJ4eDNUZWMxNXAtZ0EteG5QckhVR3lETGJxY3FXOGRuMVdfNWJrUjNhNTlJZ0c5QVRBZGpMTU9oY1VWY0M3ZjVQV0dQa0xmUWpNRnRsXzhLSUhkYkpSblBUMTlpa2RaM1pfU2dLY1c1SlB3ZmNudF9tbFJia1M0TnVnNkNOWlhiSER6S3VPeVVTQXFLNzdMVFhZNmp0OTAwY2Q5bi15WjBaVnM?oc=5",
-          "date": "2026-07-27",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Thirteen die in tourist plane crash over Peru's Nazca Lines",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQSnE5c2hGZjM2RjZHLWU5Z3lKclF4ZXUteFlvbk5CTE0wdGN4SlJVdkIyNVFNZXF3SjVyYmY3ZDFkRjMwVTBvUFE3THItbkN1RjF5NFV1UkF6MFhWSDBydFRiQXVxX2djcTBrcm1VTjRCcjJkUGs0VjB6RU12bG91Q2k2ZHZNY1dFUzJqZW9KT09QRVFQZXphSjdDNnJMTWQtRDBsSVR3RnlOSXFvbGg4UTBjU2Rua3Q5VkE?oc=5",
-          "date": "2026-08-01",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Fujimori formally confirmed as Peru's president-elect",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE0tc0cxV3ZfTTBxcDlqR3lqUm81X2gxU2REbEhJYnR5Sk0xdTRJOWJRdWlmZWZ3YlFmT1dPZ05Ra1BmbXNSUEQ0NzVHNGpab0R5V2x1SkgxdFg3NVJVSlNBVlh4Y3hYRWs?oc=5",
-          "date": "2026-07-15",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "In Peru hungry pelicans signal broader economic risks from El Niño",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPYmZaWWtsMGZrMlBQeF9aOTRTaU94Rl82UWp2SGVzd1RKZFpUOTA0aDRBYjNUblpRbmY4RlNScmloWmRuSFczSWxpYS1GZmx5M3hyUlI0VEt2S3Z6dXAtUlY0aWlncWo2a0FWOTNQLVJmZEtnRVhXU3JhU0JLRzdXSk5JcUhCWmpVMWprNXBuS2Z3Q0s5S0dkZUdZc3lTNnRtYTB4ODNNSFJtX2FwZ2dEZGFUZ0Y?oc=5",
-          "date": "2026-07-22",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        }
-      ]
+      "evidence": []
     },
     "PHL": {
       "name": "Philippines",
@@ -5305,24 +3479,7 @@
           "weight": 0.4
         }
       },
-      "evidence": [
-        {
-          "title": "Philippines' Marcos puts anti-graft campaign at centre of address to Congress",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPaEtzYjZzV2U4SG1SSnZrMHlpbThzYVllbzA4OEs0dTByeXZvYVdPekNzOXE0VDk4aTMzaWYwd0RBLVdGSVgtQjFpVUhCWG5YR0VNYnRYZ2M2MmFXN1pFWHhXN0h2QUdrSkFtdURPSWJucEZMcEdyUjBsNlNTRjdmajJuSmx4Z09MVDZsek1XVzdpdkdmZnhxZG1DTzZkajdHN1ljbmZ4OTJma0tMcTlETnZsRWJqT083U2RDak9nYw?oc=5",
-          "date": "2026-07-27",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "governance"
-        },
-        {
-          "title": "Philippines protests Chinese state media's 'racist' video depicting Filipinos as monkeys",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNcGdYeGlpSkV1TzcxU0hwUzl0cTZQcVo4WTRueGZYOUFiLWtIa3E4OGNpWXVUWEVQajJOTm9yVzgxMVo1SDlZRElleVppYXFDMWpxSXhuVElab0cyWEhhOUZUYW5CeHBHZ0dsaUxlSVJ1a1VtYm41bFViSG5vNVBCZ0FGQXdtVnhfS1hwYjdNcGFFUHhQRHZhTkNjMXNrc2JmdkljYnd0SllZMVozUm54aW5KaE5wWlpUM2FKTktrSQ?oc=5",
-          "date": "2026-07-17",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "governance"
-        }
-      ]
+      "evidence": []
     },
     "PLW": {
       "name": "Palau",
@@ -5391,32 +3548,7 @@
           "weight": 0.4
         }
       },
-      "evidence": [
-        {
-          "title": "Poland summons Russian ambassador after missile incident",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQb0xJMGtWbVZ5RWJZM1ZJTmJQdU9wNk91eVFWR2hOcFpnMnkxS2hOZE9YVWxiLXV6WE0yUkVyWHJaU1l0Nm9TQmYtMVFNS3lsLUY1Vm1TWldRb180bm9lc2pEUHBRM0xkdHVHLW4xYW41VnlDYklObjdWMWhEOGpKY1cwV3hWeV92TWlEczNxZHFnQ0lrMGYtOGJSRndxRUk?oc=5",
-          "date": "2026-07-31",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Poland may act to lower fuel prices again, PM says",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOZ2JGZzdjR0NLZTlDWG5hZGtBb0M3elVidzFzREMtSjVjemtOZWd1ZktLRmRfbVRyOFNmR3U2VEwxNklqMDc2b2dFZTVwbHdRNkpYWXJ5WlhVS3pxTW5nb21YMjdIYXJuN2tONnVPdDZKTDNucHZqMDhQaXU0aDF0b1dCR2FiaFQxbGw3LVNBaE05WldHVEtvbGRRZWVRdWc?oc=5",
-          "date": "2026-07-27",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Gdynia, Poland's modernist port city, wins UNESCO heritage status",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8yaUszM00zWFRHOVNQR284R19KNkkxNXUtYThuTm1YNzktQnNsbzMxYTRJZUlHX0lsVm04UnhfNkFUS2s4OHZTelpLUjJQWW5Ta3pVYk1MSlpLSFpaX1BabzJiUHh3QlE?oc=5",
-          "date": "2026-07-27",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        }
-      ]
+      "evidence": []
     },
     "PRK": {
       "name": "North Korea",
@@ -5466,32 +3598,7 @@
           "weight": 0.4
         }
       },
-      "evidence": [
-        {
-          "title": "Portugal's migrant curbs hit construction firms working to solve housing crisis",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOWlZOOUtBZ01vWVpTLWpDLXJ0Y0xEVWZ2Z0VUeTBleno2TDJhVlFqZm5oTF9BUDlTWjE3NE5tT0p1OUZJUVVkS3JINTJoMEpzaWhLLXF5STlFWEczT1ktUThTdU9hYWQ5QWJ2NjQyZjhNSWFRdVZGblp5WXI4Z1AzVlFuQzVxdG5JQ3ZQOFRzNkwzaEpBNkFlenJGTmVBVTNfR1N3MU45QlV6MzZYaERGTE5MUFdoWXpZUXhQeHNWLVgwQQ?oc=5",
-          "date": "2026-07-20",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Portugal approves 33% windfall tax on oil companies' excess profits",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNRXNFQXNuaklrZThQTXpVUFFEdWVKTUpMRzBZRndUenJPdWh6eXlGeFU3R1RzZC1OcWZOcjlITWRKeE8wRDRYZGZHQ3BXaG5MNlN5RnB3SzRfX0VCSkUxSVhrSElKWm12MDlNeGpzSXMzV3lWQjlrdFNEOHdGOF9VSW1lUkgta2R0M3JTcjQyTE5WaHFSQ2s2M1lZQkJ0UzhOZk9LVzdiWDE4aF9UVzBjellvMEU?oc=5",
-          "date": "2026-07-30",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Portugal to buy three frigates built by Italy's Fincantieri",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOV1dTVkJRenF4OWxsam1pMVBQNmo5UUdzN1I4RjFwTEo0ekdneXBHQWVLU0FDRmhZU0w0LXRzM1NodTEtNnExU1ktalIzMWxpSWN2cmNEc05LVkVIOHgwMGd4MVJkUVptdm9xbjA0cDJyajRjZTRzeGRTYjE1MVhMZEpYWThTUzdfbDlFUGc2ZWJadDgzdEtsRTB6a3hMUQ?oc=5",
-          "date": "2026-07-20",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        }
-      ]
+      "evidence": []
     },
     "PRY": {
       "name": "Paraguay",
@@ -5566,71 +3673,14 @@
           "weight": 0.4
         }
       },
-      "evidence": [
-        {
-          "title": "Romania expels Russian diplomat in protest of airspace breaches",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOR0o5QlRYSmtaNVdrMmcySnUzaG8tei1LYktSaW9Jai14SlBMUzRzcUlLZ3RjaGx3NFY1TTZUdWdQYVhXdTVFWDgtWjZsRE5kN1U4dWNBRVpvaHdsWEpkS0FvWjRCUUZkZFp2RkhVdm5UaU9ZQ2RKSTJJdTB4c0liLWNydExnLUllUlRJRS16djlxVTE0X2pvU1pYakJFYW1Q?oc=5",
-          "date": "2026-07-27",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "governance"
-        },
-        {
-          "title": "Political instability to weigh on Romania's deficit reduction efforts beyond 2026, Fitch says",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPckZucUF5X2RYV2dwc2RBWjJHZmVSV3ZudElRdGJjR0hYRWJtdEtwaVBONEFyVWN2bDFfVl9MelRRb2R2bWMya3A1OW9aV21TZzNYYXNET0tyaTJOXzN0dXROS3UtczFpMWJfOEJqcXVPOWVhRkVhcXRibFFpbWM1U3gzU2JYRnE2RDZoUEVWLXRhOHI2YzB2NkJ0bER6SDl2NDJMVHdUZEFyZHJ1VjVIQ0JDb0M1VGJYeGVKOUJjdkpBTGc?oc=5",
-          "date": "2026-08-01",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Romania blasts rocks to reroute cooling Danube water to nuclear reactor",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNc0NCWUZNek9CZlFRVXdwMjJmd2R4cVhscGFpeS1ubmFhSWF0ZnkwU1VXc3Z6N1hCcDVWclZjSzVBUXNEWlJwNWpuUFhVSXh2YzJCc3RIeHlET2FKMjBadXp3NldkQXoyR0ZzWXUxTlE2QUJvMTBTQjNpVW15SzJWMEZNR09iQXhEZnFoa3VidVd6ckJfTDViSlZPbUg3bWZQUHplR0d6cGRpZWlmdlpCWVRmek5tbjZvUUpXM3Faak9MVDlOcUFJYQ?oc=5",
-          "date": "2026-08-04",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Romania delays effort to divert Danube water to nuclear reactor as shutdown looms",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxObTJmaDlMTXRnOUw0bHZ6XzBuWTlPLXlqT0lfOVJIT1FIWFdWZHdYbG5BdHdzQ1JlZHA5a0hZemM1YTVmMGNzZk9qTXl0WFllc1M2enVnSWFFc3lEbFFpQUFTVENQZzBITzFlcDFqb1FYblA3TkZKcVg5UEd5eFhxYW1yZVQ3aEJDS3N6bHh5LTBrcjQxRFQ3VVlXdHJ4MGRhenlhRWZmVmtzVWNibGVsRUg3SHZaMHc?oc=5",
-          "date": "2026-08-06",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Record low water levels force nuclear output cuts in Hungary and Romania",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPemZ3NGRKejhvRmw3MDBwTmg4cGVRMjlWcUpyNjh3eDJIUERTZnY2eEh4Sjg1Vnk5ZE5WS09rSEpEb3FxeDJuTFEyM2xqQTdYQ0RiOTRqVkliMjEyZTBRak8tODZXOEF5QUVkSVU3dzhlck5zZWM1RnNCRWQ3UmZyZnlOdHJ2MnpuNE9mQ1Z2T2ozRF9xQ2hBaUdfeHdjcmoyQXNQMDlxQXBFXzh1OHBJajFOTmpabFc2a0JNMTBscw?oc=5",
-          "date": "2026-07-30",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Romania declares state of emergency as low Danube levels hit power output",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQX1dmWnhncW4xdWZON1gwNTJSS0w4QkE5VFJ5M3libFota2laR0h4U3NJZ1Bidi1XNGFuMzhtQzFGamliM3hQbS1BdGczak9icGFvQkdaSlQ1QUtGYmZ5X3d1QkljTVVmOGFzb25UYzNhSDVETHdxWVM5dXVUb0RQMHBaUnM4SFVoUlRKcGthOXl2VXo0NWdyWHIyTnpyTnZIS1RpbUtPd0Z3Z2R0R0hia3VMOHJXT056TUgw?oc=5",
-          "date": "2026-07-31",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Italy swelters, Hungary and Romania turn off the lights as Europe's heatwave rages on",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQc1N4aWlFU2FiTXZzZW5lUmNTUXpLQnYtTTBhSnFMWFBxd3huNFZ3SmRic2wwQldZTlotUnJUdm0zaVgxMi0xcV81ckxVb3ltMFNYcXpWRXp5VW8zdVZjSkZHUnBRRXZfNlVKQXplem1pT3lnS2RCbV91bW9vWm1Sbjl2TWJHSl9fcHJ0WmUwX05PNk51QUlIWTZLV1VaUFZMM0dkbGk1eUFqUTN5eUV3TjdoaXNNeXREMDBiR0FaekR4cHc?oc=5",
-          "date": "2026-08-06",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        }
-      ]
+      "evidence": []
     },
     "RUS": {
       "name": "Russia",
       "iso3": "RUS",
       "iso_numeric": 643,
       "baseline": 8.16,
-      "news_delta": -0.14,
+      "news_delta": -0.07,
       "score": 8,
       "label": "Closed Autocracy",
       "baseline_mode": "blend",
@@ -5648,24 +3698,7 @@
           "weight": 0.4
         }
       },
-      "evidence": [
-        {
-          "title": "Russia steps up disinformation before German elections, security sources say",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNVmhVYjlwbm1wMlhfRFdxSzdwRk11S2psRjhGRlV6aENOTVUxbVQwX2JCT0F5QUpMTWEtd0NzN1VLVkxTOGx6S3ZiSUEzOW1HLVZiWHpQMnh4a21heG00aGJHaVBYeUJTMnhkckpQeDQtS0EzOXRvaXRvd2xyUC1XVlR4V244TjJlOUF4S3M3RENvenZKVjVCTEF0QUFsOE9OWnphbXBibHZ0NjJrNk96OUdlYmt1cjlEWlBTcDltdw?oc=5",
-          "date": "2026-08-06",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "governance"
-        },
-        {
-          "title": "Russia bans Human Rights Foundation chaired by Yulia Navalnaya as 'undesirable'",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOREZxajctSEhVU0lvTXJCNjBFMlN1U3lGY0wxR2NIUmdjZEhRbHJlWXVQdEVnNWU1d3U3cFpCWWNENG1kTUVseFk1TU1xM0lVVFhHbHJkenFadTN0Z0hvV3ZhZFd1amJnaU91cHBNcG9GTzNwUkNvd3Y4bW9iaVAtckJHX0FQZkxHVFVTS2RlQ25ZVkZTTGpXNGVlX3lyQzJONW5XZjh2VVJucW1tNTNNbWtJLTczWGc?oc=5",
-          "date": "2026-08-07",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "governance"
-        }
-      ]
+      "evidence": []
     },
     "RWA": {
       "name": "Rwanda",
@@ -5715,48 +3748,7 @@
           "weight": 0.4
         }
       },
-      "evidence": [
-        {
-          "title": "Trump to seek Congress approval for Saudi Arabia nuclear energy pact that lacks safeguards, sources say",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPV1M3SUpTNmtZZVVCWFNXLVNnM1FXZW5JMnNMYUlmcDJMb2pBWnZuRmpVWmdkeF82T0ZFUWVtcHNUR1QwckpWaDdEbFB6cnJBR1RSNGs3a0VuNlRYbi1Ga1liMFdTbjlXeTF5bmF4Z2NTelluSExlanRTTTNDYWl5aFNwa2d4ajBWNVR1WWR4VnhJbXkxRUtwR3VBZy1iZmQ5Qzg1Z09rUk0tZmFGV21RYmJ4MW1YV0FtZzJBMkVDbjExdw?oc=5",
-          "date": "2026-07-22",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "governance"
-        },
-        {
-          "title": "EXCLUSIVE: Yemen's Houthis are attacking Saudi Arabia from Iraq, sources say",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOOG5nRVpXaFJmYzZnNk1aMDMwdmc4NDdTalNOTWtaWHhzZGFXWE5JanRRM192OC1qZUs4Q0JHUktVR2VEb1lvdWh4ZjFEd0xQWW1aZkczRFY4VmxQTVV1anlGQ2RsSjFPTjB0aW53NGloTU9Na0hhM1V2ZnpTRFAwOTEtQUpIZ085VHZyS05XN241U3EyZmFqa3hGNzZsU0ZjN1Y2cTRaakE0bWU5VmV6ZTVR?oc=5",
-          "date": "2026-07-30",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Turkey, Saudi Arabia, Pakistan to sign joint defence agreement in Saudi Arabia on Friday, sources say",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPVWlCbG9KRkh2aHRNSjBWS25TWEM3V3Y5aDlfbFcwNGZIaldpZ25rNlpGUGVtcDFRQ0JUWnZ5NnhwSGJSZjBSRm5idU9iNFNUcEMxcFJDb0FrcjBUU2JvemN0OWYxazdOS3hzMHBxVVJvOVlsQ1RQcEIyT0R0NXFxSU01SDJJdm1hZklPSEYxSEQxS0t6WFpMemlDdWpFcXh5bW0wMUM3ODBBSjVPVHNJTk5rQ2ViSHdTWWlQeWQ0YjR4MjJNVTdXNDBqcw?oc=5",
-          "date": "2026-08-06",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "EXCLUSIVE: Saudi Arabia-backed developer seeks World Cup stadium investors, sources say",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxON0ptajhwM2RQYjlJUnhjVkxNN0FoQnI1ZkFtWUc0NHktYnExdEY0VXJHVS1FVzlYZnhMUzExeW41bjNHbDVtcjhaSlRJeWxybzZpTzdwOEpSUVRtcXNPTmpDWGZlZzYtaUhFa2tEaktPdFlSVnhrRlNjbFJhQmVScy1iTnp2OE9oVTRvNkVUUHlIWi0zNmIwWlBxYlJKYW5oYkZubWFBd0tFaWZIRG40NmUwWC02ajc5NlIwN3NBdVgtblhUVHczSg?oc=5",
-          "date": "2026-07-16",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Pakistan worries about being drawn into US-Iran conflict after Houthis attack Saudi Arabia",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQSFhQU183WFFqVnZ6Z2VtXzc2LUk0eW9kSzZ4d3Y2Mk9fMkFmQTYteGFkeGZKMW1LYzFOclEzWWRQdDFZVFUxcDYzd1hGanh3WWJoZ0tDc2ljNmZ4aVN2cURsMFVtbXh1YnhaeG9pU0hscWFYclR3QWVDRUtobUhGQ2Q4ZkVfV1Y1STVsdk5QYnhHUy16UjFpMmhFRWV1V1FQRXhuTXdNOXdIVXB6b0tGV2dyMkNTVUJZVDNSeWR5VGdidFYwWGQ0cm5Eb1I?oc=5",
-          "date": "2026-07-16",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        }
-      ]
+      "evidence": []
     },
     "SDN": {
       "name": "Sudan",
@@ -5831,24 +3823,7 @@
           "weight": 0.4
         }
       },
-      "evidence": [
-        {
-          "title": "Australia and Singapore sign energy security pact amid supply disruptions",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPODRYVHFqR2kwb211ODh2bVFVd1ZQaTc3NzZadlpIbWhBWnR1M1BfanZqNXFlWWdJY0xKeFlZemZDRjJOc3VVQXJwRkZuMFozUEFMMXJsUjJFeHhmWERFaU93dXBPS3NvTXozMktUM1g0cWZfZ0Q0QWUwWjU3OUJoUkxhbjNTaWVOb1JISWYwZUpteEMwZzZJdzBEd0pOMi1Nem5falZyMlZxbjdyZjU1MDZRZnZtaVJGckNrNWdTUGZ0QQ?oc=5",
-          "date": "2026-07-27",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "HSBC sells Singapore insurance unit to Allianz in $2.1 billion deal",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPZnJuTWdDZFlvMlhjREhOZlMzcFVrbWFkSU5xdFVrWXRfb2N1bzI2TzZpZ1RGa09iQlBRTDZHSHlxcTF5WVdZYXVmN3VKRDlTanVRMG5jeDFaMkRpek1mMUVlcVJCVGEya2pUY3NranI5WlhIYjVNNXF0OXBLX0RxV2ZYLTRNSHloWDZnTEJhVFdmemN6VXFlWTZGc0x0eUZ0SDdBWDBHalNKUm9GNExmSmlHV1RZajV5SG1SeklwckZJaVktMHdF?oc=5",
-          "date": "2026-07-24",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        }
-      ]
+      "evidence": []
     },
     "SLB": {
       "name": "Solomon Islands",
@@ -5992,16 +3967,7 @@
           "weight": 0.4
         }
       },
-      "evidence": [
-        {
-          "title": "Serbia, Sweden follow Wales in withdrawing support for Infantino re-election",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNQm1tTGRXdDNDdFJ6UjEtVU9hOGpEY0RPZG1feFlLU09pdnF3OTZjNnYzZ0RoX1oxUC1MdHNjRnR4S0J6R3BMamFVeU9aUFFpZkpYTGZzWEo1RnJjZ0dNbXNnWlF6c2F4TnpKaDNncXh3djF5OURvaU9Qc2lZX3I2NFd4RGJ5NmRGcmswTGpnNmpmdExTS1hBQ0V3Y2ZVT1pkWnF4YXJ3SG01SHFKWGR1QlVzWU5KTkk?oc=5",
-          "date": "2026-08-03",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "governance"
-        }
-      ]
+      "evidence": []
     },
     "SSD": {
       "name": "South Sudan",
@@ -6133,7 +4099,7 @@
       "iso3": "SWE",
       "iso_numeric": 752,
       "baseline": 90.78,
-      "news_delta": -0.12,
+      "news_delta": -0.06,
       "score": 91,
       "label": "Liberal Democracy",
       "baseline_mode": "blend",
@@ -6151,16 +4117,7 @@
           "weight": 0.4
         }
       },
-      "evidence": [
-        {
-          "title": "Serbia, Sweden follow Wales in withdrawing support for Infantino re-election",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNQm1tTGRXdDNDdFJ6UjEtVU9hOGpEY0RPZG1feFlLU09pdnF3OTZjNnYzZ0RoX1oxUC1MdHNjRnR4S0J6R3BMamFVeU9aUFFpZkpYTGZzWEo1RnJjZ0dNbXNnWlF6c2F4TnpKaDNncXh3djF5OURvaU9Qc2lZX3I2NFd4RGJ5NmRGcmswTGpnNmpmdExTS1hBQ0V3Y2ZVT1pkWnF4YXJ3SG01SHFKWGR1QlVzWU5KTkk?oc=5",
-          "date": "2026-08-03",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "governance"
-        }
-      ]
+      "evidence": []
     },
     "SWZ": {
       "name": "Eswatini",
@@ -6235,32 +4192,7 @@
           "weight": 0.4
         }
       },
-      "evidence": [
-        {
-          "title": "EXCLUSIVE: Syria tells US it is willing to drastically drop Russian oil imports, sources say",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOUllLTEZpVXpPaEQxbG5tWlVyYnlUN3MwUURrck9nWnNXeTVqSG9uQWczMi1FY3dJM1RtSFBBT3RUOFpzaEZKVjZ3LVpfZ01aODFDaFlvTFhLdXJhMzVvQ25qamJ6MDlYVHRuUmZPcW5HamJIbENjeExMUWlsY3UyaWcySjZ6WHJqWE5EZGtIT0N0YXlUZGtHX1FQR2NEemFyUUx1S1hDOGtqYXpvc2l1cFZCMWF3ejAwcnY3Mk5OSWk3Y04wb21FMg?oc=5",
-          "date": "2026-08-04",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Iran strikes eastern Syria, in first such attack during current war",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOQXVvLTBxWklNRDU2M0l1QTZhUmloM0xqbFM2RWwxaS0yckJVNXZTbkFlZDBQUHZHbDVfOGRDdlNlSDJQNUg5VnZodUs5MzdsUjQxZjFyZl9LaTdBbGhxWU16dk9kRXFKZm9OblFOX0NKNWdweGI4UXNLb0daSjNzdGVmZFJzRjZHUzZFWW51OFhXVjNpeHk2SUs2cGhNeC1VMWxsQVNjWkIzTlFBTjhiRUlrS3o2aDBWb2dCOFlHMWVBMFdt?oc=5",
-          "date": "2026-07-17",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Syria says bomb on minibus near Damascus wounded 14, deaths reported mistakenly",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQWFkyalJWQ2txUksxbXpvMFRkWUJYSkVlNjBGTXVjRnFJOF9ONkJ2ZWUyUG9uMmxWSENpMFpoSUlZdzRwNVJZWU1wY0tHSmxCNy04S2xBQjRvYWtEeVNPb3hpQ0tIY2ZiR3BqRURVazhJSG9uZFBfc1EwTzVGZWs1cHpUUzlYU3hkZ3hJLWVmcGZaSl9ONFdlbzhPajNiYWo3RkQ4T1BqWVY0c2twZlFINFBmZDdOMXJ2cjZMSEhQOGFXMmh5cEEwaXR3?oc=5",
-          "date": "2026-08-07",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        }
-      ]
+      "evidence": []
     },
     "TCD": {
       "name": "Chad",
@@ -6317,8 +4249,8 @@
       "iso3": "THA",
       "iso_numeric": 764,
       "baseline": 32.04,
-      "news_delta": -1.88,
-      "score": 30,
+      "news_delta": -0.94,
+      "score": 31,
       "label": "Electoral Autocracy",
       "baseline_mode": "blend",
       "components": {
@@ -6335,64 +4267,7 @@
           "weight": 0.4
         }
       },
-      "evidence": [
-        {
-          "title": "China asks Thailand to deport Chinese journalist, rights groups warn of persecution",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNNERTbUo3dXA4NDhfNVZYQTM5RG5NcXRXQzdUd1FNbVlMVWlrY2w5b0ZUSzBFUDBfNEdGc3JhaFFiY1p3UDA3cjhpVG1uSmN5YjJJUHNtYmtEVjlCYk1JVmFqZ1pGcVpEQnJJaEdwVmwxYUJhUktGMkIzNHRCekhSVUl2dUp1ak92dTA1alg1dEY2aFNPdlItaWpaN0ZXd2FvZmkwRUsyN0JRY1A0MkwtRA?oc=5",
-          "date": "2026-07-16",
-          "source": "Reuters",
-          "weight": -1.0,
-          "tag": "erosion"
-        },
-        {
-          "title": "Japan's Mitsubishi Motors plans $473 million investment in Thailand by 2030, Thai government says",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOVU5kc29QREloX0ZEdUN6cWVRYmhleV9lV3hhYXRucGkzcVdTcmpwZ3FHUTJMTlFqMnRmeFhSanBVOURXVklUWDhTOE5DVURSVTJJNDd4RUVpUGNOWmxkNnMwaHk2U3QxRDhMb0RyTXY1VFJhYWpNWi1CWlU3SDllVjlOamdwYTV6b0o3b2dIQ3dfcl9ZYmRZX3VJRnhuUzlGaWgtcldqakJIYmIxbEh6T0J2LU93c3RBZTE1djZkbnFDd1llSXZtbU9n?oc=5",
-          "date": "2026-07-23",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "ASEAN envoy meets Myanmar opposition groups in Thailand",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOWHhETXN6aE1pODUzSmlub0puQ0NmaVBrVWRiWGRNakFOR3lwYmhpcnRCN3JjOEZneDd0eDJQb3dfRmh4NVRhV0w4b0NxbVUyenlfREhBRlBWbkx5UGZzNUMwSl83RUJwTm1sU0xkdEFZckQ1RjA2aWtqVWRMRHV4cjQtLTljd0lyaDRZWDFYRlludV8xSl94eEJPUXFlYmpEMmNJaDVSZl9rTEk?oc=5",
-          "date": "2026-07-14",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Myanmar's Min Aung Hlaing visits Thailand in quest for legitimacy",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQd21RSmhNWHdNZENBZURCaGhlQkZNbmQydElVN1drTmVOYjNxRFR4OFMxQjRqcjBidzdHOTJIZ0hZdl96VldUM285aHV6X1NqNFp0dFByelBicWo2OU1TSVhQX0tYQmZPOUp5WmItTHIza20yR1ZxSUFaSzVHV0dBZFFEX1VCbXY3ckVFX050T3hRbk41d280X3J6Tm1DS2gtZzhMX3dTUDYwbjNRWUhJWmllaDhoTC1qb1MtVElWTnFiTmo4RzV3NUZn?oc=5",
-          "date": "2026-08-06",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Thailand approves measures to bolster clean energy markets",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQOGEyUDlWRWMzNk1ON0xQazVUNWRmdEgtNXBKNmJIWFp3U1ZUU3JXcEZ0WFl6OGt6ZTBtdmJqV25ET1NsSk1TZHVYMUtQTFRxQ2JadTcxZFB4ajdwTXRXU3hWeTkybFVRSWNzQTZJSG5sbU1EbWsxOHVoSlJyOTdiN2hlQllOQVo1VjV6RFNjcFVnSXV1YkhFc1dXT3lyOHZZZWRvZnVIT0tVSGM?oc=5",
-          "date": "2026-07-15",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "'Mom, don't call me': Inside Thailand's deadly school shooting",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNNjdvZmtIbUhPd2hSMjBTbGJkbExLVFZGQlY3dzhSUXNfdS1fSzF1Uk5HRWUtcEhKUE1wNk82T0Q3S2k2T2dMdXl6ZFJQaHFWUkpzM2hMei1reHI1LUVneEk3Y2dMdE9iSzJhMVY5MUNCcVJhS0w4aXlyal9YZ0s1a3kwV0JHcnVCYUdmY1dwamprYnJFSTJPUUpPMk1vaDFxaEFrZVMzLUh5X1RKRS1uUw?oc=5",
-          "date": "2026-08-08",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Thailand works on $700 million EV plan to replace 80,000 vehicles",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPc2FXSmtaS1p3U1QzbUk3T3FqZ1dqUWNtRnpJVTJsSHhRc0tsem00NVJ5akUtVXVveWxqbkpVOTZvSWZyeXhyOXc2S0VMTGhMTkIzMXR5NUp3eXhFZEE5N1lTaHIzYkQxTEFEOU9yMmQzSmEyYWlScWxESlkxb25aTDVBTUh3ZmVVNkZvckVxX280VnlRZTh3aExvQTFKemNKdWJkN1RCTkw0QXdINmpDNnNaSmMtdw?oc=5",
-          "date": "2026-07-23",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        }
-      ]
+      "evidence": []
     },
     "TJK": {
       "name": "Tajikistan",
@@ -6543,8 +4418,8 @@
       "iso3": "TUR",
       "iso_numeric": 792,
       "baseline": 19.4,
-      "news_delta": -1.12,
-      "score": 18,
+      "news_delta": -0.56,
+      "score": 19,
       "label": "Closed Autocracy",
       "baseline_mode": "blend",
       "components": {
@@ -6563,52 +4438,12 @@
       },
       "evidence": [
         {
-          "title": "Turkey's ousted opposition leader says preparing for possible new party",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPV0tYNWRPeGhxT2UzMEFKXzk1YnpkeTltbkR4NXZxZWZWTk95REk5dHZDVXBVTU1jcVMxZDhSSlZuRG5YZjN4UnMzZFVxc2VJT0picGxwRmJjdlpLU05tMW52R21PcHNhdUZIR3BuMldudDlhX0tXNnNSN2EyajNndUNlaWhOU1BvMThnakczLXlva1VoQXFPaGwzX1JXN3VWSmtjcGMzWlJVN1hXSm12ZEVWTHlNZkc2Q2NoUnhnSXg5a2c?oc=5",
-          "date": "2026-07-15",
-          "source": "Reuters",
+          "title": "Türkiye’s changes to child detention ‘raise serious human rights concerns’",
+          "url": "https://news.un.org/feed/view/en/story/2026/08/1168132",
+          "date": "2026-08-13",
+          "source": "UN News - Global perspective Human stories",
           "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Turkey, Saudi Arabia, Pakistan to sign joint defence agreement in Saudi Arabia on Friday, sources say",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPVWlCbG9KRkh2aHRNSjBWS25TWEM3V3Y5aDlfbFcwNGZIaldpZ25rNlpGUGVtcDFRQ0JUWnZ5NnhwSGJSZjBSRm5idU9iNFNUcEMxcFJDb0FrcjBUU2JvemN0OWYxazdOS3hzMHBxVVJvOVlsQ1RQcEIyT0R0NXFxSU01SDJJdm1hZklPSEYxSEQxS0t6WFpMemlDdWpFcXh5bW0wMUM3ODBBSjVPVHNJTk5rQ2ViSHdTWWlQeWQ0YjR4MjJNVTdXNDBqcw?oc=5",
-          "date": "2026-08-06",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Turkey unveils draft law to reintegrate PKK militants, achieve peace",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPZ3FLd2hiSjRfR2lzRkd1OWRqUEJYMmx3bE1ySTF1Y3ozNUJRX0o2bkt4UUNOR1l3Q2RnWWFsSExpN1lDeTZFeEZwRUptSVE4UkJEejJGQnNMR3p0WVhYZm5hZ0h3aG5uX2VsWWptcEVJZjdxVlBNRmpFXzU0dDlxWm1JOXVuYURBVWpZY0ZfYXd6MXdDbVNDalRWMDJjZDNkOWNRZ0JhNEtGWUVmNWc?oc=5",
-          "date": "2026-08-05",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Turkey informed Canada that it will participate in global defence bank, Turkish official says",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQTmxGSm9WWnlXRmZSdjdORTJnaDhUOWgzNUQzNi1NNHZadlM1aUs3eTYwc2ladVBkLXkzUDVCQ2lOckwyV0pjcThhUUxnZFNqOUdnQXBzMGg1WXdVMkZyd1FHV0ltUnRBeGJwUkF1SHpOeDQ5MG5TWG5DMnFTOWFtUjIzdWx1b09XRVBfcXpNUjAwOXExQ3dXV3QyVW1oSTBOaURyNFVja0JseVRCdGRKNWxsSEs4VEhKcmRZR1pwSkZaWEp2M2dhRg?oc=5",
-          "date": "2026-07-12",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Iraq-Turkey oil flows expected to continue as sides discuss extension deal, sources say",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPY21Rd2pIdnJ3Q0JycnZwdFU1dUNUQ28wUlRKaUQ2aTl2SmNwWDM4c1RGNUJzOEhnWktlREhfLUVmMlZnN1ZINnp1c2dYcWNVWjNMWlZlYnpQQ05aRVktcGVjd0hrYmxESld4MVU1WlROdWhGUmVJbFhWUEdCcTgtbzV2dlVtc3RBSmxDbWRaRzdlUEtqcGVWVEFLTVhpcU94VlJjUzh4SzdmcHVtMHlGRldkZVpTWUZtakNfd2MxSFpUUFpacFRzNWxlVEw?oc=5",
-          "date": "2026-07-30",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Turkey calls on Russia, Ukraine to ensure Black Sea safety after drone attack",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNLWxZWjEzUHh2dXNYYUxyS2RjbUhHTXh1RHpVTjZwUUpScFlZbnFUVDkwUlR3bXJMU3otWDY4Q2cyTml6dXV2YVJIZkdiN0lnZUV0T19VN1QwRUY4ZmU5bjNhUHJfU2tWeEw4RVFoTUN4R2lGaW1WSXpzUWxaVmZWSF9kRGhLcE9GU1lxaHp4N0xnNFp0MG9lMkZEeTd4TTEyTTBySlEzYVJFM0RSdjFTRHJZbnFmdFBISndla004RHVTQQ?oc=5",
-          "date": "2026-08-04",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
+          "tag": "governance"
         }
       ]
     },
@@ -6711,7 +4546,7 @@
       "iso3": "UKR",
       "iso_numeric": 804,
       "baseline": 34.8,
-      "news_delta": -0.14,
+      "news_delta": -0.07,
       "score": 35,
       "label": "Electoral Autocracy",
       "baseline_mode": "blend",
@@ -6729,48 +4564,7 @@
           "weight": 0.4
         }
       },
-      "evidence": [
-        {
-          "title": "Who is Ukraine's new prime minister, Sergii Koretskyi?",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQeHhodDcyU2R4Q0J5Z0NqT3l5d0M1Sk5pY1VxT3QyN24zSENaaFRzWktZd0FRTThLNW9iN0g3M2JuNXR5YnlFaXBpdXRCTWtiY1k2c2Q0NU9XZTBSMEwxbHNESlZPNkxta0FEeHNSbzhXcmV0Qk93elZKQWxGemItOTBCUHE3ZWxseHdqcDY4Ym15TUNuaFUwM3d4MUc0NFdmV3c?oc=5",
-          "date": "2026-07-16",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Pentagon says it will not finish spending Ukraine funds until year Trump leaves office, source says",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNYTFockhLM1gwNUk3MFAxOVJmeUtpM01BdUhvT2RYck5RZlVENUFBa1VsbzBpbzBxUS1KUlk0eEw1QVN5VzFQSHFscU42VEVfTE5EcERscXZxWlZtRzBvbkVLRWJxRkRkazdONFhrY3J1TEJWa2QxQWNUd3NsR1lQOGVaYU1tNFFiVk5yeDJwVlYtWWlBTl93ZzgxakdsSDRUcE9xM0F6MUMzZzBSMVZIb1RSYjFXOF9sc1pjUXo4blNEbDJBejhIRE16alI?oc=5",
-          "date": "2026-07-27",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Ukraine's Zelenskiy meets commanders as street protests mount",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOcDVzdmxJOV9IMFQ1QmVxa2JjM1FVWnVmU0ZaU1hLOERCamplcEplYkhsZHNUTk5NY2RpMjhIV0RCUjZ2LV9VSUNYZ1pkbDVYZVMzc1NHcUJFZDZkWUowcGpiV18wYlR2Y1o5a1FGZEk3eVZSanVfR0FLc3dxSldmQUZHSmg2N2ljb2VSQXctUVFkaFFEaU9DT3JtcXlndkRj?oc=5",
-          "date": "2026-07-20",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "governance"
-        },
-        {
-          "title": "Can US Senator Lindsey Graham's Ukraine initiatives survive without him?",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQWFlteXdLSDlkajRBd2dSV1lkdU1LVHJWLUNOUFVwRGdxWGxsV0ZFQlVGb0JUb2UxN19vWWw4ZURJMkxlU05nbjN3eE9HN2hicG1pTVVIa1NsMVhGTWw4Wl9DeERkN2NYSXNEWVBnQWVybTVxVWdJemJLSkY2MUpSVzFwR2FjZ1RRODhSOG9xeGdJVFM0T19tV1llNEo1VUFObS1TMndBRGJOVW15ak5KdV8zNms2UjQ2Mk1pTExfZTM?oc=5",
-          "date": "2026-07-14",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Ukraine's Zelenskiy endorses energy boss as PM, will change his defence minister, lawmakers say",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOZVdUNXJlWnZlb19TNDVZcEN3YkFFU2FReV92VTI2RkRFM3hTNmxCZHY0bzlRcEpNb0ZhZ0M4bGRFWWsxOXBUT1VUSUszQVV6OFVPaXkzZlFvUWYyeC1POG5JeUYybjFqZUJvLUJMUHFYWThsRTRLUmlNTHBXV0F2QS1VS2hGUVNzSTV3elFIU0EzT2Y0Ym5FS201dVBJXzhyVHc5cURMUUtQRGZjYlI4UGI1TGZlUWFKeEc0?oc=5",
-          "date": "2026-07-15",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        }
-      ]
+      "evidence": []
     },
     "URY": {
       "name": "Uruguay",
@@ -6802,7 +4596,7 @@
       "iso3": "USA",
       "iso_numeric": 840,
       "baseline": 66.66,
-      "news_delta": -0.47,
+      "news_delta": -0.23,
       "score": 66,
       "label": "Electoral Democracy",
       "baseline_mode": "blend",
@@ -6820,48 +4614,7 @@
           "weight": 0.4
         }
       },
-      "evidence": [
-        {
-          "title": "Trump accuses China of 2020 election interference, contradicting US intel",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQQnIxbG1weWlQMmJNcnBLeWdvaFhkbFAxYS05NjZZVEFkMnNXbDNXWlBCZWxMY2FVSllaam8waXRveG9tYjVRa3NuOG5nVlFRc1lvcXpkeFlVN2cxMWN1TjRyckMtUUhmT0ZIRzVQa0QyTkIydmdzSWtEU0lvckNhTGxSN1AtUXd6UkZYNmRKaXQtd0hHSDlqVVRTSzREVmFGT05oM2RvZV80N1oybWhJdW5tRm1WSWdRb0duUA?oc=5",
-          "date": "2026-07-16",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "governance"
-        },
-        {
-          "title": "U.S. Senate passes short-term funding bill to avert federal shutdown before election",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQdWRVbHNkMjA4cmYxWXRuOEh0bjk4YlNZODFMYXphZEJNZlhRYmhtX3JUTWplenMzemoxYU01LXoydTNfX3p5N29nSkNkSnYyMENNbXJ2RU9FeU1Ed2s1b3lXdWNPYjNwWXg0S3Fodm9TVGRyODBQX2Z4dVQ2bTRpTmh6cDJhQTh3ZWNtTlRYdkU3UEJKeTFqcmhEY0VQNl8zUDkxTW51YXM0OG1jUHpDb2Ewa1ZXdHRqRWFYeWF3?oc=5",
-          "date": "2026-08-08",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "governance"
-        },
-        {
-          "title": "US House passes short-term funding bill to avert pre-election government shutdown",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNLWh0a1NqTDNWVVg5dUFjcFhwOVJMeExWMC1DdVg1TzRlal9PN2RRUHhoOUxNQmJ2NzFSMVY5VDJ1N2RLVDA0OHRGSmxSVWplUlYxbVJlY1MxSTJLTUcxTF9FNjFHWUZqN3lNaU5LTWkzcHp2X1hKOFdkbk4tVjVFdlV0d08xaVpxTnJWSGhsYW8zLW1EYWJSR1IxajVaQmI5NDJ0emVyM1RoQ2hqaVJ1NTV3Y3Y2UUE2b3dqRQ?oc=5",
-          "date": "2026-07-22",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "governance"
-        },
-        {
-          "title": "EXCLUSIVE: US mulls scuppering France's Washington ambassador pick over human rights spat",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQTHllbEd5SmtPUHdweHg4ZTBLVkE5WnJuYkhnRzI1d3FBUEd3SHFMcU9VVkJIS1pqNmhJMEJuMFljd2F3UDM2VlRvWGFGd3NWTmtJQnNraUVpeVR4OVhxcEhmQW1fc1ZZQm1McHA4MEFWbm9NUER3cTZndWtTc2NYX0VGbC1xNmNlQU03dThIUmNJYWZsTVBiQ29DdE53QldoS0NEaVNyT0QyNlRpeWRwd1dnejdyN2UxV0pHd0hTbmx3d3RZ?oc=5",
-          "date": "2026-07-30",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "governance"
-        },
-        {
-          "title": "Data center opponents stage 142 protests across 42 US states",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPYk5QUVhhdHdNUVZKT0xJVURINmc1UzZORTZpdGtnaGwxemxTSWZNUTR6MkE3SHY5RjYwSUlQSWFUSlV3RHJGSXJLcjBUWXRlNzBuREwzblp5aEtIdVFRZjJlZmt2dUF6QzNxY2hackV2NDlQbnVGbFBrRnlXOUdycTh1ck5RdUd6WndGOExPN2h5dkVuVUFEVnYzeHdxT1ViWElDZjRpNzFncVFmMEltNg?oc=5",
-          "date": "2026-07-18",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "governance"
-        }
-      ]
+      "evidence": []
     },
     "UZB": {
       "name": "Uzbekistan",
@@ -6930,56 +4683,7 @@
           "weight": 0.4
         }
       },
-      "evidence": [
-        {
-          "title": "US-backed Venezuela talks to begin without opposition leader Machado",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOTkNyNXFVbldtUllCY2E1MnlmZFBPUlNLYmx0Xy1wSkdKSjRrRVQ4cVpwdlpSaHFqeG0xZkotb1pvMmdjMDFzZzFjYWZycFVLa21oTFM2WWJLTXpIVE83eUxUZ3pOQ05Pa0E0RlN3NThCNXd1YjVaM2dDQU1yWnJ1WWRmS1g4RU1Tc0tuYmlWTm9tMjM2Ty1WSzNzQ1NJbEJmN19BM1pFbWYwX01hbW5BcWtPSHRFeU0?oc=5",
-          "date": "2026-07-31",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Seven months after Trump intervention, US senators seek Venezuela elections",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPMExvZ0J4bGNIVmpPbnpfUFhVYkg5dnRRSUhVTTNyVFJfX3lEQ0E2a0xGeUdnQ2loZ0RLXzhYbFJwaW1UZFBBeFFFWEFOREpKWFcwMDFTTFRBZnduSGJsZXE1WXVOaUdMN0VTS3E5LXNUYzg1YS11RDNtZzFoR2VvRmh1NHpyd0ozYzBNcFZVSWZYYzVZeW9iam1UTXdFbXB3RmtUYXhDNFNYN196VTgzejNDNEtDaG5TMFJVZkFvN0RIZDg?oc=5",
-          "date": "2026-08-04",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Oil executives rush to complete contract migration in Venezuela, sources say",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOZU1zVS1QMWxpVi1mVGRxVnBvUlFSd3FGSXg0VFYxcjhBLVpWdzVha194a0NvWjZLWFBNZjZRMWlrSXZLS0FUR1p6OEVNNVY3eng1clVBNXdVell6VmRnRS1rS2pGVElHc1l4ajZVSDRmSWRLZ01OWFUtUm9PeW1hYk1vS3Fndy1zamxPRmp5a3hZb042XzZ5RkhBX1JZUU1ETGZqMUFkMnV3MHNkUnBCcmpCUVAxNFp3OWc5bGNR?oc=5",
-          "date": "2026-07-23",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Oil companies signing agreements in Venezuela, but delays persist",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQMDFxVFdqZGc2aV9wQVFZX3d4ajBTWUNZLUhfSzhpaFliZjFVaVVEMFUxcWRYV2xweFVXd0ZsdXYtaWVTQkxHbU9uX2dCZjBIRWNGSnhyVUVHSElBSG9QM1lQUDYwTXA3MzlnSm51MjRmR2c2aXVxcUx1ZUlZUFJuTm82UTl2MmNLQjNuRkM4SHFjaU05d1ZlQ1pDMnlnOUFNNkl6SldmSjJfbC1OTHc?oc=5",
-          "date": "2026-07-30",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Shell targets 2027 drilling at Venezuela's key offshore gas field, sources say",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPdlhRU3pFMmhMRkExNDNNZDVmU1B3VG9LVFZubDVlX2tVT3VBT2I3WWNrMlgtd1dLOFUxOWVNc1cySlJ1UHM2dXd3d1dzMktfd0NjR3NkNV9qYlhqdlFUYW9oTTV1UzBIRDEyQTl0RFZTS2sxWWxYMzZkZjdQZ1MtZTlwMFVzXy1ROTExWjcyNnFIcV83Q1d1eUpxTW9OQW10T1NrZFJDOWJjSmxtQ1RkLWwyemxOTS1fRDNNMjBidEZ5Mmc?oc=5",
-          "date": "2026-07-14",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Explainer: Venezuela's complex and contested debt puzzle",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQT3hjVlZLTmwySTNHWDRkc1ptSjIzNUkyWE4wSE9ub1VvU19sUWZmUWZlZm1vRnViUkx4cFFrSWFMaWNQTkxFdDNvNDJKa01GN3VlOUxldUFfT2dDMVd2UHdGRi1JTFk2dWZDZkNCb2tOUWEwRUEtVG93emlCVXFDaWN1S0xYUmVTRG5fMzZ0UTNQM0pXWWc?oc=5",
-          "date": "2026-07-13",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        }
-      ]
+      "evidence": []
     },
     "VNM": {
       "name": "Vietnam",
@@ -7004,72 +4708,7 @@
           "weight": 0.4
         }
       },
-      "evidence": [
-        {
-          "title": "Vietnam rice group proposes export price floor to shield farmers, exporters",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxObXY2NjlnSzlhYVo4c3U4SThBM1I5MkVwbzc2U0p3bEtlWXBxSVRFY3BsX0ltdmRhV2FIWjhybDhpQlhIeEs4OC1yajNsVkU2R3FGdy16YTNOc0YxLUluQlBFMXNta0lOQUtkSnk4RVNLU2wzblZfQmFiYm1sZDZSTWd5emxVTTk1ZkFXX2lFYzYydTBuM1gyb1lTdFBmQURyS2lOWUhMdC10OHF0Z05IWHZrc0RPRmdNem9pei1sdlpzSzda?oc=5",
-          "date": "2026-08-04",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Fitch says Vietnam banks likely to face significant pressure from government growth target",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOb2YzOUc5UUU5bzk2ZDFJd3M5MUY2YmttTUpDRzVkdnV3MjZ3am9MNkN3SUtoYnNMOExGZHFkLTJtY2xZeWVFcTFPcUpoX3gzS1BMeGMxZkh6QXRnVTkzV2ZDTnVfZzdkcVJMcl9jQWhvUlFiZXdVU1A1R0NoWWZiNEk1QnRkdFUwMDNaeE9FS1RUc0htejd1dDhNbnY4MVV2VHZ6dUJsZ2N6U01ldzVUVXp4eFZscDVSVm8zQ1ZQMWpNV0RPQ3Z1eU9B?oc=5",
-          "date": "2026-08-06",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Vietnam's top leader To Lam to visit Australia, New Zealand to strengthen partnerships",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOWHFKcW5BTzV2QS1RcmpOMWlER0lPV3hEYjNHN0FuSW96NGFkSzZfdjZvMlhDd1lIb3NkNEo4WWlGRHlzaW1uckVfVE44ell6VjVrbllObmE3ejBaM3BILXBLN3BYM0tlaFZmQm9hblBMVnBRQ1BDWVdsUHJsd1lZU09YVENMb01raEl6T0hZZEdEcW1qc3ZzdGJFQnNMeVlsVU0zQVktUll5bVdUT2liNktocFAzYmp1SEhVelZBeThla3VjSFh3bWx3?oc=5",
-          "date": "2026-08-06",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Vietnam proposes 30% income tax cut for small firms, business households",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQOUpkb2V3dWd5WVJISTZ1V0hQcWVUbXpTd09vYk52RlhKZkVYN1d3QXFwYU1UWTdkQnBNc2NJUEJmbVlTZWZILVF1NFY1djdsanEzQnlUNmZ2cFlaMG04TVFMdUl0WUF5dHRRMU05TnpNeU1nSUJUdUlNLXNoVFUtaVg3OVpDQVlKaGpIME43NGZCNjVJZXNtTEd3YVMtWXZzelQ3WkNiWEY3SDhIYkg0Xy1MUUN3WWI1bVZ4Wkx3?oc=5",
-          "date": "2026-08-10",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Vietnam, US step up cooperation against illegal transshipment, trade fraud",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNRS1pXzd4cWZWRjZFb1pseTdma09GNDM1eFBvZ3YtZ3NIc0x3NFpiUEFxWGpZZ0xfX2NQZU90NWpJTmdPa0FUS3FCSlBjY2VaWXM4MU9oXzNkWmRCLXlTLW5xSVdvb09xby1RbEFGSGVjQVRIaEJIMG15OUY2QU5PajZqaTV6N0xiTkNXMU9WX0o3anhBenZKbG55WC0xTWszYVhvazRIUXdCVHVGX29oekVhaWJpRkM0U3lBSEUtUmtLaUE?oc=5",
-          "date": "2026-07-30",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Vietnam reaffirms trade talks, urges US to conclude trade investigation",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNRGhYWTBHZ0dLdTNnWVZRNVd5TU1MNzZ6QXd5bGl1NVRLbWl4TTFmcm9rUXAyYS1UZTR6ODBBamlXN2xWRG0xV0Vvcy1sQXVJNW5PbEpYVnJ0dHRleGpRRWRnNUMxa2tfaUR0XzNVdXdGUHhGMlhWalI0RGFzTURZbktESThLcndkUV9xU3dRc0NpYk1NVEh5TjlDLWc2eUptUWI2OS0zM25HQUxadXhHa096c3o1dFF2ZjZyYXFrRQ?oc=5",
-          "date": "2026-07-23",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Flash flood kills 4, leaves 4 others missing in Vietnam",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxONjZ5TDU5a2pfT01oNlB2YWxIYTgzRFVRc2kzSjhNcjFHem1Qc2lYV0hSOEJLVDFHU0dObnNGM3lwR24td2JqQ2h1UjRpMVBXMkQ1Unk1Ti0xWHNha0dCZmh6Yk1zSkJoSXJDUVhrYXJ6WjRmcWxFUnp6aC1vbndWbVlYaEEwUnF1d08zQjEtWnlFNXJSWVpJUE5oVUw3UG5obDBQVDJUZGdXMXpN?oc=5",
-          "date": "2026-07-18",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Shein finds there's no place like China after Vietnam warehouse experiment disappoints",
-          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOcWZMYzRmQzgwUGNHU3pZeEdCS2xIS3NIRVhFaFk2ZnFETnlmYkQ3YmxrRmdlM3NoelNVcHZMTEdzNnNZdk5pTDFlQ19Vd01lMTZzMzBBeWhpVkhlYm1xb3NYeEdHZ3JmZ3R3bnZYMWdIXzhrRXhGVHdfQklRaUtQWXNNb1QyLVdIZWpsTENhM282emdQcVlvU21VV29qcUlqWkVQWXlOaFZ2R3pQWi1adjh0ZUItSl9Wc2RUc1RQRHN1UWpTeFJoRWZCNmtRRDA?oc=5",
-          "date": "2026-08-09",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        }
-      ]
+      "evidence": []
     },
     "VUT": {
       "name": "Vanuatu",
@@ -7163,48 +4802,7 @@
           "weight": 0.4
         }
       },
-      "evidence": [
-        {
-          "title": "Nigeria brings home 1,490 citizens from South Africa after xenophobic attacks",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxORFJxMjg0VzFOVG9kOG56N2FXbFpRZDJYZHlXdFBZZFRXcl93Q19mVHpPWlRoUW1mTllGbGpOVDVLNU92bDBId3JWeXBxbGhoX2VsNGlHZkNqLTdfU1I2ajBQNjh2VUNRVDRrWHhxdVNoR1NsUU1VZkNOdWcyRXRyc2hKSXY1RmhEM1BiZ1R1blRBUGV6ekJNQ2FOajNRZTBFRTRCVjZYdVVUcmVfMjhaRUxucTV3OXRGTVdtaA?oc=5",
-          "date": "2026-07-16",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "South Africa says African Union backs broad migration debate",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNSk5HZmh3VlBFcG5ZMnUzejFSSWdmOGpkcnhSeko5cEZmWE01V2RXNzZiRVJaUTh4SER5ZnViNUhhU2hoY1pZNmRoOTVLNUIwRk9PbVdMaXdmQzZ5a0R3dXlJVnVEM0ZsZ0VFeHVST2dnX3lNUWNSR2l2VmhMREpIZHUycTJpZEF0blZubzNCMlNGZFluUFVBTUtTeDg5aXU4ak0xdmlVM1NqZVhXTGc?oc=5",
-          "date": "2026-07-30",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Nigeria and South Africa seek to ease tensions over xenophobic attacks",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPNjhibnBHazhST1dLSlJGTGNlbFN1bzYtalEtOWpkZkxRd0xTc0w3TFFJTjBjeXEzWkJUS0Vjd1l1NkdLTXNpMDB3dEVPbGI4SGViWXJ2bV9vNGh6azVEYk5QMnVQUHF4MDdoV1h5aDRyU2pnOHFLUWdiYlBfNjJ4dmo1NnhDN2FKTkVrVTgzcTFTQ1lFWV9tUHZPdlhMd1JabjVlNEplRUMtUzdvN1ctY01n?oc=5",
-          "date": "2026-07-28",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "Nigeria tells South Africa to curb xenophobic attacks on migrants, questions state response",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxONE5Kclo4akt0MHJrOEo3OFROalQ3N1lUQ0NQbW1fOE5vS1NHN0dJZ3NYUWJlaUFGWElFUFAzdDV1a050R2dFaktzY25RODhDNE1KdVpzbDN3M19BN3B0ejRVVHpfVlcwUVp5OUZORS10X0pPb3kxaDZlZVJ2MDFCcFg0RnIxN1FjVVBXWTRkNThsRncxTWhmMWVWcEV6ODZOT1lrN0oxUWY0OUJwYWxscEZEZTl1bmVLajAxRVNYVEF0UQ?oc=5",
-          "date": "2026-07-27",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        },
-        {
-          "title": "South Africa gets $1.5 billion World Bank loan for infrastructure",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOdXNFaFAzMm1CdmNIT0Q1eUE1NnExNmF4Um1IUF9lWGpSWWVDVTBhd1JuLWRadTZzOGJJcEtpOVhZVVdzNk5JTTRGZ2k0M200SlNrNS1DTlhCOWVDd3J5ek0wVGt1bEEyNmV5RGktaExrWGtKN1dUZkhSTFo2ZjJMaUxCQmlyRkU5cjQ3RFRaMjRtS3ZDNXVkMFNiNGlPUXpfd3hWWjk5cVkxT2Q1?oc=5",
-          "date": "2026-07-20",
-          "source": "Reuters",
-          "weight": 0.0,
-          "tag": "wire context"
-        }
-      ]
+      "evidence": []
     },
     "ZMB": {
       "name": "Zambia",
@@ -7231,10 +4829,10 @@
       },
       "evidence": [
         {
-          "title": "Explainer: Copper, growth, IMF: What investors are watching in Zambia's upcoming election",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOejZsVkNHdVB5RGxWdzVVTUpvYUlJZzBwOGRsOWNJVHpFbndJYUNWNzNZSHUteFpCdDg3NVlVMmt1dnc2T3hyWERRYTZtVmNQRnoxWnFKOE9tb0dwU2M3RXRDT19qeW9WMTJVeFJSOFR5Tlg3OUdITzAwM3ZydmFVR2FGYUlGcmxaSTRVQjE4aktobFY1OW9VdUsyUmszeXN6V3dwS1NDUGM0MW13MmNlMEkyTEg1N2NrNGhNLQ?oc=5",
-          "date": "2026-07-24",
-          "source": "Reuters",
+          "title": "A burial row over Zambia's late president has turned its election into a hot contest",
+          "url": "https://www.bbc.co.uk/news/articles/clye05m3vd3o?at_medium=RSS&at_campaign=rss",
+          "date": "2026-08-11",
+          "source": "BBC News",
           "weight": 0.0,
           "tag": "governance"
         }
