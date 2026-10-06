@@ -1,13 +1,13 @@
 # Democracy Tracker
 
-Serious, open research tool that tracks democracy scores for countries worldwide.
+Open research tool that tracks democracy scores for countries worldwide.
 
 ```
 score = clamp(baseline + news_delta, 0, 100)
 ```
 
 - **Baseline** (annual): 60% [V-Dem](https://www.v-dem.net/) Liberal Democracy Index + 40% [Freedom House](https://freedomhouse.org/) total score (via [Our World in Data](https://ourworldindata.org/))
-- **News delta** (weekly, planned): evidence from free trusted news sources, shown alongside the score
+- **News delta** (weekly): evidence from free news sources, shown alongside the score
 
 See [METHODOLOGY.md](METHODOLOGY.md) for the full model.
 
